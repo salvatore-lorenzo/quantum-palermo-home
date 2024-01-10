@@ -1,0 +1,49 @@
+# Navigation Links
+#   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
+#     desired widget in your `content/home/` folder.
+#   The weight parameter defines the order that the links will appear in.
+
+main:
+  #- name: Tour
+  #  url: tour
+  #  weight: 10
+  - name: News
+    url: news
+    weight: 10
+  - name: Research
+    url: research_lines
+    weight: 20
+    hasChildren: true
+  - parent: Research
+    name: Quantum Thermodynamics
+    url: research_lines/thermo
+    weight: 1
+  - parent: Research
+    name: Quantium Information 
+    url: research_lines/qinfo
+    weight: 2  
+  - parent: Research
+    name: Metrology
+    url: research_lines/metro
+    weight: 3
+  - parent: Research
+    name: Topology
+    url: research_lines/topo
+    weight: 4
+  - parent: Research
+    name: QML
+    url: research_lines/qml
+    weight: 5
+  - parent: Research
+    name: Fundamentals
+    url: research_lines/fundamentals
+    weight: 6
+  - name: People
+    url: people
+    weight: 30
+  - name: Publications
+    url: news/publication
+    weight: 40
+  - name: Contact
+    url: contact
+    weight: 50

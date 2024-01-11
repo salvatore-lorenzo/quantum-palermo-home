@@ -1,5 +1,5 @@
 ---
-title: '#### Fundamentals {style="text-align: center;"}'
+title: '#### Foundations of quantum mechanics {style="text-align: center;"}'
 date: none
 type: landing
 tags:

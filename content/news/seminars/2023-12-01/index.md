@@ -2,6 +2,8 @@
 title: Quantum optics
 subtitle: Massimo Palma
 
+type: event
+
 event: Teams 
 event_url: https://example.org
 
@@ -10,7 +12,7 @@ location: Aula F, Via Archirafi 36
 summary: Seminar by Massimo Palma
 abstract: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam.'
 
-date: '2023-12-01T15:00:00Z'
+date: '2020-12-01T15:00:00Z'
 all_day: false
 
 publishDate: '2012-01-01T00:00:00Z'

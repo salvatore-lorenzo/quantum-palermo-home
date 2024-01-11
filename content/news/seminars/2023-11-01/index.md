@@ -2,9 +2,10 @@
 title: Quantum thermo
 subtitle: Mauro Paternostro
 
+type: event
+
 event: Teams 
 event_url: https://example.org
-
 location: Aula F, Via Archirafi 36
 #address:
   #street: Via Archirafi 36
@@ -52,7 +53,7 @@ slides:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects:
+projects: 
 ---
 
 Slides can be added in a few ways:

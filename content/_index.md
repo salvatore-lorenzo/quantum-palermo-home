@@ -4,17 +4,36 @@ date: 2022-10-24
 type: landing 
 
 sections:
+ #- block: hero
+ #  content:
+ #    title: 
+ #    image:
+ #      # Reference an image in your `assets/media/` folder
+ #      filename: logo_colori.png
+ #    # Add your Hero text here
+ #    text: |
+ #      <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut# labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco# laboris nisi ut aliquip ex ea commodo consequat.<h6>
+ #      <!doctype html>
+ #      <html lang="en">
+ #      <body>
+ #        <img src="logo.png" align="left" /><p>Your text goes here.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut# labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco# laboris nisi ut aliquip ex ea commodo consequat</p>
+ #      </body>
+ #      </html>
+    
+
   - block: markdown
     content:
-      title: Quantum Palermo
-      subtitle: Quantum research group of University of Palermo
+      title: #Quantum Palermo
+      subtitle: #Quantum research group of University of Palermo
       text: |
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-        
-        {{% paige/image class="rounded-lg" src="cattedrale2.jpg" height=20rem width="100%" %}}
-        <br>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+        <html lang="en">
+        <body>
+          <img src="logo_colori.svg" align="right" hspace="20" vspace="20" width="400" />
+          <p>
+          Your text goes here.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut# labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco# laboris nisi ut aliquip ex ea commodo consequat. Your text goes here.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut# labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco# laboris nisi ut aliquip ex ea commodo consequat. Your text goes here.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut# labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco# laboris nisi ut aliquip ex ea commodo consequat. Your text goes here.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut# labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco# laboris nisi ut aliquip ex ea commodo consequat
+          </p>
+        </body>
+        </html>
   
   - block: portfolio
     id: research
@@ -42,22 +61,23 @@ sections:
       title: Latest News
       subtitle: Seminars, Papers and ...
       text: 
-      count: 5
+      count: 4
       offset: 0
       order: desc
-      page_type:  news 
+      page_type: publication
     design:
-      view: list
+      view: masonry
       columns: '2'
+      flip_alt_rows: true
   
   - block: markdown
     content:
       text: |
         {{< paige/gallery align="center" >}}
-        {{< paige/image class="rounded" style="padding: .2rem" height="6rem" maxheight="5rem" link="https://unipa.it" src="sponsors/cattedrale3.jpg" >}} 
-        {{< paige/image class="rounded" style="padding: .2rem" height="6rem" maxheight="5rem" link="https://unipa.it" src="sponsors/cattedrale3.jpg" >}}
-        {{< paige/image class="rounded" style="padding: .2rem" height="6rem" maxheight="5rem" link="https://unipa.it" src="sponsors/cattedrale3.jpg" >}}
-        {{< paige/image class="rounded" style="padding: .2rem" height="6rem" maxheight="5rem" link="https://unipa.it" src="sponsors/cattedrale3.jpg" >}}
+        {{< paige/image class="rounded" style="padding: .2rem" height="6rem" maxheight="5rem" link="https://unipa.it" src="sponsors/mur.webp" >}} 
+        {{< paige/image class="rounded" style="padding: .2rem" height="6rem" maxheight="5rem" link="https://unipa.it" src="sponsors/cnr.png" >}}
+        {{< paige/image class="rounded" style="padding: .2rem" height="6rem" maxheight="5rem" link="https://unipa.it" src="sponsors/unipa.png" >}}
+        {{< paige/image class="rounded" style="padding: .2rem" height="6rem" maxheight="5rem" link="https://unipa.it" src="sponsors/quantera.jpg" >}}
         {{< paige/image class="rounded" style="padding: .2rem" height="6rem" maxheight="5rem" link="https://unipa.it" src="sponsors/cattedrale3.jpg" >}}
         {{< paige/image class="rounded" style="padding: .2rem" height="6rem" maxheight="5rem" link="https://unipa.it" src="sponsors/cattedrale3.jpg" >}}
         {{< /paige/gallery >}}

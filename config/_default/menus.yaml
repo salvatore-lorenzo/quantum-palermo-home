@@ -13,7 +13,7 @@ main:
   - name: Research
     url: research_lines
     weight: 20
-    hasChildren: true
+    #hasChildren: true
   - parent: Research
     name: Quantum Thermodynamics
     url: research_lines/thermo

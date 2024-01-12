@@ -1,10 +1,10 @@
 ---
 # Display name
-title: Nome Cognome
+title: Nome BCognome
 
 # Full Name (for SEO)
 first_name: Nome
-last_name: Cognome
+last_name: BCognome
 
 # Is this the primary user of the site?
 superuser: false
@@ -89,7 +89,7 @@ highlight_name: false
 #  - Alumni
 
 user_groups:
-  - PhD Students
+  - guest
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum

@@ -10,7 +10,7 @@ last_name: Lorenzo
 superuser: false
 
 # Role/position
-role: 
+role: Associated professor
 
 # Organizations/Affiliations
 organizations:
@@ -81,7 +81,7 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Associated professors
+  - staff
 ---
 
 Salvatore Lorenzo is a professor of physics of matter at the Physics and Chemistry department of University of Palermo. His research interests include open quantum systems dynamics, quantum optics, quantum information, quantum thermodynamics and quantum machine learning.

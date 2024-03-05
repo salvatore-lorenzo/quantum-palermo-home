@@ -11,8 +11,16 @@ sections:
     id: topo-1
     content:
       title: '## Quantum Topology'
-      subtitle: 
-      text: Add any **markdown** formatted content here - text, images, videos, galleries - and even HTML code!
+      subtitle: "[ Back   ](../../research_lines)"
+      text:  <html lang="en">
+        <body>
+          <img src="featured.jpg" align="right" hspace="20" vspace="20" width="400" />
+          <p>
+          Quantum Your text goes here.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut# labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco# laboris nisi ut aliquip ex ea commodo consequat. Your text goes here.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut# labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco# laboris nisi ut aliquip ex ea commodo consequat. 
+          </p>
+          <img src="featured2.jpg" align="left" hspace="20" vspace="20" width="400" /> Your text goes here.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut# labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco# laboris nisi ut aliquip ex ea commodo consequat. Your text goes here.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut# labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco# laboris nisi ut aliquip ex ea commodo consequat
+        </body>
+        </html> 
     design:
       columns: 2
       
@@ -21,7 +29,25 @@ sections:
     content:
       title: Section 2
       subtitle: A subtitle
-      text: Add your Section 2 content here...
+      text: <html lang="en">
+        <body>
+          <img src="featured.jpg" align="right" hspace="20" vspace="20" width="400" />
+          <p>
+          Quantum Your text goes here.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut# labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco# laboris nisi ut aliquip ex ea commodo consequat. Your text goes here.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut# labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco# laboris nisi ut aliquip ex ea commodo consequat. 
+          </p>
+          <img src="featured2.jpg" align="left" hspace="20" vspace="20" width="400" /> Your text goes here.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut# labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco# laboris nisi ut aliquip ex ea commodo consequat. Your text goes here.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut# labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco# laboris nisi ut aliquip ex ea commodo consequat
+        </body>
+        </html> 
+    design:
+      columns: 1
+  - block: markdown
+    id: button
+    content:
+      title: 
+      subtitle: 
+      text: |
+        <p class="text-center">
+        <a class="lead" href="../../research_lines/">Back</a></p>
     design:
       columns: 1
 ---

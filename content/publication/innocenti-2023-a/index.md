@@ -1,38 +1,35 @@
 ---
-title: Shadow Tomography on General Measurement Frames
+title: Potential and Limitations of Quantum Extreme Learning Machines
 authors:
 - Luca Innocenti
 - Salvatore Lorenzo
 - Ivan Palmisano
-- Francesco Albarelli
 - Alessandro Ferraro
 - Mauro Paternostro
 - G. Massimo Palma
-date: '2023-11-01'
-publishDate: '2024-01-10T12:42:28.610402Z'
+date: '2023-05-01'
+publishDate: '2024-03-05T15:02:04.097709Z'
 publication_types:
 - article-journal
-publication: '*PRX Quantum*'
-doi: 10.1103/PRXQuantum.4.040328
-abstract: We provide a new perspective on shadow tomography by demonstrating its deep
-  connections with the general theory of measurement frames. By showing that the formalism
-  of measurement frames offers a natural framework for shadow tomography – in which
-  ``classical shadows'' correspond to unbiased estimators derived from a suitable
-  dual frame associated with the given measurement – we highlight the intrinsic connection
-  between standard state tomography and shadow tomography. Such perspective allows
-  us to examine the interplay between measurements, reconstructed observables, and
-  the estimators used to process measurement outcomes, while paving the way to assess
-  the influence of the input state and the dimension of the underlying space on estimation
-  errors. Our approach generalizes the method described in [H.-Y. Huang  it et al.,
-  Nat. Phys. 16, 1050 (2020)], whose results are recovered in the special case of
-  covariant measurement frames. As an application, we demonstrate that a sought-after
-  target of shadow tomography can be achieved for the entire class of tight rank-1
-  measurement frames – namely, that it is possible to accurately estimate a finite
-  set of generic rank-1 bounded observables while avoiding the growth of the number
-  of the required samples with the state dimension.
+publication: '*Communications Physics*'
+doi: 10.1038/s42005-023-01233-w
+abstract: Quantum reservoir computers (QRC) and quantum extreme learning machines
+  (QELM) aim to efficiently post-process the outcome of fixed -- generally uncalibrated
+  -- quantum devices to solve tasks such as the estimation of the properties of quantum
+  states. The characterisation of their potential and limitations, which is currently
+  lacking, will enable the full deployment of such approaches to problems of system
+  identification, device performance optimization, and state or process reconstruction.
+  We present a framework to model QRCs and QELMs, showing that they can be concisely
+  described via single effective measurements, and provide an explicit characterisation
+  of the information exactly retrievable with such protocols. We furthermore find
+  a close analogy between the training process of QELMs and that of reconstructing
+  the effective measurement characterising the given device. Our analysis paves the
+  way to a more thorough understanding of the capabilities and limitations of both
+  QELMs and QRCs, and has the potential to become a powerful measurement paradigm
+  for quantum state estimation that is more resilient to noise and imperfections.
 tags:
 - Quantum Physics
 links:
-- name: URL
-  url: https://link.aps.org/doi/10.1103/PRXQuantum.4.040328
+- name: arXiv
+  url: https://arxiv.org/abs/2210.00780
 ---

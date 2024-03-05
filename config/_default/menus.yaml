@@ -10,6 +10,9 @@ main:
   - name: News
     url: news
     weight: 10
+  - name: Projects
+    url: projects
+    weight: 15
   - name: Research
     url: research_lines
     weight: 20

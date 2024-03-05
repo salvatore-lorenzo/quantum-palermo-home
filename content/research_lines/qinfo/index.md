@@ -11,7 +11,7 @@ sections:
     id: qinfo-1
     content:
       title: '## Quantum Information'
-      subtitle: 
+      subtitle: "[ Back   ](../../research_lines)"
       text: Add any **markdown** formatted content here - text, images, videos, galleries - and even HTML code!
     design:
       columns: 2
@@ -22,6 +22,16 @@ sections:
       title: Section 2
       subtitle: A subtitle
       text: Add your Section 2 content here...
+    design:
+      columns: 1
+  - block: markdown
+    id: button
+    content:
+      title: 
+      subtitle: 
+      text: |
+        <p class="text-center">
+        <a class="lead" href="../../research_lines/">Back</a></p>
     design:
       columns: 1
 ---

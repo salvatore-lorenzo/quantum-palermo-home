@@ -1,5 +1,5 @@
 ---
-title: '#### Foundations of quantum mechanics {style="text-align: center;"}'
+title: '#### Fundamentals of quantum mechanics {style="text-align: center;"}'
 date: none
 type: landing
 tags:
@@ -11,7 +11,7 @@ sections:
     id: fund-1
     content:
       title: '## Fundamentals'
-      subtitle: 
+      subtitle: "[ Back   ](../../research_lines)"
       text: Add any **markdown** formatted content here - text, images, videos, galleries - and even HTML code!
     design:
       columns: 2

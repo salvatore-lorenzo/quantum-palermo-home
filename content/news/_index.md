@@ -49,4 +49,14 @@ sections:
       view: list
       # For Showcase view, flip alternate rows?
       flip_alt_rows: true
+  - block: markdown
+    id: button
+    content:
+      title: 
+      subtitle: 
+      text: |
+        <p class="text-center">
+        <a class="lead" href="../../">Back</a></p>
+    design:
+      columns: 1    
 ---

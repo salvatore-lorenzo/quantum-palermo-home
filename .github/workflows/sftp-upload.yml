@@ -10,7 +10,7 @@ on:
       sync:
         description: "File synchronization"
         required: true
-        default: 
+        default: full
 
 jobs:
   deploy-master:
@@ -30,5 +30,4 @@ jobs:
           remote-host: "sftp.unipa.it"
           remote-user: "salvatore.lorenzo"
           ssh-private-key: ${{ secrets.FTP_PASS }}
-          local-path: "~/GitHub/quantum-palermo-home/public"
           remote-path: "/mnt/home/salvatore.lorenzo/deploy-test/"

@@ -13,7 +13,7 @@ jobs:
           with:
             username: 'salvatore.lorenzo'
             server: 'sftp.unipa.it'
-            ssh_private_key: 'unipanovTury1979'
+            ssh_private_key: '${{ secrets.SSH_PRIVATE_KEY }} '
             local_path: './*'
             remote_path: '~/deploy-test/'
             sftpArgs: '-o ConnectTimeout=5'

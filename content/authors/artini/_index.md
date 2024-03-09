@@ -29,7 +29,7 @@ education:
   courses:
   - course: Title course 1
     institution: Name of Institution
-    year: 2020
+    year: 2021
   - course: Title course 1
     institution: Name of Institution
     year: 2022

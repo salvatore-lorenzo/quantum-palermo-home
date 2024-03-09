@@ -1,0 +1,37 @@
+name: SFTP deploy
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Install OpenVPN
+        run: |
+          sudo apt update
+          sudo apt install -y openvpn openvpn-systemd-resolved
+      - name: Connect to VPN
+        uses: "kota65535/github-openvpn-connect-action@v2"
+        with:
+          config_file: .github/workflows/client.ovpn
+          username: 'salvatore.lorenzo'
+          password: 'unipanovTury1979'
+
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: deploy file
+        uses: wlixcc/SFTP-Deploy-Action@v1.2.4
+        with:
+          username: 'salvatore.lorenzo'
+          server: 'sftp.unipa.it'
+          ssh_private_key: '${{ secrets.SSH_PRIVATE_KEY }} '
+          password: 'unipanovTury1979'
+          local_path: './*'
+          remote_path: 'deploy-test'
+          sftpArgs: '-o ConnectTimeout=40000'

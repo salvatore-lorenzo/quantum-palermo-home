@@ -24,9 +24,9 @@ sections:
         longitude: '13.3732206'
       directions: Enter Building and take the stairs to offices on Floor 1
       office_hours:
-        - 'Monday 10:00 to 13:00'
-        - 'Wednesday 09:00 to 10:00'
-      appointment_url: 'https://calendly.com'
+        #- 'Monday 10:00 to 13:00'
+        #- 'Wednesday 09:00 to 10:00'
+      #appointment_url: 'https://calendly.com'
       #contact_links:
       #  - icon: comments
       #    icon_pack: fas

@@ -20,6 +20,8 @@ publishDate: '2012-01-01T00:00:00Z'
 authors: []
 tags: []
 
+share: false
+
 # Is this a featured talk? (true/false)
 featured: false
 

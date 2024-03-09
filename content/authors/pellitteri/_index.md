@@ -1,20 +1,16 @@
 ---
 # Display name
-title: "{{ replace .Name "-" " " | title }}"
-
-# Full Name (for SEO)
-first_name: 
-last_name: 
+title: "Claudio Pellitteri"
 
 # Username (this should match the folder name and the name on publications)
 authors:
-- "{{ urlize .Name }}"
+- "pellitteri"
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role:
+role: PhD student
 
 # Organizations/Affiliations
 organizations:
@@ -70,7 +66,5 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Staff
-- Student
-- Guest
+- student
 ---

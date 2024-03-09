@@ -1,21 +1,21 @@
 ---
 # Display name
-title: Nome ZCognome
+title: Massimo Palma
 
 # Full Name (for SEO)
-first_name: Nome
-last_name: ZCognome
+first_name: Massimo
+last_name: Palma
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position
-role: PhD student
+role: Full professor
 
 # Organizations/Affiliations
 organizations:
   - name: University of Palermo
-    url: 'https://www.unipa.it/persone/docenti/l/nome.cognome'
+    url: 'https://www.unipa.it/persone/docenti/l/massimo.palma'
 
 # Short bio (displayed in user profile at end of posts)
 bio: 
@@ -71,7 +71,7 @@ social:
 #   link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: 'salvatore.lorenzo@unipa.it'
+email: ''
 
 # Highlight the author in author lists? (true/false)
 highlight_name: false
@@ -89,7 +89,5 @@ highlight_name: false
 #  - Alumni
 
 user_groups:
-  - staff
+  - Staff
 ---
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum

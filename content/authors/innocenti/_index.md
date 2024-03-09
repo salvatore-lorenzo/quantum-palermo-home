@@ -1,10 +1,14 @@
 ---
 # Display name
-title: "Ciccio Ciccio"
+title: "Luca Innocenti"
+
+# Full Name (for SEO)
+first_name: Luca
+last_name: Innocenti
 
 # Username (this should match the folder name and the name on publications)
 authors:
-- "ciccio-ciccio"
+- "innocenti"
 
 # Is this the primary user of the site?
 superuser: false
@@ -64,16 +68,7 @@ email: ""
 highlight_name: false
 
 # Organizational groups that you belong to (for People widget)
-# Set this to `[]` or comment out if you are not using People widget.
-# Choose one of the following
-#
-#  - Full professors
-#  - Associated professors
-#  - Researchers
-#  - PhD Students
-#  - Administration
-#  - Visitors
-#  - Alumni
+#   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- staff
+- Staff
 ---

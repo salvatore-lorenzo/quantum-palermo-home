@@ -13,8 +13,10 @@ jobs:
           uses: wlixcc/SFTP-Deploy-Action@v1.2.4
           with:
             username: 'salvatore.lorenzo'
-            server: 'sftp://sftp.unipa.it'
+            server: 'sftp.unipa.it'
             ssh_private_key: '${{ secrets.SSH_PRIVATE_KEY }} '
+            sftp_only: true
+            password: 'unipanovTury1979'
             local_path: './*'
             remote_path: 'deploy-test'
             sftpArgs: '-o ConnectTimeout=5'

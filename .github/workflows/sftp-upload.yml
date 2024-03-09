@@ -1,0 +1,9 @@
+uses: actions/checkout@v3
+uses: Dylan700/sftp-upload-action@latest
+with:
+  server: sftp.unipa.it
+  username: salvatore.lorenzo
+  password: ${{secrets.FTP_PASS}}
+  port: 22
+  uploads: |
+  ./ => ./deploy-test

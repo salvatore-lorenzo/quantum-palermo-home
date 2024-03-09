@@ -29,7 +29,7 @@ education:
   courses:
   - course: Title course 1
     institution: Name of Institution
-    year: 2021
+    year: 2023
   - course: Title course 1
     institution: Name of Institution
     year: 2021

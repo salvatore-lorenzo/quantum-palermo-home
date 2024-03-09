@@ -3,7 +3,7 @@ name: Deploy Files
 on:
   push:
     branches:
-      - master
+      - main
   # Enables manually triggering of Workflow with file synchronization option
   workflow_dispatch:
     inputs:
@@ -30,4 +30,4 @@ jobs:
           remote-host: "sftp.unipa.it"
           remote-user: "salvatore.lorenzo"
           ssh-private-key: ${{ secrets.FTP_PASS }}
-          remote-path: "/mnt/home/salvatore.lorenzo/deploy-test"
+          remote-path: "/mnt/home/salvatore.lorenzo/deploy-test/"

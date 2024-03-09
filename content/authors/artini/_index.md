@@ -32,7 +32,7 @@ education:
     year: 2021
   - course: Title course 1
     institution: Name of Institution
-    year: 2022
+    year: 2021
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons

@@ -1,18 +1,10 @@
-on: [push]
-
-jobs:
-  sftp:
-    name: deploy
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-      - name: SFTP
-        uses: kontial/github-action-sftp@v1.0
-        with:
-          server: sftp.unipa.it
-          user: salvatore.lorenzo
-          password: ${{ secrets.FTP_PASS }}
-          port: 22
-          local: ./public/*
-          remote: ~/deploy-test/
+- name: SFTP Upload
+  uses: actions/checkout@v3
+  uses: Dylan700/sftp-upload-action@latest
+  with:
+    server: sftp.unipa.it
+    username: salvatore.lorenzo
+    password: ${{secrets.FTP_PASS}}
+    port: 22
+    uploads: |
+      ./ => ./deploy-test

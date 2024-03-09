@@ -1,16 +1,18 @@
-
 on: [push]
 
 jobs:
-    deploy_job:
-    runs-on: ubuntu-latest
+  sftp:
     name: deploy
-    uses: actions/checkout@v2
-    uses: wlixcc/SFTP-Deploy-Action@v1.2.4
-    with:
-        username: 'salvatore.lorenzo'
-        server: 'sftp.unipa.it'
-        ssh_private_key: ${{ secrets.FTP_PASS }} 
-        local_path: './public/*'
-        remote_path: '/deploy-test/'
-        sftpArgs: '-o ConnectTimeout=5'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: SFTP
+        uses: kontial/github-action-sftp@v1.0
+        with:
+          server: sftp.unipa.it
+          user: salvatore.lorenzo
+          password: ${{ secrets.FTP_PASS }}
+          port: 22
+          local: ./public/*
+          remote: ~/deploy-test/

@@ -1,33 +1,36 @@
-name: Deploy Files
-
 on:
-  push:
-    branches:
-      - main
-  # Enables manually triggering of Workflow with file synchronization option
-  workflow_dispatch:
-    inputs:
-      sync:
-        description: "File synchronization"
-        required: true
-        default: full
-
-jobs:
-  deploy-master:
-    name: "master branch"
-    if: ${{ github.ref == 'refs/heads/main' }}
-    runs-on: ubuntu-latest
-    timeout-minutes: 30
-    steps:
-      - name: "Checkout"
-        uses: actions/checkout@v4
+    push:
+      branches:    
+        - main
+        
+  name: Build and Publish Averment
+  jobs:
+    FTP-Deploy-Action:
+      name: FTP-Deploy-Action
+      runs-on: ubuntu-latest
+      steps:
+      - uses: actions/checkout@v4
+      
+      - name: Use Node.js 12.x
+        uses: actions/setup-node@v1
         with:
-          fetch-depth: 0
-      - name: "Deploy"
-        uses: milanmk/actions-file-deployer@master
-        with:
-          remote-protocol: "sftp"
-          remote-host: "sftp.unipa.it"
-          remote-user: "salvatore.lorenzo"
-          ssh-private-key: ${{ secrets.FTP_PASS }}
-          remote-path: "/mnt/home/salvatore.lorenzo/deploy-test/"
+          node-version: '12.x'
+          
+      - name: Build Project
+        run: |
+          npm install
+          npm run build --if-present
+          
+      - name: List output files
+        run: ls
+        
+      - name: FTP-Deploy-Action
+        uses: SamKirkland/FTP-Deploy-Action@2.0.0
+        env:
+          FTP_SERVER: ${{ secrets.FTP_HOST }}
+          FTP_USERNAME: ${{ secrets.FTP_USER }}
+          FTP_PASSWORD: ${{ secrets.FTP_PASS }}
+          LOCAL_DIR: build
+          METHOD: sftp
+          PORT: 22
+          ARGS: --delete

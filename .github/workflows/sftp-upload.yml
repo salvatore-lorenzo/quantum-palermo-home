@@ -1,8 +1,7 @@
 on:
     push:
       branches:    
-        - main
-        
+        - main       
   name: Build and Publish Averment
   jobs:
     FTP-Deploy-Action:

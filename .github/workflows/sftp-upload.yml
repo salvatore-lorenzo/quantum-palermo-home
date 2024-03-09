@@ -6,4 +6,4 @@ with:
   password: ${{secrets.FTP_PASS}}
   port: 22
   uploads: |
-  ./ => ./deploy-test
+  ./ => ./deploy-test/

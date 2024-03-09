@@ -11,19 +11,6 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
-      - name: Install OpenVPN
-        run: |
-          sudo apt update
-          sudo apt install -y openvpn openvpn-systemd-resolved
-      - name: Connect to VPN
-        uses: "kota65535/github-openvpn-connect-action@v2"
-        with:
-          config_file: .github/workflows/client.ovpn
-          username: 'salvatore.lorenzo'
-          password: 'unipanovTury1979'
-
-      - name: Checkout
         uses: actions/checkout@v4
       - name: deploy file
         uses: wlixcc/SFTP-Deploy-Action@v1.2.4

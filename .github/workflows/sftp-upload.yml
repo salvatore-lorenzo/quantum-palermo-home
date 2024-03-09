@@ -5,5 +5,4 @@ with:
   username: salvatore.lorenzo
   password: ${{secrets.FTP_PASS}}
   port: 22
-  uploads: |
-  ./ => ./deploy-test/
+  uploads: ./ => ./deploy-test/

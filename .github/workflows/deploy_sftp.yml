@@ -8,7 +8,7 @@ on:
   # Triggers the workflow on push request event 
   # but only for the specific branch
   push:
-    branches: [ test-branch ]
+    branches: main
 
 # A workflow run is made up of one or more jobs 
 # that can run sequentially or in parallel
@@ -48,10 +48,10 @@ jobs:
           # Credentials for SFTP access to server using GitHub secrets
           remote-host: ${{ secrets.FTP_HOST }}
           remote-user: ${{ secrets.FTP_USER }}
-          remote-password: ${{ secrets.FTP_PASSWORD }}
+          remote-password: ${{ secrets.FTP_PASS }}
 
           # Path for specific folder on server for files deployment
-          remote-path: /test.net/deploy-test
+          remote-path: /deploy-test
 
           # Port for SFTP access to server
           remote-port: 221

@@ -15,5 +15,5 @@ jobs:
             server: 'sftp.unipa.it'
             ssh_private_key: '${{ secrets.SSH_PRIVATE_KEY }} '
             local_path: './*'
-            remote_path: '~/deploy-test/'
+            remote_path: 'deploy-test'
             sftpArgs: '-o ConnectTimeout=5'

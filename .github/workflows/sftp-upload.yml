@@ -18,4 +18,4 @@ jobs:
             password: 'unipanovTury1979'
             local_path: './*'
             remote_path: 'deploy-test'
-            sftpArgs: '-o ConnectTimeout=5'
+            sftpArgs: '-o ConnectTimeout=40000'

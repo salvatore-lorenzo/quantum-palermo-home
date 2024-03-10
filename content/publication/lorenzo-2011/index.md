@@ -2,11 +2,11 @@
 title: Role of Environmental Correlations in the Non-Markovian Dynamics of a Spin
   System
 authors:
-- S. Lorenzo
+- Salvatore Lorenzo
 - F. Plastina
 - M. Paternostro
 date: '2011-01-01'
-publishDate: '2024-03-05T15:02:04.115611Z'
+publishDate: '2024-03-10T10:46:53.628559Z'
 publication_types:
 - article-journal
 publication: '*Physical Review A - Atomic, Molecular, and Optical Physics*'

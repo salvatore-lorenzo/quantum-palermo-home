@@ -2,11 +2,11 @@
 title: 'Reading a Qubit Quantum State with a Quantum Meter: Time Unfolding of Quantum
   Darwinism and Quantum Information Flux'
 authors:
-- S. Lorenzo
+- Salvatore Lorenzo
 - M. Paternostro
 - G.M. Palma
 date: '2019-01-01'
-publishDate: '2024-03-05T15:02:04.286682Z'
+publishDate: '2024-03-10T10:46:53.908206Z'
 publication_types:
 - article-journal
 publication: '*Open Systems and Information Dynamics*'

@@ -1,14 +1,14 @@
 ---
 title: Remnants of Anderson Localization in Prethermalization Induced by White Noise
 authors:
-- S. Lorenzo
+- Salvatore Lorenzo
 - T. Apollaro
 - G.M. Palma
 - R. Nandkishore
 - A. Silva
 - J. Marino
 date: '2018-01-01'
-publishDate: '2024-03-05T15:02:04.277320Z'
+publishDate: '2024-03-10T10:46:53.894542Z'
 publication_types:
 - article-journal
 publication: '*Physical Review B*'

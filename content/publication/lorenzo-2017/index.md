@@ -1,13 +1,13 @@
 ---
 title: Quantum Critical Scaling under Periodic Driving
 authors:
-- S. Lorenzo
+- Salvatore Lorenzo
 - J. Marino
 - F. Plastina
 - G.M. Palma
 - T.J.G. Apollaro
 date: '2017-01-01'
-publishDate: '2024-03-05T15:02:04.222505Z'
+publishDate: '2024-03-10T10:46:53.789966Z'
 publication_types:
 - article-journal
 publication: '*Scientific Reports*'

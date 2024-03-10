@@ -1,10 +1,10 @@
 ---
 # Display name
-title: "Simone Artini"
+title: "Alessandro Romancino"
 
 # Username (this should match the folder name and the name on publications)
 authors:
-- "artini"
+- "romancino"
 
 # Is this the primary user of the site?
 superuser: false
@@ -29,10 +29,10 @@ education:
   courses:
   - course: Title course 1
     institution: Name of Institution
-    year: 2023
+    year: 2012
   - course: Title course 1
     institution: Name of Institution
-    year: 2021
+    year: 2012
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -66,5 +66,5 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- staff
+  - PhD Students
 ---

@@ -5,9 +5,9 @@ authors:
 - A. Sindona
 - J. Goold
 - N. Lo Gullo
-- S. Lorenzo
+- Salvatore Lorenzo
 date: '2013-01-01'
-publishDate: '2024-03-05T15:02:04.361531Z'
+publishDate: '2024-03-10T10:46:54.023767Z'
 publication_types:
 - article-journal
 publication: '*Open Systems and Information Dynamics*'

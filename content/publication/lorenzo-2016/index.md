@@ -1,11 +1,11 @@
 ---
 title: Class of Exact Memory-Kernel Master Equations
 authors:
-- S. Lorenzo
+- Salvatore Lorenzo
 - F. Ciccarello
 - G.M. Palma
 date: '2016-01-01'
-publishDate: '2024-03-05T15:02:04.209722Z'
+publishDate: '2024-03-10T10:46:53.770879Z'
 publication_types:
 - article-journal
 publication: '*Physical Review A*'

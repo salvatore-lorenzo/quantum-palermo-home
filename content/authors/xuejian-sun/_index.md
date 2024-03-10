@@ -1,16 +1,16 @@
 ---
 # Display name
-title: "Marcel Augusto Pinto"
+title: "Xuejian Sun"
 
 # Username (this should match the folder name and the name on publications)
 authors:
-- "pinto"
+- "sun"
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role: PhD student
+role: PostDoc
 
 # Organizations/Affiliations
 organizations:
@@ -66,5 +66,6 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- student
+  - Postdoctoral Researchers
+
 ---

@@ -2,10 +2,10 @@
 title: Transport of Quantum Correlations across a Spin Chain
 authors:
 - T.J.G. Apollaro
-- S. Lorenzo
+- Salvatore Lorenzo
 - F. Plastina
 date: '2013-01-01'
-publishDate: '2024-03-05T15:02:03.850926Z'
+publishDate: '2024-03-10T10:46:53.352043Z'
 publication_types:
 - article-journal
 publication: '*International Journal of Modern Physics B*'

@@ -1,11 +1,11 @@
 ---
 title: Non-Markovian Dynamics from Band Edge Effects and Static Disorder
 authors:
-- S. Lorenzo
+- Salvatore Lorenzo
 - F. Ciccarello
 - G.M. Palma
 date: '2017-01-01'
-publishDate: '2024-03-05T15:02:04.235388Z'
+publishDate: '2024-03-10T10:46:53.809891Z'
 publication_types:
 - article-journal
 publication: '*International Journal of Quantum Information*'

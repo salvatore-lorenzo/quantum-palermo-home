@@ -2,11 +2,11 @@
 title: Role of Information Backflow in the Emergence of Quantum Darwinism
 authors:
 - N. Milazzo
-- S. Lorenzo
+- Salvatore Lorenzo
 - M. Paternostro
 - G.M. Palma
 date: '2019-01-01'
-publishDate: '2024-03-05T15:02:04.319397Z'
+publishDate: '2024-03-10T10:46:53.958968Z'
 publication_types:
 - article-journal
 publication: '*Physical Review A*'

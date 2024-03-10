@@ -2,10 +2,10 @@
 title: Topological Protection and Control of Quantum Markovianity
 authors:
 - G.L. Giorgi
-- S. Lorenzo
+- Salvatore Lorenzo
 - S. Longhi
 date: '2020-01-01'
-publishDate: '2024-03-05T15:02:04.056634Z'
+publishDate: '2024-03-10T10:46:53.561527Z'
 publication_types:
 - article-journal
 publication: '*Photonics*'

@@ -8,10 +8,10 @@ authors:
 - Mauro Paternostro
 - G. Massimo Palma
 date: '2023-05-01'
-publishDate: '2024-03-05T15:02:04.097709Z'
+publishDate: '2024-03-10T10:46:53.605461Z'
 publication_types:
 - article-journal
-publication: '*Communications Physics*'
+publication: '*Commun Phys*'
 doi: 10.1038/s42005-023-01233-w
 abstract: Quantum reservoir computers (QRC) and quantum extreme learning machines
   (QELM) aim to efficiently post-process the outcome of fixed -- generally uncalibrated

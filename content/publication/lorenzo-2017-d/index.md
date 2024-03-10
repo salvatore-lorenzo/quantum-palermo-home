@@ -1,12 +1,12 @@
 ---
 title: 2-Qubit Quantum State Transfer in Spin Chains and Cold Atoms with Weak Links
 authors:
-- S. Lorenzo
+- Salvatore Lorenzo
 - T.J.G. Apollaro
 - A. Trombettoni
 - S. Paganelli
 date: '2017-01-01'
-publishDate: '2024-03-05T15:02:04.259997Z'
+publishDate: '2024-03-10T10:46:53.867096Z'
 publication_types:
 - article-journal
 publication: '*International Journal of Quantum Information*'

@@ -8,7 +8,7 @@ authors:
 - Salvatore Lorenzo
 - G. Massimo Palma
 date: '2023-12-01'
-publishDate: '2024-03-05T15:02:04.336528Z'
+publishDate: '2024-03-10T10:46:53.984928Z'
 publication_types:
 - manuscript
 publication: '*arXiv*'

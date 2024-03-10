@@ -5,23 +5,22 @@ date:
 type: landing
 
 sections:
-  - block: people
+  - block: mypeople
     content:
-      title: Meet the Team
+      title: 
       # Choose which groups/teams of users to display.
       #   Edit `user_groups` in each user's profile to add them to one or more of these groups.
       user_groups:
           - Staff
-          - student
-          - guest
+          - Postdoctoral Researchers
+          - PhD Students
+          - Visiting & Friends
       sort_by: Params.last_name
       sort_ascending: true
     design:
       show_interests: false
       show_role: true
       show_social: true
-      view: masonry
-      columns: 2
   - block: markdown
     id: button
     content:

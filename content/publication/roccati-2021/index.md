@@ -2,13 +2,13 @@
 title: Quantum Correlations in PT-symmetric Systems
 authors:
 - F. Roccati
-- S. Lorenzo
+- Salvatore Lorenzo
 - G.M. Palma
 - G.T. Landi
 - M. Brunelli
 - F. Ciccarello
 date: '2021-01-01'
-publishDate: '2024-03-05T15:02:04.369922Z'
+publishDate: '2024-03-10T10:46:54.035747Z'
 publication_types:
 - article-journal
 publication: '*Quantum Science and Technology*'

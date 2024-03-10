@@ -5,12 +5,12 @@ authors:
 - G. Buonaiuto
 - I. Lesanovsky
 - A. Carollo
-- S. Lorenzo
+- Salvatore Lorenzo
 - G. Palma
 - F. Ciccarello
 - F. Carollo
 date: '2021-01-01'
-publishDate: '2024-03-05T15:02:04.019534Z'
+publishDate: '2024-03-10T10:46:53.515635Z'
 publication_types:
 - article-journal
 publication: '*Quantum Science and Technology*'

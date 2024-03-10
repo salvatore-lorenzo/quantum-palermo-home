@@ -4,9 +4,9 @@ authors:
 - T.J.G. Apollaro
 - C. Sanavio
 - W.J. Chetcuti
-- S. Lorenzo
+- Salvatore Lorenzo
 date: '2020-01-01'
-publishDate: '2024-03-05T15:02:03.884537Z'
+publishDate: '2024-03-10T10:46:53.398369Z'
 publication_types:
 - article-journal
 publication: '*Physics Letters, Section A: General, Atomic and Solid State Physics*'

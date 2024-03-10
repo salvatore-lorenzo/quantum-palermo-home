@@ -1,11 +1,11 @@
 ---
 title: Composite Quantum Collision Models
 authors:
-- S. Lorenzo
+- Salvatore Lorenzo
 - F. Ciccarello
 - G.M. Palma
 date: '2017-01-01'
-publishDate: '2024-03-05T15:02:04.251648Z'
+publishDate: '2024-03-10T10:46:53.848607Z'
 publication_types:
 - article-journal
 publication: '*Physical Review A*'

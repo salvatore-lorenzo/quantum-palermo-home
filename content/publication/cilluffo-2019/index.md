@@ -2,11 +2,11 @@
 title: Quantum Jump Statistics with a Shifted Jump Operator in a Chiral Waveguide
 authors:
 - D. Cilluffo
-- S. Lorenzo
+- Salvatore Lorenzo
 - G. Massimo Palma
 - F. Ciccarello
 date: '2019-01-01'
-publishDate: '2024-03-05T15:02:03.960853Z'
+publishDate: '2024-03-10T10:46:53.461130Z'
 publication_types:
 - article-journal
 publication: '*Journal of Statistical Mechanics: Theory and Experiment*'

@@ -1,12 +1,12 @@
 ---
 title: Quantum Non-Markovianity Induced by Anderson Localization
 authors:
-- S. Lorenzo
+- Salvatore Lorenzo
 - F. Lombardo
 - F. Ciccarello
 - G.M. Palma
 date: '2017-01-01'
-publishDate: '2024-03-05T15:02:04.268268Z'
+publishDate: '2024-03-10T10:46:53.881081Z'
 publication_types:
 - article-journal
 publication: '*Scientific Reports*'

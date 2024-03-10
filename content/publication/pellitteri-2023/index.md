@@ -6,10 +6,10 @@ authors:
 - G. Massimo Palma
 - Salvatore Lorenzo
 date: '2023-12-01'
-publishDate: '2024-03-05T15:02:04.353238Z'
+publishDate: '2024-03-10T10:46:54.011265Z'
 publication_types:
 - article-journal
-publication: '*Physica Scripta*'
+publication: '*Phys. Scr.*'
 doi: 10.1088/1402-4896/ad1238
 abstract: The interaction between a light mode and a mechanical oscillator via radiation
   pressure in optomechanical systems is an excellent platform for a multitude of applications

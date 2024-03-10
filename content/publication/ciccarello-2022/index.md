@@ -2,11 +2,11 @@
 title: 'Quantum Collision Models: Open System Dynamics from Repeated Interactions'
 authors:
 - F. Ciccarello
-- S. Lorenzo
+- Salvatore Lorenzo
 - V. Giovannetti
 - G.M. Palma
 date: '2022-01-01'
-publishDate: '2024-03-05T15:02:03.931279Z'
+publishDate: '2024-03-10T10:46:53.446735Z'
 publication_types:
 - article-journal
 publication: '*Physics Reports*'

@@ -1,13 +1,13 @@
 ---
 title: Intermittent Decoherence Blockade in a Chiral Ring Environment
 authors:
-- S. Lorenzo
+- Salvatore Lorenzo
 - S. Longhi
 - A. Cabot
 - R. Zambrini
 - G.L. Giorgi
 date: '2021-01-01'
-publishDate: '2024-03-05T15:02:04.302645Z'
+publishDate: '2024-03-10T10:46:53.932612Z'
 publication_types:
 - article-journal
 publication: '*Scientific Reports*'

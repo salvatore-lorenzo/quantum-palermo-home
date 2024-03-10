@@ -3,13 +3,13 @@ title: Witnessing Nonclassicality through Large Deviations in Quantum Optics
 authors:
 - D. Cilluffo
 - G. Buonaiuto
-- S. Lorenzo
+- Salvatore Lorenzo
 - G.M. Palma
 - F. Ciccarello
 - F. Carollo
 - I. Lesanovsky
 date: '2020-01-01'
-publishDate: '2024-03-05T15:02:03.983153Z'
+publishDate: '2024-03-10T10:46:53.478834Z'
 publication_types:
 - article-journal
 publication: '*Physical Review Research*'

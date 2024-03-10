@@ -3,10 +3,10 @@ title: Perturbative Many-Body Transfer
 authors:
 - W.J. Chetcuti
 - C. Sanavio
-- S. Lorenzo
+- Salvatore Lorenzo
 - T.J.G. Apollaro
 date: '2020-01-01'
-publishDate: '2024-03-05T15:02:03.914455Z'
+publishDate: '2024-03-10T10:46:53.434797Z'
 publication_types:
 - article-journal
 publication: '*New Journal of Physics*'

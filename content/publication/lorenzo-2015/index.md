@@ -1,13 +1,13 @@
 ---
 title: Transfer of Arbitrary Two-Qubit States via a Spin Chain
 authors:
-- S. Lorenzo
+- Salvatore Lorenzo
 - T.J.G. Apollaro
 - S. Paganelli
 - G.M. Palma
 - F. Plastina
 date: '2015-01-01'
-publishDate: '2024-03-05T15:02:04.169184Z'
+publishDate: '2024-03-10T10:46:53.710720Z'
 publication_types:
 - article-journal
 publication: '*Physical Review A - Atomic, Molecular, and Optical Physics*'

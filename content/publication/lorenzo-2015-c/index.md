@@ -1,13 +1,13 @@
 ---
 title: Landauer's Principle in Multipartite Open Quantum System Dynamics
 authors:
-- S. Lorenzo
+- Salvatore Lorenzo
 - R. McCloskey
 - F. Ciccarello
 - M. Paternostro
 - G. Palma
 date: '2015-01-01'
-publishDate: '2024-03-05T15:02:04.196150Z'
+publishDate: '2024-03-10T10:46:53.750976Z'
 publication_types:
 - article-journal
 publication: '*Physical Review Letters*'

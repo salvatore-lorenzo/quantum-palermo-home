@@ -2,13 +2,13 @@
 title: Exotic Interactions Mediated by a Non-Hermitian Photonic Bath
 authors:
 - F. Roccati
-- S. Lorenzo
+- Salvatore Lorenzo
 - G. Calajò
 - G. Massimo Palma
 - A. Carollo
 - F. Ciccarello
 date: '2022-01-01'
-publishDate: '2024-03-05T15:02:04.378388Z'
+publishDate: '2024-03-10T10:46:54.048386Z'
 publication_types:
 - article-journal
 publication: '*Optica*'

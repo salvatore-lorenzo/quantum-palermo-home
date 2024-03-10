@@ -1,11 +1,11 @@
 ---
 title: Tuning Non-Markovianity by Spin-Dynamics Control
 authors:
-- S. Lorenzo
+- Salvatore Lorenzo
 - F. Plastina
 - M. Paternostro
 date: '2013-01-01'
-publishDate: '2024-03-05T15:02:04.129318Z'
+publishDate: '2024-03-10T10:46:53.649314Z'
 publication_types:
 - article-journal
 publication: '*Physical Review A - Atomic, Molecular, and Optical Physics*'

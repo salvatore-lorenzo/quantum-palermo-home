@@ -3,11 +3,11 @@ title: Spin Chains for Two-Qubit Teleportation
 authors:
 - T.J.G. Apollaro
 - G.M.A. Almeida
-- S. Lorenzo
+- Salvatore Lorenzo
 - A. Ferraro
 - S. Paganelli
 date: '2019-01-01'
-publishDate: '2024-03-05T15:02:03.877167Z'
+publishDate: '2024-03-10T10:46:53.386714Z'
 publication_types:
 - article-journal
 publication: '*Physical Review A*'

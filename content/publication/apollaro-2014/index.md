@@ -2,12 +2,12 @@
 title: Competition between Memory-Keeping and Memory-Erasing Decoherence Channels
 authors:
 - T.J.G. Apollaro
-- S. Lorenzo
+- Salvatore Lorenzo
 - C. Di Franco
 - F. Plastina
 - M. Paternostro
 date: '2014-01-01'
-publishDate: '2024-03-05T15:02:03.860586Z'
+publishDate: '2024-03-10T10:46:53.363646Z'
 publication_types:
 - article-journal
 publication: '*Physical Review A - Atomic, Molecular, and Optical Physics*'

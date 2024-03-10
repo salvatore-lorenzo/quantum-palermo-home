@@ -4,10 +4,10 @@ authors:
 - A. Sindona
 - J. Goold
 - N. Lo Gullo
-- S. Lorenzo
+- Salvatore Lorenzo
 - F. Plastina
 date: '2013-01-01'
-publishDate: '2024-03-05T15:02:04.386836Z'
+publishDate: '2024-03-10T10:46:54.062297Z'
 publication_types:
 - article-journal
 publication: '*Physical Review Letters*'

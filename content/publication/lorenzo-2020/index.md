@@ -1,11 +1,11 @@
 ---
 title: Anti-Zeno-based Dynamical Control of the Unfolding of Quantum Darwinism
 authors:
-- S. Lorenzo
+- Salvatore Lorenzo
 - M. Paternostro
 - G.M. Palma
 date: '2020-01-01'
-publishDate: '2024-03-05T15:02:04.294900Z'
+publishDate: '2024-03-10T10:46:53.920803Z'
 publication_types:
 - article-journal
 publication: '*Physical Review Research*'

@@ -2,13 +2,13 @@
 title: Many-Qubit Quantum State Transfer via Spin Chains
 authors:
 - T.J.G. Apollaro
-- S. Lorenzo
+- Salvatore Lorenzo
 - A. Sindona
 - S. Paganelli
 - G.L. Giorgi
 - F. Plastina
 date: '2015-01-01'
-publishDate: '2024-03-05T15:02:03.869089Z'
+publishDate: '2024-03-10T10:46:53.374987Z'
 publication_types:
 - article-journal
 doi: 10.1088/0031-8949/2015/T165/014036

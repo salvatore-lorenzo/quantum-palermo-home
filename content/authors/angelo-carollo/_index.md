@@ -18,16 +18,18 @@ role: Associate Professor
 
 # Organizations/Affiliations
 organizations:
-- name: 
-  url: ""
+  - name: University of Palermo
+    url: 'https://www.unipa.it/persone/docenti/l/angelo.carollo'
 
 # Short bio (displayed in user profile at end of posts)
 bio: 
 
 # List each interest with a dash
 interests:
-- Interest 1
-- Interest 2
+- Quantum topology
+- Quantum optics
+- Quantum metrology
+- Quantum statistical physics
 
 education:
   courses:
@@ -62,7 +64,7 @@ social:
 #   link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ""
+email: "angelo.carollo@unipa.it"
 
 # Highlight the author in author lists? (true/false)
 highlight_name: false
@@ -72,3 +74,4 @@ highlight_name: false
 user_groups:
 - Staff
 ---
+Angelo completed his PhD in quantum optics and quantum information in 2004 at Imperial College London, under the supervision of Vlatko Vedral. He has been a postdoctoral fellow in at the University of Cambridge under Artur Ekert and a Marie Curie fellow at the University of Innsbruck under Peter Zoller. After an experience in the financial industry in London, he joined the University of Palermo in 2010 as a research fellow where he is now Associate Professor. His current research interests range from Hermitian and non-Hermitian topological properties in condensed matter and quantum optics,  quantum metrology, and equilibrium and non-equilibrium quantum statistical physics.

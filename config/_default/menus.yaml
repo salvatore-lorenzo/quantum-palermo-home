@@ -29,7 +29,7 @@ main:
     url: research_lines/qinfo
     weight: 2  
   - parent: Research
-    name: Metrology
+    name: Quantum metrology
     url: research_lines/metro
     weight: 3
   - parent: Research

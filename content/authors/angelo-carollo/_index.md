@@ -74,6 +74,6 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Pst
+- Staff
 ---
 Angelo Carollo is Associate Professor of Physics in Theoretical Physics at the Department of Physics and Chemistry of the University of Palermo. His research activity ranges from quantum optics to quantum statistical physics, open quantum systems and metrology. Angelo completed his PhD in quantum optics and quantum information in 2004 at Imperial College London. He has been a postdoctoral fellow in at the University of Cambridge under and a Marie Curie fellow at the University of Innsbruck. After an experience in the financial industry in London, he joined the University of Palermo in 2010. His current research interests range from Hermitian and non-Hermitian topological properties in condensed matter and quantum optics,  quantum metrology, and equilibrium and non-equilibrium quantum statistical physics. He has given seminal contributions to the development of geometric information approaches in open quantum systems and quantum statistical phenomena and authored over 60 articles, attracting more than 2500 citations. 

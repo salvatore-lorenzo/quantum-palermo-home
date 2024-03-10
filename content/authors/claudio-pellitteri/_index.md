@@ -2,6 +2,10 @@
 # Display name
 title: "Claudio Pellitteri"
 
+# Full Name (for SEO)
+first_name: Claudio
+last_name: Pellitteri
+
 # Username (this should match the folder name and the name on publications)
 authors:
 - "pellitteri"

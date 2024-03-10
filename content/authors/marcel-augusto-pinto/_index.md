@@ -2,6 +2,10 @@
 # Display name
 title: "Marcel Augusto Pinto"
 
+# Full Name (for SEO)
+first_name: Marcel Augusto
+last_name: Pinto
+
 # Username (this should match the folder name and the name on publications)
 authors:
 - "pinto"

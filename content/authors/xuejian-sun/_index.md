@@ -2,6 +2,10 @@
 # Display name
 title: "Xuejian Sun"
 
+# Full Name (for SEO)
+first_name: Xuejian
+last_name: Sun
+
 # Username (this should match the folder name and the name on publications)
 authors:
 - "sun"

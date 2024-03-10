@@ -6,6 +6,10 @@ title: "Diana Chisholm"
 first_name: Diana
 last_name: Chisholm
 
+# Full Name (for SEO)
+first_name: Diana
+last_name: Chisholm
+
 # Username (this should match the folder name and the name on publications)
 authors:
 - "diana-chisholm"

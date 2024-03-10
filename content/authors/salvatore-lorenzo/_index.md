@@ -10,7 +10,7 @@ last_name: Lorenzo
 superuser: false
 
 # Role/position
-role: Assistant professor
+role: Asoociate professor
 
 # Organizations/Affiliations
 organizations:
@@ -83,5 +83,10 @@ highlight_name: false
 user_groups:
   - Staff
 ---
-
-Salvatore Lorenzo is a professor of physics of matter at the Physics and Chemistry department of University of Palermo. His research interests include open quantum systems dynamics, quantum optics, quantum information, quantum thermodynamics and quantum machine learning.
+Salvatore Lorenzo is Associate Professor of Physics (SSD Fis/03 - Physics of Matter) at the Department of
+Physics and Chemistry of the University of Palermo. He received his PhD
+from the University of Calabria in 2011 and held research positions at the
+University of Calabria, Palermo and Milan. Over the course of the last ten
+years, he has published over 40 papers addressing open quantum systems
+dynamics, quantum optics, quantum information, quantum
+thermodynamics, and quantum machine learning. 

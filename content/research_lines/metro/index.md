@@ -17,7 +17,8 @@ sections:
         <body>
           <img src="featured.jpg" align="left" hspace="20" vspace="20" width="300" />
           <p>
-          Metrology is the cornerstone of science which investigates the accuracy by which any given physical quantitiy can be measured. Using the principle of quantum mechanics it is possible to increase such accuracy far beyond what is possible with classical systems. Quantum metrology is the science that investigates how this is possible and how to harness quantum mechanical effects, such as entanglement, quantum squeezing and critical quantum systems, to gain an edge over purely classical approaches. This finds applications in a wide variety of fields, from fundamental physics, to gravitational wave detection, communication, navigation, thermometry, imaging, remote sensing, to name a few.
+          Metrology is the cornerstone of science which investigates the accuracy by which any given physical quantitiy can be measured. Using the principle of quantum mechanics it is possible to increase such accuracy far beyond what is possible with classical systems. <p>
+          Quantum metrology is the science that investigates how this is possible and how to harness quantum mechanical effects, such as entanglement, quantum squeezing and critical quantum systems, to gain an edge over purely classical approaches.<p> This finds applications in a wide variety of fields, from fundamental physics, to gravitational wave detection, communication, navigation, thermometry, imaging, remote sensing, to name a few.
         </body>
         </html>  
     design:

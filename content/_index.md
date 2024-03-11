@@ -28,7 +28,7 @@ sections:
       text: |
         <html lang="en">
         <body>
-          <img src="logo-colori.svg" align="right" hspace="20" vspace="20" width="400" />
+          <img src="logo-colori.svg" align="right" hspace="30" vspace="30" width="300" />
           <h1>Quantum Theory Group</h1>
           <p>
           Quantum Your text goes here.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut# labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco# laboris nisi ut aliquip ex ea commodo consequat. Your text goes here.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut# labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco# laboris nisi ut aliquip ex ea commodo consequat. 
@@ -99,6 +99,8 @@ sections:
         {{< paige/image class="rounded" style="padding: .2rem" height="6rem" maxheight="5rem" link="https://unipa.it" src="./sponsors/cattedrale3.jpg" >}}
         {{< /paige/gallery >}}
         {{< paige/gallery breakpoints=true images="*.jpg" />}}
+        <p class="text-center">
+        <a class="lead" href="../../research_lines/">Back</a></p>
     design:
       columns: '1'
 ---

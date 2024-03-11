@@ -1,6 +1,6 @@
 ---
 # Display name
-title: "Francesco Ciccarello"
+title: "F. Ciccarello"
 
 # Full Name (for SEO)
 first_name: Francesco

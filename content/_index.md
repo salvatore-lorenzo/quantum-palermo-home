@@ -48,7 +48,7 @@ sections:
       sort_ascending: false
       default_button_index: 0
     design:
-      columns: '1'
+      columns: '2'
       view: masonry
       flip_alt_rows: true
 

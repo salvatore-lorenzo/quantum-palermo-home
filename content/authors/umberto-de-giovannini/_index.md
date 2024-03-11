@@ -1,6 +1,6 @@
 ---
 # Display name
-title: "Umberto De Giovannini"
+title: "U. De Giovannini"
 
 # Full Name (for SEO)
 first_name: Umberto

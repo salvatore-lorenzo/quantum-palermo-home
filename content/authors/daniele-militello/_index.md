@@ -1,6 +1,6 @@
 ---
 # Display name
-title: "Daniele Militello"
+title: "D. Militello"
 
 # Full Name (for SEO)
 first_name: Daniele

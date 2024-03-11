@@ -1,6 +1,6 @@
 ---
 # Display name
-title: "Sofia Sgroi"
+title: "S. Sgroi"
 
 # Full Name (for SEO)
 first_name: Sofia

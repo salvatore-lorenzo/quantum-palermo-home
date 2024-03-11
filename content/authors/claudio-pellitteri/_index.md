@@ -1,6 +1,6 @@
 ---
 # Display name
-title: "Claudio Pellitteri"
+title: "C. Pellitteri"
 
 # Full Name (for SEO)
 first_name: Claudio

@@ -23,7 +23,7 @@ sections:
         kinds:
           - page
       # Field to sort by, such as Date or Title
-      sort_by: 'Date'
+      sort_by: 'Title'
       sort_ascending: false
       # Default portfolio filter button
       # 0 corresponds to the first button below and so on
@@ -44,7 +44,7 @@ sections:
     design:
       # See Page Builder docs for all section customization options.
       # Choose how many columns the section has. Valid values: '1' or '2'.
-      columns: '1'
+      columns: '2'
       # Choose a listing view
       view: masonry
       # For Showcase view, flip alternate rows?

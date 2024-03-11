@@ -1,6 +1,6 @@
 ---
 # Display name
-title: "Angelo Carollo"
+title: "A. Carollo"
 
 # Full Name (for SEO)
 first_name: Angelo

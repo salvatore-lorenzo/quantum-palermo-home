@@ -1,6 +1,6 @@
 ---
 # Display name
-title: "Marcel Augusto Pinto"
+title: "M. A. Pinto"
 
 # Full Name (for SEO)
 first_name: Marcel Augusto

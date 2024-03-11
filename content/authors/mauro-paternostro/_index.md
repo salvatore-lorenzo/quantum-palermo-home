@@ -1,6 +1,6 @@
 ---
 # Display name
-title: "Mauro Paternostro"
+title: "M. Paternostro"
 
 # Full Name (for SEO)
 first_name: Mauro

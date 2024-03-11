@@ -3,7 +3,7 @@ title: '#### Quantum Information {style="text-align: center;"}'
 date: none
 type: landing
 tags:
-  - QIP
+  - qinfo
 # Your landing page sections - add as many different content blocks as you like
 
 sections:
@@ -12,18 +12,9 @@ sections:
     content:
       title: '## Quantum Information'
       subtitle: "[ Back   ](../../research_lines)"
-      text: Add any **markdown** formatted content here - text, images, videos, galleries - and even HTML code!
+      text: Quantum Information Theory explores the intersection of quantum mechanics and information theory. At its core are qubits, quantum counterparts to classical bits, which can exist in superpositions and entangled states. Superposition enables parallel computations, while entanglement provides unique correlations between particles. Quantum gates manipulate qubits, forming the basis for quantum computing and algorithms. This interdisciplinary field encompasses quantum cryptography, communication, and sensing. Challenges include mitigating decoherence, implementing error correction, and bridging theoretical concepts with practical applications. Quantum Information Theory promises revolutionary advancements in computation, communication security, and precision measurement.
     design:
       columns: 2
-      
-  - block: markdown
-    id: qinfo-2
-    content:
-      title: Section 2
-      subtitle: A subtitle
-      text: Add your Section 2 content here...
-    design:
-      columns: 1
   - block: markdown
     id: button
     content:

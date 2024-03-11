@@ -1,5 +1,5 @@
 ---
-title: '#### Quantum Machine Learning {style="text-align: center;"}'
+title: '#### Quantum <br> Machine Learning {style="text-align: center;"}'
 date: none
 type: landing
 tags:

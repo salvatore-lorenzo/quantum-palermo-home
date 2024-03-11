@@ -1,5 +1,5 @@
 ---
-title: '#### Quantum Topology {style="text-align: center;"}'
+title: '#### Quantum <br> Topology {style="text-align: center;"}'
 date: none
 type: landing
 tags:

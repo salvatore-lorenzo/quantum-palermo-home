@@ -21,7 +21,6 @@ sections:
         exclude_tags: []
         # Which Hugo page kinds to show (https://gohugo.io/templates/section-templates/#page-kinds)
         kinds:
-          - page
       # Field to sort by, such as Date or Title
       sort_by: 'Title'
       sort_ascending: false

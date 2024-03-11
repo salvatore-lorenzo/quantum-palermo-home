@@ -1,5 +1,5 @@
 ---
-title: '#### Quantum Information {style="text-align: center;"}'
+title: '#### Quantum <br> Information {style="text-align: center;"}'
 date: none
 type: landing
 tags:
@@ -12,7 +12,12 @@ sections:
     content:
       title: '## Quantum Information'
       subtitle: "[ Back   ](../../research_lines)"
-      text: Quantum Information Theory explores the intersection of quantum mechanics and information theory. At its core are qubits, quantum counterparts to classical bits, which can exist in superpositions and entangled states. Superposition enables parallel computations, while entanglement provides unique correlations between particles. Quantum gates manipulate qubits, forming the basis for quantum computing and algorithms. This interdisciplinary field encompasses quantum cryptography, communication, and sensing. Challenges include mitigating decoherence, implementing error correction, and bridging theoretical concepts with practical applications. Quantum Information Theory promises revolutionary advancements in computation, communication security, and precision measurement.
+      text: |
+        <html lang="en">
+        <body>
+          <img src="featured.jpg" align="left" hspace="20" vspace="20" width="300" />
+          <p>Quantum Information Theory explores the intersection of quantum mechanics and information theory. At its core are qubits, quantum counterparts to classical bits, which can exist in superpositions and entangled states. Superposition enables parallel computations, while entanglement provides unique correlations between particles. Quantum gates manipulate qubits, forming the basis for quantum computing and algorithms. <p>
+          This interdisciplinary field encompasses quantum cryptography, communication, and sensing. Challenges include mitigating decoherence, implementing error correction, and bridging theoretical concepts with practical applications. Quantum Information Theory promises revolutionary advancements in computation, communication security, and precision measurement.
     design:
       columns: 2
   - block: markdown

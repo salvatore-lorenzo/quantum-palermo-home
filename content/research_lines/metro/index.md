@@ -1,5 +1,5 @@
 ---
-title: '#### Quantum Metrology {style="text-align: center;"}'
+title: '#### Quantum <br> Metrology {style="text-align: center;"}'
 date: none
 type: landing
 tags:

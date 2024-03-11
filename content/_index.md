@@ -28,8 +28,9 @@ sections:
       text: |
         <html lang="en">
         <body>
-          <img src="logo-colori.svg" align="right" hspace="30" vspace="30" width="300" />
           <h1>Quantum Theory Group</h1>
+          <img src="logo-colori.svg" align="right" hspace="30" vspace="30" width="300" />
+          
           <p>
           Quantum Your text goes here.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut# labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco# laboris nisi ut aliquip ex ea commodo consequat. Your text goes here.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut# labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco# laboris nisi ut aliquip ex ea commodo consequat. 
           </p>

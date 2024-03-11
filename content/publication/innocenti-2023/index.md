@@ -9,7 +9,7 @@ authors:
 - M. Paternostro
 - G. M. Palma
 date: '2023-11-01'
-publishDate: '2024-03-10T10:46:53.583618Z'
+publishDate: '2024-03-11T07:21:08.734874Z'
 publication_types:
 - article-journal
 publication: '*PRX Quantum*'

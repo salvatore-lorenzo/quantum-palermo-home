@@ -4,9 +4,9 @@ authors:
 - D. Cilluffo
 - Salvatore Lorenzo
 - G. Massimo Palma
-- F. Ciccarello
+- Francesco Ciccarello
 date: '2019-01-01'
-publishDate: '2024-03-10T10:46:53.461130Z'
+publishDate: '2024-03-11T07:21:08.615142Z'
 publication_types:
 - article-journal
 publication: '*Journal of Statistical Mechanics: Theory and Experiment*'

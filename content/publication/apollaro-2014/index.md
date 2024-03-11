@@ -7,7 +7,7 @@ authors:
 - F. Plastina
 - M. Paternostro
 date: '2014-01-01'
-publishDate: '2024-03-10T10:46:53.363646Z'
+publishDate: '2024-03-11T07:21:08.516646Z'
 publication_types:
 - article-journal
 publication: '*Physical Review A - Atomic, Molecular, and Optical Physics*'

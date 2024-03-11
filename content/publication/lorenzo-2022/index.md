@@ -7,7 +7,7 @@ authors:
 - R. Zambrini
 - G.M. Palma
 date: '2022-01-01'
-publishDate: '2024-03-10T10:46:53.945402Z'
+publishDate: '2024-03-11T07:21:09.103103Z'
 publication_types:
 - article-journal
 publication: '*New Journal of Physics*'

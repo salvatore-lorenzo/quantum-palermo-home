@@ -6,9 +6,9 @@ authors:
 - G.M. Palma
 - G.T. Landi
 - M. Brunelli
-- F. Ciccarello
+- Francesco Ciccarello
 date: '2021-01-01'
-publishDate: '2024-03-10T10:46:54.035747Z'
+publishDate: '2024-03-11T07:21:09.190599Z'
 publication_types:
 - article-journal
 publication: '*Quantum Science and Technology*'

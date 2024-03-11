@@ -8,7 +8,7 @@ authors:
 - A. Silva
 - J. Marino
 date: '2018-01-01'
-publishDate: '2024-03-10T10:46:53.894542Z'
+publishDate: '2024-03-11T07:21:09.054447Z'
 publication_types:
 - article-journal
 publication: '*Physical Review B*'

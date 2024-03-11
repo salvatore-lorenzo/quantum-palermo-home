@@ -6,7 +6,7 @@ authors:
 - M. Paternostro
 - G.M. Palma
 date: '2019-01-01'
-publishDate: '2024-03-10T10:46:53.958968Z'
+publishDate: '2024-03-11T07:21:09.115883Z'
 publication_types:
 - article-journal
 publication: '*Physical Review A*'

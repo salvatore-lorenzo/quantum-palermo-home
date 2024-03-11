@@ -7,7 +7,7 @@ authors:
 - N. Lo Gullo
 - Salvatore Lorenzo
 date: '2013-01-01'
-publishDate: '2024-03-10T10:46:54.023767Z'
+publishDate: '2024-03-11T07:21:09.178987Z'
 publication_types:
 - article-journal
 publication: '*Open Systems and Information Dynamics*'

@@ -7,7 +7,7 @@ authors:
 - Salvatore Lorenzo
 - F. Plastina
 date: '2013-01-01'
-publishDate: '2024-03-10T10:46:54.062297Z'
+publishDate: '2024-03-11T07:21:09.215725Z'
 publication_types:
 - article-journal
 publication: '*Physical Review Letters*'

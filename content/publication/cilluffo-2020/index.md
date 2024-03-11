@@ -5,11 +5,11 @@ authors:
 - G. Buonaiuto
 - Salvatore Lorenzo
 - G.M. Palma
-- F. Ciccarello
+- Francesco Ciccarello
 - F. Carollo
 - I. Lesanovsky
 date: '2020-01-01'
-publishDate: '2024-03-10T10:46:53.478834Z'
+publishDate: '2024-03-11T07:21:08.628513Z'
 publication_types:
 - article-journal
 publication: '*Physical Review Research*'

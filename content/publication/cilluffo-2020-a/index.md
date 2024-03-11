@@ -2,13 +2,13 @@
 title: Collisional Picture of Quantum Optics with Giant Emitters
 authors:
 - D. Cilluffo
-- A. Carollo
+- Angelo Carollo
 - Salvatore Lorenzo
 - J.A. Gross
 - G.M. Palma
-- F. Ciccarello
+- Francesco Ciccarello
 date: '2020-01-01'
-publishDate: '2024-03-10T10:46:53.495813Z'
+publishDate: '2024-03-11T07:21:08.648325Z'
 publication_types:
 - article-journal
 publication: '*Physical Review Research*'

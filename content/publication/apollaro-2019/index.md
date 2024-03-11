@@ -7,7 +7,7 @@ authors:
 - A. Ferraro
 - S. Paganelli
 date: '2019-01-01'
-publishDate: '2024-03-10T10:46:53.386714Z'
+publishDate: '2024-03-11T07:21:08.540347Z'
 publication_types:
 - article-journal
 publication: '*Physical Review A*'

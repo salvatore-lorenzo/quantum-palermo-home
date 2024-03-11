@@ -3,11 +3,11 @@ title: Heat Flux and Quantum Correlations in Dissipative Cascaded Systems
 authors:
 - Salvatore Lorenzo
 - A. Farace
-- F. Ciccarello
+- Francesco Ciccarello
 - G.M. Palma
 - V. Giovannetti
 date: '2015-01-01'
-publishDate: '2024-03-10T10:46:53.730463Z'
+publishDate: '2024-03-11T07:21:08.883505Z'
 publication_types:
 - article-journal
 publication: '*Physical Review A - Atomic, Molecular, and Optical Physics*'

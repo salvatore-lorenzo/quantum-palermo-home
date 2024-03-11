@@ -5,7 +5,7 @@ authors:
 - Salvatore Lorenzo
 - S. Longhi
 date: '2020-01-01'
-publishDate: '2024-03-10T10:46:53.561527Z'
+publishDate: '2024-03-11T07:21:08.713634Z'
 publication_types:
 - article-journal
 publication: '*Photonics*'

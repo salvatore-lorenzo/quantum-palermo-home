@@ -2,11 +2,11 @@
 title: Quantum Non-Markovian Piecewise Dynamics from Collision Models
 authors:
 - Salvatore Lorenzo
-- F. Ciccarello
+- Francesco Ciccarello
 - G.M. Palma
 - B. Vacchini
 date: '2017-01-01'
-publishDate: '2024-03-10T10:46:53.829433Z'
+publishDate: '2024-03-11T07:21:08.982355Z'
 publication_types:
 - article-journal
 publication: '*Open Systems and Information Dynamics*'

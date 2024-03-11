@@ -7,7 +7,7 @@ authors:
 - F. Plastina
 - G.L. Giorgi
 date: '2013-01-01'
-publishDate: '2024-03-10T10:46:53.999318Z'
+publishDate: '2024-03-11T07:21:09.154558Z'
 publication_types:
 - article-journal
 publication: '*Physical Review A - Atomic, Molecular, and Optical Physics*'

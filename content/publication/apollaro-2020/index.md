@@ -6,7 +6,7 @@ authors:
 - W.J. Chetcuti
 - Salvatore Lorenzo
 date: '2020-01-01'
-publishDate: '2024-03-10T10:46:53.398369Z'
+publishDate: '2024-03-11T07:21:08.552082Z'
 publication_types:
 - article-journal
 publication: '*Physics Letters, Section A: General, Atomic and Solid State Physics*'

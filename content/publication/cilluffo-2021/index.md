@@ -4,13 +4,13 @@ authors:
 - D. Cilluffo
 - G. Buonaiuto
 - I. Lesanovsky
-- A. Carollo
+- Angelo Carollo
 - Salvatore Lorenzo
 - G. Palma
-- F. Ciccarello
+- Francesco Ciccarello
 - F. Carollo
 date: '2021-01-01'
-publishDate: '2024-03-10T10:46:53.515635Z'
+publishDate: '2024-03-11T07:21:08.669620Z'
 publication_types:
 - article-journal
 publication: '*Quantum Science and Technology*'

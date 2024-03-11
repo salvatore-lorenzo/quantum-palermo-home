@@ -8,7 +8,7 @@ authors:
 - G.L. Giorgi
 - F. Plastina
 date: '2015-01-01'
-publishDate: '2024-03-10T10:46:53.374987Z'
+publishDate: '2024-03-11T07:21:08.528224Z'
 publication_types:
 - article-journal
 doi: 10.1088/0031-8949/2015/T165/014036

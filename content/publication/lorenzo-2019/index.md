@@ -6,7 +6,7 @@ authors:
 - M. Paternostro
 - G.M. Palma
 date: '2019-01-01'
-publishDate: '2024-03-10T10:46:53.908206Z'
+publishDate: '2024-03-11T07:21:09.067210Z'
 publication_types:
 - article-journal
 publication: '*Open Systems and Information Dynamics*'

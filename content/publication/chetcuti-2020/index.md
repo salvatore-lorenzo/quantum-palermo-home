@@ -6,7 +6,7 @@ authors:
 - Salvatore Lorenzo
 - T.J.G. Apollaro
 date: '2020-01-01'
-publishDate: '2024-03-10T10:46:53.434797Z'
+publishDate: '2024-03-11T07:21:08.588877Z'
 publication_types:
 - article-journal
 publication: '*New Journal of Physics*'

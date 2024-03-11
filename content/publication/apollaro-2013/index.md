@@ -5,7 +5,7 @@ authors:
 - Salvatore Lorenzo
 - F. Plastina
 date: '2013-01-01'
-publishDate: '2024-03-10T10:46:53.352043Z'
+publishDate: '2024-03-11T07:21:08.505029Z'
 publication_types:
 - article-journal
 publication: '*International Journal of Modern Physics B*'

@@ -5,10 +5,10 @@ authors:
 - Salvatore Lorenzo
 - G. Calajò
 - G. Massimo Palma
-- A. Carollo
-- F. Ciccarello
+- Angelo Carollo
+- Francesco Ciccarello
 date: '2022-01-01'
-publishDate: '2024-03-10T10:46:54.048386Z'
+publishDate: '2024-03-11T07:21:09.202933Z'
 publication_types:
 - article-journal
 publication: '*Optica*'

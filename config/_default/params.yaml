@@ -7,8 +7,8 @@
 
 appearance:
   theme_day: minimal2
-  font: native
-  font_size: S
+  font: cyberpunk
+  font_size: M
 
 # SEO
 

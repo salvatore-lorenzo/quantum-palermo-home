@@ -44,7 +44,7 @@ sections:
     design:
       # See Page Builder docs for all section customization options.
       # Choose how many columns the section has. Valid values: '1' or '2'.
-      columns: '1'
+      columns: '2'
       # Choose a listing view
       view: masonry
       # For Showcase view, flip alternate rows?

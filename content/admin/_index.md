@@ -1,46 +1,35 @@
 ---
 # Display name
-title: "Angelo Carollo"
+title: Qunipa
 
 # Full Name (for SEO)
-first_name: Angelo
-last_name: Carollo
+first_name: Qunipa
+last_name: Palermo Quantum Theory Group
 
 # Username (this should match the folder name and the name on publications)
 authors:
-- "carollo"
+- "admin"
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role: Associate Professor
+role: 
 
 # Organizations/Affiliations
 organizations:
-  - name: University of Palermo
-    url: 'https://www.unipa.it/persone/docenti/l/angelo.carollo'
+- name: Palermo Quantum Theory Group
+  url: "https://quantum.unipa.it"
 
 # Short bio (displayed in user profile at end of posts)
 bio: 
 
 # List each interest with a dash
 interests:
-- Quantum topology
-- Quantum optics
-- Quantum metrology
-- Quantum statistical physics
+
 
 education:
-  courses:
-    - course: PhD in Physics 
-      institution: Imperial College of London
-      url_institution: https://www.unical.it/
-      year: 2004
-    - course: M.S. in Physics
-      institution: University of Palermo 
-      url_institution: https://www.unical.it/
-      year: 2000
+
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -66,7 +55,7 @@ social:
 #   link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: "angelo.carollo@unipa.it"
+email: "quantum.unipa.it"
 
 # Highlight the author in author lists? (true/false)
 highlight_name: false
@@ -74,6 +63,12 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Staff
 ---
-Angelo Carollo is Associate Professor of Theoretical Physics at the Department of Physics and Chemistry of the University of Palermo. He completed his PhD in quantum optics and quantum information in 2004 at Imperial College London. He has been a postdoctoral fellow in at the University of Cambridge and a Marie Curie fellow at the University of Innsbruck. After an experience in the financial industry in London, he joined the University of Palermo in 2010. His current research interests range from Hermitian and non-Hermitian topological properties in condensed matter and quantum optics,  quantum metrology, and equilibrium and non-equilibrium quantum statistical physics. He has given seminal contributions to the development of geometric information approaches in open quantum systems and quantum critical phenomena. He authored over 60 articles, attracting more than 2500 citations [h-index = 25]. 
+The Quantum Theory Group at Palermo University conducts ...... research. 
+
+Research Interests:
+ - Quantum
+ - Quantum
+ - Quantum
+ - Quantum
+ - Quantum

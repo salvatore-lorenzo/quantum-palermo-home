@@ -37,13 +37,17 @@ main:
     url: research_lines/topo
     weight: 4
   - parent: Research
+    name: Quantum materials
+    url: research_lines/mater
+    weight: 5  
+  - parent: Research
     name: Quantum Machine Learning
     url: research_lines/qml
-    weight: 5
+    weight: 6
   - parent: Research
     name: Fundamentals
     url: research_lines/fundamentals
-    weight: 6
+    weight: 7
   - name: People
     url: people
     weight: 30

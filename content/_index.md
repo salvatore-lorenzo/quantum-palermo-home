@@ -3,40 +3,34 @@ title:
 date: 2022-10-24
 type: landing 
 
-sections:
- #- block: hero
- #  content:
- #    title: 
- #    image:
- #      # Reference an image in your `assets/media/` folder
- #      filename: logo_colori.png
- #    # Add your Hero text here
- #    text: |
- #      <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut# labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco# laboris nisi ut aliquip ex ea commodo consequat.<h6>
- #      <!doctype html>
- #      <html lang="en">
- #      <body>
- #        <img src="logo.png" align="left" /><p>Your text goes here.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut# labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco# laboris nisi ut aliquip ex ea commodo consequat</p>
- #      </body>
- #      </html>
-    
 
-  - block: markdown
+
+sections:
+  - block: myabout
     content:
-      title: #Quantum Palermo
-      subtitle: #Quantum research group of University of Palermo
-      text: |
-        <html lang="en">
-        <body>
-          <h1>Quantum Theory Group</h1>
-          <img src="logo-colori.svg" align="right" hspace="30" vspace="30" width="300" />
-          
-          <p>
-          Quantum Your text goes here.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut# labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco# laboris nisi ut aliquip ex ea commodo consequat. Your text goes here.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut# labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco# laboris nisi ut aliquip ex ea commodo consequat. 
-          </p>
-          <img src="foto_gruppo.jpg" align="left" hspace="20" vspace="20" width="400" /> Your text goes here.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut# labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco# laboris nisi ut aliquip ex ea commodo consequat. Your text goes here.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut# labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco# laboris nisi ut aliquip ex ea commodo consequat
-        </body>
-        </html> 
+      username: 'admin'
+      text:
+      design:
+        columns: '2'
+      show_interests: false
+      
+       
+  #- block: markdown
+  #  content:
+  #    title: #Quantum Palermo
+  #    subtitle: #Quantum research group of University of Palermo
+  #    text: |
+  #      <html lang="en">
+  #      <body>
+  #        <h1>Quantum Theory Group</h1>
+  #        <img src="logo-colori.svg" align="right" hspace="30" vspace="30" width="300" />
+  #        
+  #        <p>
+  #        Quantum Your text goes here.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut# labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco# laboris nisi ut aliquip ex ea commodo consequat. Your text goes here.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut# labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco# laboris nisi ut aliquip ex ea commodo consequat. 
+  #        </p>
+  #        <img src="foto_gruppo.jpg" align="left" hspace="20" vspace="20" width="400" /> Your text goes here.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut# labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco# laboris nisi ut aliquip ex ea commodo consequat. Your text goes here.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut# labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco# laboris nisi ut aliquip ex ea commodo consequat
+  #      </body>
+  #      </html> 
   - block: portfolio
     id: research
     content:

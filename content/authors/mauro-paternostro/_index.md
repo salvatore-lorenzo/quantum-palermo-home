@@ -19,7 +19,7 @@ role: Full Professor
 # Organizations/Affiliations
 organizations:
   - name: University of Palermo
-    url: 'https://www.unipa.it/persone/docenti/l/mauro.paternostro'
+    url: 'https://www.unipa.it/persone/docenti/p/mauro.paternostro'
   - name: Queen's University Belfast 
     url: 'https://pure.qub.ac.uk/en/persons/mauro-paternostro'
 
@@ -36,11 +36,11 @@ education:
   courses:
     - course: PhD in Physics
       institution: Queen’s University Belfast
-      url_institution: https://www.unical.it/
+      url_institution: https://pure.qub.ac.uk/en
       year: 2005
     - course: M.S. in Physics
       institution: University of Palermo
-      url_institution: https://www.unical.it/
+      url_institution: https://www.unipa.it/
       year: 2002
 
 # Social/Academic Networking
@@ -49,9 +49,9 @@ education:
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 
 social:
-  - icon: home
-    icon_pack: fa
-    link: https://www.unipa.it/persone/docenti/p/mauro.paternostro #Personal home Page
+  #- icon: home
+  #  icon_pack: fa
+  #  link: https://www.unipa.it/persone/docenti/p/mauro.paternostro #Personal home Page
   - icon: envelope
     icon_pack: fas
     link: 'mailto:mauro.paternostro@unipa.it' #mail

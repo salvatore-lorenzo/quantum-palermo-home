@@ -46,19 +46,31 @@ education:
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
+
 social:
-- icon: envelope
-  icon_pack: fas
-  link: '#contact'  # For a direct email link, use "mailto:test@example.org".
-- icon: twitter
-  icon_pack: fab
-  link: https://twitter.com/USERNAME
-- icon: google-scholar
-  icon_pack: ai
-  link: https://scholar.google.com/citations?user=PERSON-ID
-- icon: github
-  icon_pack: fab
-  link: https://github.com/USERNAME
+  #- icon: home
+  #  icon_pack: fa
+  #  link: # Personal home Page
+  - icon: envelope
+    icon_pack: fas
+    link: 'mailto:angelo.carollo@unipa.it' #mail
+  - icon: orcid
+    icon_pack: fab
+    link: https://orcid.org/0000-0002-4402-2207    #ORCID
+  #- icon: google-scholar 
+  #  icon_pack: ai
+  #  link : https://scholar.google.com/citations?user=Y0acCRcAAAAJ&hl=it&oi=ao #SCHOLAR
+  #- icon: arxiv
+  #  icon_pack: ai
+  #  link: http://arxiv.org/a/artini_s_1 #ARXIV
+  - icon: researcherid
+    icon_pack: ai
+    link: https://www.webofscience.com/wos/author/record/B-1118-2012 #WOS
+  - icon: linkedin
+    icon_pack: fab
+    link: https://www.linkedin.com/in/angelo-carollo-2457b72 #LINKEDIN
+
+
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv

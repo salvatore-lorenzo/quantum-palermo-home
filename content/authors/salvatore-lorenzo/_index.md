@@ -32,7 +32,7 @@ education:
   courses:
     - course: PhD in Physics and Quantum Tech.
       institution: Università della Calabria 
-      url_institution: https://www.unical.it/
+      url_institution: 'https://www.unical.it/'
       year: 2011
     - course: M.S. in Physics
       institution: Università della Calabria 
@@ -83,10 +83,11 @@ highlight_name: false
 user_groups:
   - Staff
 ---
+<span style="font-family: jura; font-size: 1em;">
 Salvatore Lorenzo is Associate Professor of Physics (SSD Fis/03 - Physics of Matter) at the Department of
 Physics and Chemistry of the University of Palermo. He received his PhD
 from the University of Calabria in 2011 and held research positions at the
 University of Calabria, Palermo and Milan. Over the course of the last ten
 years, he has published over 40 papers addressing open quantum systems
 dynamics, quantum optics, quantum information, quantum
-thermodynamics, and quantum machine learning. 
+thermodynamics, and quantum machine learning.</span>

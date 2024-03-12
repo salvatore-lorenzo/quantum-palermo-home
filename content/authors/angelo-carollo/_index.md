@@ -19,7 +19,7 @@ role: Associate Professor
 # Organizations/Affiliations
 organizations:
   - name: University of Palermo
-    url: 'https://www.unipa.it/persone/docenti/l/angelo.carollo'
+    url: 'https://www.unipa.it/persone/docenti/c/angelo.carollo'
 
 # Short bio (displayed in user profile at end of posts)
 bio: 

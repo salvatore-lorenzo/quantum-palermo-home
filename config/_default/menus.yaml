@@ -46,7 +46,7 @@ main:
     weight: 6
   - parent: Research
     name: Quantum Foundations
-    url: research_lines/fundamentals
+    url: research_lines/found
     weight: 7
   - name: People
     url: people

@@ -1,5 +1,5 @@
 ---
-title: '#### Quantum <br> foundations {style="text-align: center;"}'
+title: '#### Quantum <br> Foundations {style="text-align: center;"}'
 date: none
 type: landing
 tags:

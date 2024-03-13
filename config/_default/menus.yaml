@@ -29,7 +29,7 @@ main:
     url: research_lines/qinfo
     weight: 2  
   - parent: Research
-    name: Quantum metrology
+    name: Quantum Metrology
     url: research_lines/metro
     weight: 3
   - parent: Research
@@ -37,7 +37,7 @@ main:
     url: research_lines/topo
     weight: 4
   - parent: Research
-    name: Quantum materials
+    name: Quantum Materials
     url: research_lines/mater
     weight: 5  
   - parent: Research
@@ -45,7 +45,7 @@ main:
     url: research_lines/qml
     weight: 6
   - parent: Research
-    name: Fundamentals
+    name: Quantum Foundations
     url: research_lines/fundamentals
     weight: 7
   - name: People

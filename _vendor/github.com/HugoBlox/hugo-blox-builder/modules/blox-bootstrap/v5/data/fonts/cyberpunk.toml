@@ -6,6 +6,6 @@ google_fonts = "family=B612+Mono&family=B612:wght@400;700&family=Jura:wght@400;7
 
 # Font families
 heading_font = "Jura"
-body_font = "B612"
+body_font = "Jura"
 nav_font = "Jura"
 mono_font = "B612 Mono"

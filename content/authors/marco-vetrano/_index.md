@@ -19,7 +19,7 @@ role: Phd Student
 # Organizations/Affiliations
 organizations:
   - name: University of Palermo
-    url: ‘https://www.unipa.it/dipartimenti/difc/dottorati/scienzefisicheechimiche/allievi.html’
+    url: 'https://www.unipa.it/dipartimenti/difc/dottorati/scienzefisicheechimiche/en/phd-students/'
 
 # List each interest with a dash
 interests:
@@ -43,9 +43,9 @@ education:
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 
 social:
-  - icon: home
-    icon_pack: fa
-    link: # Personal home Page
+  #- icon: home
+  #  icon_pack: fa
+  #  link: # Personal home Page
   - icon: envelope
     icon_pack: fas
     link: marco.vetrano02@unipa.it #mail
@@ -55,12 +55,12 @@ social:
   - icon: google-scholar 
     icon_pack: ai
     link: https://scholar.google.com/citations?user=2bd9lfIAAAAJ&hl=it #SCHOLAR
-  - icon: arxiv
-    icon_pack: ai
-    link: https://arxiv.org/a/     #ARXIV
-  - icon: researcherid
-    icon_pack: ai
-    link: https://www.webofscience.com/wos/author/record/     #WOS
+  #- icon: arxiv
+  #  icon_pack: ai
+  #  link: https://arxiv.org/a/     #ARXIV
+  #- icon: researcherid
+  #  icon_pack: ai
+  #  link: https://www.webofscience.com/wos/author/record/     #WOS
   - icon: linkedin
     icon_pack: fab
     link: https://www.linkedin.com/in/marco-vetrano-1171a02ba/ #LINKEDIN

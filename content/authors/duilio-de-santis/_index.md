@@ -14,26 +14,28 @@ authors:
 superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role: PhD student
+role: PhD Student
 
 # Organizations/Affiliations
 organizations:
   - name: University of Palermo
-    url: 'https://www.unipa.it/persone/docenti/l/name.surname'
+    url: 'https://www.unipa.it/dipartimenti/difc/dottorati/scienzefisicheechimiche/en/phd-students/'
 
 # List each interest with a dash
 interests:
-- Interest 1
-- Interest 2
+- Soliton dynamics
+- Sine-Gordon model
+- Josephson junctions
+- Ultracold atoms
 
 education:
   courses:
-  - course: Title course 1
-    institution: Name of Institution
-    year: 2012
-  - course: Title course 1
-    institution: Name of Institution
-    year: 2012
+  - course: Bachelor’s Degree in Physics
+    institution: University of Palermo
+    year: 2018
+  - course: Master’s Degree in Physics
+    institution: University of Palermo
+    year: 2021
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -43,25 +45,19 @@ education:
 social:
   - icon: home
     icon_pack: fa
-    link: # Personal home Page
+    link: https://twitter.com/duilio_desantis
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:' #mail
+    link: 'mailto:duilio.desantis@unipa.it'
   - icon: orcid
     icon_pack: fab
-    link: https://orcid.org/    #ORCID
+    link: https://orcid.org/0000-0001-6501-9763
   - icon: google-scholar 
     icon_pack: ai
-    link: https://scholar.google.it/   #SCHOLAR
+    link: https://scholar.google.it/citations?user=TEFc0EAAAAAJ&hl=it
   - icon: arxiv
     icon_pack: ai
-    link: https://arxiv.org/a/     #ARXIV
-  - icon: researcherid
-    icon_pack: ai
-    link: https://www.webofscience.com/wos/author/record/     #WOS
-  - icon: linkedin
-    icon_pack: fab
-    link: https://www.linkedin.com/in/     #LINKEDIN
+    link: https://arxiv.org/a/0000-0001-6501-9763.html
 
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
@@ -78,5 +74,4 @@ highlight_name: false
 user_groups:
 - PhD Students
 ---
-
-Short bio
+My current research activity focuses on nonlinear and collective phenomena in various physical systems. Within the framework of the classical and quantum sine-Gordon model, I study the properties of soliton excitations in, e.g., Josephson junctions and ultracold atoms. My research typically involves both computational and analytical approaches. I especially enjoy working on theories that are in close contact with experiments. 

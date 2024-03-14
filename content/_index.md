@@ -86,12 +86,18 @@ sections:
     content:
       text: |
         {{< paige/gallery align="center" >}}
-        {{< paige/image class="rounded" style="padding: .2rem" height="6rem" maxheight="5rem" link="https://unipa.it" src="./sponsors/mur.webp" >}} 
-        {{< paige/image class="rounded" style="padding: .2rem" height="6rem" maxheight="5rem" link="https://unipa.it" src="./sponsors/cnr.png" >}}
-        {{< paige/image class="rounded" style="padding: .2rem" height="6rem" maxheight="5rem" link="https://unipa.it" src="./sponsors/unipa.png" >}}
-        {{< paige/image class="rounded" style="padding: .2rem" height="6rem" maxheight="5rem" link="https://unipa.it" src="./sponsors/quantera.jpg" >}}
-        {{< paige/image class="rounded" style="padding: .2rem" height="6rem" maxheight="5rem" link="https://unipa.it" src="./sponsors/cattedrale3.jpg" >}}
-        {{< paige/image class="rounded" style="padding: .2rem" height="6rem" maxheight="5rem" link="https://unipa.it" src="./sponsors/cattedrale3.jpg" >}}
+        {{< paige/image class="rounded" style="padding: .2rem" height="6rem" maxheight="5rem" link="https://unipa.it" 
+        src="./sponsors/unipa.png" >}} 
+        {{< paige/image class="rounded" style="padding: .2rem" height="6rem" maxheight="5rem" link="https://unipa.it" 
+        src="./sponsors/prin.jpeg" >}}
+        {{< paige/image class="rounded" style="padding: .2rem" height="6rem" maxheight="5rem" link="https://unipa.it" 
+        src="./sponsors/ibm.png" >}}
+        {{< paige/image class="rounded" style="padding: .2rem" height="6rem" maxheight="5rem" link="https://unipa.it" 
+        src="./sponsors/corsi_mo.jpg" >}}
+        {{< paige/image class="rounded" style="padding: .2rem" height="6rem" maxheight="5rem" link="https://unipa.it" 
+        src="./sponsors/epsrc.jpg" >}}
+        {{< paige/image class="rounded" style="padding: .2rem" height="6rem" maxheight="5rem" link="https://unipa.it" 
+        src="./sponsors/royal.png" >}}
         {{< /paige/gallery >}}
         {{< paige/gallery breakpoints=true images="*.jpg" />}}
         <p class="text-center">

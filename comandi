@@ -1,0 +1,7 @@
+academic import lorenzo.bib content/publication/ --compact --overwrite
+
+hugo server -D
+hugo --gc --minify
+rsync -avuzh ./public/ salvatore.lorenzo@sftp.unipa.it:/mnt/home/salvatore.lorenzo/www-quantum
+
+rsync -avuzh ./materiale_sito/ salvatore.lorenzo@sftp.unipa.it:/mnt/home/salvatore.lorenzo/mate

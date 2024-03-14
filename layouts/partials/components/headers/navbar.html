@@ -169,7 +169,7 @@
         {{ $has_day_night_themes := (and site.Params.appearance.theme_day site.Params.appearance.theme_night) }}
         {{ if and $has_day_night_themes $show_day_night }}
         <li class="nav-item dropdown theme-dropdown">
-          <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="{{ i18n "theme_selector" | default "Display preferences" }}">
+          <a href="#" class="nav-link"  aria-haspopup="true" aria-label="{{ i18n "theme_selector" | default "Display preferences" }}">
             <i class="fas fa-moon" aria-hidden="true"></i>
           </a>
           <div class="dropdown-menu">

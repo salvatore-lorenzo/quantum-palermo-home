@@ -14,7 +14,7 @@ defaultContentLanguage: en
 hasCJKLanguage: false
 defaultContentLanguageInSubdir: false
 removePathAccents: true
-
+hideColorSchemeToggle: false
 ############################
 ## ADVANCED
 ############################
@@ -47,6 +47,7 @@ taxonomies:
   author: authors
 markup:
   _merge: deep
+  defaultMarkdownHandler: goldmark
 related:
   threshold: 80
   includeNewer: true

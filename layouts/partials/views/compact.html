@@ -11,7 +11,7 @@
 {{ if eq $item.Type "event" }}
   {{ $show_authors_only = true }}
 {{ else if eq $item.Type "publication" }}
-  {{ $show_authors_only = true }}
+  {{ $show_authors_only = false }}
 {{ else if eq $item.Type "project" }}
   {{ $show_authors_only = true }}
 {{ end }}
@@ -58,7 +58,7 @@
       {{ end }}
 
       {{ if and $show_authors_only $item.Params.authors }}
-      <div  style="font-size: 12px">
+      <div  style="font-size: 14px">
         {{ partial "page_metadata_authors" $item }}
       </div>
       {{ else if not $show_authors_only }}

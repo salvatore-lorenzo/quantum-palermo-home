@@ -87,13 +87,13 @@ sections:
       text: |
         {{< paige/gallery align="center" >}}
         {{< paige/image class="rounded" style="padding: .2rem" height="6rem" maxheight="5rem" link="https://unipa.it" 
-        src="./sponsors/unipa.png" >}} 
+        src="./sponsors/unipa.jpeg" >}} 
         {{< paige/image class="rounded" style="padding: .2rem" height="6rem" maxheight="5rem" link="https://unipa.it" 
         src="./sponsors/prin.jpeg" >}}
         {{< paige/image class="rounded" style="padding: .2rem" height="6rem" maxheight="5rem" link="https://unipa.it" 
         src="./sponsors/ibm.png" >}}
         {{< paige/image class="rounded" style="padding: .2rem" height="6rem" maxheight="5rem" link="https://unipa.it" 
-        src="./sponsors/corsi_mo.jpg" >}}
+        src="./sponsors/corsimo.jpg" >}}
         {{< paige/image class="rounded" style="padding: .2rem" height="6rem" maxheight="5rem" link="https://unipa.it" 
         src="./sponsors/epsrc.jpg" >}}
         {{< paige/image class="rounded" style="padding: .2rem" height="6rem" maxheight="5rem" link="https://unipa.it" 

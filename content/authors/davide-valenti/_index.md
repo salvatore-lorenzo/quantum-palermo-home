@@ -23,6 +23,15 @@ organizations:
 
 # List each interest with a dash
 interests:
+  - Statistical properties of matter in quantum physics
+  - Open quantum systems
+  - Metastable quantum states.
+  - Noise effects in quantum systems.
+  - Quantum phase transitions.
+  - Theoretical treatment and modeling for classical physical systems
+  - Noise-induced effects in nonlinear systems.
+  - Noise effects on superconducting devices.
+  - Josephson junctions for axion detection.
 
 
 

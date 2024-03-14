@@ -3,7 +3,7 @@
 title: G. M. Palma
 
 # Full Name (for SEO)
-first_name: Massimo
+first_name: Massimo <br> Palma
 last_name: Palma
 
 # Is this the primary user of the site?

@@ -3,7 +3,7 @@
 title: "A. Carollo"
 
 # Full Name (for SEO)
-first_name: Angelo
+first_name: Angelo <br> Carollo
 last_name: Carollo
 
 # Username (this should match the folder name and the name on publications)
@@ -88,4 +88,4 @@ highlight_name: false
 user_groups:
 - Staff
 ---
-Angelo Carollo is Associate Professor of Theoretical Physics at the Department of Physics and Chemistry of the University of Palermo. He completed his PhD in quantum optics and quantum information in 2004 at Imperial College London. He has been a postdoctoral fellow in at the University of Cambridge and a Marie Curie fellow at the University of Innsbruck. After an experience in the financial industry in London, he joined the University of Palermo in 2010. His current research interests range from Hermitian and non-Hermitian topological properties in condensed matter and quantum optics,  quantum metrology, and equilibrium and non-equilibrium quantum statistical physics. He has given seminal contributions to the development of geometric information approaches in open quantum systems and quantum critical phenomena. He authored over 60 articles, attracting more than 2500 citations [h-index = 25]. 
+Angelo Carollo is Associate Professor of Theoretical Physics at the Department of Physics and Chemistry of the University of Palermo. He completed his PhD in quantum optics and quantum information in 2004 at Imperial College London. He has been a postdoctoral fellow in at the University of Cambridge and a Marie Curie fellow at the University of Innsbruck. After an experience in the financial industry in London, he joined the University of Palermo in 2010. His current research interests range from Hermitian and non-Hermitian topological properties in condensed matter and quantum optics,  quantum metrology, and equilibrium and non-equilibrium quantum statistical physics. He has given seminal contributions to the development of geometric information approaches in open quantum systems and quantum critical phenomena. He authored over 60 articles, attracting more than 2500 citations. 

@@ -3,7 +3,7 @@
 title: "A. Romancino"
 
 # Full Name (for SEO)
-first_name: Alessandro
+first_name: Alessandro <br> Romancino
 last_name: Romancino
 
 # Username (this should match the folder name and the name on publications)

@@ -3,7 +3,7 @@
 title: "M. Vetrano"
 
 # Full Name (for SEO)
-first_name: Marco
+first_name: Marco <br> Vetrano
 last_name: Vetrano
 
 # Username (this should match the folder name and the name on publications)
@@ -48,7 +48,7 @@ social:
   #  link: # Personal home Page
   - icon: envelope
     icon_pack: fas
-    link: marco.vetrano02@unipa.it #mail
+    link: 'mailto:marco.vetrano02@unipa.it' #mail
   - icon: orcid
     icon_pack: fab
     link: https://orcid.org/0009-0004-9775-354X #ORCID

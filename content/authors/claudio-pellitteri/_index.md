@@ -3,7 +3,7 @@
 title: "C. Pellitteri"
 
 # Full Name (for SEO)
-first_name: Claudio
+first_name: Claudio <br> Pellitteri
 last_name: Pellitteri
 
 # Username (this should match the folder name and the name on publications)
@@ -41,9 +41,9 @@ education:
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 
 social:
-  - icon: home
-    icon_pack: fa
-    link: # Personal home Page
+  #- icon: home
+  #  icon_pack: fa
+  #  link: # Personal home Page
   - icon: envelope
     icon_pack: fas
     link: 'mailto:claudio.pellitteri01@unipa.it' #mail
@@ -53,15 +53,15 @@ social:
   - icon: google-scholar 
     icon_pack: ai
     link: https://scholar.google.com/citations?user=pGtkmLsAAAAJ&hl=it&oi=ao   #SCHOLAR
-  - icon: arxiv
-    icon_pack: ai
-    link: https://arxiv.org/a/     #ARXIV
-  - icon: researcherid
-    icon_pack: ai
-    link: https://www.webofscience.com/wos/author/record/     #WOS
-  - icon: linkedin
-    icon_pack: fab
-    link: https://www.linkedin.com/in/     #LINKEDIN
+  #- icon: arxiv
+  #  icon_pack: ai
+  #  link: https://arxiv.org/a/     #ARXIV
+  #- icon: researcherid
+  #  icon_pack: ai
+  #  link: https://www.webofscience.com/wos/author/record/     #WOS
+  #- icon: linkedin
+  #  icon_pack: fab
+  #  link: https://www.linkedin.com/in/     #LINKEDIN
 
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.

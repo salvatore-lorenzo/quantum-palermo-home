@@ -3,7 +3,7 @@
 title: "M. Paternostro"
 
 # Full Name (for SEO)
-first_name: Mauro
+first_name: Mauro <br> Paternostro
 last_name: Paternostro
 
 # Username (this should match the folder name and the name on publications)
@@ -89,6 +89,6 @@ user_groups:
 ---
 
 Mauro is Full Professor of Quantum Information Science at the Department of Physics and Chemistry and Professor of Quantum Optics at Queen’s University Belfast (QUB). He was awarded his PhD in 2005 (QUB) and was a Leverhulme Trust Early Career Fellow (2005-2008) at QUB and Universität Wien (Austria), a visiting Research Fellow at University of Queensland (Australia, 2008), and an EPSRC Career Acceleration Fellow at QUB (2008-2014).  
-He became Lecturer at QUB in 2008, has been awarded an Alexander von Humboldt Fellowship for Senior Scientists in 2011. He has authored 250+ research papers published in top-tier journals, attracting 16000+ citations (h-index=66) and € 20M+ of research funding.  
+He became Lecturer at QUB in 2008, has been awarded an Alexander von Humboldt Fellowship for Senior Scientists in 2011. He has authored 250+ research papers published in top-tier journals, attracting 16000+ citations and € 20M+ of research funding.  
 He is Editor in Chief of Quantum Science and Technology and a member of the Editorial Board of Optics Communications, EPJ Quantum Technology, Entropy, and Physical Review Research. Mauro has contributed extensively – through both theory and experimental endeavours --  to the development of quantum frameworks for cavity optomechanics, the understanding of the thermodynamics of quantum systems and processes, and the assessment of the quantum to classical transition.  
 

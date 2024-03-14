@@ -3,7 +3,7 @@
 title: "D. Valenti"
 
 # Full Name (for SEO)
-first_name: Davide
+first_name: Davide <br> Valenti
 last_name: Valenti
 
 # Username (this should match the folder name and the name on publications)
@@ -23,7 +23,7 @@ organizations:
 
 # List each interest with a dash
 interests:
-- Statistical properties of matter in quantum physics
+
 
 
 

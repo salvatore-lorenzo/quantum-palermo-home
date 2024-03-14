@@ -33,8 +33,8 @@ main:
     url: research_lines/metro
     weight: 3
   - parent: Research
-    name: Topology
-    url: research_lines/topo
+    name: Waveguide QED
+    url: research_lines/wqed
     weight: 4
   - parent: Research
     name: Quantum Materials

@@ -3,8 +3,8 @@
 title: "D. De Santis"
 
 # Full Name (for SEO)
-first_name: 
-last_name: 
+first_name: Duilio <br> De Santis
+last_name: De Santis
 
 # Username (this should match the folder name and the name on publications)
 authors:
@@ -43,12 +43,12 @@ education:
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 
 social:
-  - icon: home
-    icon_pack: fa
-    link: https://twitter.com/duilio_desantis
   - icon: envelope
     icon_pack: fas
     link: 'mailto:duilio.desantis@unipa.it'
+  - icon: twitter
+    icon_pack: fab
+    link: https://twitter.com/duilio_desantis
   - icon: orcid
     icon_pack: fab
     link: https://orcid.org/0000-0001-6501-9763

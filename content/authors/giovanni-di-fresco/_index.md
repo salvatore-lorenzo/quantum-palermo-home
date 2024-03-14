@@ -3,8 +3,8 @@
 title: "G. Di Fresco"
 
 # Full Name (for SEO)
-first_name: 
-last_name: 
+first_name: Giovanni <br> Di Fresco
+last_name: Di Fresco
 
 # Username (this should match the folder name and the name on publications)
 authors:

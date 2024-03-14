@@ -3,7 +3,7 @@
 title: S. Lorenzo
 
 # Full Name (for SEO)
-first_name: Salvatore
+first_name: Salvatore <br> Lorenzo
 last_name: Lorenzo
 
 # Is this the primary user of the site?

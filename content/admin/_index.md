@@ -18,7 +18,7 @@ role:
 
 # Organizations/Affiliations
 organizations:
-- name: Palermo Quantum Theory Group
+- name: 
   url: 
 
 # Short bio (displayed in user profile at end of posts)
@@ -42,12 +42,10 @@ social:
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/USERNAME
-- icon: google-scholar
-  icon_pack: ai
-  link: https://scholar.google.com/citations?user=PERSON-ID
-- icon: github
+- icon: instagram
   icon_pack: fab
-  link: https://github.com/USERNAME
+  link: https://scholar.google.com/citations?user=PERSON-ID
+
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -64,11 +62,15 @@ highlight_name: false
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
 ---
-The Quantum Theory Group at Palermo University conducts ...... research. 
-
-Research Interests:
- - Quantum
- - Quantum
- - Quantum
- - Quantum
- - Quantum
+<html lang="en">
+    <body>
+      <h1>Quantum Theory Group in Palermo</h1>
+      <p>Quantum Your text goes here.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut# labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco# laboris nisi ut aliquip ex ea commodo consequat. Your text goes here.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut# labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco# laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <div style="display: flex; align-items: center;">
+      <img src="foto_gruppo.jpg" alt="Image" style="max-width: 50%; margin-right: 20px;">
+      <div style="flex-grow: 1;">
+      <p>Quantum Your text goes here.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut# labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco# laboris nisi ut aliquip ex ea commodo consequat. Your text goes here.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut# labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco# laboris nisi ut aliquip ex ea commodo consequat..</p>
+      </div>
+      </div> 
+    </body>
+</html> 

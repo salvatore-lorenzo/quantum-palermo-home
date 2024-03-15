@@ -13,6 +13,7 @@ sections:
       design:
         columns: '2'
       show_interests: false
+      
   - block: portfolio
     id: research
     content:
@@ -26,7 +27,7 @@ sections:
         exclude_tags: []
         kinds:
           - page
-      sort_by: 'Title'
+      sort_by: 'tags'
       sort_ascending: false
       default_button_index: 0
     design:

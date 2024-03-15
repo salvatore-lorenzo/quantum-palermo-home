@@ -13,24 +13,6 @@ sections:
       design:
         columns: '2'
       show_interests: false
-      
-       
-  #- block: markdown
-  #  content:
-  #    title: #Quantum Palermo
-  #    subtitle: #Quantum research group of University of Palermo
-  #    text: |
-  #      <html lang="en">
-  #      <body>
-  #        <h1>Quantum Theory Group</h1>
-  #        <img src="logo-colori.svg" align="right" hspace="30" vspace="30" width="300" />
-  #        
-  #        <p>
-  #        Quantum Your text goes here.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut# labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco# laboris nisi ut aliquip ex ea commodo consequat. Your text goes here.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut# labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco# laboris nisi ut aliquip ex ea commodo consequat. 
-  #        </p>
-  #        <img src="foto_gruppo.jpg" align="left" hspace="20" vspace="20" width="400" /> Your text goes here.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut# labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco# laboris nisi ut aliquip ex ea commodo consequat. Your text goes here.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut# labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco# laboris nisi ut aliquip ex ea commodo consequat
-  #      </body>
-  #      </html> 
   - block: portfolio
     id: research
     content:

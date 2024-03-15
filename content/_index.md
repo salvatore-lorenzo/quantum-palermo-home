@@ -31,7 +31,7 @@ sections:
   #        <img src="foto_gruppo.jpg" align="left" hspace="20" vspace="20" width="400" /> Your text goes here.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut# labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco# laboris nisi ut aliquip ex ea commodo consequat. Your text goes here.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut# labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco# laboris nisi ut aliquip ex ea commodo consequat
   #      </body>
   #      </html> 
-  - block: portfolio
+  - block: myportfolio
     id: research
     content:
       title: Research Lines

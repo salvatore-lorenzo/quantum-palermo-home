@@ -19,7 +19,7 @@ role:
 # Organizations/Affiliations
 organizations:
 - name: Palermo Quantum Theory Group
-  url: "https://quantum.unipa.it"
+  url: 
 
 # Short bio (displayed in user profile at end of posts)
 bio: 

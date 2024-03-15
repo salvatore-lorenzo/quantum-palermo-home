@@ -12,7 +12,7 @@ sections:
       title: Quantum Information Theory
       image:
         # Reference an image in your `assets/media/` folder
-        filename: qinfo.jpg
+        filename: qinfo.png
       # Add your Hero text here
       cta_note:
         label: >-

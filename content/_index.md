@@ -61,7 +61,7 @@ sections:
       order: desc
       page_type: 
     design:
-      view: masonry
+      view: card
       columns: '2'
       flip_alt_rows: true
   

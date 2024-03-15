@@ -1,6 +1,6 @@
 ---
 # Display name
-title: "A. Napoli"
+title: "Anna Napoli"
 
 # Full Name (for SEO)
 first_name: Anna <br> Napoli

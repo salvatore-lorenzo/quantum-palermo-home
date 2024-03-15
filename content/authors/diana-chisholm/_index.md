@@ -1,6 +1,6 @@
 ---
 # Display name
-title: "D. Chisholm"
+title: "Diana Chisholm"
 
 # Full Name (for SEO)
 first_name: Diana <br> Chisholm

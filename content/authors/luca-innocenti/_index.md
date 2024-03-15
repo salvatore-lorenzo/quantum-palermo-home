@@ -1,6 +1,6 @@
 ---
 # Display name
-title: "L. Innocenti"
+title: "Luca Innocenti"
 
 # Full Name (for SEO)
 first_name: Luca <br> Innocenti

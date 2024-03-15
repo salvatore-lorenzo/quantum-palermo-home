@@ -1,6 +1,6 @@
 ---
 # Display name
-title: "A. Romancino"
+title: "Alessandro Romancino"
 
 # Full Name (for SEO)
 first_name: Alessandro <br> Romancino

@@ -1,6 +1,6 @@
 ---
 # Display name
-title: "G. Lo Monaco"
+title: "Gabriele Lo Monaco"
 
 # Full Name (for SEO)
 first_name: Gabriele <br> Lo Monaco

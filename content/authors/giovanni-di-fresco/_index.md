@@ -1,6 +1,6 @@
 ---
 # Display name
-title: "G. Di Fresco"
+title: "Giovanni Di Fresco"
 
 # Full Name (for SEO)
 first_name: Giovanni <br> Di Fresco

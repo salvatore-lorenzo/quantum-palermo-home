@@ -1,6 +1,6 @@
 ---
 # Display name
-title: "E. Di Benedetto"
+title: "Enrico Di Benedetto"
 
 # Full Name (for SEO)
 first_name: Enrico <br> Di Benedetto

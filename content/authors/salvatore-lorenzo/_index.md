@@ -1,6 +1,6 @@
 ---
 # Display name
-title: S. Lorenzo
+title: Salvatore Lorenzo
 
 # Full Name (for SEO)
 first_name: Salvatore <br> Lorenzo

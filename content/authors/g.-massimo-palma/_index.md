@@ -1,6 +1,6 @@
 ---
 # Display name
-title: G. M. Palma
+title: G. Massimo Palma
 
 # Full Name (for SEO)
 first_name: Massimo <br> Palma

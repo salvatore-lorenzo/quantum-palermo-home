@@ -1,6 +1,6 @@
 ---
 # Display name
-title: "D. Valenti"
+title: "Davide Valenti"
 
 # Full Name (for SEO)
 first_name: Davide <br> Valenti

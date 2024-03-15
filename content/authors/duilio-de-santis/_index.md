@@ -1,6 +1,6 @@
 ---
 # Display name
-title: "D. De Santis"
+title: "Duillio De Santis"
 
 # Full Name (for SEO)
 first_name: Duilio <br> De Santis

@@ -3,4 +3,9 @@ nav#navbar-main li.nav-item {
   font-size: 14px;
   font-weight: bold;
 }
-
+.avatar {
+  width: 228px;
+  height: 312px;
+  margin: 0 auto;
+  object-fit: contain;
+}

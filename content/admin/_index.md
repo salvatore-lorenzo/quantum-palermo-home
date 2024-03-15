@@ -1,9 +1,9 @@
 ---
 # Display name
-title: Qunipa
+title: 
 
 # Full Name (for SEO)
-first_name: Qunipa
+first_name: 
 last_name: Palermo Quantum Theory Group
 
 # Username (this should match the folder name and the name on publications)

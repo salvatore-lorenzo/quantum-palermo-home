@@ -21,24 +21,24 @@
     {{end}}
 
     {{ $query := where .Pages ".IsNode" false }}
-    {{ $count := len $query }}
-    {{ if $count }}
-    <div class="article-widget content-widget-hr">
-      <h3>{{ i18n "user_profile_latest" | default "Latest" }}</h3>
-      <ul>
-        {{ $maxItems := 10 }}
-        {{ $counter := 0 }}
-        {{ range $query }}
-          {{ if lt $counter $maxItems }}
-            <li>
-              <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-            </li>
-            {{ $counter = add $counter 1 }}
-          {{ end }}
+  {{ $count := len $query }}
+  {{ if $count }}
+  <div class="article-widget content-widget-hr">
+    <h3>{{ i18n "user_profile_latest" | default "Latest" }}</h3>
+    <ul>
+      {{ $maxItems := 10 }}
+      {{ $counter := 0 }}
+      {{ range $query }}
+        {{ if lt $counter $maxItems }}
+          <li>
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+          </li>
+          {{ $counter = add $counter 1 }}
         {{ end }}
-      </ul>
-    </div>
-    {{ end }}
+      {{ end }}
+    </ul>
+  </div>
+  {{ end }}
   </div>
 </section>
 

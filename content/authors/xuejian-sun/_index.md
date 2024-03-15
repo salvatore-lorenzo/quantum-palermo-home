@@ -1,6 +1,6 @@
 ---
 # Display name
-title: "X. Sun"
+title: "Xuejian Sun"
 
 # Full Name (for SEO)
 first_name: Xuejian <br> Sun

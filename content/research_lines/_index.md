@@ -5,7 +5,7 @@ type: landing
 
 
 sections:
-  - block: mypeople
+  - block: portfolio
     id: research
     content:
       title: Research Lines
@@ -22,7 +22,7 @@ sections:
         
         kinds:
       
-      sort_by: 'Title'
+      sort_by: 'tags'
       sort_ascending: false
       default_button_index: 0
       

@@ -5,7 +5,7 @@ type: landing
 
 
 sections:
-  - block: portfolio
+  - block: mypeople
     id: research
     content:
       title: Research Lines

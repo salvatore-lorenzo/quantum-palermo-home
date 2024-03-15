@@ -12,13 +12,24 @@ nav#navbar-main li.nav-item {
 .project-card {
   position: relative;
   width: calc(
-    30% - 5rem
+    22.3% - 13.3px
   ); /* Fluid 3 columns ($gutter * ($number_of_cols - 1) / $number_of_cols; following https://stackoverflow.com/a/51290967) */
+}
+@media screen and (max-width: 1199px) {
+  .project-card {
+    width: calc(
+      50% - 10px
+    ); /* Fluid 2 columns ($gutter * ($number_of_cols - 1) / $number_of_cols; following https://stackoverflow.com/a/51290967) */
+  }
+}
+@media screen and (max-width: 768px) {
+  .project-card {
+    width: 100%; /* 1 column */
+  }
 }
 
 .card .card-text {
   padding: 0.1rem 0.1rem;
-  height: 65px;
 }
 
 .project-card .card{

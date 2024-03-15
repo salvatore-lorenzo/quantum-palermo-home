@@ -1,6 +1,6 @@
 ---
 # Display name
-title: "S. Artini"
+title: "Simone Artini"
 
 # Full Name (for SEO)
 first_name: Simone <br> Artini

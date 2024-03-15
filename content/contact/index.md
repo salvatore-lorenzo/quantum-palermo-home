@@ -22,7 +22,7 @@ sections:
       coordinates:
         latitude: ' 38.1101345'
         longitude: '13.3732206'
-      directions: Enter Building and take the stairs to offices on Floor 1
+      directions: To meet us, enter the physics building and take the stairs to the first floor. Our offices are in the corridor to the left.
       office_hours:
         #- 'Monday 10:00 to 13:00'
         #- 'Wednesday 09:00 to 10:00'

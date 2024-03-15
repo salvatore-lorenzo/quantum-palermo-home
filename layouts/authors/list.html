@@ -20,20 +20,25 @@
       {{ partial $widget $params }}
     {{end}}
 
-    {{ $query := where .Pages ".IsNode" false | slice 0 10 }}
-    {{ $count := len $query }}
-    {{ if $count }}
-    <div class="article-widget content-widget-hr">
-      <h3>{{ i18n "user_profile_latest" | default "Latest" }}</h3>
-      <ul>
-        {{ range $query }}
-        <li>
-          <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-        </li>
+    {{ $query := where .Pages ".IsNode" false }}
+  {{ $count := len $query }}
+  {{ if $count }}
+  <div class="article-widget content-widget-hr">
+    <h3>{{ i18n "user_profile_latest" | default "Latest" }}</h3>
+    <ul>
+      {{ $maxItems := 10 }}
+      {{ $counter := 0 }}
+      {{ range $query }}
+        {{ if lt $counter $maxItems }}
+          <li>
+            ({{ .Date.Format "Jan 2006"  }}) - <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+          </li>
+          {{ $counter = add $counter 1 }}
         {{ end }}
-      </ul>
-    </div>
-    {{ end }}
+      {{ end }}
+    </ul>
+  </div>
+  {{ end }}
   </div>
 </section>
 

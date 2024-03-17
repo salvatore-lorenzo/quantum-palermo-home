@@ -72,3 +72,4 @@ highlight_name: false
 user_groups:
 - Staff
 ---
+Anna is an Associate Professor at the Department of Physics and Chemistry of the University of Palermo, where she received her PhD in 1999. Her research activity is carried on in the fields of quantum optics and quantum thermodynamics, where she authored 130+ papers addressing light-matter interaction and open quantum systems. She has been involved in a number of scientific collaborations with national and international institutions (including Bristol, Madrid, Durban, and Bradford) aimed at investigating open quantum systems and light-matter interaction. She is the Department Delegate to Undergraduate Studies.  

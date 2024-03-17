@@ -1,8 +1,7 @@
 ---
-title: Quantum thermo
-subtitle: Mauro Paternostro
-
 type: event
+title: "Group SeminarM"
+subtitle: Mauro Paternostro
 
 event: Teams 
 event_url: https://example.org
@@ -19,12 +18,13 @@ abstract: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: '2023-11-01T15:00:00Z'
+date: "2024-03-18"
+date_end: 2024-03-18T21:59:37+01:00
 #date_end: '2030-06-01T15:00:00Z'
 all_day: false
 
 # Schedule page publish date (NOT talk date).
-publishDate: '2014-01-01T00:00:00Z'
+publishDate: 2024-03-03T21:59:37+01:00
 
 authors: []
 tags: []

@@ -35,3 +35,28 @@ nav#navbar-main li.nav-item {
 .project-card .card{
   border-radius: 10%;
 }
+
+.calendar-cell {
+  text-align: center; /* Align the text horizontally to the center */
+  vertical-align: middle; /* Align the text vertically to the middle */
+  width: 100px; /* Set a fixed width for the cells */
+  height: 60px; /* Set a fixed height for the cells */
+}
+
+.today {
+  text-align: center; /* Align the text horizontally to the center */
+  vertical-align: middle; /* Align the text vertically to the middle */
+  width: 100px; /* Set a fixed width for the cells */
+  height: 60px; /* Set a fixed height for the cells */
+  background-color: rgb(23, 49, 111);
+  color: rgb(228, 232, 241); /* Example background color for today's date */
+}
+
+.has-event {
+  text-align: center; /* Align the text horizontally to the center */
+  vertical-align: middle; /* Align the text vertically to the middle */
+  width: 100px; /* Set a fixed width for the cells */
+  height: 60px; /* Set a fixed height for the cells */
+  background-color: rgb(228, 154, 84);
+  color: rgb(228, 232, 241); /* Example background color for today's date */
+}

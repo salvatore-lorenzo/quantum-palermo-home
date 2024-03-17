@@ -1,0 +1,177 @@
+{{/* Initialise */}}
+{{ $page := .wcPage }}
+{{ $block := .wcBlock }}
+
+{{ $items_offset := $block.content.offset | default 0 }}
+{{ $items_count := $block.content.count }}
+{{ if eq $items_count 0 }}
+  {{ $items_count = 65535 }}
+{{ else }}
+  {{ $items_count = $items_count | default 15 }}
+{{ end }}
+
+{{/* Query */}}
+{{ $query := site.RegularPages }}
+{{ $archive_page := "" }}
+
+{{/* Filters */}}
+{{ if $block.content.page_type }}
+  {{ $query = where $query "Type" $block.content.page_type }}
+  {{ $archive_page = site.GetPage "Section" $block.content.page_type }}
+{{ end }}
+{{ if $block.content.filters.folders }}
+  {{ $folders := $block.content.filters.folders }}
+  {{ $query = where $query "Section" "in" $folders }}
+  {{/* Init archive page to main folder */}}
+  {{ $main_folder := index $folders 0 }}
+  {{ $archive_page = site.GetPage "Section" $main_folder }}
+{{ end }}
+{{ if $block.content.filters.tag }}
+  {{ $archive_page = site.GetPage (printf "tags/%s" (urlize $block.content.filters.tag)) }}
+  {{ $query = $query | intersect $archive_page.Pages }}
+{{ end }}
+{{ if $block.content.filters.category }}
+  {{ $archive_page = site.GetPage (printf "categories/%s" (urlize $block.content.filters.category)) }}
+  {{ $query = $query | intersect $archive_page.Pages }}
+{{ end }}
+{{ if $block.content.filters.publication_type }}
+  {{ $archive_page = site.GetPage (printf "publication_types/%s" $block.content.filters.publication_type) }}
+  {{ $query = $query | intersect $archive_page.Pages }}
+{{ end }}
+{{ if $block.content.filters.author }}
+  {{ $archive_page = site.GetPage (printf "authors/%s" (urlize $block.content.filters.author)) }}
+  {{ $query = $query | intersect $archive_page.Pages }}
+{{ end }}
+{{ if $block.content.filters.featured_only }}
+  {{ $query = where $query "Params.featured" "==" true }}
+{{ end }}
+{{ if $block.content.filters.exclude_featured }}
+  {{ $query = where $query "Params.featured" "!=" true }}
+{{ end }}
+{{ if $block.content.filters.exclude_past }}
+  {{ $query = where $query "Date" ">=" now }}
+{{ end }}
+{{ if $block.content.filters.exclude_future }}
+  {{ $query = where $query "Date" "<" now }}
+{{ end }}
+
+{{ $count := len $query }}
+
+{{/* Sort */}}
+{{ $sort_by := $block.content.sort_by | default "Date" }}
+{{ $sort_by = partial "blox-core/functions/get_sort_by_parameter" $sort_by }}
+{{ $sort_ascending := $block.content.sort_ascending | default (eq $block.content.order "asc") | default false }}
+{{ $sort_order := cond $sort_ascending "asc" "desc" }}
+{{ $query = sort $query $sort_by $sort_order }}
+
+{{/* Offset and Limit */}}
+{{ if gt $items_offset 0 }}
+  {{ $query = first $items_count (after $items_offset $query) }}
+{{ else }}
+  {{ $query = first $items_count $query }}
+{{ end }}
+
+{{ $columns := $block.design.columns | default "2" }}
+
+
+{{ $today := time.Now }}
+{{ $startOfMonth := print $today.Year "-" (printf "%02d" $today.Month) "-01" }}
+{{ $startDate := time.AsTime $startOfMonth }}
+
+{{/*  {{ $startDate := time.AsTime "2024-11-01" }}  */}}
+{{ $endDate := time.AsTime "2025-01-01" }}
+{{ $oneDay := time.ParseDuration "24h"}}
+
+{{ $duration := $endDate.Sub $startDate }}
+{{ $days :=  div $duration.Hours 24 }}
+{{ $currentdate := $startDate }}
+{{ $lastmonth := 0 }}
+
+
+
+
+<div class="row">
+<div class="col-12 {{if eq $columns "2"}}col-lg-8{{end}}">
+    
+    <div class="row justify-content-center">
+
+        <div class="section-heading col-12 col-lg-3 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
+            <h1 class="mb-0">Events</h1>
+            <p  class="mt-0">
+              <a href="../..">Back</a>
+            </p>
+          </div>
+
+        <div class="col-6">    
+            <div class="col-9">     
+                {{ range seq $days }}
+                    {{ $isToday := and (eq $currentdate.Day $today.Day) (eq $currentdate.Month $today.Month) (eq $currentdate.Year $today.Year) }}
+                    {{ $isSunday := strings.Contains $currentdate.Weekday "Sunday"}}
+                    {{ $isSaturday := strings.Contains $currentdate.Weekday "Saturday"}}
+                    {{ if ne $currentdate.Month $lastmonth }}
+                        {{ $lastmonth = $currentdate.Month }}
+                        <h1>{{ $currentdate.Month }}</h1>
+                        <table border="2">
+                        <tr>
+                            <td>Sunday</td>
+                            <td>Monday</td>
+                            <td>Tuesday</td>
+                            <td>Wednesday</td>
+                            <td>Thursday</td>
+                            <td>Friday</td>
+                            <td>Saturday</td>
+                        </tr>
+                            <tr>
+                                {{ $paddingDate := time.AsTime "2024-12-01" }} {{/* Don't change this date! - This is constant for (any) month that begins with Sunday */}} 
+                                {{ $monthStartDateString := print (time.Format "2006-01" $currentdate) "-01" }}
+                                {{ $monthStartDate := time.AsTime $monthStartDateString }}
+
+                                {{ range seq 0 6 }}               
+                                    {{ if strings.Contains $paddingDate.Weekday $monthStartDate.Weekday }}
+                                        {{ break }}
+                                    {{ end }}
+                                    <td></td>
+                                    {{ $paddingDate = $paddingDate.Add $oneDay }} 
+                                {{ end }}
+                    {{ else }}
+                        {{ if $isSunday }}
+                            <tr>
+                        {{ end }}
+                    {{ end }}
+                                
+                    {{if $isToday}}
+                    <td class="calendar-cell today">
+                        {{ $currentdate.Day }}  
+                    </td>
+                    {{else}}
+                      {{ $eventFound := false }}
+                      <!-- Check if there's an event on this date -->
+                      {{ range $query }}
+                          {{ if (eq (dateFormat "2006-01-02" .Date) (dateFormat "2006-01-02" $currentdate)) }}
+                              {{ $eventFound = true }}
+                              <!-- Insert your code to display event information -->
+                              <td class="{{ if $eventFound }}calendar-cell has-event {{ end }}">
+                                <a href="{{ .Permalink }}">{{ .Title}}</a>
+                              </td>
+                          {{ end }}
+                      {{ end }}
+                      <!-- If no event is found, print the date -->
+                      {{ if not $eventFound }}
+                          <td class="calendar-cell">
+                            {{ $currentdate.Day }}
+                          </td>    
+                      {{ end }}
+                    {{end}}            
+                    {{ if $isSaturday }}
+                        </tr>
+                    {{ end }}
+                    {{/*  Calculate date for next loop  */}}
+                    {{ $currentdate = $currentdate.Add $oneDay  }}
+                    {{ if ne $currentdate.Month $lastmonth }}
+                        </table>
+                    {{ end }}
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</div></div>

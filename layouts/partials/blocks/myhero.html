@@ -13,7 +13,7 @@
 {{ end }}
 
     {{ with $block.content.title }}
-      <h1 class="hero-title">ciao{{ . | markdownify }}</h1>
+      <h1 class="hero-title">{{ . | markdownify }}</h1>
     {{ end }}
 
     {{ with $block.content.text }}

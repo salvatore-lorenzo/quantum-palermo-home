@@ -58,7 +58,7 @@ nav#navbar-main li.nav-item {
   height: auto; /* Set a fixed height for the cells */
   background-color: rgb(23, 49, 111);
   color: rgb(228, 232, 241);
-  border-radius: 20px; /* Example background color for today's date */
+  border-radius: 10px; /* Example background color for today's date */
 }
 
 .has-event {
@@ -68,5 +68,5 @@ nav#navbar-main li.nav-item {
   height: auto; /* Set a fixed height for the cells */
   background-color: rgb(228, 154, 84);
   color: rgb(228, 232, 241); /* Example background color for today's date */
-  border-radius: 20px;
+  border-radius: 10px;
 }

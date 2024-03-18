@@ -141,7 +141,10 @@
             {{ $eventFound = true }}
             <td class="{{ if $eventFound }} calendar-cell has-event {{ end }}">
               {{/*  <a href="{{ .Permalink }}">{{ .Title}} <br> {{ .Date.Format "15:04" }}</a>  */}}
-              <a href="{{ .Permalink }}">{{ $currentdate.Day}}</a>
+              <a href="{{ .Permalink }}" class="nav-link dropdown-toggle" aria-haspopup="listbox">{{ $currentdate.Day}}</a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" ><span>{{.Title}}</span></a>
+            </div>
             </td>
           {{ end }}
         {{ end }}

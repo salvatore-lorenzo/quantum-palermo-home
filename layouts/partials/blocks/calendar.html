@@ -95,23 +95,26 @@
       <h1 class="mb-0">Events</h1>
       <p  class="mt-0"><a href="../..">Back</a></p>
   </div>
-  <div class="col-12 col-lg-9">   
+  <div class="col-12 col-lg-6">   
     {{ range seq $days }}
       {{ $isToday := and (eq $currentdate.Day $today.Day) (eq $currentdate.Month $today.Month) (eq $currentdate.Year $today.Year) }}
       {{ $isSunday := strings.Contains $currentdate.Weekday "Sunday"}}
       {{ $isSaturday := strings.Contains $currentdate.Weekday "Saturday"}}
       {{ if ne $currentdate.Month $lastmonth }}
         {{ $lastmonth = $currentdate.Month }}
-        <h1>{{ $currentdate.Month }}</h1>
-        <table border="2">
+        <div class="col-12 col-lg-3  d-flex flex-column align-items-center align-items-lg-start">
+          <h1 class="mb-0">{{ $lastmonth | markdownify }}</h1>
+        </div>
+        <div class="col-12 col-lg-9 col-sm-auto d-flex flex-column align-items-center align-items-lg-start">
+        <table table-layout=auto border="2">
           <tr>
-            <th class="calendar-day">Sunday   </th>
-            <th class="calendar-day">Monday   </th>
-            <th class="calendar-day">Tuesday  </th>
-            <th class="calendar-day">Wednesday</th>
-            <th class="calendar-day">Thursday </th>
-            <th class="calendar-day">Friday   </th>
-            <th class="calendar-day">Saturday </th>
+            <th class="calendar-day">Sun</th>
+            <th class="calendar-day">Mon</th>
+            <th class="calendar-day">Tue</th>
+            <th class="calendar-day">Wed</th>
+            <th class="calendar-day">Thu</th>
+            <th class="calendar-day">Fri</th>
+            <th class="calendar-day">Sat</th>
           </tr>
           <tr>
             {{ $paddingDate := time.AsTime "2024-12-01" }} {{/* Don't change this date! - This is constant for (any) month that begins with Sunday */}} 
@@ -121,7 +124,7 @@
                 {{ if strings.Contains $paddingDate.Weekday $monthStartDate.Weekday }}
                     {{ break }}
                 {{ end }}
-                <th class="calendar-cell"></th>
+                <td class="calendar-cell"></td>
                 {{ $paddingDate = $paddingDate.Add $oneDay }} 
             {{ end }}
       {{ else }}
@@ -130,21 +133,20 @@
         {{ end }}
       {{ end }}
       {{if $isToday}}
-        <td class="calendar-cell today">
-          {{ $currentdate.Day }}  
-        </td>
+        <td class="calendar-cell today">{{ $currentdate.Day }}</td>
       {{else}}
         {{ $eventFound := false }}
         {{ range $query }}
           {{ if (eq (dateFormat "2006-01-02" .Date) (dateFormat "2006-01-02" $currentdate)) }}
             {{ $eventFound = true }}
             <td class="{{ if $eventFound }} calendar-cell has-event {{ end }}">
-              <a href="{{ .Permalink }}">{{ .Title}}  {{ .Date.Format "15:04" }}</a>
+              {{/*  <a href="{{ .Permalink }}">{{ .Title}} <br> {{ .Date.Format "15:04" }}</a>  */}}
+              <a href="{{ .Permalink }}">{{ $currentdate.Day}}</a>
             </td>
           {{ end }}
         {{ end }}
         {{ if not $eventFound }}
-          <td class="calendar-cell">{{ $currentdate.Day }}</td>    
+          <td class="calendar-cell">{{ $currentdate.Day }}</td>
         {{ end }}
       {{ end }}            
       {{ if $isSaturday }}
@@ -154,6 +156,7 @@
       {{ $currentdate = $currentdate.Add $oneDay  }}
       {{ if ne $currentdate.Month $lastmonth }}
         </table>
+        </div>
       {{ end }}
     {{ end }}
   </div>

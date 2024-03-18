@@ -1,12 +1,12 @@
 ---
 # Documentation: https://docs.hugoblox.com/managing-content/
-type: event
-title: "Group Seminar"
-event:
+
+title: "Paolo Erdman"
+event: 
 event_url:
-location:
-address:
-  street:
+location: 
+address: 
+  street: 
   city:
   region:
   postcode:
@@ -16,12 +16,12 @@ abstract:
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: 2024-06-05T21:59:37+01:00
-date_end: 2024-06-05T21:59:37+01:00
+date: 2024-03-22T15:00:22+01:00
+date_end: 2024-03-18T16:00:22+01:00
 all_day: false
 
 # Schedule page publish date (NOT event date).
-publishDate: 2024-03-03T21:59:37+01:00
+publishDate: 2024-03-18T00:40:22+01:00
 
 authors: []
 tags: []

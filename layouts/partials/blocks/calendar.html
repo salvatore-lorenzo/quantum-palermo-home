@@ -91,11 +91,13 @@
 
 <div class="container">
 <div class="row">
-  <div class="section-heading col-12 col-lg-3 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
-      <h1 class="mb-0">Events</h1>
-      <p  class="mt-0"><a href="../..">Back</a></p>
+  <div class="section-heading col-12 col-lg-3 mb-3 mb-lg-0 d-flex flex-column  align-items-lg-start">
+    <h1 class="mb-0">Events</h1>
+    <p  class="mt-0">
+      <a href="../..">Back</a>
+    </p>
   </div>
-  <div class="col-12 col-lg-6">   
+  <div class="col-12 col-lg-9">   
     {{ range seq $days }}
       {{ $isToday := and (eq $currentdate.Day $today.Day) (eq $currentdate.Month $today.Month) (eq $currentdate.Year $today.Year) }}
       {{ $isSunday := strings.Contains $currentdate.Weekday "Sunday"}}
@@ -105,7 +107,7 @@
         <div class="col-12 col-lg-3  d-flex flex-column align-items-center align-items-lg-start">
           <h1 class="mb-0">{{ $lastmonth | markdownify }}</h1>
         </div>
-        <div class="col-12 col-lg-9 col-sm-auto d-flex flex-column align-items-center align-items-lg-start">
+        <div class="col-12 col-lg-6 col-sm-auto d-flex flex-column align-items-center align-items-lg-start">
         <table table-layout=auto border="2">
           <tr>
             <th class="calendar-day">Sun</th>
@@ -141,10 +143,7 @@
             {{ $eventFound = true }}
             <td class="{{ if $eventFound }} calendar-cell has-event {{ end }}">
               {{/*  <a href="{{ .Permalink }}">{{ .Title}} <br> {{ .Date.Format "15:04" }}</a>  */}}
-              <a href="{{ .Permalink }}" class="nav-link dropdown-toggle" aria-haspopup="listbox">{{ $currentdate.Day}}</a>
-              <div class="dropdown-menu">
-                <a class="dropdown-item" ><span>{{.Title}}</span></a>
-            </div>
+              <a href="{{ .Permalink }}">{{ $currentdate.Day}}</a>
             </td>
           {{ end }}
         {{ end }}

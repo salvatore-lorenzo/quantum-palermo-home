@@ -69,7 +69,7 @@ highlight_name: true
 # Organizational groups that you belong to (for People widget)
 
 user_groups:
-- Postdoctoral Researchers
+- Postdoc
 ---
 I was born in Glasgow in 1995 and raised in Palermo. I got my Master's degree at the University of Palermo in 2019, and my PhD at the university of Palermo in 2023, both under the supervision of Prof. G. Massimo Palma.
 My PhD was focused on the foundational aspects of Quantum Mechanics, in particular quantum objectivity and the quantum-to-classical transition.

@@ -24,9 +24,9 @@
     {{ $sort_ascending := $block.content.sort_ascending | default true }}
     {{ $sort_order := cond $sort_ascending "asc" "desc" }}
     {{ $query = sort $query $sort_by $sort_order }}
-    
+
     {{if $query | and (gt (len $block.content.user_groups) 1) }}
-      <div class="section-heading col-12 col-lg-3 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
+      <div class="section-heading col-12 col-lg-3 mb-3 mb-lg-0 d-flex flex-column  align-items-lg-start">
         <h1 class="mb-0">{{ . | markdownify }}</h1>
         <p  class="mt-0">
           <a href="../..">Back</a>

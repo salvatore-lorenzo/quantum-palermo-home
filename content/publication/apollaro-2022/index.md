@@ -2,12 +2,12 @@
 title: Quantum Transfer of Interacting Qubits
 authors:
 - T.J.G. Apollaro
-- Salvatore Lorenzo
+- S. Lorenzo
 - F. Plastina
 - M. Consiglio
 - K. Życzkowski
 date: '2022-01-01'
-publishDate: '2024-03-14T23:09:10.039993Z'
+publishDate: '2024-03-20T18:29:33.903649Z'
 publication_types:
 - article-journal
 publication: '*New Journal of Physics*'

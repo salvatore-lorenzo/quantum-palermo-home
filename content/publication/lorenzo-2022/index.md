@@ -1,13 +1,13 @@
 ---
 title: Quantum Synchronisation and Clustering in Chiral Networks
 authors:
-- Salvatore Lorenzo
+- S. Lorenzo
 - B. Militello
 - A. Napoli
 - R. Zambrini
 - G.M. Palma
 date: '2022-01-01'
-publishDate: '2024-03-14T23:09:10.510486Z'
+publishDate: '2024-03-20T18:29:33.982851Z'
 publication_types:
 - article-journal
 publication: '*New Journal of Physics*'

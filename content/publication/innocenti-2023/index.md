@@ -1,15 +1,15 @@
 ---
 title: Shadow Tomography on General Measurement Frames
 authors:
-- Luca Innocenti
-- Salvatore Lorenzo
+- L. Innocenti
+- S. Lorenzo
 - I. Palmisano
 - F. Albarelli
 - A. Ferraro
 - M. Paternostro
 - G. M. Palma
 date: '2023-11-01'
-publishDate: '2024-03-14T23:09:10.189610Z'
+publishDate: '2024-03-20T18:29:33.956543Z'
 publication_types:
 - article-journal
 publication: '*PRX Quantum*'

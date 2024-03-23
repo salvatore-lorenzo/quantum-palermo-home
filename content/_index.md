@@ -47,7 +47,7 @@ sections:
           - news
           - seminars
           - events
-          #- projects
+          - projects
           - publication
         author: ""
         category: ""
@@ -71,16 +71,18 @@ sections:
         {{< paige/gallery align="center" >}}
         {{< paige/image class="rounded" style="padding: .2rem" height="6rem" maxheight="5rem" link="https://unipa.it" 
         src="./sponsors/unipa.jpeg" >}} 
-        {{< paige/image class="rounded" style="padding: .2rem" height="6rem" maxheight="5rem" link="https://unipa.it" 
+        {{< paige/image class="rounded" style="padding: .2rem" height="6rem" maxheight="5rem" link="https://prin.mur.gov.it/" 
         src="./sponsors/prin.jpeg" >}}
-        {{< paige/image class="rounded" style="padding: .2rem" height="6rem" maxheight="5rem" link="https://unipa.it" 
-        src="./sponsors/ibm.png" >}}
+        {{< paige/image class="rounded" style="padding: .2rem" height="6rem" maxheight="5rem" link="https://marie-sklodowska-curie-actions.ec.europa.eu/" 
+        src="./sponsors/marie-curie.jpg" >}}
         {{< paige/image class="rounded" style="padding: .2rem" height="6rem" maxheight="5rem" link="https://unipa.it" 
         src="./sponsors/corsimo.jpg" >}}
         {{< paige/image class="rounded" style="padding: .2rem" height="6rem" maxheight="5rem" link="https://unipa.it" 
         src="./sponsors/epsrc.jpg" >}}
         {{< paige/image class="rounded" style="padding: .2rem" height="6rem" maxheight="5rem" link="https://unipa.it" 
         src="./sponsors/royal.png" >}}
+        {{< paige/image class="rounded" style="padding: .2rem" height="6rem" maxheight="5rem" link="https://unipa.it" 
+        src="./sponsors/ibm.png" >}}
         {{< /paige/gallery >}}
         {{< paige/gallery breakpoints=true images="*.jpg" />}}
         <p class="text-center">

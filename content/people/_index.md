@@ -14,7 +14,6 @@ sections:
           - Staff
           - Postdoc
           - PhD Students
-          - Visiting & Friends
       sort_by: Params.last_name
       sort_ascending: true
     design:

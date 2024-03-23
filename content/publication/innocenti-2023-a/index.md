@@ -8,7 +8,7 @@ authors:
 - Mauro Paternostro
 - G. Massimo Palma
 date: '2023-05-01'
-publishDate: '2024-03-20T18:29:33.969301Z'
+publishDate: '2024-03-23T07:22:05.922683Z'
 publication_types:
 - article-journal
 publication: '*Commun Phys*'

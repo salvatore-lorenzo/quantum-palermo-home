@@ -6,7 +6,7 @@ authors:
 - V. Giovannetti
 - G.M. Palma
 date: '2022-01-01'
-publishDate: '2024-03-20T18:29:33.929983Z'
+publishDate: '2024-03-23T07:22:05.884128Z'
 publication_types:
 - article-journal
 publication: '*Physics Reports*'
@@ -38,4 +38,7 @@ tags:
 - Quantum trajectories
 - Quantum weak measurements
 - Repeated interactions
+links:
+- name: arXiv
+  url: https://arxiv.org/abs/2106.11974
 ---

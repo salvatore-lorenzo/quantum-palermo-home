@@ -6,7 +6,7 @@ authors:
 - G. Massimo Palma
 - Salvatore Lorenzo
 date: '2023-12-01'
-publishDate: '2024-03-20T18:29:34.033180Z'
+publishDate: '2024-03-23T07:22:05.974401Z'
 publication_types:
 - article-journal
 publication: '*Phys. Scr.*'
@@ -25,4 +25,7 @@ abstract: The interaction between a light mode and a mechanical oscillator via r
   We additionally analyze the power spectrum of the output guide field and we show
   how, thanks to the chiral coupling, from such spectrum it is possible to reconstruct
   the spectra of each single mirror.
+links:
+- name: arXiv
+  url: https://arxiv.org/abs/2302.00698
 ---

@@ -8,7 +8,7 @@ authors:
 - A. Carollo
 - F. Ciccarello
 date: '2022-01-01'
-publishDate: '2024-03-20T18:29:34.051942Z'
+publishDate: '2024-03-23T07:22:05.989176Z'
 publication_types:
 - article-journal
 publication: '*Optica*'
@@ -33,4 +33,7 @@ abstract: Photon-mediated interaction between quantum emitters in engineered pho
   findings introduce a paradigm of light-mediated interactions with unprecedented
   features such as non-reciprocity, non-trivial dependence on field boundary conditions,
   and range tunability via a loss rate.
+links:
+- name: arXiv
+  url: https://arxiv.org/abs/2109.13255
 ---

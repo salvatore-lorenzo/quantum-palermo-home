@@ -9,7 +9,7 @@ authors:
 - M. Paternostro
 - G. M. Palma
 date: '2023-11-01'
-publishDate: '2024-03-20T18:29:33.956543Z'
+publishDate: '2024-03-23T07:22:05.910271Z'
 publication_types:
 - article-journal
 publication: '*PRX Quantum*'
@@ -30,4 +30,7 @@ abstract: We provide a new perspective on shadow tomography by demonstrating its
   measurement frames---namely, that it is possible to accurately estimate a finite
   set of generic rank-1 bounded observables while avoiding the growth of the number
   of the required samples with the state dimension.
+links:
+- name: arXiv
+  url: https://arxiv.org/abs/2301.13229
 ---

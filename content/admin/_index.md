@@ -18,7 +18,7 @@ role:
 
 # Organizations/Affiliations
 organizations:
-- name: unipa
+- name: University of Palermo
   url: https://www.unipa.it
 
 # Short bio (displayed in user profile at end of posts)

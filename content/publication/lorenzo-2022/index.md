@@ -7,7 +7,7 @@ authors:
 - R. Zambrini
 - G.M. Palma
 date: '2022-01-01'
-publishDate: '2024-03-20T18:29:33.982851Z'
+publishDate: '2024-03-23T07:22:05.935171Z'
 publication_types:
 - article-journal
 publication: '*New Journal of Physics*'
@@ -27,4 +27,7 @@ tags:
 - dissipative open quantum systems
 - graphs communities
 - quantum synchronization
+links:
+- name: arXiv
+  url: https://arxiv.org/abs/2110.15384
 ---

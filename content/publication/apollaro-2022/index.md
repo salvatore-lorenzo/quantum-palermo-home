@@ -7,7 +7,7 @@ authors:
 - M. Consiglio
 - K. Życzkowski
 date: '2022-01-01'
-publishDate: '2024-03-20T18:29:33.903649Z'
+publishDate: '2024-03-23T07:22:05.858780Z'
 publication_types:
 - article-journal
 publication: '*New Journal of Physics*'
@@ -30,4 +30,7 @@ tags:
 - quantum dynamical maps
 - quantum information processing
 - quantum spin chains
+links:
+- name: arXiv
+  url: https://arxiv.org/abs/2205.01579
 ---

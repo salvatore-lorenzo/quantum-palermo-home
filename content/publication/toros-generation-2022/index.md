@@ -6,7 +6,7 @@ authors:
 - Mauro Paternostro
 - Daniele Faccio
 date: '2022-12-01'
-publishDate: '2024-03-23T07:09:25.889960Z'
+publishDate: '2024-03-23T17:41:54.098697Z'
 publication_types:
 - article-journal
 publication: '*Physical Review Letters*'

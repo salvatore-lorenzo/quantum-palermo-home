@@ -2,10 +2,10 @@
 title: 'Modeling mechanical equilibration processes of closed quantum systems: A case
   study'
 authors:
-- Pierpaolo Sgroi
+- Sofia Sgroi
 - Mauro Paternostro
 date: '2022-01-01'
-publishDate: '2024-03-23T07:09:26.149579Z'
+publishDate: '2024-03-23T17:41:54.362140Z'
 publication_types:
 - article-journal
 publication: '*Physical Review E*'

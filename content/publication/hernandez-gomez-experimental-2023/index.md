@@ -8,7 +8,7 @@ authors:
 - Mauro Paternostro
 - Nicole Fabbri
 date: '2023-09-01'
-publishDate: '2024-03-23T07:09:26.136258Z'
+publishDate: '2024-03-23T17:41:54.349944Z'
 publication_types:
 - article-journal
 publication: '*npj Quantum Information*'

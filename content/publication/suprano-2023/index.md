@@ -16,7 +16,7 @@ authors:
 - Alessandro Ferraro
 - Mauro Paternostro
 date: '2023-08-01'
-publishDate: '2024-03-23T07:22:06.007963Z'
+publishDate: '2024-03-23T18:23:40.634871Z'
 publication_types:
 - manuscript
 publication: '*arXiv*'

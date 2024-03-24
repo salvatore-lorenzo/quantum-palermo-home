@@ -3,10 +3,10 @@ title: Spectral density classification for environment spectroscopy
 authors:
 - J Barr
 - G Zicari
-- A Ferraro
-- M Paternostro
+- A. Ferraro
+- Mauro Paternostro
 date: '2024-03-01'
-publishDate: '2024-03-23T07:09:25.834970Z'
+publishDate: '2024-03-23T17:41:54.045611Z'
 publication_types:
 - article-journal
 publication: '*Machine Learning: Science and Technology*'

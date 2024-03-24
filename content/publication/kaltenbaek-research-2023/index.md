@@ -49,7 +49,7 @@ authors:
 - Christian Vogt
 - Lisa Wörner
 date: '2023-01-01'
-publishDate: '2024-03-23T07:09:26.180771Z'
+publishDate: '2024-03-23T17:41:54.388087Z'
 publication_types:
 - article-journal
 publication: '*Quantum Science and Technology*'

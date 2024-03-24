@@ -5,7 +5,7 @@ authors:
 - Mauro Paternostro
 - Ricardo Puebla
 date: '2023-09-01'
-publishDate: '2024-03-23T07:09:26.248606Z'
+publishDate: '2024-03-23T17:41:54.456007Z'
 publication_types:
 - manuscript
 publication: '*arXiv*'

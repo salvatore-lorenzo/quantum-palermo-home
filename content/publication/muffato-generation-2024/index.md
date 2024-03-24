@@ -12,7 +12,7 @@ authors:
 - Mauro Paternostro
 - Hendrik Ulbricht
 date: '2024-01-01'
-publishDate: '2024-03-23T07:09:26.236192Z'
+publishDate: '2024-03-23T17:41:54.443051Z'
 publication_types:
 - manuscript
 publication: '*arXiv*'

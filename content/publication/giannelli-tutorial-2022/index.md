@@ -10,7 +10,7 @@ authors:
 - Elisabetta Paladino
 - Giuseppe Falci
 date: '2022-05-01'
-publishDate: '2024-03-23T07:09:25.966902Z'
+publishDate: '2024-03-23T17:41:54.175052Z'
 publication_types:
 - article-journal
 publication: '*Physics Letters A*'

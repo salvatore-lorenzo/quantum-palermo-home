@@ -7,7 +7,7 @@ authors:
 - Özgür E Müstecaplıoğlu
 - Mauro Paternostro
 date: '2023-01-01'
-publishDate: '2024-03-23T07:09:25.901937Z'
+publishDate: '2024-03-23T17:41:54.110761Z'
 publication_types:
 - article-journal
 publication: '*New Journal of Physics*'

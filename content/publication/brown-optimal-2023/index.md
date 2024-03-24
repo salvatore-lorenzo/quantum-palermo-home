@@ -4,9 +4,9 @@ title: Optimal quantum control via genetic algorithms for quantum state engineer
 authors:
 - Jonathon Brown
 - Mauro Paternostro
-- Alessandro Ferraro
+- A. Ferraro
 date: '2023-04-01'
-publishDate: '2024-03-23T07:09:25.951776Z'
+publishDate: '2024-03-23T17:41:54.161953Z'
 publication_types:
 - article-journal
 publication: '*Quantum Science and Technology*'

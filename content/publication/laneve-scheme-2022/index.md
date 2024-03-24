@@ -5,7 +5,7 @@ authors:
 - Hannah McAleese
 - Mauro Paternostro
 date: '2022-12-01'
-publishDate: '2024-03-23T07:09:25.914080Z'
+publishDate: '2024-03-23T17:41:54.122913Z'
 publication_types:
 - article-journal
 publication: '*New Journal of Physics*'

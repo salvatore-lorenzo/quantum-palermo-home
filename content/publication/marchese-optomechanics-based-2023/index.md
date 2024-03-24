@@ -5,7 +5,7 @@ authors:
 - Alessio Belenchia
 - Mauro Paternostro
 date: '2023-03-01'
-publishDate: '2024-03-23T07:09:25.926333Z'
+publishDate: '2024-03-23T17:41:54.135564Z'
 publication_types:
 - article-journal
 publication: '*Entropy*'

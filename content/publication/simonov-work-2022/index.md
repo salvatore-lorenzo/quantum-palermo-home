@@ -6,7 +6,7 @@ authors:
 - Giacomo Guarnieri
 - Mauro Paternostro
 date: '2022-03-01'
-publishDate: '2024-03-23T07:09:25.991717Z'
+publishDate: '2024-03-23T17:41:54.200930Z'
 publication_types:
 - article-journal
 publication: '*Physical Review A*'

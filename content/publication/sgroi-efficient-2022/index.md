@@ -2,12 +2,12 @@
 title: Efficient excitation-transfer across fully connected networks via local-energy
   optimization
 authors:
-- S. Sgroi
+- Sofia Sgroi
 - G. Zicari
 - A. Imparato
-- M. Paternostro
+- Mauro Paternostro
 date: '2022-11-01'
-publishDate: '2024-03-23T07:09:26.275046Z'
+publishDate: '2024-03-23T17:41:54.481665Z'
 publication_types:
 - manuscript
 publication: '*arXiv*'

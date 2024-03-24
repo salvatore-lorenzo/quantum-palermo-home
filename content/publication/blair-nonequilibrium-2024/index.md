@@ -5,9 +5,9 @@ authors:
 - G. Zicari
 - A. Belenchia
 - A. Ferraro
-- M. Paternostro
+- Mauro Paternostro
 date: '2024-02-01'
-publishDate: '2024-03-23T07:09:26.043616Z'
+publishDate: '2024-03-23T17:41:54.254478Z'
 publication_types:
 - article-journal
 publication: '*Physical Review Research*'

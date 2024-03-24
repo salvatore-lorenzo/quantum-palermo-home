@@ -8,7 +8,7 @@ authors:
 - Salvatore Lorenzo
 - G. Massimo Palma
 date: '2023-07-01'
-publishDate: '2024-03-23T07:22:05.947399Z'
+publishDate: '2024-03-23T18:23:40.584576Z'
 publication_types:
 - article-journal
 publication: '*Quantum Sci. Technol.*'

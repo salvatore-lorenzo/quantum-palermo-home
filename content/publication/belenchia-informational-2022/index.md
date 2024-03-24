@@ -6,7 +6,7 @@ authors:
 - Mauro Paternostro
 - Gabriel T. Landi
 date: '2022-02-01'
-publishDate: '2024-03-23T07:09:26.004721Z'
+publishDate: '2024-03-23T17:41:54.214441Z'
 publication_types:
 - article-journal
 publication: '*Physical Review A*'

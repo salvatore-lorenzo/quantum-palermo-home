@@ -2,12 +2,12 @@
 title: A Reinforcement Learning Approach to the Design of Quantum Chains for Optimal
   Energy Transfer
 authors:
-- S. Sgroi
+- Sofia Sgroi
 - G. Zicari
 - A. Imparato
-- M. Paternostro
+- Mauro Paternostro
 date: '2024-03-22'
-publishDate: '2024-03-23T07:09:26.210648Z'
+publishDate: '2024-03-23T17:41:54.417549Z'
 publication_types:
 - manuscript
 publication: '*arXiv*'

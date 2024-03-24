@@ -75,13 +75,13 @@ sections:
         src="./sponsors/prin.jpeg" >}}
         {{< paige/image class="rounded" style="padding: .2rem" height="6rem" maxheight="5rem" link="https://marie-sklodowska-curie-actions.ec.europa.eu/" 
         src="./sponsors/marie-curie.jpg" >}}
-        {{< paige/image class="rounded" style="padding: .2rem" height="6rem" maxheight="5rem" link="https://unipa.it" 
+        {{< paige/image class="rounded" style="padding: .2rem" height="6rem" maxheight="5rem" link="https://qucom.eu/" 
         src="./sponsors/corsimo.jpg" >}}
-        {{< paige/image class="rounded" style="padding: .2rem" height="6rem" maxheight="5rem" link="https://unipa.it" 
+        {{< paige/image class="rounded" style="padding: .2rem" height="6rem" maxheight="5rem" link="https://gow.epsrc.ukri.org/NGBOViewGrant.aspx?GrantRef=EP/T028106/1" 
         src="./sponsors/epsrc.jpg" >}}
-        {{< paige/image class="rounded" style="padding: .2rem" height="6rem" maxheight="5rem" link="https://unipa.it" 
+        {{< paige/image class="rounded" style="padding: .2rem" height="6rem" maxheight="5rem" link="https://royalsociety.org/" 
         src="./sponsors/royal.png" >}}
-        {{< paige/image class="rounded" style="padding: .2rem" height="6rem" maxheight="5rem" link="https://unipa.it" 
+        {{< paige/image class="rounded" style="padding: .2rem" height="6rem" maxheight="5rem" link="" 
         src="./sponsors/ibm.png" >}}
         {{< /paige/gallery >}}
         {{< paige/gallery breakpoints=true images="*.jpg" />}}

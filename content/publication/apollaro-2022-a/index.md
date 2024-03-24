@@ -7,7 +7,7 @@ authors:
 - Mirko Consiglio
 - Karol Życzkowski
 date: '2022-12-01'
-publishDate: '2024-03-23T07:22:05.871453Z'
+publishDate: '2024-03-23T18:23:40.508204Z'
 publication_types:
 - article-journal
 publication: '*Entropy*'

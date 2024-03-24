@@ -4,7 +4,7 @@
 title: "QuCom"
 subtitle: "[ Back   ](../../projects/)"
 summary: ""
-authors: []
+authors: [mauro-paternostro, simone-artini, diana-chisholm]
 tags: []
 categories: []
 date: 2024-03-24T00:00:00+01:00

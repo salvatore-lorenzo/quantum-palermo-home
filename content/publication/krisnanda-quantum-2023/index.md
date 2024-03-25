@@ -6,7 +6,7 @@ authors:
 - Mauro Paternostro
 - Timothy C. H. Liew
 date: '2023-04-01'
-publishDate: '2024-03-23T17:41:54.374829Z'
+publishDate: '2024-03-25T14:09:19.749057Z'
 publication_types:
 - article-journal
 publication: '*Physical Review D*'

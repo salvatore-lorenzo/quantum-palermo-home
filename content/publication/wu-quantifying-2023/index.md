@@ -7,7 +7,7 @@ authors:
 - Mauro Paternostro
 - Matteo Carlesso
 date: '2023-05-01'
-publishDate: '2024-03-23T17:41:54.268281Z'
+publishDate: '2024-03-25T14:09:19.640378Z'
 publication_types:
 - article-journal
 publication: '*Physical Review Research*'

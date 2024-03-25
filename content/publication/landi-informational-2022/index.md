@@ -6,7 +6,7 @@ authors:
 - Mauro Paternostro
 - Alessio Belenchia
 date: '2022-01-01'
-publishDate: '2024-03-23T17:41:54.074054Z'
+publishDate: '2024-03-25T14:09:19.446384Z'
 publication_types:
 - article-journal
 publication: '*PRX Quantum*'

@@ -6,7 +6,7 @@ authors:
 - G. Massimo Palma
 - Salvatore Lorenzo
 date: '2023-12-01'
-publishDate: '2024-03-23T18:23:40.609522Z'
+publishDate: '2024-03-25T14:09:06.520000Z'
 publication_types:
 - article-journal
 publication: '*Phys. Scr.*'

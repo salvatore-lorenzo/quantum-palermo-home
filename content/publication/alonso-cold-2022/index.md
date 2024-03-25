@@ -255,7 +255,7 @@ authors:
 - Jure Zupan
 - Erik Zupanič
 date: '2022-12-01'
-publishDate: '2024-03-23T17:41:54.320005Z'
+publishDate: '2024-03-25T14:09:19.693522Z'
 publication_types:
 - article-journal
 publication: '*EPJ Quantum Technology*'

@@ -5,7 +5,7 @@ authors:
 - Sofia Sgroi
 - Mauro Paternostro
 date: '2022-01-01'
-publishDate: '2024-03-23T17:41:54.362140Z'
+publishDate: '2024-03-25T14:09:19.735933Z'
 publication_types:
 - article-journal
 publication: '*Physical Review E*'

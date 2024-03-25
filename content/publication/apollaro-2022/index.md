@@ -7,7 +7,7 @@ authors:
 - M. Consiglio
 - K. Życzkowski
 date: '2022-01-01'
-publishDate: '2024-03-23T18:23:40.495500Z'
+publishDate: '2024-03-25T14:09:06.401318Z'
 publication_types:
 - article-journal
 publication: '*New Journal of Physics*'

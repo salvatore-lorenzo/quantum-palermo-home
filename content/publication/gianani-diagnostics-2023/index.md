@@ -9,7 +9,7 @@ authors:
 - Marco Barbieri
 - Mauro Paternostro
 date: '2023-10-01'
-publishDate: '2024-03-23T17:41:54.188333Z'
+publishDate: '2024-03-25T14:09:19.560926Z'
 publication_types:
 - article-journal
 publication: '*Quantum Science and Technology*'

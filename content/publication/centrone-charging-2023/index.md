@@ -5,7 +5,7 @@ authors:
 - Luca Mancino
 - Mauro Paternostro
 date: '2023-11-01'
-publishDate: '2024-03-23T17:41:54.536350Z'
+publishDate: '2024-03-25T14:09:19.911142Z'
 publication_types:
 - article-journal
 publication: '*Physical Review A*'

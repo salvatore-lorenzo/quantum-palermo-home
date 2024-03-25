@@ -4,7 +4,7 @@ authors:
 - Simone Artini
 - Mauro Paternostro
 date: '2023-12-01'
-publishDate: '2024-03-23T17:41:54.307227Z'
+publishDate: '2024-03-25T14:09:19.680051Z'
 publication_types:
 - article-journal
 publication: '*New Journal of Physics*'

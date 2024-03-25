@@ -6,7 +6,7 @@ authors:
 - A. Ferraro
 - Mauro Paternostro
 date: '2024-03-01'
-publishDate: '2024-03-23T17:41:54.045611Z'
+publishDate: '2024-03-25T14:09:19.417156Z'
 publication_types:
 - article-journal
 publication: '*Machine Learning: Science and Technology*'

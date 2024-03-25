@@ -4,7 +4,7 @@ authors:
 - Eoghan Ryan
 - Mauro Paternostro
 date: '2022-10-01'
-publishDate: '2024-03-23T17:41:54.147940Z'
+publishDate: '2024-03-25T14:09:19.520875Z'
 publication_types:
 - article-journal
 publication: '*Entropy*'

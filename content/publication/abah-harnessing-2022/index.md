@@ -7,7 +7,7 @@ authors:
 - Mauro Paternostro
 - Ricardo Puebla
 date: '2022-04-01'
-publishDate: '2024-03-23T17:41:54.281075Z'
+publishDate: '2024-03-25T14:09:19.653796Z'
 publication_types:
 - article-journal
 publication: '*Physical Review Research*'

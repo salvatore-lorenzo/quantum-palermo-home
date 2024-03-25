@@ -6,7 +6,7 @@ authors:
 - Mauro Paternostro
 - Özgür E. Müstecaplıoğlu
 date: '2023-02-01'
-publishDate: '2024-03-23T17:41:54.548510Z'
+publishDate: '2024-03-25T14:09:19.923221Z'
 publication_types:
 - article-journal
 publication: '*Physica A: Statistical Mechanics and its Applications*'

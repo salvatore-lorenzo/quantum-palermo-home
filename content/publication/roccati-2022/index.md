@@ -8,7 +8,7 @@ authors:
 - Angelo Carollo
 - Francesco Ciccarello
 date: '2022-01-01'
-publishDate: '2024-03-23T18:23:40.621876Z'
+publishDate: '2024-03-25T14:09:06.533301Z'
 publication_types:
 - article-journal
 publication: '*Optica*'

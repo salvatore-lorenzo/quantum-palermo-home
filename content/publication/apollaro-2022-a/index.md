@@ -7,10 +7,11 @@ authors:
 - Mirko Consiglio
 - Karol Życzkowski
 date: '2022-12-01'
-publishDate: '2024-03-25T14:09:06.414366Z'
+publishDate: '2024-03-26T21:10:12.564948Z'
 publication_types:
 - article-journal
-publication: '*Entropy*'
+publication: '*Entropy. An International and Interdisciplinary Journal of Entropy
+  and Information Studies*'
 doi: 10.3390/e25010046
 abstract: The distribution of entangled states is a key task of utmost importance
   for many quantum information processing protocols. A commonly adopted setup for

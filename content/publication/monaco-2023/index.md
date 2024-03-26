@@ -8,10 +8,10 @@ authors:
 - Salvatore Lorenzo
 - G. Massimo Palma
 date: '2023-07-01'
-publishDate: '2024-03-25T14:09:06.493307Z'
+publishDate: '2024-03-26T21:10:12.643265Z'
 publication_types:
 - article-journal
-publication: '*Quantum Sci. Technol.*'
+publication: '*Quantum Science and Technology*'
 doi: 10.1088/2058-9565/accd92
 abstract: Quantum information scrambling (QIS), from the perspective of quantum information
   theory, is generally understood as local non-retrievability of information evolved

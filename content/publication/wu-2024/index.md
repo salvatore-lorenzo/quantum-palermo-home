@@ -10,8 +10,8 @@ authors:
 - Hendrik Ulbricht
 - Matteo Carlesso
 - Mauro Paternostro
-date: '2024-01-01'
-publishDate: '2024-03-28T11:29:48.059935Z'
+date: '2024-03-28'
+publishDate: '2024-03-28T12:03:00.558049Z'
 publication_types:
 - article-journal
 abstract: 'Squeezing is a crucial resource for quantum information processing and

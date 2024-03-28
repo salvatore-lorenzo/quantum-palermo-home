@@ -65,11 +65,17 @@ user_groups:
 <html lang="en">
     <body>
       <h1>Quantum Theory Group in Palermo</h1>
-      <p>Quantum Your text goes here.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut# labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco# laboris nisi ut aliquip ex ea commodo consequat. Your text goes here.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut# labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco# laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <h2>
+      <p>We are a large team, based in the Department of Physics and Chemistry at University of Palermo, exploring the theory of quantum systems and processes.
+      We address frontier questions in the engineering, control, characterisation and exploitations of quantum states and resources. The expertise of the members of our group spans sa large range of topics, from Quantum Optics to Condensed Matter and Statistical Physics, from Quantum Information Processing to Open System Dynamics and Artificial Intelligence. We also enjoy exploring the intricacies of the foundations of quantum mechanics from an information theoretic standpoint.
+      A key aim of our research is the development of theoretical frameworks of prompt experimental translation to understand the interplay between quantum resources, non-equilibrium physics, and control.
+      </p>
       <div style="display: flex; align-items: center;">
       <img src="foto-gruppo.png" alt="Image" style="max-width: 50%; margin-right: 20px;">
       <div style="flex-grow: 1;">
-      <p>Quantum Your text goes here.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut# labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco# laboris nisi ut aliquip ex ea commodo consequat. Your text goes here.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut# labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco# laboris nisi ut aliquip ex ea commodo consequat..</p>
+      <p> While pursuing these goals, we interact with some of the leading experimental teams addressing photonics, optomechanics, cold atom, and semiconductor-based platforms.
+      Get in touch <a href="mailto:indirizzo@email.com">with us</a> if you are interested in our research and to explore potentials for collaborations!
+      </p>
       </div>
       </div> 
     </body>

@@ -1,0 +1,32 @@
+---
+title: Analytically Solvable Hamiltonian in Invariant Subspaces
+authors:
+- Antonio Sérgio Magalhães de Castro
+- Roberto Grimaudo
+- Davide Valenti
+- Agostino Migliore
+- Hiromichi Nakazato
+- Antonino Messina
+date: '2023-01-01'
+publishDate: '2024-03-27T13:07:32.098547Z'
+publication_types:
+- article-journal
+publication: '*European Physical Journal Plus*'
+doi: 10.1140/epjp/s13360-023-04375-6
+abstract: We study a generic time-dependent Jaynes--Cummings model, discovering universal
+  features of its time evolution on a dynamical time scale which is here defined as
+  an integral over time of the field-atom coupling strength modulus. Using the total
+  excitation number as a constant of motion and the symmetry properties of the Hamiltonian,
+  we decompose the infinite-dimensional Hilbert space of the system in a one-dimensional
+  and an infinite number of two-dimensional dynamically invariant subspaces, in which
+  the dynamical problem is solved using the Messina--Nakazato parameterization method.
+  Therefore, we obtain a solution of the dynamics over the full Hilbert space. Its
+  application to the evolution of the atomic population inversion over the dynamical
+  time, under different initial conditions, highlights Rabi-like oscillations and
+  revivals, which do not depend on the functional dependence of the Hamiltonian parameters
+  on time and can be controlled by a crucial parameter in the solution. The universal
+  dynamical features brought to light in this study assume particular significance
+  in this quantum computing era, where general quantum simulators are of great use.
+  o̧pyright 2023, The Author(s), under exclusive licence to Società Italiana di Fisica
+  and Springer-Verlag GmbH Germany, part of Springer Nature.
+---

@@ -1,0 +1,37 @@
+---
+title: Development of a Predictive Model for the Shelf-Life of Atlantic Mackerel (Scomber
+  Scombrus)
+authors:
+- Filippo Giarratana
+- Felice Panebianco
+- Luca Nalbone
+- Graziella Ziino
+- Davide Valenti
+- Alessandro Giuffrida
+date: '2022-01-01'
+publishDate: '2024-03-27T13:07:31.945372Z'
+publication_types:
+- article-journal
+publication: '*Italian Journal of Food Safety*'
+doi: 10.4081/ijfs.2022.10019
+abstract: Despite its commercial value, the shelf-life of the Atlantic mackerel (Scomber
+  scombrus) during refrigerated storage was poorly investigated. In this regard, the
+  Quality Index Method (QIM) was proposed as a suitable scoring system for freshness
+  and quality sensorial estimation of fishery products. This study aims to develop
+  a deterministic mathematical model based on dynamic temperatures conditions and
+  a suc-cessive statistical analysis of the results obtained. This model will be exploited
+  to predict the shelf-life of the Atlantic mackerel based on specific storage temperatures.
+  A total of 60 fresh fishes were subdivided into two groups and respectively stored
+  in ice for 12 days at a constant temperature of 1textpm0.5$^∘$C (Group A) and a
+  fluctuating temperature ranging between 1 and 7$^∘$C (Group B). Microbiological
+  analysis and sensory evaluation through the QIM were performed on each fish at regular
+  time inter-vals. A critical value of 6 Log cfu/g of spoilage bacteria (mainly psychotropic)
+  associated with a significant decay of the sensorial characteristics was exceeded
+  after 9 days of storage for Group A and 3 days for Group B. A reliable prediction
+  of fish freshness was obtained by modelling the QIM as a function of the spoilage
+  bacteria behaviour. A coefficient $β$ of correlation was determined to convert the
+  spoilage bacteria load into a Quality Index score. The adoption of mathematical
+  predictive models to assess microbial behaviour under different environmental conditions
+  is an interest-ing tool for food industries to maximize production and reduce waste.
+  o̧pyright the Author(s), 2022.
+---

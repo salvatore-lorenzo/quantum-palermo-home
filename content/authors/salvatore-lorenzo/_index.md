@@ -83,5 +83,10 @@ highlight_name: false
 user_groups:
   - Staff
 ---
-Salvatore Lorenzo is a professor of physics of matter at the Physics and Chemistry department of the University of Palermo. He holds the Italian National Scientific Habilitation as Full Professor in Theoretical Physics of Matter (02B2). His academic journey includes postdoctoral research positions at various universities, such as Milano, Cosenza, and Palermo, and visiting researcher roles at institutions like the University of Belfast and the Institute for Cross-Disciplinary Physics (IFISC) at the University of Balearic Islands. He is actively involved in the academic community, serving as a referee for esteemed journals like PRL, PRX Quantum, PRR, PRA, PRB, NJP, EPL and being a member of editorial boards for journals such as Plos One and Heliyon-Physics. He has authored more than 40 papers in reputable peer-reviewed journals, including Physical Review Letters, Optica, and Scientific Reports addressing open quantum systems dynamics, quantum optics, quantum information, quantum
+<p>
+Salvatore Lorenzo is a professor of physics of matter at the Physics and Chemistry department of the University of Palermo. He holds the Italian National Scientific Habilitation as Full Professor in Theoretical Physics of Matter (02B2).
+<p>
+His academic journey includes postdoctoral research positions at various universities, such as Milano, Cosenza, and Palermo, and visiting researcher roles at institutions like the University of Belfast and the Institute for Cross-Disciplinary Physics (IFISC) at the University of Balearic Islands. 
+<p>
+He is actively involved in the academic community, serving as a referee for esteemed journals like PRL, PRX Quantum, PRR, PRA, PRB, NJP, EPL and being a member of editorial boards for journals such as Plos One and Heliyon-Physics. He has authored more than 40 papers in reputable peer-reviewed journals, including Physical Review Letters, Optica, and Scientific Reports addressing open quantum systems dynamics, quantum optics, quantum information, quantum
 thermodynamics, and quantum machine learning.His work has attracted over 1500 citations.

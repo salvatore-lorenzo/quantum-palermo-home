@@ -1,0 +1,11 @@
+@article{Kaye.2023,
+ abstract = {We present an efficient method for propagating the time-dependent Kohn–Sham equations in free space, based on the recently introduced Fourier contour deformation (FCD) approach. For potentials which are constant outside a bounded domain, FCD yields a high-order accurate numerical solution of the time-dependent Schrödinger equation directly in free space, without the need for artificial boundary conditions. Of the many existing artificial boundary condition schemes, FCD is most similar to an exact nonlocal transparent boundary condition, but it works directly on Cartesian grids in any dimension, and runs on top of the fast Fourier transform rather than fast algorithms for the application of nonlocal history integral operators. We adapt FCD to time-dependent density functional theory (TDDFT), and describe a simple algorithm to smoothly and automatically truncate long-range Coulomb-like potentials to a time-dependent constant outside of a bounded domain of interest, so that FCD can be used. This approach eliminates errors originating from the use of artificial boundary conditions, leaving only the error of the potential truncation, which is controlled and can be systematically reduced. The method enables accurate simulations of ultrastrong nonlinear electronic processes in molecular complexes in which the interference between bound and continuum states is of paramount importance. We demonstrate results for many-electron TDDFT calculations of absorption and strong field photoelectron spectra for one and two-dimensional models, and observe a significant reduction in the size of the computational domain required to achieve high quality results, as compared with the popular method of complex absorbing potentials.},
+ author = {Kaye, Jason and Barnett, Alex and Greengard, Leslie and De Giovannini, Umberto and Rubio, Angel},
+ doi = {10.1021/acs.jctc.2c01013},
+ issn = {1549-9618},
+ journal = {Journal of Chemical Theory and Computation},
+ keywords = {},
+ pmid = {36786824},
+ title = {Eliminating Artificial Boundary Conditions in Time-Dependent Density Functional Theory Using Fourier Contour Deformation},
+ year = {2023}
+}

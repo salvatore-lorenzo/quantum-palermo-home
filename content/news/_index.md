@@ -10,11 +10,30 @@ sections:
       title: 
       subtitle: #"[Events](../events) & [Seminars](../seminars)"
       text: |
-       <div data-tockify-component="calendar" data-tockify-calendar="quantum.unipa"></div>
-        <script data-cfasync="false" data-tockify-script="embed" src="https://public.tockify.com/browser/embed.js"></script>
-        <a href="https://tockify.com/tkf2/submitEvent/bff716a1ec4b4f1bbb842f9245b852e8" target="_blank">Submit an Event</a>
-        <p class="text-center">
-        <a class="lead" href="../../">Back</a></p>
+        <style unselectable="on">
+        #wrap {
+        width:1200px;
+        height:800px;
+        padding:0;
+        position:relative;
+        left:0px;
+        top:0px;
+        overflow:hidden;
+        }
+        #frame {
+        width:1100px;
+        height:700px;
+        position:relative;
+        left:0px;
+        top:0px;
+        }
+        #frame {
+        -ms-zoom:1.0;
+        }
+        </style>
+        <div id="wrap" unselectable="on">
+            <iframe id="frame" src="https://outlook.office365.com/owa/calendar/6e7129fbb9d84cef85adbc5afa79637e@unipa.it/c320f483ffce4063bd176b1062f4b1a716095679551974497758/calendar.html"></iframe>
+        </div>
     design:
       columns: 1 
   #- block: collection

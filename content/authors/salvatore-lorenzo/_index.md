@@ -44,9 +44,9 @@ education:
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "/#contact" for contact widget.
 social:
-  - icon: home
-    icon_pack: fa
-    link: https://salvatore-lorenzo.netlify.app
+  #- icon: home
+  #  icon_pack: fa
+  #  link: https://salvatore-lorenzo.netlify.app
   - icon: envelope
     icon_pack: fas
     link: 'mailto:salvatore.lorenzo@unipa.it'

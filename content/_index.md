@@ -44,11 +44,12 @@ sections:
       filters:
         # The folders to display content from
         folders:
+          - publication
           - news
           - seminars
           - events
           - projects
-          - publication
+          - news
         author: ""
         category: ""
         tag: ""

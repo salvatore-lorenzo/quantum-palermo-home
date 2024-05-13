@@ -32,8 +32,14 @@ sections:
         }
         </style>
         <div id="wrap" unselectable="on">
-            <iframe id="frame" src="https://outlook.office365.com/owa/calendar/6e7129fbb9d84cef85adbc5afa79637e@unipa.it/c320f483ffce4063bd176b1062f4b1a716095679551974497758/calendar.html"></iframe>
+            <iframe id="open-web-calendar" 
+                style="background:url('https://raw.githubusercontent.com/niccokunzmann/open-web-calendar/master/static/img/loaders/circular-loader.gif') center center no-repeat;"
+                src="https://open-web-calendar.hosted.quelltext.eu/calendar.html?url=https://outlook.office365.com/owa/calendar/6e7129fbb9d84cef85adbc5afa79637e@unipa.it/a7e1ae6bdd9444efb29ff20838071e1411365429934934175301/calendar.ics"
+                sandbox="allow-scripts allow-same-origin allow-top-navigation"
+                allowTransparency="true" scrolling="no" 
+                frameborder="0" height="600px" width="80%"></iframe>
         </div>
+        
     design:
       columns: 1 
   #- block: collection

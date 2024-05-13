@@ -7,7 +7,7 @@ authors:
 - Mirko Consiglio
 - Karol Życzkowski
 date: '2024-05-07'
-publishDate: '2024-05-07T05:34:30.710817Z'
+publishDate: '2024-05-13T19:53:23.400798Z'
 publication_types:
 - manuscript
 abstract: Quantum state transfer protocols are a major toolkit in many quantum information

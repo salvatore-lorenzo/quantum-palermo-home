@@ -6,7 +6,7 @@ authors:
 - I. Palmisano
 - F. Albarelli
 - A. Ferraro
-- M. Paternostro
+- Mauro Paternostro
 - G. Massimo Palma
 date: '2023-11-01'
 publishDate: '2024-03-26T21:10:12.604801Z'

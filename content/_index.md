@@ -12,7 +12,36 @@ sections:
       text:
       design:
         columns: '2'
+        flip_alt_rows: true
       show_interests: false
+
+  - block: portfolio
+    content:
+      title: Upcoming Events
+      subtitle: 
+      text: 
+      count: 2
+      filters:
+        # The folders to display content from
+        folders:
+          - events
+        author: ""
+        category: ""
+        tag: ""
+        publication_type: ""
+        featured_only: false
+        exclude_featured: false
+        exclude_future: false
+        exclude_past: false
+      offset: 0
+      order: desc
+      page_type: 
+    design:
+      background:
+        color: "rgb(247, 247, 247)"
+      view: showcase
+      columns: '2'
+      flip_alt_rows: false
       
   - block: portfolio
     id: research
@@ -31,6 +60,8 @@ sections:
       sort_ascending: false
       default_button_index: 0
     design:
+      background:
+        color: "rgb(255,255,255)"
       columns: '2'
       view: masonry
       flip_alt_rows: true
@@ -38,18 +69,17 @@ sections:
   - block: collection
     content:
       title: Latest News
-      subtitle: Seminars, Papers and ...
+      subtitle: Papers, Projetcs and ...
       text: 
       count: 4
       filters:
         # The folders to display content from
         folders:
           - publication
-          - news
+          #- news
           - seminars
-          - events
+          #- events
           - projects
-          - news
         author: ""
         category: ""
         tag: ""
@@ -62,6 +92,8 @@ sections:
       order: desc
       page_type: 
     design:
+      background:
+        color: "rgb(247, 247, 247)"
       view: card
       columns: '2'
       flip_alt_rows: true
@@ -89,6 +121,8 @@ sections:
         <p class="text-center">
         <a class="lead" href="../../research_lines/">Back</a></p>
     design:
+      background:
+        color: "rgb(255,255,255)"
       columns: '1'
 ---
 

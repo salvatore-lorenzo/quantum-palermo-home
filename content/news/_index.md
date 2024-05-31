@@ -4,6 +4,34 @@ date: 2022-10-24
 type: landing
 
 sections:
+  - block: collection
+    content:
+      title: Upcoming Events
+      subtitle: |
+        <p class="text-center">
+        <a class="lead" href="../../">Back</a></p> 
+      text: 
+      count: 2
+      filters:
+        # The folders to display content from
+        folders:
+          - events
+        author: ""
+        category: ""
+        tag: ""
+        publication_type: ""
+        featured_only: false
+        exclude_featured: false
+        exclude_future: false
+        exclude_past: false
+      offset: 0
+      order: desc
+      page_type: event
+    design:
+      view: showcase
+      columns: '2'
+      flip_alt_rows: true
+
   - block: markdown
     id: button
     content:

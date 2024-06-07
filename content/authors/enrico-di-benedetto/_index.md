@@ -52,18 +52,20 @@ social:
   - icon: orcid
     icon_pack: fab
     link: https://orcid.org/0009-0003-3613-5257    #ORCID
-  #- icon: google-scholar 
-  #  icon_pack: ai
-  #  link: https://scholar.google.it/   #SCHOLAR
-  #- icon: arxiv
-  #  icon_pack: ai
-  #  link: https://arxiv.org/a/     #ARXIV
+  - icon: google-scholar 
+    icon_pack: ai
+    link: https://scholar.google.com/citations?user=RmfO9_oAAAAJ&hl=it&oi=ao   #SCHOLAR
+  - icon: arxiv
+    icon_pack: ai
+    link: https://arxiv.org/search/quant-ph?searchtype=author&query=Di+Benedetto%2C+E #ARXIV
   #- icon: researcherid
   #  icon_pack: ai
-  #  link: https://www.webofscience.com/wos/author/record/     #WOS
+  #  link: https://www.webofscience.com/wos/author/record/    # #WOS
   - icon: linkedin
     icon_pack: fab
     link: https://www.linkedin.com/in/enrico-di-benedetto-6775b0107/     #LINKEDIN
+
+
 
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
@@ -80,4 +82,4 @@ highlight_name: false
 user_groups:
 - PhD Students
 ---
-I graduated from University of Palermo in 2023, where I subsequently joined the group of my thesis advisor Prof. Ciccarello. My Master’s Thesis was conducted partly during a stay at the Institute of Fundamental Physics, where I had the chance to work on “Quantum Optics near a Flat Band” together with Dr. A. Gonzalez-Tudela. My interests span a broad are of subjects, primarily (topological) photonics but also solid-state physics in its entirety. When I’m not working, most likely I am either listening to music or spending some quality time with my dog.
+I graduated from University of Palermo in 2023, where I subsequently joined the group of my thesis advisor Prof. Ciccarello. My Master’s Thesis was conducted partly during a stay at the Institute of Fundamental Physics, where I had the chance to work on “Quantum Optics near a Flat Band” together with Dr. A. Gonzalez-Tudela. My interests span a broad area of subjects, primarily (topological) photonics but also solid-state physics in its entirety. When I’m not working, most likely I am either listening to music or spending some quality time with my dog.

@@ -1,26 +1,30 @@
 ---
-title: The Role of Initial Coherence in the Phase-Space Entropy Production Rate
+title: Criticality-amplified quantum probing of a spontaneous collapse model
 authors:
 - Giorgio Zicari
-- Barış Çakmak
+- Matteo Carlesso
+- Andrea Trombettoni
 - Mauro Paternostro
-date: '2024-01-01'
-publishDate: '2024-03-26T21:10:26.895622Z'
+date: '2024-07-01'
+publishDate: '2024-07-15T07:45:42.665417Z'
 publication_types:
-- manuscript
-publication: '*arXiv*'
-abstract: The second law of thermodynamics can be expressed in terms of entropy production,
-  which can be used to quantify the degree of irreversibility of a process. In this
-  Chapter, we consider the standard scenario of open quantum systems, where a system
-  irreversibly interacts with an external environment. We show that the standard approach,
-  based on von Neumann entropy, can be replaced by a phase-space formulation of the
-  problem. In particular, we focus on spin systems that can be described using the
-  so-called spin coherent states. We deploy this formalism to study the interplay
-  between the entropy production rate and the initial quantum coherence available
-  to the system.
+- article-journal
+abstract: Spontaneous collapse models, which are phenomenological mechanisms introduced
+  and designed to account for dynamical wavepacket reduction, are attracting a growing
+  interest from the community interested in the characterisation of the quantum-to-classical
+  transition. Here, we introduce a ıt quantum-probing approach to the quest of deriving
+  metrological upper bounds on the free parameters of such empirical models. To illustrate
+  our approach, we consider an extended quantum Ising chain whose elements are --
+  either individually or collectively -- affected by a mechanism responsible for spontaneous
+  collapse. We explore configurations involving out-of-equilibrium states of the chain,
+  which allows us to infer information about the collapse mechanism before it is completely
+  scrambled from the state of the system. Moreover, we investigate potential amplification
+  effects on the probing performance based on the exploitation of quantum criticality.
 tags:
-- Quantum Physics
+- spontaneous collapse model
+- quantum critical systems
+- quantum metrology and probing
 links:
 - name: arXiv
-  url: https://arxiv.org/abs/2401.07833
+  url: https://arxiv.org/abs/2407.09340
 ---

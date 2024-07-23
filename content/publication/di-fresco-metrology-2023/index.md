@@ -6,7 +6,7 @@ authors:
 - Davide Valenti
 - Angelo Carollo
 date: '2024-03-01'
-publishDate: '2024-07-23T10:42:10.848804Z'
+publishDate: '2024-07-23T17:32:24.832222Z'
 publication_types:
 - article-journal
 publication: '*Quantum*'

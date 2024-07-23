@@ -6,7 +6,7 @@ authors:
 - Angelo Carollo
 - Abolfazl Bayat
 date: '2024-07-01'
-publishDate: '2024-07-23T10:42:10.843413Z'
+publishDate: '2024-07-23T17:32:24.828315Z'
 publication_types:
 - article-journal
 publication: '*New Journal of Physics*'

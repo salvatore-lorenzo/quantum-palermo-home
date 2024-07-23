@@ -6,7 +6,7 @@ authors:
 - Angelo Carollo
 - Abolfazl Bayat
 date: '2024-04-01'
-publishDate: '2024-07-23T10:42:10.854370Z'
+publishDate: '2024-07-23T17:32:24.837762Z'
 publication_types:
 - article-journal
 abstract: Stark systems in which a linear gradient field is applied across a many-body
@@ -29,5 +29,5 @@ tags:
 - Quantum Physics
 links:
 - name: arXiv
-  url: https://arxiv.org/abs/2024-07-23
+  url: https://arxiv.org/abs/2404.10382
 ---

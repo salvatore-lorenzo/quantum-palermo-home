@@ -26,5 +26,5 @@ tags:
 - quantum metrology and probing
 links:
 - name: arXiv
-  url: https://arxiv.org/abs/2407.09340
+  url: https://arxiv.org/abs/2407.09304
 ---

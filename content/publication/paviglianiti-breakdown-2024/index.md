@@ -8,7 +8,7 @@ authors:
 - Davide Valenti
 - Angelo Carollo
 date: '2024-07-01'
-publishDate: '2024-07-23T10:42:10.851570Z'
+publishDate: '2024-07-23T17:32:24.835132Z'
 publication_types:
 - article-journal
 abstract: The dynamics of a quantum-many body system subject to measurements is naturally
@@ -31,5 +31,5 @@ tags:
 - Quantum Physics
 links:
 - name: arXiv
-  url: https://arxiv.org/abs/2024-07-23
+  url: https://arxiv.org/abs/2407.13837
 ---

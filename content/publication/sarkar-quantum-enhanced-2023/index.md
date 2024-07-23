@@ -1,15 +1,16 @@
 ---
-title: Quantum-Enhanced Sensing from Non-Hermitian Topology
+title: Quantum-enhanced sensing from non-Hermitian topology
 authors:
 - Saubhik Sarkar
 - Francesco Ciccarello
 - Angelo Carollo
 - Abolfazl Bayat
-date: '2023-11-01'
-publishDate: '2024-03-26T21:15:17.248396Z'
+date: '2024-07-01'
+publishDate: '2024-07-23T10:42:10.843413Z'
 publication_types:
 - article-journal
-publication: '*arXiv*'
+publication: '*New Journal of Physics*'
+doi: 10.1088/1367-2630/ad5c95
 abstract: Non-Hermitian physics predicts open quantum system dynamics with unique
   topological features such as exceptional points and the non-Hermitian skin effect.
   We show that this new paradigm of topological systems can serve as probes for bulk
@@ -22,10 +23,10 @@ abstract: Non-Hermitian physics predicts open quantum system dynamics with uniqu
   realm. Our findings are demonstrated through several paradigmatic non-Hermitian
   topological models in various dimensions and potential experimental implementations.
 tags:
-- Non Hermitian Topology
 - Non-Hermitian Quantum mechanics
-- Phase transition
 - Quantum metrology
+- Phase transition
+- Non Hermitian Topology
 links:
 - name: arXiv
   url: https://arxiv.org/abs/2311.12756

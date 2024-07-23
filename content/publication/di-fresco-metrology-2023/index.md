@@ -1,15 +1,16 @@
 ---
-title: Metrology and Multipartite Entanglement in Measurement-Induced Phase Transition
+title: Metrology and multipartite entanglement in measurement-induced phase transition
 authors:
 - Giovanni Di Fresco
 - Bernardo Spagnolo
 - Davide Valenti
 - Angelo Carollo
-date: '2023-06-01'
-publishDate: '2024-03-26T21:15:17.005473Z'
+date: '2024-03-01'
+publishDate: '2024-07-23T10:42:10.848804Z'
 publication_types:
 - article-journal
-publication: '*arXiv*'
+publication: '*Quantum*'
+doi: 10.22331/q-2024-04-30-1326
 abstract: Measurement-induced phase transition arises from the competition between
   a deterministic quantum evolution and a repeated measurement process. We explore
   the measurement-induced phase transition through the Quantum Fisher Information

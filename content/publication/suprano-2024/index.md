@@ -33,6 +33,6 @@ abstract: Recent developments have led to the possibility of embedding machine l
   measurement apparatus and is robust to experimental imperfections, thus representing
   a promising route for resource-economic state characterization.
 links:
-- name: URL
-  url: https://link.aps.org/doi/10.1103/PhysRevLett.132.160802
+- name: arXiv
+  url: https://arxiv.org/pdf/2308.04543
 ---

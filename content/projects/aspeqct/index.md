@@ -7,7 +7,7 @@ summary: ""
 authors: [salvatore-lorenzo, daniele-militello, anna-napoli, g.-massimo-palma, mauro-paternostro]
 tags: []
 categories: []
-date: 2030-07-16T00:00:00+01:00
+date: 2024-07-16T00:00:00+01:00
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
@@ -45,7 +45,7 @@ slides: ""
           <!-- <img src="phase-transitions.png" align="right" hspace="20" vspace="20" width="400" /> -->
           <p>
           The ultimate limit to heat generation by computers – a key issue for developing new information
-          technology devices -- must be evaluated from a thermodynamics of computation standpoint. A
+          technology devices - must be evaluated from a thermodynamics of computation standpoint. A
           lower bound is set by the Landauer limit, at which computation becomes thermodynamically
           reversible. Classically, nothing prevents such limit being reached and approaches to it are being
           tested. In the quantum domain, the Landauer limit needs a reformulation that considers the non-

@@ -1,6 +1,5 @@
 ---
-title: Entanglement distribution through separable states via a zero-added-loss photon
-  multiplexing inspired protocol
+title: Entanglement distribution through separable states via a zero-added-loss photon multiplexing inspired protocol
 authors:
 - Conall J. Campbell
 - Adam G. Hawkins
@@ -9,6 +8,7 @@ authors:
 - Hannah McAleese
 date: '2024-04-01'
 publishDate: '2024-04-11T20:24:01.922937Z'
+doi: https://doi.org/10.1103/PhysRevResearch.6.033317
 publication_types:
 - manuscript
 abstract: The recently proposed zero-added-loss multiplexing (ZALM) source of entangled

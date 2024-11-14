@@ -4,9 +4,75 @@ date: 2022-10-24
 type: landing
 
 sections:
+#  - block: collection
+#    content:
+#      title: Upcoming Events
+#      subtitle: |
+#        <p class="text-center">
+#        <a class="lead" href="../../">Back</a></p> 
+#      text: 
+#      count: 2
+#      filters:
+#        # The folders to display content from
+#        folders:
+#          - events
+#        author: ""
+#        category: ""
+#        tag: ""
+#        publication_type: ""
+#        featured_only: false
+#        exclude_featured: false
+#        exclude_future: false
+#        exclude_past: false
+#      offset: 0
+#      order: desc
+#      page_type: event
+#    design:
+#      view: showcase
+#      columns: '2'
+#      flip_alt_rows: true
+
+  - block: markdown
+    id: button
+    content:
+      title: 
+      subtitle: #"[Events](../events) & [Seminars](../seminars)"
+      text: |
+        <style unselectable="on">
+        #wrap {
+        width:1200px;
+        height:500px;
+        padding:10;
+        position:relative;
+        left:0px;
+        top:0px;
+        overflow:hidden;
+        }
+        #frame {
+        width:1200px;
+        height:500px;
+        position:relative;
+        left:0px;
+        top:0px;
+        }
+        #frame {
+        -ms-zoom:1.0;
+        }
+        </style>
+        <div id="wrap" unselectable="on">
+            <iframe id="open-web-calendar" 
+                style="background:url('https://raw.githubusercontent.com/niccokunzmann/open-web-calendar/master/static/img/loaders/circular-loader.gif') center center no-repeat;"
+                src="https://open-web-calendar.hosted.quelltext.eu/calendar.html?url=https://outlook.office365.com/owa/calendar/6e7129fbb9d84cef85adbc5afa79637e@unipa.it/a7e1ae6bdd9444efb29ff20838071e1411365429934934175301/calendar.ics"
+                sandbox="allow-scripts allow-same-origin allow-top-navigation"
+                allowTransparency="true" scrolling="no" 
+                frameborder="0." height="500px" width="80%"></iframe>
+        </div>        
+    design:
+      columns: 1 
+  
   - block: collection
     content:
-      title: Upcoming Events
+      title: Past Events
       subtitle: |
         <p class="text-center">
         <a class="lead" href="../../">Back</a></p> 
@@ -31,45 +97,6 @@ sections:
       view: showcase
       columns: '2'
       flip_alt_rows: true
-
-  - block: markdown
-    id: button
-    content:
-      title: 
-      subtitle: #"[Events](../events) & [Seminars](../seminars)"
-      text: |
-        <style unselectable="on">
-        #wrap {
-        width:1200px;
-        height:800px;
-        padding:0;
-        position:relative;
-        left:0px;
-        top:0px;
-        overflow:hidden;
-        }
-        #frame {
-        width:1100px;
-        height:700px;
-        position:relative;
-        left:0px;
-        top:0px;
-        }
-        #frame {
-        -ms-zoom:1.0;
-        }
-        </style>
-        <div id="wrap" unselectable="on">
-            <iframe id="open-web-calendar" 
-                style="background:url('https://raw.githubusercontent.com/niccokunzmann/open-web-calendar/master/static/img/loaders/circular-loader.gif') center center no-repeat;"
-                src="https://open-web-calendar.hosted.quelltext.eu/calendar.html?url=https://outlook.office365.com/owa/calendar/6e7129fbb9d84cef85adbc5afa79637e@unipa.it/a7e1ae6bdd9444efb29ff20838071e1411365429934934175301/calendar.ics"
-                sandbox="allow-scripts allow-same-origin allow-top-navigation"
-                allowTransparency="true" scrolling="no" 
-                frameborder="0" height="600px" width="80%"></iframe>
-        </div>
-        
-    design:
-      columns: 1 
   #- block: collection
   #  id: news
   #  content:

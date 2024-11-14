@@ -10,7 +10,7 @@ authors:
 - Mauro Paternostro
 - Marco Ruffini
 date: '2024-11-01'
-publishDate: '2024-11-14T20:28:26.882864Z'
+publishDate: '2024-11-14T20:37:25.630229Z'
 publication_types:
 - article-journal
 abstract: Distributing entanglement over long distances remains a challenge due to

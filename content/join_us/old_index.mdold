@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Us</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container {
+            display: flex;
+            flex-direction: row;
+            margin: 20px;
+        }
+        .main-content {
+            flex: 3;
+            padding-right: 20px;
+        }
+        .sidebar {
+            flex: 1;
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-left: 1px solid #ddd;
+        }
+        h1 {
+            font-size: 2em;
+            color: #333;
+        }
+        p {
+            font-size: 1.1em;
+            color: #555;
+        }
+        b {
+            font-weight: bold;
+        }
+        .news {
+            display: none;
+        }
+        .news.active {
+            display: block;
+        }
+        .news h2 {
+            font-size: 1.2em;
+            color: #333;
+        }
+        .news p {
+            font-size: 0.9em;
+            color: #666;
+        }
+        .news-date {
+            color: #999;
+            font-size: 0.8em;
+        }
+        .related-links {
+            margin-top: 20px;
+            font-size: 1em;
+        }
+        .related-links a {
+            color: #000;
+            text-decoration: none;
+        }
+        .related-links a:hover {
+            text-decoration: underline;
+        }
+        .pagination {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+        .pagination button {
+            background-color: #fff;
+            border: 1px solid #ccc;
+            padding: 5px 10px;
+            cursor: pointer;
+        }
+        .pagination button:hover {
+            background-color: #f0f0f0;
+        }
+        @media (max-width: 1080px) {
+            .container {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body> 
+    <div class="container">
+        <!-- Main content -->
+        <div class="main-content">
+            <h1>Join us!</h1>
+            <br>
+            <p>
+                We have openings for <b>PostDocs, PhD students, and MSc students.</b>
+            </p>
+            <p>
+                Researchers who feel that their scientific profile and aspirations tie in with our research agenda are invited to contact us at any time!
+                <br>
+                Also welcome are <b>Master students</b> with a background in Physics or related disciplines and strong grades.
+            </p>
+            <p>
+                If you're interested in joining our team, send your application complete with CV, list of publications and the contact details of two referees/previous supervisors to
+                <b>quantum[at]unipa.it</b>.
+            </p>
+            <div class="related-links">
+                <p><b>RELATED LINKS</b></p>
+                <a href="#">➤ Open positions</a>
+            </div>
+        </div>
+        <!-- Sidebar -->
+        <div class="sidebar">
+        <h2>News</h2>
+          <div class="news active">
+            <div class="panel panel-default page-row">
+              <div class="panel-heading">
+              <h3 class="panel-title">
+              4 post doc positions</h3>
+              </div>
+              <div class="panel-body"> Responsabile scientifico - Mauro   Paternostro  </div>
+              <ul class="list-group">
+              <li class="list-group-item">
+              <strong>Title: </strong></li>
+              <li class="list-group-item">
+              <strong>Deadline: </strong>24/10/2024</li>
+              <li class="list-group-item">
+              <strong>Link: </strong><a href="https://titulus-unipa.cineca.it/albo/viewer?view=files%2F005569479-UNPACLE-3ed475c5-5b5b-40ac-9ab9-9fb5998511f6-000.pdf">Bando.pdf</a>
+              </li>
+              </ul>
+            </div>
+            <div class="panel panel-default page-row">
+              <div class="panel-heading">
+              <h3 class="panel-title">
+              4 post doc positions</h3>
+              </div>
+              <div class="panel-body"> Responsabile scientifico - Mauro Paternostro  </div>
+              <ul class="list-group">
+              <li class="list-group-item">
+              <strong>Title: </strong></li>
+              <li class="list-group-item">
+              <strong>Deadline: </strong>24/10/2024</li>
+              <li class="list-group-item">
+              <strong>Link: </strong><a href="https://titulus-unipa.cineca.it/albo/viewer?view=files%2F005569479-UNPACLE-3ed475c5-5b5b-40ac-9ab9-9fb5998511f6-000.pdf">Bando.pdf</a>
+              </li>
+              </ul>
+            </div>
+          </div>
+          <div class="news ">
+            <div class="panel panel-default page-row">
+              <div class="panel-heading">
+              <h3 class="panel-title">
+              4 post doc positions</h3>
+              </div>
+              <div class="panel-body"> Responsabile scientifico - Mauro Paternostro  </div>
+              <ul class="list-group">
+              <li class="list-group-item">
+              <strong>Title: </strong></li>
+              <li class="list-group-item">
+              <strong>Deadline: </strong>24/10/2024</li>
+              <li class="list-group-item">
+              <strong>Link: </strong><a href="https://titulus-unipa.cineca.it/albo/viewer?view=files%2F005569479-UNPACLE-3ed475c5-5b5b-40ac-9ab9-9fb5998511f6-000.pdf">Bando.pdf</a>
+              </li>
+              </ul>
+            </div>
+          </div>
+          <!-- Pagination buttons -->
+          <div class="pagination">
+              <button id="prevBtn">&larr;</button>
+              <button id="nextBtn">&rarr;</button>
+          </div>
+        </div>
+        <script>
+            // Select all news items
+            const newsItems = document.querySelectorAll('.news');
+            let currentIndex = 0;
+            // Function to show the current news item
+            function showNews(index) {
+                newsItems.forEach((item, idx) => {
+                    item.classList.toggle('active', idx === index);
+                });
+            }
+            // Next button click event
+            document.getElementById('nextBtn').addEventListener('click', () => {
+                if (currentIndex < newsItems.length - 1) {
+                    currentIndex++;
+                    showNews(currentIndex);
+                }
+            });
+            // Previous button click event
+            document.getElementById('prevBtn').addEventListener('click', () => {
+                if (currentIndex > 0) {
+                    currentIndex--;
+                    showNews(currentIndex);
+                }
+            });
+        </script>
+</body>
+</html>

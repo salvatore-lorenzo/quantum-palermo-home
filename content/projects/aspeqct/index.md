@@ -5,7 +5,7 @@ title: "ASpEQCt"
 subtitle: "[ Back   ](../../projects/)"
 summary: ""
 authors: [salvatore-lorenzo, daniele-militello, anna-napoli, g.-massimo-palma, mauro-paternostro]
-tags: []
+tags: [project]
 categories: []
 date: 2024-07-16T00:00:00+01:00
 

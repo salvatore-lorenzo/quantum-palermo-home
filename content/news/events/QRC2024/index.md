@@ -141,7 +141,7 @@ date: 2024-5-14
             <h1>QRC2024</h1>
             <p class="small">This Course is hosted at the</p>
             <h4>ETTORE MAJORANA FOUNDATION AND CENTRE FOR SCIENTIFIC CULTURE</h4>
-            <p class="small">DIRECTOR: A. ZICHICHI</p>
+            <p class="small">FOUNDER: A. ZICHICHI</p>
             <p class="small">as part of the</p>
             <h2>INTERNATIONAL SCHOOL ON NONEQUILIBRIUM PHENOMENA</h2>
             <p>Directors of the School: A. Lanzara, G. M. Palma, B. Spagnolo</p>
@@ -207,7 +207,8 @@ date: 2024-5-14
                             <div class="event-time">17:10 - 18:00</div>
                             <div class="event-description">
                                 <h4 class="speaker-name" data-bs-toggle="modal" data-bs-target="#Prati">Enrico Prati</h4>
-                                <p class="mb-0 small">QRC2024</p>
+                                <p class="mb-0" style="line-height:17px;">Quantum machine learning and the exploitation of noise <br>as a computational resource
+</p>
                             </div>
                         </div>
                         <div class="event-row white-bg" data-duration="240">
@@ -241,15 +242,16 @@ date: 2024-5-14
                         <div class="event-row light-gray-bg" data-duration="60">
                             <div class="event-time">11:10 - 12:00</div>
                             <div class="event-description">
-                                <h4 class="speaker-name" data-bs-toggle="modal" data-bs-target="#Romancino">Alessandro Romancino</h4>
-                                <p class="mb-0 ">Entanglement Percolation in Random State Quantum Networks</p>
+                                <h4 class="speaker-name" data-bs-toggle="modal" data-bs-target="#Vetrano">Marco Vetrano</h4>
+                                <p class="mb-0"style="line-height:17px;">QELM response to scrambling dynamics and <br>applications to atmospheric retrieval</p>
                             </div>
                         </div>
                         <div class="event-row dark-gray-bg" data-duration="60">
                             <div class="event-time">12:00 - 12:50</div>
                             <div class="event-description">
                                 <h4 class="speaker-name" data-bs-toggle="modal" data-bs-target="#Miceli">Marco Miceli</h4>
-                                <p class="mb-0 small">QRC2024</p>
+                                <p class="mb-0"style="line-height:17px;">An astrophysical problem: <br>can we study stellar explosions through QRC?
+</p>
                             </div>
                         </div>
                         <div class="event-row gray-bg" data-duration="60">
@@ -326,8 +328,8 @@ date: 2024-5-14
                         <div class="event-row light-gray-bg" data-duration="60">
                             <div class="event-time">15:00 - 15:50</div>
                             <div class="event-description">
-                                <h4 class="speaker-name" data-bs-toggle="modal" data-bs-target="#Colla">Alessandra Colla</h4>
-                                <p class="mb-0 "style="line-height:17px;">Thermodynamic role of general environments:<br> from heat bath to work reservoir</p>
+                                <h4 class="speaker-name" data-bs-toggle="modal" data-bs-target="#Plastina">Jacopo Settino</h4>
+                                <p class="mb-0">Memory-Augmented Hybrid Quantum Reservoir Computing</p>
                             </div>
                         </div>
                         <div class="event-row gray-bg" data-duration="20">
@@ -344,8 +346,8 @@ date: 2024-5-14
                         <div class="event-row light-gray-bg" data-duration="60">
                             <div class="event-time">17:10 - 18:00</div>
                             <div class="event-description">
-                                <h4 class="speaker-name" data-bs-toggle="modal" data-bs-target="#Vetrano">Marco Vetrano</h4>
-                                <p class="mb-0"style="line-height:17px;">Quantum Extreme Learning response to scrambling dynamics and <br>applications to atmospheric retrieval</p>
+                                <h4 class="speaker-name" data-bs-toggle="modal" data-bs-target="#Romancino">Alessandro Romancino</h4>
+                                <p class="mb-0 ">Entanglement Percolation in Random State Quantum Networks</p>
                             </div>
                         </div>
                     </div>
@@ -357,8 +359,8 @@ date: 2024-5-14
                         <div class="event-row light-gray-bg" data-duration="60">
                             <div class="event-time">9:00 - 9:50</div>
                             <div class="event-description">
-                                <h4 class="speaker-name" data-bs-toggle="modal" data-bs-target="#Plastina">Jacopo Settino</h4>
-                                <p class="mb-0">Memory-Augmented Hybrid Quantum Reservoir Computing</p>
+                                <h4 class="speaker-name" data-bs-toggle="modal" data-bs-target="#Colla">Alessandra Colla</h4>
+                                <p class="mb-0 "style="line-height:17px;">Thermodynamic role of general environments:<br> from heat bath to work reservoir</p>
                             </div>
                         </div>
                         <div class="event-row dark-gray-bg" data-duration="60">
@@ -376,7 +378,7 @@ date: 2024-5-14
                             <div class="event-time">11:10 - 12:00</div>
                             <div class="event-description">
                                 <h4 class="speaker-name" data-bs-toggle="modal" data-bs-target="#Pezzutto">Marco Pezzutto</h4>
-                                <p class="mb-0 small">QRC2024</p>
+                                <p class="mb-0 "style="line-height:17px;">Non-positive energy quasidistributions<br> in coherent collisional models</p>
                             </div>
                         </div>
                         <div class="event-row blue-bg" data-duration="60">
@@ -433,8 +435,9 @@ of reservoir computers serve as universal approximators of functionals with fadi
                     <!---<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>--->
                 </div>
                 <div class="modal-body">
-                    <h6>Title: </h6>
-                    <p>Abstract: </p>
+                    <h6>Title: Non-positive energy quasidistributions in coherent collisional models</h6>
+                    <p>Abstract: Collisional models have proven to be insightful tools for investigating open quantum system dynamics. Recently, they were applied to the scenario where a system interacts with elements of an environment prepared in a state with quantum coherence, given by the mixture of a coherent Gibbs state and an equilibrium Gibbs one. In the short system-environment interaction time limit, a clear formulation of the first and second laws of thermodynamics emerges, including also contributions due to the presence of quantum coherence. 
+Here we go beyond the short interaction time limit and energy-preserving condition, obtaining the distributions of the stochastic instances of internal energy variation, coherent work, incoherent heat, and mechanical work. We show that the corresponding Kirkwood-Dirac Quasiprobability distributions (KDQ) can take non-commutativity into account, and return the statistical moments of the distributions, in a context where the two-point measurement scheme would not be adequate. We certify the conditions under which the collision process exhibits genuinely quantum traits, using as quantumness criteria the negativity of the real part of a KDQ, and the deviations from zero of its imaginary part. We test our results on a qubit case-study, amenable to analytical treatment as far as the KDQ for thermodynamic quantities are concerned, whereas the full qubit dynamics over repeated collisions is accessible numerically. Our work represents an instance where thermodynamics can be extended beyond thermal systems, as well as an example of application of KDQ distributions in a thermodynamic context where quantum effects play a significant role.</p>
                 </div>
             </div>
         </div>
@@ -447,7 +450,7 @@ of reservoir computers serve as universal approximators of functionals with fadi
                     <!---<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>--->
                 </div>
                 <div class="modal-body">
-                    <h6>Title: </h6>
+                    <h6>Title: An astrophysical problem: can we study stellar explosions through QRC?</h6>
                     <p>Abstract: </p>
                 </div>
             </div>
@@ -699,7 +702,7 @@ In the second example, we implement a quantum reservoir computing model, where a
                 <h5 class="modal-title" id="pratiModalLabel">Enrico Prati's Talk</h5>
             </div>
             <div class="modal-body">
-                <h6>Title: </h6>
+                <h6>Title: Quantum machine learning and the exploitation of noise as a computational resource</h6>
                 <p>Abstract: </p>
             </div>
         </div>

@@ -5,7 +5,7 @@ title: "QuReCo"
 subtitle: "[ Back   ](../../projects/)"
 summary: ""
 authors: [salvatore-lorenzo, g.-massimo-palma]
-tags: []
+tags: [project]
 categories: []
 date: 2024-01-24T00:04:00+01:00
 

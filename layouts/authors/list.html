@@ -30,10 +30,17 @@
       {{ $counter := 0 }}
       {{ range $query }}
         {{ if lt $counter $maxItems }}
-          <li>
-            ({{ .Date.Format "Jan 2006"  }}) - <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-          </li>
-          {{ $counter = add $counter 1 }}
+          {{ if in .Params.tags "project" }}
+            <li>
+              ({{ .Date.Format "Jan 2006" }}) - (Project) <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+            </li>
+            {{ $counter = add $counter 1 }}
+          {{ else if not .Params.tags }}
+            <li>
+              ({{ .Date.Format "Jan 2006" }}) - <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+            </li>
+            {{ $counter = add $counter 1 }}
+          {{ end }}
         {{ end }}
       {{ end }}
     </ul>
@@ -43,3 +50,40 @@
 </section>
 
 {{- end -}}
+
+
+
+{{/*<ul>
+  {{ $maxItems := 10 }}
+  {{ $counter := 0 }}
+  {{ range $query }}
+    {{ if lt $counter $maxItems }}
+      {{ if in .Params.tags "project" }}
+        <li>
+          ({{ .Date.Format "Jan 2006" }}) - (Project) <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        </li>
+        {{ $counter = add $counter 1 }}
+      {{ else if not .Params.tags }}
+        <li>
+          ({{ .Date.Format "Jan 2006" }}) - <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        </li>
+        {{ $counter = add $counter 1 }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+</ul>*/}}
+
+
+
+{{/*<ul>
+ {{ $maxItems := 10 }}
+ {{ $counter := 0 }}
+ {{ range $query }}
+   {{ if lt $counter $maxItems }}
+     <li>
+       ({{ .Date.Format "Jan 2006"  }}) - <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+     </li>
+     {{ $counter = add $counter 1 }}
+   {{ end }}
+ {{ end }}
+/ul>*/}}

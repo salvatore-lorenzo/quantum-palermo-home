@@ -5,7 +5,7 @@ title: "HyQelm"
 subtitle: "[ Back   ](../../projects/)"
 summary: ""
 authors: [salvatore-lorenzo, g.-massimo-palma, mauro-paternostro, anna-napoli]
-tags: []
+tags: [project]
 categories: []
 date: 2024-03-24T00:01:00+01:00
 

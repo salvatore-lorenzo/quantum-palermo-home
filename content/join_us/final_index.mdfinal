@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extract and Filter Divs</title>
+    <style>
+        .container {
+            display: flex;
+            flex-direction: row;
+            margin: 0px;
+        }
+        .main-content {
+            flex: 3; /* Takes up 3 parts of the space */
+            padding-right: 20px; /* Add some padding to separate from sidebar */
+        }
+        /* Basic sidebar styling */
+        .sidebar {
+            flex: 2; /* Takes up 1 part of the space */
+            height: 630px; /* Fixed height for the sidebar */
+            background-color: #f4f4f4;
+            padding: 20px;
+            overflow-y: scroll;
+            border-right: 2px solid #ccc; /* Add borders */
+            border-left: 2px solid #ccc; /* Add borders */
+            border-top: 2px solid #ccc; /* Add borders */
+            border-bottom: 2px solid #ccc; /* Add borders */
+            box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
+            max-width: calc(100% - 10px);
+        }
+        /* Media query for smaller screens */
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column; /* Stack elements vertically */
+                margin: 10px; /* Adjust margins for mobile view */
+            }
+            .main-content, .sidebar {
+                width: 100%; /* Full width for both columns */
+                padding-right: 0; /* Remove right padding in mobile view */
+                margin-bottom: 0px; /* Space between content and sidebar */
+            }
+        }
+    </style>
+</head>
+<body> 
+    <div class="text-align-center">
+            <h1>Join us!<br><br></h1>
+    </div>
+    <div class="container">
+        <!-- Main content -->
+        <div class="main-content">
+            <p>
+                We have openings for <b>PostDocs, PhD students, and MSc students.</b>
+            </p>
+            <p>
+                Researchers who feel that their scientific profile and aspirations tie in with our research agenda are invited to contact us at any time!
+                <br>
+                Also welcome are <b>Master students</b> with a background in Physics or related disciplines and strong grades.
+            </p>
+            <p>
+                If you're interested in joining our team, send your application complete with CV, list of publications and the contact details of two referees/previous supervisors to
+                <b>quantum[at]unipa.it</b>.
+            </p>
+            <div class="related-links">
+                <p><b>RELATED LINKS</b></p>
+                <a href="#">➤ Open positions</a>
+            </div>
+        </div>
+        <!-- Sidebar to hold extracted content -->
+        <div class="sidebar">
+            <div id="extracted-content">
+                <!-- Extracted and filtered content will be inserted here -->
+            </div>
+        </div>
+    </div>
+    <div>
+        <p class="text-center">
+        <a class="lead" href="../../"><br>Back</a></p>
+    </div>
+<script>
+    window.onload = async function() {
+        // Replace with the target URL (needs to allow CORS)
+        const url = 'https://www.unipa.it/albo.html';        
+        // List of keywords to filter by
+        const keywords = ['4576','4577','4578'];        
+        try {
+            // Fetch the external webpage content
+            const response = await fetch(url);
+            const text = await response.text();            
+            // Create a temporary DOM from the fetched content
+            const parser = new DOMParser();
+            const doc = parser.parseFromString(text, 'text/html');            
+            // Select the div elements with the specified class
+            const divs = doc.querySelectorAll('div.panel.panel-default.page-row');            
+            // Create an array to store the extracted and filtered HTML strings
+            let extractedDivs = [];            
+            divs.forEach(div => {
+                const panelBody = div.querySelector('div.panel-heading');
+                if (panelBody) {
+                    const panelText = panelBody.textContent.toLowerCase();  // Get text content and make it lowercase
+                    // Check if any of the keywords are in the panel body text
+                    const matches = keywords.some(keyword => panelText.includes(keyword));                    
+                    if (matches) {
+                        extractedDivs.push(div.outerHTML);  // Store HTML of matching divs
+                    }
+                }
+            });            
+            // Insert the extracted and filtered divs into the sidebar
+            document.getElementById('extracted-content').innerHTML = extractedDivs.length ? extractedDivs.join('') : 'No matching results found.';            
+        } catch (error) {
+            console.error('Error fetching the page:', error);
+        }
+    }
+</script>
+
+</body>
+</html>

@@ -4,7 +4,7 @@ authors:
 - Gabriele Lo Monaco
 - Luca Innocenti
 - Dario Cilluffo
-- Diana A. Chisholm
+- Diana Chisholm
 - Salvatore Lorenzo
 - G. Massimo Palma
 date: '2023-12-01'

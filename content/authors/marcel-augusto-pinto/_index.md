@@ -8,7 +8,7 @@ last_name: Pinto
 
 # Username (this should match the folder name and the name on publications)
 authors:
-- "pinto"
+- "marcel-augusto-pinto"
 
 # Is this the primary user of the site?
 superuser: false

@@ -15,11 +15,11 @@ authors:
 superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role: Research Fellow
+role: Postdoctoral research
 
 # Organisations/Affiliations
 organizations:
-  - name: Queen's University Belfast
+  - name: University of Palermo
     url: 
 
 # List each interest with a dash

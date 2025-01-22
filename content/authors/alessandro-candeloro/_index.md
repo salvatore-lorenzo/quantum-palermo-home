@@ -20,7 +20,7 @@ role: Postdoctoral research
 # Organisations/Affiliations
 organizations:
   - name: University of Palermo
-    url: 
+    url: https://www.unipa.it/persone/docenti/c/alessandro.candeloro/
 
 # List each interest with a dash
 interests:
@@ -44,7 +44,7 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: mailto:a.cande.q@gmail.com #mail
+    link: mailto:alessandro.candeloro@unipa.it #mail
   - icon: orcid
     icon_pack: fab
     link: https://orcid.org/0000-0003-0582-4941    #ORCID

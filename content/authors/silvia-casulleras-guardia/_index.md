@@ -20,7 +20,7 @@ role: Postdoctoral research
 # Organisations/Affiliations
 organizations:
   - name: University of Palermo
-    url: 
+    url: https://www.unipa.it/persone/docenti/c/silvia.casullerasguardia
 
 # List each interest with a dash
 interests:
@@ -43,9 +43,9 @@ education:
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 
 social:
-  #- icon: envelope
-  #  icon_pack: fas
-  #  link: 'mailto:paoloerdmn@gmail.com'
+  - icon: envelope
+    icon_pack: fas
+    link: 'mailto:silvia.casullerasguardia@unipa.it'
   #- icon: google-scholar 
   #  icon_pack: ai
   #  link: https://scholar.google.com/citations?user=PlHrQ7cAAAAJ

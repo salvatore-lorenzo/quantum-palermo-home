@@ -37,8 +37,6 @@ sections:
         <p class="text-center">
         <h3>Dario Cilluffo</h3></p>
         <p class="text-center">
-        <h3>Luca Leonforte</h3></p>
-        <p class="text-center">
         <h3>Federico Roccati</h3></p>
         </div>   
     design:

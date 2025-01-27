@@ -21,6 +21,7 @@ tags:
 - quantum communication
 - entanglement distribution
 - quantum resources
+doi: 10.1088/2058-9565/ada79c
 links:
 - name: arXiv
   url: https://arxiv.org/abs/2408.05490

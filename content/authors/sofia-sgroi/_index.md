@@ -14,7 +14,7 @@ authors:
 superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role: Postdoctoral research
+role: Postdoctoral researcher
 
 # Organizations/Affiliations
 organizations:
@@ -44,7 +44,7 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto: psgroi01@qub.ac.uk' #mail
+    link: 'mailto:psgroi01@qub.ac.uk' #mail
   - icon: orcid
     icon_pack: fab
     link: https://orcid.org/0000-0002-4903-4020    #ORCID

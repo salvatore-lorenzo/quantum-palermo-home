@@ -45,7 +45,7 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: mailto:d.chisholm@qub.ac.uk #mail
+    link: mailto:diana.chisholm0808@gmail.com #mail
   - icon: orcid
     icon_pack: fab
     link: https://orcid.org/0000-0003-0496-888X    #ORCID
@@ -71,10 +71,7 @@ highlight_name: true
 user_groups:
 - Postdoc
 ---
-I was born in Glasgow in 1995 and raised in Palermo. I got my Master's degree at the University of Palermo in 2019, and my PhD at the university of Palermo in 2023, both under the supervision of Prof. G. Massimo Palma.
-My PhD was focused on the foundational aspects of Quantum Mechanics, in particular quantum objectivity and the quantum-to-classical transition.
-After my PhD I moved to Belfast where I'm currently working as a Research Fellow in the group of Prof. Mauro Paternostro. The focus of my contract is the generation of non-classical states in levitated mechanical systems.
-I have also have an active interest in topics such as open quantum systems, quantum networks, quantum information scrambling and quantum information.
+I was born in Glasgow in 1995 and raised in Palermo. I got my Master’s degree at the University of Palermo in 2019, and my PhD at the university of Palermo in 2023, both under the supervision of Prof. G. Massimo Palma. My PhD was focused on the foundational aspects of Quantum Mechanics, in particular quantum objectivity and the quantum-to-classical transition. After my PhD I moved to Belfast where I was a Research Fellow for two years in the group of Prof. Mauro Paternostro. I joined the Qunipa group in 2024 with a focus on quantum thermodynamics and quantum control. I also have an active interest in topics such as open quantum systems, quantum networks, quantum scrambling, quantum information and levitated nanoparticles.
 
 
 

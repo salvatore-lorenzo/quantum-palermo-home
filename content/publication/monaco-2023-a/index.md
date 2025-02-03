@@ -1,18 +1,18 @@
 ---
-title: An Operational Definition of Quantum Information Scrambling
+title: An operational definition of quantum information scrambling
 authors:
 - Gabriele Lo Monaco
 - Luca Innocenti
 - Dario Cilluffo
-- Diana Chisholm
+- Diana A Chisholm
 - Salvatore Lorenzo
-- G. Massimo Palma
-date: '2023-12-01'
-publishDate: '2024-03-26T21:10:12.655913Z'
+- G Massimo Palma
+date: '2024-12-01'
+publishDate: '2025-02-03T08:42:32.458137Z'
 publication_types:
-- manuscript
-publication: '*arXiv*'
-doi: 10.48550/arXiv.2312.11619
+- article-journal
+publication: '*Quantum Science and Technology*'
+doi: 10.1088/2058-9565/ad9ed2
 abstract: Quantum information scrambling (QIS) is a characteristic feature of several
   quantum systems, ranging from black holes to quantum communication networks. While
   accurately quantifying QIS is crucial to understanding many such phenomena, common
@@ -27,10 +27,9 @@ abstract: Quantum information scrambling (QIS) is a characteristic feature of se
   computed efficiently. By applying our proposal to a range of examples with increasing
   complexity, we illustrate its ability to capture the multifaceted nature of QIS
   in all its intricacy.
-tags:
-- High Energy Physics - Theory
-- Quantum Physics
 links:
 - name: arXiv
   url: https://arxiv.org/abs/2312.11619
+- name: URL
+  url: https://dx.doi.org/10.1088/2058-9565/ad9ed2
 ---

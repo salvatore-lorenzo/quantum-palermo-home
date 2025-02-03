@@ -6,7 +6,7 @@ authors:
 - Salvatore Lorenzo
 - G. Massimo Palma
 date: '2024-07-01'
-publishDate: '2024-07-10T06:09:33.678131Z'
+publishDate: '2025-02-03T08:40:19.883010Z'
 publication_types:
 - article-journal
 publication: '*Machine Learning: Science and Technology*'

@@ -1,36 +1,36 @@
 ---
 title:
-date: 2022-10-24
+date: 2024-10-24
 type: landing
 
 sections:
-#  - block: collection
-#    content:
-#      title: Upcoming Events
-#      subtitle: |
-#        <p class="text-center">
-#        <a class="lead" href="../../">Back</a></p> 
-#      text: 
-#      count: 2
-#      filters:
-#        # The folders to display content from
-#        folders:
-#          - events
-#        author: ""
-#        category: ""
-#        tag: ""
-#        publication_type: ""
-#        featured_only: false
-#        exclude_featured: false
-#        exclude_future: false
-#        exclude_past: false
-#      offset: 0
-#      order: desc
-#      page_type: event
-#    design:
-#      view: showcase
-#      columns: '2'
-#      flip_alt_rows: true
+  - block: collection
+    content:
+      title: Upcoming Events
+      subtitle: |
+        <p class="text-center">
+        <a class="lead" href="../../">Back</a></p> 
+      text: 
+      count: 2
+      filters:
+        # The folders to display content from
+        folders:
+          - events
+        author: ""
+        category: ""
+        tag: ""
+        publication_type: ""
+        featured_only: false
+        exclude_featured: false
+        exclude_future: false
+        exclude_past: false
+      offset: 0
+      order: desc
+      page_type: event
+    design:
+      view: showcase
+      columns: '2'
+      flip_alt_rows: true
 
   - block: markdown
     id: button
@@ -40,23 +40,25 @@ sections:
       text: |
         <style unselectable="on">
         #wrap {
-        width:1200px;
-        height:500px;
-        padding:10;
-        position:relative;
-        left:0px;
-        top:0px;
-        overflow:hidden;
+        width: 100%;  /* Make it responsive */
+        max-width: 1200px;
+        height: 500px;
+        padding: 10px;
+        position: relative;
+        overflow: hidden;
         }
         #frame {
-        width:1200px;
-        height:500px;
-        position:relative;
-        left:0px;
-        top:0px;
+        width: 100%;
+        height: 500px;
+        position: relative;
         }
-        #frame {
-        -ms-zoom:1.0;
+
+        /* Ensure the iframe adjusts properly on small screens */
+        iframe {
+        width: 100%;  /* Adjust to full width */
+        max-width: 1200px;
+        height: 500px;
+        border: none;
         }
         </style>
         <div id="wrap" unselectable="on">
@@ -81,7 +83,7 @@ sections:
       filters:
         # The folders to display content from
         folders:
-          - events
+          - pastevents
         author: ""
         category: ""
         tag: ""

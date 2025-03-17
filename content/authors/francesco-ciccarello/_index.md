@@ -14,7 +14,7 @@ authors:
 superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role: Associate Professor
+role: Full Professor
 
 # Organizations/Affiliations
 organizations:

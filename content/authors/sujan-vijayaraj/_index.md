@@ -45,7 +45,7 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:sujan.vijayaraj@unipa.com'
+    link: 'mailto:sujan.vijayaraj@unipa.it'
   - icon: google-scholar 
     icon_pack: ai
     link: https://scholar.google.com/citations?hl=en&user=epeltecAAAAJ&view_op=list_works&sortby=pubdate/

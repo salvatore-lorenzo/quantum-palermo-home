@@ -19,7 +19,7 @@ role: Assistant Professor
 # Organizations/Affiliations
 organizations:
   - name: University of Palermo
-    url: 'https://www.unipa.it/persone/docenti/l/name.surname'
+    url: 'https://www.unipa.it/persone/docenti/r/federico.roccati'
 
 # List each interest with a dash
 interests:
@@ -48,7 +48,7 @@ social:
     link: https://sites.google.com/view/roccati
   - icon: envelope
     icon_pack: fas
-    link: 'mailto: ' #mail
+    link: 'mailto: federico.roccati@unipa.it' #mail
   - icon: orcid
     icon_pack: fab
     link: https://orcid.org/0000-0002-6981-0613   #ORCID

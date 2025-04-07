@@ -1,16 +1,16 @@
 ---
 # Documentation: https://docs.hugoblox.com/managing-content/
 type: event
-title: 
+title: TOPNESS2025
   
 subtitle: 
 summary: |
   <h2><p style="text-align: center;color:#3366CC"><a href="events/topness2025">Non-Equilibrium Phenomena, Topology, Superconductivity, and Superfluidity</a></p></h2>
-  <h2><p style="text-align: center;"> 27 April/1 May 2025 </p></h2>
+  <h2><p style="text-align: center;"> 27 April - 1 May 2025 </p></h2>
 
 tags: []
 categories: []
-date: 2025-3-01
+date: 04-2025
 #date_end: 2024-10-18
 
 # Optional external URL for project (replaces project detail page).
@@ -33,7 +33,7 @@ external_link: "https://conferences.phys.unisa.it/topness25/"
 #   icon: twitter
 
 #url_code: 
-url_pdf: https://conferences.phys.unisa.it/topness25/TOPNESS25-ConferencePoster.pdf
+url_pdf: #https://conferences.phys.unisa.it/topness25/TOPNESS25-ConferencePoster.pdf
 #url_slides: 
 #url_video: 
 

@@ -34,7 +34,8 @@ sections:
         exclude_future: false
         exclude_past: false
       offset: 0
-      order: desc
+      sort_by: 'date'
+      sort_ascending: true
       page_type: 
     design:
       background:

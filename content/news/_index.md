@@ -4,14 +4,14 @@ date: 2024-10-24
 type: landing
 
 sections:
-  - block: collection
+  - block: Portfolio
     content:
       title: Upcoming Events
       subtitle: |
         <p class="text-center">
         <a class="lead" href="../../">Back</a></p> 
       text: 
-      count: 2
+      count: 3
       filters:
         # The folders to display content from
         folders:
@@ -25,12 +25,13 @@ sections:
         exclude_future: false
         exclude_past: false
       offset: 0
-      order: desc
+      sort_by: 'date'
+      sort_ascending: true
       page_type: event
     design:
       view: showcase
       columns: '2'
-      flip_alt_rows: true
+      flip_alt_rows: True
 
   - block: markdown
     id: button

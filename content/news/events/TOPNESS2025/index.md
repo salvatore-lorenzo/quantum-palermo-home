@@ -6,11 +6,11 @@ title:
 subtitle: 
 summary: |
   <h2><p style="text-align: center;color:#3366CC"><a href="events/topness2025">Non-Equilibrium Phenomena, Topology, Superconductivity, and Superfluidity</a></p></h2>
-  <h2><p style="text-align: center;"> 27 April/1 May 2025 </p></h2>
+  <h2><p style="text-align: center;"> 27 April - 1 May 2025 </p></h2>
 
 tags: []
 categories: []
-date: 2025-3-01
+date: 04-2025
 #date_end: 2024-10-18
 
 # Optional external URL for project (replaces project detail page).

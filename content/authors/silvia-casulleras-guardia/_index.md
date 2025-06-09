@@ -74,9 +74,4 @@ highlight_name: true
 user_groups:
 - Postdoc
 ---
-I completed the Bachelor’s degrees in Physics and Mathematics from the Autonomous University of Barcelona in 2017, followed by a Master’s degree at the University of Innsbruck in 2019. My master's thesis focused on light-matter interaction in nanostructures. I pursued my PhD under the supervision of Prof. Oriol Romero-Isart at the University of Innsbruck, exploring the intersection of quantum optics and levitated nanoparticles. My PhD defense is scheduled for January 2025. Currently, I am a postdoctoral researcher in the group of Prof. Francesco Ciccarello and Prof. Angelo Carollo at the University of Palermo. My research interests include waveguide quantum electrodynamics, exotic light-matter interactions in quantum optics, and the development of protocols to uncover quantum phenomena in nanoscale systems.
-
-
-
-
-
+I completed the Bachelor’s degrees in Physics and Mathematics from the Autonomous University of Barcelona in 2017, followed by a Master’s degree at the University of Innsbruck in 2019. My master’s thesis focused on light-matter interaction in nanostructures. In January 2025 I completed my PhD under the supervision of Prof. Oriol Romero-Isart at the University of Innsbruck, exploring the intersection of quantum optics and levitated nanoparticles. Currently, I am a postdoctoral researcher in the group of Prof. Francesco Ciccarello and Prof. Angelo Carollo at the University of Palermo. My research interests include waveguide quantum electrodynamics, exotic light-matter interactions in quantum optics, and the development of protocols to uncover quantum phenomena in nanoscale systems.

@@ -33,9 +33,13 @@ sections:
         </div>
         <div class="col-lg-9$
         <p class="text-center">
-        <h3>Tony Apollaro</h3></p>
-        <p class="text-center">
-        <h3>Dario Cilluffo</h3></p>
+        <!-- <h4>Tony Apollaro</h4> -->    
+        <!-- <h4>Dario Cilluffo</h4> -->    
+        <h4><a href="../author/claudio-pellitteri">Claudio Pellitteri</a></h4>    
+        <h4><a href="../author/xuejian-sun">Xuejian Sun</h4>
+        <h4><a href="../author/giovanni-di-fresco">Giovanni Di Fresco</h4>
+        <h4><a href="../author/duillio-de-santis">Duilio De Santis</h4>
+        </p>
         </div>   
     design:
       columns: 2

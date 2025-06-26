@@ -80,6 +80,6 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 
 user_groups:
-- PhD Students
+- 
 ---
 My present area of research centers on quantum metrology and quantum phase transitions. Within the domain of quantum metrology, I investigate the prospective enhancements in metrological precision provided by critical systems. Typically, my research employs a combination of computational and analytical methodologies. My work is particularly focused on spin chains and fermionic models, both in closed and open situations.

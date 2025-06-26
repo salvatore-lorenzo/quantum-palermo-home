@@ -72,6 +72,6 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 
 user_groups:
-- PhD Students
+- 
 ---
 My current research activity focuses on nonlinear and collective phenomena in various physical systems. Within the framework of the classical and quantum sine-Gordon model, I study the properties of soliton excitations in, e.g., Josephson junctions and ultracold atoms. My research typically involves both computational and analytical approaches. I especially enjoy working on theories that are in close contact with experiments. 

@@ -77,7 +77,7 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 
 user_groups:
-- Postdoc
+- 
 ---
 I completed my phd in Xi’an JiaoTong University in 2020, at the same year, I became a lecturer in ZhouKou Normal University. In 2022, I was awarded a Chinese National Scholarship which can support me to pursue study as a Post-Doctoral Fellow in the group of Prof. Ciccarello for two years starting from April, 2023 to April, 2025. In this group, I was able to fully follow my academic passion in waveguide QED. Frequently discussion with Prof. Ciccarello and other group members has already helped me build a solid theoretical foundation in this field. My current research is mostly focus on the interactions between topological insulators and quantum emitters.
 

@@ -77,7 +77,7 @@ highlight_name: false
 
 user_groups:
 
-- PhD Students
+- 
 ---
 
 Short bio

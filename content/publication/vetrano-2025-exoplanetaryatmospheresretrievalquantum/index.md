@@ -1,0 +1,30 @@
+---
+title: Exoplanetary atmospheres retrieval via a quantum extreme learning machine
+authors:
+- Marco Vetrano
+- Tiziano Zingales
+- G. Massimo Palma
+- Salvatore Lorenzo
+date: '2025-09-01'
+publishDate: '2025-09-05T05:50:26.827712Z'
+publication_types:
+- manuscript
+abstract: The study of exoplanetary atmospheres traditionally relies on forward models
+  to analytically compute the spectrum of an exoplanet by fine-tuning numerous chemical
+  and physical parameters. However, the high-dimensionality of parameter space often
+  results in a significant computational overhead. In this work, we introduce a novel
+  approach to atmospheric retrieval leveraging on quantum extreme learning machines
+  (QELMs). QELMs are quantum machine learning techniques that employ quantum systems
+  as a black box for processing input data. In this work, we propose a framework for
+  extracting exoplanetary atmospheric features using QELMs, employing an intrinsically
+  fault-tolerant strategy suitable for near-term quantum devices, and we demonstrate
+  such fault tolerance with a direct implementation on IBM Fez. The QELM architecture
+  we present shows the potential of quantum computing in the analysis of astrophysical
+  datasets and may, in the near-term future, unlock new computational tools to implement
+  fast, efficient, and more accurate models in the study of exoplanetary atmospheres.
+links:
+- name: arXiv
+  url: https://arxiv.org/abs/2509.03617
+- name: URL
+  url: https://arxiv.org/abs/2509.03617
+---

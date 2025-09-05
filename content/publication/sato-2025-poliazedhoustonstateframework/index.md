@@ -1,12 +1,12 @@
 ---
-title: Polarized Houston State Framework for Nonequilibrium Driven Open Quanum Systems
+title: Polarized Houston State Framework for Nonequilibrium Driven Open Quantum Systems
 authors:
 - Shunsuke A. Sato
 - Hannes Hübener
 - Umberto De Giovannini
 - Angel Rubio
-date: '2025-07-29'
-publishDate: '2025-07-29T08:15:30.300506Z'
+date: '2025-07-01'
+publishDate: '2025-09-05T06:01:17.972164Z'
 publication_types:
 - manuscript
 abstract: We introduce a new theoretical framework --the polarized Houston basis--

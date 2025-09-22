@@ -7,9 +7,10 @@ authors:
 - Mauro Paternostro
 - Diana Chisholm
 date: '2025-06-01'
-publishDate: '2025-06-18T07:29:17.071995Z'
+publishDate: '2025-09-22T07:45:00.002958Z'
 publication_types:
 - article-journal
+doi: 10.1116/5.0287733
 abstract: The characterisation of quantum networks is fundamental to understanding
   how energy and information propagates through complex systems, with applications
   in control, communication, error mitigation and energy transfer. In this work, we

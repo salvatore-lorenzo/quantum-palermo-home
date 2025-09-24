@@ -1,20 +1,20 @@
 ---
 # Documentation: https://docs.hugoblox.com/managing-content/
 type: event
-title: 
+title: TOPNESS2025
   
 subtitle: 
 summary: |
-  <h2><p style="text-align: center;color:#3366CC"><a href="events/blinh2025">Beyond Linearity: Frontiers in Non-Hermitian Many-Body Physics</a></p></h2>
-  <h2><p style="text-align: center;"> 14 – 18 December 2025 </p></h2>
+  <h2><p style="text-align: center;color:#3366CC"><a href="/news/topness2025">Non-Equilibrium Phenomena, Topology, Superconductivity, and Superfluidity</a></p></h2>
+  <h2><p style="text-align: center;"> 27 April - 1 May 2025 </p></h2>
 
-tags: []
+tags: [past]
 categories: []
-date: 12-2025
-#date_end: 2024-10-18
+date: 2025-04-27
+date_end: 2025-05-01
 
 # Optional external URL for project (replaces project detail page).
-external_link: "https://blinh2025.univie.ac.at/index.html"
+external_link: "https://conferences.phys.unisa.it/topness25/"
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
@@ -33,7 +33,7 @@ external_link: "https://blinh2025.univie.ac.at/index.html"
 #   icon: twitter
 
 #url_code: 
-url_pdf: 
+url_pdf: #https://conferences.phys.unisa.it/topness25/TOPNESS25-ConferencePoster.pdf
 #url_slides: 
 #url_video: 
 
@@ -133,27 +133,29 @@ url_pdf:
         }
     </style>
 
+
 <body>
+
 <div class="container my-5">
         <header class="text-center mb-5">
-            <h1>BLINH2025</h1>
+            <h1>TOPNESS2025</h1>
             <p class="small">This Conference is hosted at the</p>
             <h4>ETTORE MAJORANA FOUNDATION AND CENTRE FOR SCIENTIFIC CULTURE</h4>
             <p class="small">FOUNDER: A. ZICHICHI</p>
             <p class="small">as part of the</p>
             <h2>INTERNATIONAL SCHOOL ON NONEQUILIBRIUM PHENOMENA</h2>
             <p>Directors of the School: A. Lanzara, G. M. Palma, B. Spagnolo</p>
-            <h2 class="text-primary">Beyond Linearity: Frontiers in Non-Hermitian Many-Body Physics</h2>
-            <p>Directors of the Course: F. Balducci – P. Brighi – F. Ciccarello <br> A. Nunnenkamp – F. Roccati</p>
-            <p>Dates: 14 – 18 December 2025</p>
+            <h2 class="text-primary">Non-Equilibrium Phenomena, Topology, Superconductivity, and Superfluidity</h2>
+            <p>Directors of the Course: R. Citro, C. Guarcello, D. Valenti</p>
+            <p>Dates: 27 April - 1 May 2025</p>
         </header>
         <section class="mb-5">
             <p>
-            The workshop aims at bringing together experts in the fields of non-Hermitian and quantum many-body physics to discuss recent advancements and future prospects at their intersection. The central goal of the workshop will be to delve into non-Hermitian physics beyond the linear regime.
+                This conference brings together leading experts from around the world to explore cutting-edge topics in condensed matter physics, including non-equilibrium phenomena, topological materials, superconductivity, and superfluidity. Special attention will be given to dynamic phase transitions, exotic superconducting states, and the interplay of topology and correlations in novel materials. The event provides a unique platform for fostering collaboration between theorists and experimentalists, sharing the latest advances, and inspiring innovative applications. Sessions will include invited talks, poster presentations, and focused discussions to engage participants and promote new ideas.
             </p>
         </section>
 <p class="text-center">
-<a class="lead" href="../../">Back</a></p>
+<a class="lead" href="/news">Back</a></p>
 </div>
 </body>
 </html>

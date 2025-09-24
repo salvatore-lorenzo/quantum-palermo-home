@@ -1,17 +1,17 @@
 ---
 # Documentation: https://docs.hugoblox.com/managing-content/
-type: event
+type: 
 title: 
   
 subtitle: 
 summary: |
-  <h2><p style="text-align: center;color:#3366CC"><a href="events/qrc2024">Working Party on Quantum Reservoir Computing</a></p></h2>
+  <h2><p style="text-align: center;color:#3366CC"><a href="qrc2024">Working Party on Quantum Reservoir Computing</a></p></h2>
   <h2><p style="text-align: center;">15/18 October 2024</p></h2>
 
 tags: []
 categories: []
-date: 2024-5-14
-#date_end: 2024-10-18
+date: 2024-05-14
+date_end: 2024-05-18
 
 # Optional external URL for project (replaces project detail page).
 #external_link: ""

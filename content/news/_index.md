@@ -1,6 +1,6 @@
 ---
 title:
-date: 2024-10-24
+date: 2022-10-24
 type: landing
 
 sections:
@@ -15,19 +15,12 @@ sections:
       filters:
         # The folders to display content from
         folders:
-          - events
-        author: ""
-        category: ""
-        tag: ""
-        publication_type: ""
-        featured_only: false
-        exclude_featured: false
-        exclude_future: false
-        exclude_past: false
+          - news
+        tags: []
+        exclude_tags: [past]
       offset: 0
       sort_by: 'date'
-      sort_ascending: true
-      page_type: event
+      sort_ascending: false
     design:
       view: showcase
       columns: '2'
@@ -40,20 +33,6 @@ sections:
       subtitle: #"[Events](../events) & [Seminars](../seminars)"
       text: |
         <style unselectable="on">
-        #wrap {
-        width: 100%;  /* Make it responsive */
-        max-width: 1200px;
-        height: 500px;
-        padding: 10px;
-        position: relative;
-        overflow: hidden;
-        }
-        #frame {
-        width: 100%;
-        height: 500px;
-        position: relative;
-        }
-
         /* Ensure the iframe adjusts properly on small screens */
         iframe {
         width: 100%;  /* Adjust to full width */
@@ -67,13 +46,13 @@ sections:
                 style="background:url('https://raw.githubusercontent.com/niccokunzmann/open-web-calendar/master/static/img/loaders/circular-loader.gif') center center no-repeat;"
                 src="https://open-web-calendar.hosted.quelltext.eu/calendar.html?url=https://outlook.office365.com/owa/calendar/6e7129fbb9d84cef85adbc5afa79637e@unipa.it/a7e1ae6bdd9444efb29ff20838071e1411365429934934175301/calendar.ics"
                 sandbox="allow-scripts allow-same-origin allow-top-navigation"
-                allowTransparency="true" scrolling="no" 
-                frameborder="0." height="500px" width="80%"></iframe>
+                allowTransparency="true" scrolling="yes" 
+                frameborder="0." height="500px" width="100%"></iframe>
         </div>        
     design:
       columns: 1 
   
-  - block: collection
+  - block: Portfolio
     content:
       title: Past Events
       subtitle: |
@@ -84,18 +63,13 @@ sections:
       filters:
         # The folders to display content from
         folders:
-          - pastevents
-        author: ""
-        category: ""
-        tag: ""
-        publication_type: ""
-        featured_only: false
-        exclude_featured: false
-        exclude_future: false
-        exclude_past: false
+          - news
+        tags: []
+        exclude_tags: [future]
       offset: 0
-      order: desc
-      page_type: event
+      sort_by: 'date'
+      sort_ascending: false
+      page_type: 
     design:
       view: showcase
       columns: '2'

@@ -1,20 +1,20 @@
 ---
 # Documentation: https://docs.hugoblox.com/managing-content/
 type: event
-title: 
+title: WQED25
   
 subtitle: 
 summary: |
-  <h2><p style="text-align: center;color:#3366CC"><a href="events/topness2025">Non-Equilibrium Phenomena, Topology, Superconductivity, and Superfluidity</a></p></h2>
-  <h2><p style="text-align: center;"> 27 April - 1 May 2025 </p></h2>
+  <h2><p style="text-align: center;color:#3366CC"><a href="/news/wqed2025">4th workshop on waveguide QED</a></p></h2>
+  <h2><p style="text-align: center;"> 1-6 September 2025 </p></h2>
 
-tags: []
+tags: [past]
 categories: []
-date: 04-2025
-#date_end: 2024-10-18
+date: 2025-09-01
+date_end: 2025-09-06
 
 # Optional external URL for project (replaces project detail page).
-external_link: "https://conferences.phys.unisa.it/topness25/"
+external_link: "https://wqed25.weebly.com/"
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
@@ -33,7 +33,7 @@ external_link: "https://conferences.phys.unisa.it/topness25/"
 #   icon: twitter
 
 #url_code: 
-url_pdf: https://conferences.phys.unisa.it/topness25/TOPNESS25-ConferencePoster.pdf
+url_pdf: 
 #url_slides: 
 #url_video: 
 
@@ -133,29 +133,31 @@ url_pdf: https://conferences.phys.unisa.it/topness25/TOPNESS25-ConferencePoster.
         }
     </style>
 
-
 <body>
-
 <div class="container my-5">
         <header class="text-center mb-5">
-            <h1>TOPNESS2025</h1>
+            <h1>WQED2025</h1>
             <p class="small">This Conference is hosted at the</p>
             <h4>ETTORE MAJORANA FOUNDATION AND CENTRE FOR SCIENTIFIC CULTURE</h4>
             <p class="small">FOUNDER: A. ZICHICHI</p>
             <p class="small">as part of the</p>
             <h2>INTERNATIONAL SCHOOL ON NONEQUILIBRIUM PHENOMENA</h2>
             <p>Directors of the School: A. Lanzara, G. M. Palma, B. Spagnolo</p>
-            <h2 class="text-primary">Non-Equilibrium Phenomena, Topology, Superconductivity, and Superfluidity</h2>
-            <p>Directors of the Course: R. Citro, C. Guarcello, D. Valenti</p>
-            <p>Dates: 27 April - 1 May 2025</p>
+            <h2 class="text-primary">4th workshop on waveguide QED</h2>
+            <p>Directors of the Course: F. Ciccarello - H. U. Baranger - P. Rabl - D. Chang</p> 
+            <p>Dates: 1 - 6 September 2025</p>
         </header>
         <section class="mb-5">
             <p>
-                This conference brings together leading experts from around the world to explore cutting-edge topics in condensed matter physics, including non-equilibrium phenomena, topological materials, superconductivity, and superfluidity. Special attention will be given to dynamic phase transitions, exotic superconducting states, and the interplay of topology and correlations in novel materials. The event provides a unique platform for fostering collaboration between theorists and experimentalists, sharing the latest advances, and inspiring innovative applications. Sessions will include invited talks, poster presentations, and focused discussions to engage participants and promote new ideas.
-            </p>
-        </section>
+            Waveguide Quantum ElectroDynamics (QED) is an emerging area of quantum optics that investigates the coherent coupling between one or more quantum emitters and a photonic waveguide or, more generally, an engineered photonic bath. The workshop aims at bringing together major experts working on this topic. This is the fourth edition of WQED workshops series. The first three editions were held in <a href="https://wqed18.weebly.com" target="_blank">2018</a>, <a href="https://wqed20.weebly.com" target="_blank">2021</a> and <a href="https://wqed23.weebly.com" target="_blank">2023</a>. 
+            <div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
+                <img src="./unipa.png" alt="UNIPA Logo" style="width: 100px;">
+                <img src="tum.png" alt="TUM Logo" style="width: 100px;">
+                <img src="icfo.png" alt="ICFO Logo" style="width: 100px;">
+                <img src="duke.jpg" alt="Duke Logo" style="width: 100px;">
+            </div>    </section>
 <p class="text-center">
-<a class="lead" href="../../">Back</a></p>
+<a class="lead" href="/news">Back</a></p>
 </div>
 </body>
 </html>

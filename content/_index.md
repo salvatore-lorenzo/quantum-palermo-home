@@ -20,22 +20,16 @@ sections:
       title: Upcoming Events
       subtitle: 
       text: 
-      count: 2
+      count: 4
       filters:
         # The folders to display content from
         folders:
-          - events
-        author: ""
-        category: ""
-        tag: ""
-        publication_type: ""
-        featured_only: false
-        exclude_featured: false
-        exclude_future: false
-        exclude_past: false
+          - news
+        tags: []
+        exclude_tags: [past]
       offset: 0
       sort_by: 'date'
-      sort_ascending: true
+      sort_ascending: false
       page_type: 
     design:
       background:

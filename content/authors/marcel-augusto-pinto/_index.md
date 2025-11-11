@@ -19,7 +19,7 @@ role: PhD student
 # Organizations/Affiliations
 organizations:
   - name: University of Palermo
-    url: 'https://www.unipa.it/persone/docenti/l/name.surname'
+    url: 'https://www.unipa.it/dipartimenti/difc/dottorati/scienzefisicheechimiche/en/phd-students/'
 
 # List each interest with a dash
 interests:

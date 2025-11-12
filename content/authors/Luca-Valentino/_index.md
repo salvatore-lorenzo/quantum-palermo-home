@@ -6,6 +6,10 @@ title: Luca Valentino
 first_name: Luca <br> Valentino
 last_name: Valentino
 
+# Username (this should match the folder name and the name on publications)
+authors:
+- "valentino"
+  
 # Role/position (e.g., Professor of Artificial Intelligence)
 role: PhD Student
 

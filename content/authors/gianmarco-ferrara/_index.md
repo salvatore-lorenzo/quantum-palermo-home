@@ -5,6 +5,12 @@ title: Gianmarco Ferrara
 # Full Name (for SEO)
 first_name: Gianmarco <br> Ferrara
 last_name: Ferrara
+
+# Username (this should match the folder name and the name on publications)
+authors:
+- "gianmarco-ferrara"
+
+
 # Role/position (e.g., Professor of Artificial Intelligence)
 role: PhD Student
 

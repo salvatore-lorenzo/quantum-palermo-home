@@ -6,6 +6,11 @@ title: Alessandra Cammarata
 first_name: Alessandra <br> Cammarata
 last_name: Cammarata
 
+
+# Username (this should match the folder name and the name on publications)
+authors:
+- "alessandra-cammarata"
+
 # Role/position (e.g., Professor of Artificial Intelligence)
 role: PhD student
 

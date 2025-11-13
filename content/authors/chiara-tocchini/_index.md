@@ -6,6 +6,11 @@ title: Chiara Tocchini
 first_name: Chiara <br> Tocchini
 last_name: Tocchini
 
+# Username (this should match the folder name and the name on publications)
+authors:
+- "chiara-tocchini"
+
+
 # Role/position (e.g., Professor of Artificial Intelligence)
 role: PhD student
 

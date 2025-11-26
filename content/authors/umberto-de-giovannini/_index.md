@@ -45,9 +45,9 @@ education:
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 
 social:
-  #- icon: home
-  #  icon_pack: fa
-  #  link: # Personal home Page
+  - icon: home
+    icon_pack: fa
+    link: https://udglab.org
   - icon: envelope
     icon_pack: fas
     link: 'mailto:umberto.degiovannini@unipa.it'

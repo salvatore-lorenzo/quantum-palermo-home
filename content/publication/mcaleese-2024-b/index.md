@@ -9,10 +9,12 @@ authors:
 - Daniel C Kilper
 - Mauro Paternostro
 - Marco Ruffini
-date: '2024-11-01'
+date: '2025-10-01'
 publishDate: '2024-11-14T20:37:25.630229Z'
 publication_types:
 - article-journal
+publication: '*Physical Review Research*'
+doi: https://doi.org/10.1103/84qz-1jz2
 abstract: Distributing entanglement over long distances remains a challenge due to
   its fragility when exposed to environmental effects. In this work, we compare various
   entanglement distribution protocols in a realistic noisy fiber network. We focus

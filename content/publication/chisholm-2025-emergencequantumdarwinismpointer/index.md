@@ -1,0 +1,27 @@
+---
+title: On the emergence of quantum Darwinism and pointer states for non-commuting
+  evolutions
+authors:
+- Diana Chisholm
+- G. Massimo Palma
+- Luca Innocenti
+date: '2025-10-01'
+publishDate: '2025-12-02T08:52:14.227827Z'
+publication_types:
+- manuscript
+abstract: Quantum systems achieve objectivity by redundantly encoding information
+  about themselves into the surrounding environment, through a mechanism known as
+  quantum Darwinism. When this happens, observes measure the environment and infer
+  the system to be in one of its pointer states. We study the emergence of objectivity
+  whenever the Hamiltonian of the system and the interaction Hamiltonian between system
+  and environment do not commute, a condition which is thought to be incompatible
+  with the presence of pointer states. We show that, not only non-commuting evolutions
+  allow for the emergence of objective states, but it is possible to give a more relaxed
+  definition of pointer states, that is always well defined whenever there is redundancy
+  of information, and coincides with the usual one for commuting evolutions.
+links:
+- name: arXiv
+  url: https://arxiv.org/abs/2510.06867
+- name: URL
+  url: https://arxiv.org/abs/2510.06867
+---

@@ -4,10 +4,12 @@ authors:
 - Taysa M. Mendonça
 - Diogo O. Soares-Pinto
 - Mauro Paternostro
-date: '2024-08-01'
+date: '2025-11-21'
 publishDate: '2024-08-01T07:25:24.002115Z'
 publication_types:
 - article-journal
+publication: '*Physical Review Research*'
+doi: https://doi.org/10.1103/ymjl-hpm4
 abstract: We describe and analyze a quantum thermometer based on a multi-layered collisional
   model. The proposed architecture provides significant sensitivity even for short
   interaction times between the ancillae comprised in the thermometer and the system

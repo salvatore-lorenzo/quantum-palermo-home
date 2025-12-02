@@ -4,11 +4,12 @@ authors:
 - Hannah McAleese
 - Mauro Paternostro
 - Ricardo Puebla
-date: '2023-09-01'
+date: '2025-06-12'
 publishDate: '2024-03-26T21:10:26.682564Z'
 publication_types:
-- manuscript
-publication: '*arXiv*'
+- article-journal
+publication: '*Physical Review Research*'
+doi: https://doi.org/10.1103/PhysRevResearch.7.023253
 abstract: We present a protocol to create entangled coherent states by engineering
   cross-Kerr interactions between bosonic systems endowed with (externally driven)
   internal spin-like degrees of freedom. With slight modifications, the protocol is

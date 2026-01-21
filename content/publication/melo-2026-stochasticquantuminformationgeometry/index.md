@@ -2,14 +2,14 @@
 title: Stochastic Quantum Information Geometry and Speed Limits at the Trajectory
   Level
 authors:
-- Pedro B. Melo
+- Pedro Barreto Melo
 - Pedro V. Paraguassú
 - Sílvio M. Duarte Queirós
 - Fernando Iemini
 - Mauro Paternostro
 - Welles A. M. Morgado
 date: '2026-01-01'
-publishDate: '2026-01-21T09:29:27.726542Z'
+publishDate: '2026-01-21T09:40:42.907944Z'
 publication_types:
 - manuscript
 abstract: Standard quantum metrology relies on ensemble-averaged quantities, such

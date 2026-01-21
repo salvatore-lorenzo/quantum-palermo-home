@@ -5,12 +5,12 @@ title:
   
 subtitle: 
 summary: |
-  <h2><p style="text-align: center;color:#3366CC"><a href="/news/blinh2025">Beyond Linearity: Frontiers in Non-Hermitian Many-Body Physics</a></p></h2>
+  <h2><p style="text-align: center;color:#3366CC"><a href="events/blinh2025">Beyond Linearity: Frontiers in Non-Hermitian Many-Body Physics</a></p></h2>
   <h2><p style="text-align: center;"> 14 – 18 December 2025 </p></h2>
 
-tags: [future]
+tags: []
 categories: []
-#date: 2025-06-14
+date: 2025-12-14
 date_end: 2025-12-18
 
 # Optional external URL for project (replaces project detail page).
@@ -153,7 +153,7 @@ url_pdf:
             </p>
         </section>
 <p class="text-center">
-<a class="lead" href="/news">Back</a></p>
+<a class="lead" href="../../">Back</a></p>
 </div>
 </body>
 </html>

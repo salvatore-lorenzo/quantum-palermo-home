@@ -5,10 +5,10 @@ title: TOPNESS2025
   
 subtitle: 
 summary: |
-  <h2><p style="text-align: center;color:#3366CC"><a href="/news/topness2025">Non-Equilibrium Phenomena, Topology, Superconductivity, and Superfluidity</a></p></h2>
+  <h2><p style="text-align: center;color:#3366CC"><a href="topness2025">Non-Equilibrium Phenomena, Topology, Superconductivity, and Superfluidity</a></p></h2>
   <h2><p style="text-align: center;"> 27 April - 1 May 2025 </p></h2>
 
-tags: [past]
+tags: []
 categories: []
 date: 2025-04-27
 date_end: 2025-05-01
@@ -155,7 +155,7 @@ url_pdf: #https://conferences.phys.unisa.it/topness25/TOPNESS25-ConferencePoster
             </p>
         </section>
 <p class="text-center">
-<a class="lead" href="/news">Back</a></p>
+<a class="lead" href="../../">Back</a></p>
 </div>
 </body>
 </html>

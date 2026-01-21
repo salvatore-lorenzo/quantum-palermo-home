@@ -8,7 +8,7 @@ summary: |
   <h2><p style="text-align: center;color:#3366CC"><a href="wqed2025">4th workshop on waveguide QED</a></p></h2>
   <h2><p style="text-align: center;"> 1-6 September 2025 </p></h2>
 
-tags: [pastevents]
+tags: []
 categories: []
 date: 2025-09-01
 date_end: 2025-09-06

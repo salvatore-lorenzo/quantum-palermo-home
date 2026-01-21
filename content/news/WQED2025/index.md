@@ -1,14 +1,14 @@
 ---
 # Documentation: https://docs.hugoblox.com/managing-content/
 type: event
-title: WQED25
+title: 
   
 subtitle: 
 summary: |
-  <h2><p style="text-align: center;color:#3366CC"><a href="/news/wqed2025">4th workshop on waveguide QED</a></p></h2>
+  <h2><p style="text-align: center;color:#3366CC"><a href="wqed2025">4th workshop on waveguide QED</a></p></h2>
   <h2><p style="text-align: center;"> 1-6 September 2025 </p></h2>
 
-tags: [past]
+tags: []
 categories: []
 date: 2025-09-01
 date_end: 2025-09-06
@@ -157,7 +157,7 @@ url_pdf:
                 <img src="duke.jpg" alt="Duke Logo" style="width: 100px;">
             </div>    </section>
 <p class="text-center">
-<a class="lead" href="/news">Back</a></p>
+<a class="lead" href="../../">Back</a></p>
 </div>
 </body>
 </html>

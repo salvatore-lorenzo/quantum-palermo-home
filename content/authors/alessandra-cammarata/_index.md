@@ -11,6 +11,9 @@ last_name: Cammarata
 authors:
 - "alessandra-cammarata"
 
+# Is this the primary user of the site?
+superuser: false
+
 # Role/position (e.g., Professor of Artificial Intelligence)
 role: PhD student
 

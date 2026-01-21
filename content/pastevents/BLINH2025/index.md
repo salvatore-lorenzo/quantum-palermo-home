@@ -8,7 +8,7 @@ summary: |
   <h2><p style="text-align: center;color:#3366CC"><a href="events/blinh2025">Beyond Linearity: Frontiers in Non-Hermitian Many-Body Physics</a></p></h2>
   <h2><p style="text-align: center;"> 14 – 18 December 2025 </p></h2>
 
-tags: [event]
+tags: []
 categories: []
 date: 2025-12-14
 date_end: 2025-12-18

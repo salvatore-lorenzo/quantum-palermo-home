@@ -15,9 +15,9 @@ sections:
       filters:
         # The folders to display content from
         folders:
-          - news
+          - events
         tags: []
-        exclude_tags: [past]
+        exclude_tags: [pastevents]
       offset: 0
       sort_by: 'date'
       sort_ascending: false

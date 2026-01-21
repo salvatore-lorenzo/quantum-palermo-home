@@ -1,14 +1,14 @@
 ---
 # Documentation: https://docs.hugoblox.com/managing-content/
-type: event
-title:
+type: 
+title: 
   
 subtitle: 
 summary: |
-  <h2><p style="text-align: center;color:#3366CC"><a href="/news/qrc2024">Working Party on Quantum Reservoir Computing</a></p></h2>
+  <h2><p style="text-align: center;color:#3366CC"><a href="qrc2024">Working Party on Quantum Reservoir Computing</a></p></h2>
   <h2><p style="text-align: center;">15/18 October 2024</p></h2>
 
-tags: [past]
+tags: []
 categories: []
 date: 2024-05-14
 date_end: 2024-05-18
@@ -710,7 +710,7 @@ In the second example, we implement a quantum reservoir computing model, where a
 </div>
 
 <p class="text-center">
-<a class="lead" href="/news">Back</a></p>
+<a class="lead" href="../../">Back</a></p>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
 <script>

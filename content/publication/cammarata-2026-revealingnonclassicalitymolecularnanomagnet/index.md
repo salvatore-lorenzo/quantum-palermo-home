@@ -5,7 +5,7 @@ authors:
 - Steve Campbell
 - Mauro Paternostro
 date: '2026-01-01'
-publishDate: '2026-01-21T09:30:55.666628Z'
+publishDate: '2026-01-21T09:44:40.892781Z'
 publication_types:
 - manuscript
 abstract: Molecular nanomagnets are compounds characterized by a high-spin magnetic

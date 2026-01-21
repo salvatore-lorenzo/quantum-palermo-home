@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Alessandra Cammarata
+title: "Alessandra Cammarata"
 
 # Full Name (for SEO)
 first_name: Alessandra <br> Cammarata

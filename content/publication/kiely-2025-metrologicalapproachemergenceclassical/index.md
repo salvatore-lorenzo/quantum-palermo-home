@@ -2,15 +2,17 @@
 title: Metrological approach to the emergence of classical objectivity
 authors:
 - Anthony Kiely
-- Diana Chisholm
+- Diana A. Chisholm
 - Akram Touil
 - Sebastian Deffner
 - Gabriel Landi
 - Steve Campbell
-date: '2025-10-01'
-publishDate: '2025-12-02T08:47:09.655031Z'
+date: '2026-02-01'
+publishDate: '2026-03-28T08:21:56.598117Z'
 publication_types:
-- manuscript
+- article-journal
+publication: '*Phys. Rev. A*'
+doi: 10.1103/hn78-7xx3
 abstract: We present a precise characterization of the onset of classicality that
   combines the formalism of quantum Darwinism with the tools from quantum metrology.
   We show that the quantum Fisher information provides a useful metric for assessing
@@ -24,8 +26,6 @@ abstract: We present a precise characterization of the onset of classicality tha
   acquisition protocol, our framework provides a precise operational description of
   quantum Darwinism.
 links:
-- name: arXiv
-  url: https://arxiv.org/abs/2510.12313
 - name: URL
-  url: https://arxiv.org/abs/2510.12313
+  url: https://link.aps.org/doi/10.1103/hn78-7xx3
 ---

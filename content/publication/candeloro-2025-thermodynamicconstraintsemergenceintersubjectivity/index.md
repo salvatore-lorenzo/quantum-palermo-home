@@ -1,14 +1,16 @@
 ---
-title: Thermodynamic Constraints on the Emergence of Intersubjectivity in Quantum
-  Systems
+title: Thermodynamic constraints on the emergence of intersubjectivity in quantum
+  systems
 authors:
 - Alessandro Candeloro
 - Tiago Debarba
 - Felix C. Binder
-date: '2025-07-29'
-publishDate: '2025-07-29T08:14:20.614008Z'
+date: '2026-03-01'
+publishDate: '2026-03-28T08:22:32.716643Z'
 publication_types:
-- manuscript
+- article-journal
+publication: '*Phys. Rev. A*'
+doi: 10.1103/3312-b63x
 abstract: Ideal quantum measurement requires divergent thermodynamic resources. This
   is a consequence of the third law of thermodynamics, which prohibits the preparation
   of the measurement pointer in a fully erased, pure state required for the acquisition
@@ -29,8 +31,6 @@ abstract: Ideal quantum measurement requires divergent thermodynamic resources. 
   finite resources. This work bridges quantum thermodynamics and the emergence of
   classicality in the form of intersubjectivity.
 links:
-- name: arXiv
-  url: https://arxiv.org/abs/2507.20736
 - name: URL
-  url: https://arxiv.org/abs/2507.20736
+  url: https://link.aps.org/doi/10.1103/3312-b63x
 ---

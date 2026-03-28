@@ -1,18 +1,14 @@
 ---
-title: Metrological approach to the emergence of classical objectivity
+title: Quantum Metrology of Newton's Constant with Levitated Mechanical Systems
 authors:
-- Anthony Kiely
-- Diana A. Chisholm
-- Akram Touil
-- Sebastian Deffner
-- Gabriel Landi
-- Steve Campbell
-date: '2026-02-01'
-publishDate: '2026-02-18T08:35:00.448566Z'
+- Francis J. Headley
+- Alessio Belenchia
+- Mauro Paternostro
+- Daniel Braun
+date: '2026-03-01'
+publishDate: '2026-03-28T08:21:43.959200Z'
 publication_types:
-- article-journal
-publication: '*Phys. Rev. A*'
-doi: 10.1103/hn78-7xx3
+- manuscript
 abstract: Newton's constant is the least well-measured among the fundamental constants
   of Nature, and, indeed, its accurate measurement has long served an experimental
   challenge. Levitated mechanical systems are attracting growing attention for their
@@ -22,6 +18,8 @@ abstract: Newton's constant is the least well-measured among the fundamental con
   of Newton's constant. Our scheme promises to beat the current standard by several
   orders of magnitude.
 links:
+- name: arXiv
+  url: https://arxiv.org/abs/2503.16215
 - name: URL
-  url: https://link.aps.org/doi/10.1103/hn78-7xx3
+  url: https://arxiv.org/abs/2503.16215
 ---

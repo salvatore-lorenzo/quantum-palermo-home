@@ -3,10 +3,11 @@ title: Robustness of the quantum Mpemba effect against state-preparation errors
 authors:
 - Matthew Mackinnon
 - Mauro Paternostro
-date: '2025-11-01'
-publishDate: '2026-01-21T09:16:58.228719Z'
+date: '2026-03-01'
+publishDate: '2026-03-28T08:22:47.106254Z'
 publication_types:
-- manuscript
+- article-journal
+publication: '*New Journal of Physics*'
 abstract: The quantum Mpemba effect (QME) is a phenomenon observed in many-body systems
   where initial systems configurations farther from equilibrium can be observed to
   equilibrate faster than configurations that are closer to it. By considering noise
@@ -21,8 +22,6 @@ abstract: The quantum Mpemba effect (QME) is a phenomenon observed in many-body 
   we show that this can in fact induce a higher rate of symmetry restoration and a
   stronger QME.
 links:
-- name: arXiv
-  url: https://arxiv.org/abs/2511.14837
 - name: URL
-  url: https://arxiv.org/abs/2511.14837
+  url: http://iopscience.iop.org/article/10.1088/1367-2630/ae5840
 ---

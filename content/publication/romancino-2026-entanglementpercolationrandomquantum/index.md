@@ -3,12 +3,13 @@ title: Entanglement percolation in random quantum networks
 authors:
 - Alessandro Romancino
 - Jordi Romero-Pallejà
-- G. Massimo Palma
+- G.Massimo Palma
 - Anna Sanpera
-date: '2026-02-01'
-publishDate: '2026-02-18T08:36:41.746819Z'
+date: '2026-04-01'
+publishDate: '2026-04-16T06:46:25.435765Z'
 publication_types:
-- manuscript
+- article-journal
+publication: '*Quantum Science and Technology*'
 abstract: Entanglement percolation aims at generating maximal entanglement between
   any two nodes of a quantum network by utilizing strategies based solely on local
   operations and classical communication between the nodes. As it happens in classical
@@ -24,5 +25,5 @@ links:
 - name: arXiv
   url: https://arxiv.org/abs/2602.10189
 - name: URL
-  url: https://arxiv.org/abs/2602.10189
+  url: http://iopscience.iop.org/article/10.1088/2058-9565/ae5fca
 ---

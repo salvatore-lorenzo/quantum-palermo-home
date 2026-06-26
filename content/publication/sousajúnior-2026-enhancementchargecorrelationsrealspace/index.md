@@ -1,0 +1,31 @@
+---
+title: Enhancement of charge correlations and real-space topological marker on an
+  interacting non-Hermitian Su-Schrieffer-Heeger model
+authors:
+- Sebastião dos A. Sousa-Júnior
+- Pedro B. Melo
+- Rubem Mondaini
+- Arnob Kumar Ghosh
+- Rodrigo Arouca
+date: '2026-06-01'
+publishDate: '2026-06-26T07:39:24.031214Z'
+publication_types:
+- manuscript
+abstract: 'We investigate the interacting non-Hermitian Su-Schrieffer-Heeger (SSH)
+  model, focusing on the interplay between topology and charge ordering. Using a real-space
+  topological marker, charge correlations, and the complex many-body spectrum, we
+  map out the phase diagram under periodic and open boundary conditions. We show that
+  the topological marker remains a robust diagnostic of non-Hermitian topological
+  phases in the presence of interactions and consistently signals their breakdown
+  at the onset of a charge density wave (CDW). We further demonstrate that non-Hermiticity
+  enhances interaction effects: While moderate changes occur under periodic boundary
+  conditions, open boundary conditions lead to a pronounced amplification of staggered
+  charge correlations near exceptional points. This enhancement arises from the accumulation
+  of low-energy states near exceptional points, which promotes electronic instabilities
+  and strengthens CDW tendencies.'
+links:
+- name: arXiv
+  url: https://arxiv.org/abs/2606.06466
+- name: URL
+  url: https://arxiv.org/abs/2606.06466
+---

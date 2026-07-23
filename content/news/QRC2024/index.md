@@ -8,7 +8,7 @@ summary: |
   <h2><p style="text-align: center;color:#3366CC"><a href="qrc2024">Working Party on Quantum Reservoir Computing</a></p></h2>
   <h2><p style="text-align: center;">15/18 October 2024</p></h2>
 
-tags: []
+tags: [past]
 categories: []
 date: 2024-05-14
 date_end: 2024-05-18

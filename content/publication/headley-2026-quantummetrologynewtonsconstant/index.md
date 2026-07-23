@@ -6,7 +6,7 @@ authors:
 - Mauro Paternostro
 - Daniel Braun
 date: '2026-03-01'
-publishDate: '2026-03-28T08:21:43.959200Z'
+publishDate: '2026-07-23T13:09:56.402581Z'
 publication_types:
 - manuscript
 abstract: Newton's constant is the least well-measured among the fundamental constants

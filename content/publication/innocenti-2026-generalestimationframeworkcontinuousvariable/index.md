@@ -1,0 +1,41 @@
+---
+title: A general estimation framework for continuous-variable systems
+authors:
+- Luca Innocenti
+- Simone Artini
+- Diana A. Chisholm
+- Salvatore Lorenzo
+- Alessandro Ferraro
+- G. Massimo Palma
+- Mauro Paternostro
+- Gabriele Lo Monaco
+date: '2026-07-01'
+publishDate: '2026-07-23T13:08:58.937199Z'
+publication_types:
+- manuscript
+abstract: 'We show that informational completeness, while sufficient to have a bijection
+  between ideal measurement probabilities and quantum states, does not guarantee statistically
+  stable reconstruction from finite measurement data. To address this problem, we
+  develop a general estimation theory for continuous-variable systems in which stable
+  reconstructibility is characterized by the POVM effects forming a measurement frame.
+  Informational completeness is therefore necessary, but not sufficient, for stable
+  reconstruction. Our framework is based on measurement frames in a $σ$-regularized
+  operator geometry, where the reference state σ encodes prior information about relevant
+  features of the measured states. For any fixed measurement scheme, observables may
+  be inaccessible, weakly reconstructible only through estimators with divergent variance,
+  or stably reconstructible by finite-variance unbiased estimators. The relevant regime
+  is determined by the range of the POVM synthesis operator. Our framework provides
+  practical methods for constructing estimators and gives an operational interpretation
+  of singular quasiprobability distributions, including the Glauber-Sudarshan P representation:
+  quasiprobabilities act as unbiased estimators for associated observables, and their
+  singularities reflect a pathological feature of the corresponding measurement: its
+  lack of loewr frame bound. We furthermore show how this formalism naturally provides
+  operational regularization procedures tied to prior information. Overall, our framework
+  provides a unified view of continuous-variable tomography, quasiprobability representations,
+  and classical-shadow estimation.'
+links:
+- name: arXiv
+  url: https://arxiv.org/abs/2607.19287
+- name: URL
+  url: https://arxiv.org/abs/2607.19287
+---

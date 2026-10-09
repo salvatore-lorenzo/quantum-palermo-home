@@ -3,17 +3,19 @@ title: Emergent cavity-QED dynamics along the edge of a photonic lattice
 authors:
 - Enrico Di Benedetto
 - Xuejian Sun
-- Marcel A. Pinto
+- Marcel A Pinto
 - Luca Leonforte
 - Chih-Ying Chang
 - Vincent Jouanny
 - Léo Peyruchat
 - Pasquale Scarlino
 - Francesco Ciccarello
-date: '2025-07-01'
-publishDate: '2025-07-22T14:48:53.440650Z'
+date: '2026-09-01'
+publishDate: '2026-10-09T09:38:58.336494Z'
 publication_types:
-- manuscript
+- article-journal
+publication: '*Quantum Sci. Technol.*'
+doi: 10.1088/2058-9565/aea2c7
 abstract: We investigate qubits coupled to the boundary of a two dimensional photonic
   lattice that supports dispersionless edge modes, unlike conventional edge modes
   that sustain propagating photons. As a case study, we consider a honeycomb lattice
@@ -31,5 +33,5 @@ links:
 - name: arXiv
   url: https://arxiv.org/abs/2507.13444
 - name: URL
-  url: https://arxiv.org/abs/2507.13444
+  url: https://doi.org/10.1088/2058-9565/aea2c7
 ---

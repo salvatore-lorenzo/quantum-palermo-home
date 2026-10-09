@@ -4,10 +4,12 @@ authors:
 - Alessandra Cammarata
 - Steve Campbell
 - Mauro Paternostro
-date: '2026-01-01'
-publishDate: '2026-01-21T09:44:40.892781Z'
+date: '2026-08-01'
+publishDate: '2026-10-09T09:38:57.661767Z'
 publication_types:
-- manuscript
+- article-journal
+publication: '*Phys. Rev. Research*'
+doi: 10.1103/rx1v-3cpc
 abstract: Molecular nanomagnets are compounds characterized by a high-spin magnetic
   core that is protected by organic ligands. They have recently gained attention as
   potential quantum information carriers in solid-state quantum computing platforms,
@@ -26,5 +28,5 @@ links:
 - name: arXiv
   url: https://arxiv.org/abs/2601.12832
 - name: URL
-  url: https://arxiv.org/abs/2601.12832
+  url: https://doi.org/10.1103/rx1v-3cpc
 ---

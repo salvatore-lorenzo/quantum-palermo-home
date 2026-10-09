@@ -5,12 +5,14 @@ authors:
 - Giovanni Di Fresco
 - Youenn Le Gal
 - Davide Valenti
-- Marco Schirò
+- Marco Schiró
 - Angelo Carollo
-date: '2024-11-01'
-publishDate: '2025-03-21T08:11:13.173229Z'
+date: '2026-08-01'
+publishDate: '2026-10-09T09:38:58.966603Z'
 publication_types:
-- manuscript
+- article-journal
+publication: '*Quantum*'
+doi: 10.22331/q-2026-08-03-2183
 abstract: We consider a free fermionic chain with monitoring of the particle density
   on a single site of the chain and study the entanglement dynamics of quantum jump
   trajectories. We show that the entanglement entropy grows in time towards a stationary
@@ -28,5 +30,5 @@ links:
 - name: arXiv
   url: https://arxiv.org/abs/2411.13667
 - name: URL
-  url: https://arxiv.org/abs/2411.13667
+  url: https://doi.org/10.22331/q-2026-08-03-2183
 ---

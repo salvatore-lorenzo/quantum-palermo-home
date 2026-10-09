@@ -1,16 +1,17 @@
 ---
-title: 'Non-equilibrium thermodynamics of the quantum Brownian motion: Anomalous non-equilibrium
-  currents arising from complete positivity'
+title: Broken Detailed Balance and Entropy Production in CPTP Quantum Brownian Motion
 authors:
 - Simone Artini
 - Gabriele Lo Monaco
 - Alberto Imparato
 - Mauro Paternostro
 - Sandro Donadi
-date: '2025-08-01'
-publishDate: '2025-09-05T05:51:47.489085Z'
+date: '2026-08-01'
+publishDate: '2026-10-09T09:38:57.036017Z'
 publication_types:
-- manuscript
+- article-journal
+publication: '*Phys. Rev. Research*'
+doi: 10.1103/qqxn-qc4g
 abstract: We rigorously analyze the non-equilibrium thermodynamic behavior of various
   formulations of quantum Brownian motion (QBM) using the framework of stochastic
   thermodynamics. While the widely used Caldeira-Leggett master equation exhibits
@@ -26,5 +27,5 @@ links:
 - name: arXiv
   url: https://arxiv.org/abs/2507.23322
 - name: URL
-  url: https://arxiv.org/abs/2507.23322
+  url: https://doi.org/10.1103/qqxn-qc4g
 ---

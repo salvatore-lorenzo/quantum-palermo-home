@@ -2,10 +2,12 @@
 title: Random entanglement percolation on realistic quantum networks
 authors:
 - Alessandro Romancino
-date: '2026-04-01'
-publishDate: '2026-05-13T06:18:14.538857Z'
+date: '2026-01-01'
+publishDate: '2026-10-09T09:39:01.441247Z'
 publication_types:
-- manuscript
+- article-journal
+publication: '*Il Nuovo Cimento C 49 (2026) 176*'
+doi: 10.1393/ncc/i2026-26176-2
 abstract: We study random entanglement percolation in heterogeneous quantum networks,
   where the singlet-conversion probabilities (SCPs) of the edges are drawn from a
   probability distribution rather than being fixed. After briefly recalling random
@@ -18,5 +20,5 @@ links:
 - name: arXiv
   url: https://arxiv.org/abs/2604.21967
 - name: URL
-  url: https://arxiv.org/abs/2604.21967
+  url: https://doi.org/10.1393/ncc/i2026-26176-2
 ---

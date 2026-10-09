@@ -1,12 +1,14 @@
 ---
-title: Many-Body Quantum Optics in a Bose-Hubbard Waveguide
+title: Many-body quantum optics in a Bose-Hubbard waveguide
 authors:
 - Federico Roccati
-date: '2025-05-01'
-publishDate: '2025-05-08T17:14:37.866228Z'
+date: '2026-08-01'
+publishDate: '2026-10-09T09:39:01.118481Z'
 publication_types:
-- manuscript
-abstract: 'Waveguide quantum electrodynamics (QED) studies the interaction between
+- article-journal
+publication: '*Phys. Rev. Research*'
+doi: 10.1103/lsrq-19nw
+abstract: Waveguide quantum electrodynamics (QED) studies the interaction between
   quantum emitters and guided photons in one-dimension. When the waveguide hosts interacting
   photons, it becomes a platform to explore many-body quantum optics. However, the
   influence of photonic correlations on emitter dynamics remains poorly understood.
@@ -15,14 +17,16 @@ abstract: 'Waveguide quantum electrodynamics (QED) studies the interaction betwe
   photonic modes with repulsive on-site interactions that supports superfluid and
   Mott insulating phases. We show that photon-photon interactions alone can trigger
   a superradiant burst, independent of emitter spacing and transition frequency. In
-  the off-resonant regime, emitters exhibit two distinct types of mediated interactions:
-  delocalized superfluid excitations yield distance-independent couplings, while Mott-insulator
+  the off-resonant regime, emitters exhibit two distinct types of mediated interactions.
+  Delocalized superfluid excitations yield persistent, long-range couplings, challenging
+  the noninteracting paradigm, where long-range (dissipative) couplings occur in-band,
+  whereas short-range and coherent interactions occur in a bandgap. In the Mott limit,
   quasiparticles generate short-range interactions mediated by doublons and holons.
   Our work bridges many-body physics and waveguide QED, revealing how photonic many-body
-  states shape emitter dynamics.'
+  states shape emitter dynamics.
 links:
 - name: arXiv
   url: https://arxiv.org/abs/2505.02892
 - name: URL
-  url: https://arxiv.org/abs/2505.02892
+  url: https://doi.org/10.1103/lsrq-19nw
 ---

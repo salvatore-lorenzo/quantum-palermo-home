@@ -1,0 +1,32 @@
+QUNIPA – COLOUR SPECIFICATIONS (v1.1)
+
+ON LIGHT BACKGROUNDS
+Name            HEX      RGB          CMYK (FOGRA39 coated)   Gray (K)   Contrast on white
+QuniPa Blue     #0A5CB8  10 92 184    C95 M60 Y0 K0           K85        6.5:1
+QuniPa Orange   #D95A0B  217 90 11    C0 M75 Y100 K10         K65        3.9:1  (graphic use; not for body text)
+QuniPa Ink      #232A33  35 42 51     C50 M35 Y25 K90         K95        14.5:1
+
+ON DARK BACKGROUNDS
+Night (bg)      #0F1720  15 23 32
+Blue on dark    #4DA3FF  77 163 255   contrast on Night 6.9:1
+Orange on dark  #FF8A3D  255 138 61   contrast on Night 7.7:1
+Paper (letters) #F3F5F8  243 245 248  contrast on Night 16.5:1
+
+GRAYSCALE FILES (screen): blue #4E4E4E, orange #777777, ink #292929
+GRAYSCALE ON DARK: blue #8E8E8E, orange #C9C9C9, ink #F2F2F2
+BLACK / WHITE: #000000 / #FFFFFF (CMYK black = K100)
+
+NOTES
+- CMYK derived with the FOGRA39 profile (relative colorimetric, black-point compensation), rounded to 5%.
+- Blue prints slightly duller than on screen (CMYK gamut limit). Proof before large runs.
+- No Pantone equivalents are specified; match to a physical swatch book if needed.
+
+TYPEFACES
+Wordmark: initials q and P are custom-drawn; letters u, n, i, a are Audiowide Regular (Astigmatic, SIL OFL 1.1),
+converted to outlines and scaled to a 42-unit x-height. The wordmark is supplied as outlines; never retype it.
+Descriptor / companion text: IBM Plex Sans (Regular, Medium, SemiBold), SIL OFL 1.1, github.com/IBM/plex. Fallback: Arial / Helvetica.
+Licences: source/fonts/OFL.txt (Plex), source/fonts/OFL-Audiowide.txt.
+
+CLEAR SPACE: x on all sides, x = outer diameter of one emblem node (wordmark only: x-height of u n i a).
+MINIMUM WIDTH (print / screen): horizontal 38 mm / 170 px; horizontal+descriptor 50 mm / 230 px; stacked 22 mm / 95 px;
+wordmark 22 mm / 90 px; full emblem 12 mm / 48 px; compact emblem 6 mm / 24 px; monogram 4 mm / 16 px.

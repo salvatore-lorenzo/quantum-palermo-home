@@ -420,4 +420,7 @@ python/             the publication pipeline; sitedb.py reads and writes the dat
                     migrate_legacy.py converted the old HugoBlox site (one-off)
                     hero_orbits.py draws the orbits behind the home-page title
 bibtexs/            the .bib files already imported by the pipeline
+QuniPa_Logo/        the logo package (all versions, guidelines, colours); assets/images/logo.svg (horizontal) and
+                    logo-mark.svg (emblem) come from it, coloured through the --logo-* CSS variables for light and
+                    dark; static/favicon.* and apple-touch-icon.png come from its web-icons/
 ```

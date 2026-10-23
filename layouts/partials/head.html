@@ -13,7 +13,9 @@
 {{- with resources.Get "images/group.jpeg" }}{{ with .Resize "1200x webp q75" }}
 <meta property="og:image" content="{{ .Permalink }}">{{ end }}{{ end }}
 <meta name="theme-color" content="#1d3a8c">
+<link rel="icon" href="{{ "favicon.ico" | relURL }}" sizes="32x32">
 <link rel="icon" href="{{ "favicon.svg" | relURL }}" type="image/svg+xml">
+<link rel="apple-touch-icon" href="{{ "apple-touch-icon.png" | relURL }}">
 <link rel="preload" href="{{ "fonts/jura-latin-wght-normal.woff2" | relURL }}" as="font" type="font/woff2" crossorigin>
 <script>
   // Colour theme chosen with the toggle (else the system one), set before the page paints

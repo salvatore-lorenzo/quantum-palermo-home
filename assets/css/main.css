@@ -1,5 +1,6 @@
 /* Quantum Theory Group, University of Palermo
-   Colours come from the qunipa logo: navy #1d3a8c and orange #d45500.
+   Colours come from the first qunipa logo: navy #1d3a8c and orange #d45500. The current logo keeps its own
+   colours (--logo-*, from QuniPa_Logo/COLOR_SPECIFICATIONS.txt).
    Jura for headings and text, as on the previous site (Inter and Manrope stay defined below:
    switch back by changing --font-sans and --font-head). */
 
@@ -67,8 +68,9 @@
   --accent: #b34700;
   --accent-soft: #fff0e5;
   --on-brand: #ffffff;
-  --logo-navy: #1d3a8c;
-  --logo-orange: #d45500;
+  --logo-blue: #0a5cb8;
+  --logo-orange: #d95a0b;
+  --logo-ink: #232a33;
   --figure-bg: #ffffff;
   --rule: #d45500;
   --hero-a: #2a4cab; --hero-b: #16307a; --hero-c: #0e1f55;
@@ -76,7 +78,7 @@
   --radius: 14px;
   --radius-sm: 9px;
   --wrap: 1200px;
-  --header-h: 72px;
+  --header-h: 84px;
   --font-sans: "Jura", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   --font-head: "Jura", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
   color-scheme: light;
@@ -85,7 +87,7 @@
   :root:not([data-theme="light"]) {
     --bg: #0b1020; --bg-alt: #0f1529; --surface: #131a30; --ink: #e9edf7; --ink-2: #c3cadb; --muted: #949eb6;
     --line: #232d47; --line-strong: #33405f; --brand: #9fb3ff; --brand-hover: #c0ccff; --brand-soft: #1a2549;
-    --accent: #ff9a55; --accent-soft: #2e1c10; --on-brand: #0b1020; --logo-navy: #a9bbff; --logo-orange: #ff8a3d;
+    --accent: #ff9a55; --accent-soft: #2e1c10; --on-brand: #0b1020; --logo-blue: #4da3ff; --logo-orange: #ff8a3d; --logo-ink: #f3f5f8;
     --figure-bg: #f4f6fb; --shadow: 0 1px 2px rgb(0 0 0 / .4), 0 12px 32px -14px rgb(0 0 0 / .7);
     --rule: #ff8a3d; --hero-a: #1e3a8a; --hero-b: #12245e; --hero-c: #0b1020;
     color-scheme: dark;
@@ -94,7 +96,7 @@
 :root[data-theme="dark"] {
   --bg: #0b1020; --bg-alt: #0f1529; --surface: #131a30; --ink: #e9edf7; --ink-2: #c3cadb; --muted: #949eb6;
   --line: #232d47; --line-strong: #33405f; --brand: #9fb3ff; --brand-hover: #c0ccff; --brand-soft: #1a2549;
-  --accent: #ff9a55; --accent-soft: #2e1c10; --on-brand: #0b1020; --logo-navy: #a9bbff; --logo-orange: #ff8a3d;
+  --accent: #ff9a55; --accent-soft: #2e1c10; --on-brand: #0b1020; --logo-blue: #4da3ff; --logo-orange: #ff8a3d; --logo-ink: #f3f5f8;
   --figure-bg: #f4f6fb; --shadow: 0 1px 2px rgb(0 0 0 / .4), 0 12px 32px -14px rgb(0 0 0 / .7);
     --rule: #ff8a3d; --hero-a: #1e3a8a; --hero-b: #12245e; --hero-c: #0b1020;
   color-scheme: dark;
@@ -139,7 +141,7 @@ p { margin: 0 0 1em; }
 }
 .header-inner { display: flex; align-items: center; gap: 12px; height: var(--header-h); }
 .brand { display: block; flex: none; }
-.brand svg { display: block; height: 38px; width: auto; }
+.brand svg { display: block; height: 64px; width: auto; } /* 170px wide: the logo's minimum on screen */
 .main-nav { margin-left: auto; }
 .main-nav ul { display: flex; gap: 2px; list-style: none; margin: 0; padding: 0; }
 .main-nav a {
@@ -304,7 +306,7 @@ a.stretched::after { content: ""; position: absolute; inset: 0; z-index: 1; }
 
 .event-banner {
   position: relative; height: 176px; display: grid; place-items: center; padding: 44px 20px 28px; overflow: hidden;
-  background: #0d1530; --logo-navy: #a9bbff; --logo-orange: #ff8a3d;
+  background: #0d1530; --logo-blue: #4da3ff; --logo-orange: #ff8a3d; --logo-ink: #f3f5f8;
 }
 .event-banner img { max-height: 104px; width: auto; object-fit: contain; transition: transform .5s ease; }
 .event-card:hover .event-banner img { transform: scale(1.04); }
@@ -635,11 +637,11 @@ figcaption { margin-top: 10px; color: var(--muted); font-size: .88rem; line-heig
 @media (max-width: 860px) { .contact { grid-template-columns: minmax(0, 1fr); } }
 
 /* ---------------------------------------------------------------- footer */
-.site-footer { --logo-navy: #a9bbff; --logo-orange: #ff8a3d; background: #0b1330; color: #b9c3dc; padding: 56px 0 22px; font-size: .94rem; }
+.site-footer { --logo-blue: #4da3ff; --logo-orange: #ff8a3d; --logo-ink: #f3f5f8; background: #0b1330; color: #b9c3dc; padding: 56px 0 22px; font-size: .94rem; }
 .site-footer a { color: #e6ebf8; text-decoration: none; }
 .site-footer a:hover { text-decoration: underline; }
 .footer-grid { display: grid; grid-template-columns: 1.25fr 1.2fr 1fr 1.2fr; gap: 36px; }
-.footer-logo svg { display: block; height: 36px; width: auto; margin-bottom: 14px; }
+.footer-logo svg { display: block; height: 64px; width: auto; margin-bottom: 14px; }
 .site-footer h2 { margin: 6px 0 12px; font: 700 .74rem/1.4 var(--font-sans); letter-spacing: .09em; text-transform: uppercase; color: #8794b8; padding-bottom: 10px; border-bottom: 1px solid rgb(255 255 255 / .12); }
 .site-footer ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
 .site-footer address { font-style: normal; line-height: 1.8; }

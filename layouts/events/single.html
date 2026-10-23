@@ -1,0 +1,65 @@
+{{ define "main" }}
+{{- $id := .Params.id -}}
+{{- $upcoming := ge (add (time.AsTime (.Params.end | default .Params.start)).Unix 86400) now.Unix -}}
+{{- $eyebrow := printf "%s%s" (partial "event-kind.html" .Params.kind) (cond $upcoming "" " · past event") -}}
+{{- partial "page-head.html" (dict "page" . "eyebrow" $eyebrow) }}
+<div class="wrap article article-facts-first">
+  <aside class="article-aside">
+    <section class="panel">
+      <dl class="facts">
+        <div><dt>When</dt><dd>{{ partial "date-range.html" (dict "start" .Params.start "end" .Params.end) }}{{ if eq .Params.kind "seminar" }}, {{ (time.AsTime .Params.start).Format "15:04" }}{{ end }}</dd></div>
+        {{- with .Params.venue }}<div><dt>Where</dt><dd>{{ . }}{{ with $.Params.city }}<br>{{ . }}{{ end }}</dd></div>{{ end }}
+        {{- with .Params.speaker }}<div><dt>Speaker</dt><dd>{{ partial "authors.html" (dict "names" (slice .)) }}</dd></div>{{ end }}
+        {{- with .Params.directors }}<div><dt>Directors of the {{ lower (partial "event-kind.html" $.Params.kind) }}</dt><dd>{{ delimit . ", " " and " }}</dd></div>{{ end }}
+        {{- with .Params.series }}<div><dt>Part of</dt><dd>{{ . }}{{ with $.Params.series_directors }}<br><span class="muted small">Directors: {{ . }}</span>{{ end }}</dd></div>{{ end }}
+      </dl>
+      {{- with .Params.website }}<a class="btn btn-primary btn-block" href="{{ . }}">Event website {{ partial "icon.html" "external" }}</a>{{ end }}
+      {{- if $upcoming }}{{ with .Params.registration }}<a class="btn btn-ghost btn-block" href="{{ . }}">Register {{ partial "icon.html" "external" }}</a>{{ end }}{{ end }}
+    </section>
+    {{- with .Params.program }}
+    <nav class="panel" aria-label="Programme days">
+      <h2 class="aside-title">Programme</h2>
+      <ul class="link-rows">{{ range $i, $d := . }}<li><a href="#day-{{ add $i 1 }}">{{ (time.AsTime $d.date).Format "Monday 2 January" }}</a></li>{{ end }}</ul>
+    </nav>
+    {{- end }}
+  </aside>
+  <div class="article-main">
+    {{- with resources.GetMatch (printf "images/events/%s/banner.*" $id) }}
+    <div class="event-hero">{{ partial "img.html" (dict "src" . "w" 820 "h" 300 "fit" true "alt" (printf "%s banner" ($.Params.short | default $.Title)) "eager" true) }}</div>
+    {{- end }}
+    <div class="prose">{{ .Content }}</div>
+    {{- with .Params.logos }}
+    <div class="partner-logos">{{ range . }}{{ partial "img.html" (dict "src" (printf "images/events/%s/%s" $id .) "w" 140 "h" 60 "fit" true "alt" (replaceRE `\.\w+$` "" . | upper)) }}{{ end }}</div>
+    {{- end }}
+    {{- with .Params.program }}
+    <section class="program" aria-labelledby="program-title">
+      <h2 id="program-title">Programme</h2>
+      {{- range $i, $d := . }}
+      <section class="day" id="day-{{ add $i 1 }}">
+        <h3>{{ (time.AsTime $d.date).Format "Monday 2 January" }}</h3>
+        <ol class="slots">
+          {{- range $d.slots }}
+          {{- if .break }}
+          <li class="slot slot-break"><span class="slot-time">{{ .time }}</span><span>{{ .break }}</span></li>
+          {{- else }}
+          <li class="slot">
+            <span class="slot-time">{{ .time }}</span>
+            <div>
+              <p class="slot-title">{{ .title }}</p>
+              <p class="slot-speaker">{{ partial "authors.html" (dict "names" (slice .speaker)) }}</p>
+              {{- with .abstract }}
+              <details><summary>Abstract</summary><p>{{ . }}</p></details>
+              {{- end }}
+            </div>
+          </li>
+          {{- end }}
+          {{- end }}
+        </ol>
+      </section>
+      {{- end }}
+    </section>
+    {{- end }}
+    {{- partial "pager.html" (dict "page" . "pages" .CurrentSection.Pages.ByDate.Reverse "prev" "More recent" "next" "Earlier" "label" "events") }}
+  </div>
+</div>
+{{ end }}

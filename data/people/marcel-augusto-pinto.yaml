@@ -1,0 +1,36 @@
+name: Marcel Augusto Pinto
+sort: Pinto
+role: PhD Student
+group: phd
+status: alumni
+email: " marcelaugusto.pinto@unipa.it"
+links:
+  scholar: https://scholar.google.com/citations?user=w8YTSD0AAAAJ&hl=en
+  linkedin: http://www.linkedin.com/in/marcel-augusto-pinto
+organizations:
+  - name: University of Palermo
+    url: https://www.unipa.it/dipartimenti/difc/dottorati/scienzefisicheechimiche/en/phd-students/
+interests:
+  - Quantum Optics
+  - Non Hermitian Physics
+  - Quantum information
+education:
+  - degree: Master’s degree in Physics
+    institution: Universidade Federal de Alagoas
+    year: 2021
+  - degree: Bachelor’s degree in Physics
+    institution: Universidade Federal de Alagoas
+    year: 2019
+aliases:
+  - Marcel A Pinto
+bio: >-
+  I was born in Três Pontas, Brazil, and completed my bachelor's degree at Universidade
+  Federal de Alagoas. During my undergraduate studies, I conducted research on the study
+  of anticipated synchronization on a circuit of Izhikevich neurons. Afterward, I pursued
+  a Master's degree from the same institution, where I researched the scattering of
+  polychromatic light on a classical PT-symmetric material. Currently, I am pursuing my
+  Ph.D. at the University of Palermo under the guidance of Prof. Francesco Ciccarello. My
+  research is focused simulating and studying the emission behavior of a giant atom
+  coupled to a graphene-like photonic bath.
+legacy_urls:
+  - /author/marcel-augusto-pinto/

@@ -1,0 +1,31 @@
+name: Giovanni Di Fresco
+sort: Di Fresco
+role: PhD Student
+group: phd
+status: alumni
+email: giovanni.difresco01@unipa.it
+links:
+  arxiv: https://arxiv.org/search/quant-ph?searchtype=author&query=Di+Fresco,+G
+organizations:
+  - name: University of Palermo
+    url: https://www.unipa.it/dipartimenti/difc/dottorati/scienzefisicheechimiche/en/phd-students/
+interests:
+  - Quantum Metrology
+  - Quantum Phase transitions
+  - Non equilibrium quantum phase transition
+  - Quantum many-body system
+education:
+  - degree: Bachelor’s Degree in Physics
+    institution: University of Palermo
+    year: 2018
+  - degree: Master's degree in Physics
+    institution: University of Palermo
+    year: 2021
+bio: >-
+  My present area of research centers on quantum metrology and quantum phase transitions.
+  Within the domain of quantum metrology, I investigate the prospective enhancements in
+  metrological precision provided by critical systems. Typically, my research employs a
+  combination of computational and analytical methodologies. My work is particularly
+  focused on spin chains and fermionic models, both in closed and open situations.
+legacy_urls:
+  - /author/giovanni-di-fresco/

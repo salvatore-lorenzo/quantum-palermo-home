@@ -1,0 +1,32 @@
+name: Gabriele Lo Monaco
+sort: Lo Monaco
+role: Assistant Professor
+group: faculty
+status: current
+email: " gabriele.lomonaco@unipa.it"
+links:
+  orcid: https://orcid.org/0000-0002-3594-3477
+  scholar: https://scholar.google.it/citations?user=R9L5tIcAAAAJ&hl=it&oi=ao
+  arxiv: https://arxiv.org/a/lomonaco_g_1.html
+  wos: https://www.webofscience.com/wos/author/record/41664629
+organizations:
+  - name: University of Palermo
+    url: https://www.unipa.it/persone/docenti/l/gabriele.lomonaco
+interests:
+  - Quantum machine learning
+  - Quantum information
+  - QInformation VS QGravity
+  - Foundations of quantum theory
+education:
+  - degree: PhD in Physics
+    institution: University of Milano-Bicocca
+    year: 2020
+  - degree: M.S. in Physics
+    institution: University of Pisa
+    year: 2016
+bio: |-
+  Gabriele Lo Monaco is a researcher at the Department of Physics and Chemistry of the University of Palermo. He earned his Ph.D. in 2020 from the University of Milano-Bicocca, under the guidance of Alessandro Tomasiello, one of the leading experts in supergravity and holography. He was a postdoctoral researcher between 2019 and 2022 at the Institut de Physique Théorique (IPhT) in Paris-Saclay. Known for his enigmatic past as a string theorist, Gabriele has garnered significant achievements in the realms of supersymmetric conformal field theories, quantum field theory, supergravity, and holography.
+
+  In 2023, he joined the Palermo Quantum Theory Group, where his research focuses on exploring the potentials and limitations of quantum machine learning paradigms, including reservoir computing and quantum extreme machine learning, with a keen eye on their applications in quantum chemistry tasks. Beyond this, his interests extend to fundamental aspects of quantum mechanics, encompassing topics such as quantum information scrambling and its potential implications for quantum gravity.
+legacy_urls:
+  - /author/gabriele-lo-monaco/

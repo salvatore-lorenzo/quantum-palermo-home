@@ -1,0 +1,9 @@
+{{- /* Ids of the group members in a list of author names, in author order */ -}}
+{{- $index := partialCached "db/author-index.html" "index" -}}
+{{- $ids := slice -}}
+{{- range . -}}
+  {{- with index $index (partial "db/name-key.html" .) -}}
+    {{- if not (in $ids .) }}{{ $ids = $ids | append . }}{{ end -}}
+  {{- end -}}
+{{- end -}}
+{{- return $ids -}}

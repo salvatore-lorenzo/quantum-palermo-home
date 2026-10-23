@@ -1,0 +1,35 @@
+title: Heat-Transfer Fingerprint of Josephson Breathers
+authors:
+  - Duilio De Santis
+  - Bernardo Spagnolo
+  - Angelo Carollo
+  - Davide Valenti
+  - Claudio Guarcello
+date: 2023-01-01
+type: article
+journal: arXiv preprint arXiv:2306.00683
+arxiv: "2306.00683"
+research:
+  - thermo
+keywords:
+  - Condensed Matter - Mesoscale and Nanoscale Physics
+  - Nonlinear Sciences - Pattern Formation and Solitons
+abstract: >-
+  A sine-Gordon breather enhances the heat transfer in a thermally biased long Josephson
+  junction. This solitonic channel allows for the tailoring of the local temperature
+  throughout the system. Furthermore, the phenomenon implies a clear thermal fingerprint
+  for the breather, and thus a 'non-destructive' breather detection strategy is proposed
+  here. Distinct breathing frequencies result in morphologically different local
+  temperature peaks, which can be identified in an experiment.
+bibtex: |-
+  @article{de_santis_heat-transfer_2023,
+   archiveprefix = {arxiv},
+   author = {De Santis, Duilio and Spagnolo, Bernardo and Carollo, Angelo and Valenti, Davide and Guarcello, Claudio},
+   eprint = {2306.00683},
+   journal = {arXiv preprint arXiv:2306.00683},
+   keywords = {Condensed Matter - Mesoscale and Nanoscale Physics,Nonlinear Sciences - Pattern Formation and Solitons},
+   title = {Heat-Transfer Fingerprint of Josephson Breathers},
+   year = {2023}
+  }
+legacy_urls:
+  - /publication/de-santis-heat-transfer-2023/

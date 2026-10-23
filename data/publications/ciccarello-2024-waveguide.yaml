@@ -1,0 +1,26 @@
+title: Waveguide Quantum Electrodynamics
+authors:
+  - Francesco Ciccarello
+  - Peter Lodahl
+  - Dominik Schneble
+date: 2024-01-01
+type: article
+journal: Optics and Photonics News
+volume: "35"
+issue: "1"
+pages: 34--41
+research:
+  - wqed
+bibtex: |-
+  @article{ciccarello2024waveguide,
+   author = {Ciccarello, Francesco and Lodahl, Peter and Schneble, Dominik},
+   journal = {Optics and Photonics News},
+   number = {1},
+   pages = {34--41},
+   publisher = {Optica Publishing Group},
+   title = {Waveguide Quantum Electrodynamics},
+   volume = {35},
+   year = {2024}
+  }
+legacy_urls:
+  - /publication/ciccarello-2024-waveguide/

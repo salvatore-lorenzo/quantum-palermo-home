@@ -1,0 +1,27 @@
+title: Quantum correlations in dissipative gain–loss systems across exceptional points
+authors:
+  - Federico Roccati
+  - Archak Purkayastha
+  - G Massimo Palma
+  - Francesco Ciccarello
+date: 2023-01-01
+type: article
+journal: The European Physical Journal Special Topics
+volume: "232"
+issue: "11"
+pages: 1783--1788
+research:
+  - qinfo
+bibtex: |-
+  @article{roccati2023quantum,
+   author = {Roccati, Federico and Purkayastha, Archak and Palma, G Massimo and Ciccarello, Francesco},
+   journal = {The European Physical Journal Special Topics},
+   number = {11},
+   pages = {1783--1788},
+   publisher = {Springer},
+   title = {Quantum correlations in dissipative gain--loss systems across exceptional points},
+   volume = {232},
+   year = {2023}
+  }
+legacy_urls:
+  - /publication/roccati-2023-quantum/

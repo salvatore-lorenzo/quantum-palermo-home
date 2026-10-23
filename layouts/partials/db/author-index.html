@@ -1,0 +1,10 @@
+{{- /* name key -> person id, for the name and the aliases of everyone in data/people. Use with partialCached. */ -}}
+{{- $index := dict -}}
+{{- range $id, $p := site.Data.people -}}
+  {{- $names := slice $p.name -}}
+  {{- with $p.aliases }}{{ $names = $names | append . }}{{ end -}}
+  {{- range $names -}}
+    {{- $index = merge $index (dict (partial "db/name-key.html" .) $id) -}}
+  {{- end -}}
+{{- end -}}
+{{- return $index -}}

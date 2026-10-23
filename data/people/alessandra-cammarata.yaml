@@ -1,0 +1,27 @@
+name: Alessandra Cammarata
+sort: Cammarata
+role: PhD Student
+group: phd
+status: current
+email: alessandra.cammarata02@community.unipa.it
+organizations:
+  - name: University of Palermo
+    url: https://www.unipa.it/dipartimenti/difc/dottorati/scienzefisicheechimiche/en/phd-students/
+interests:
+  - Quantum information theory
+  - Quantum machine learning
+  - Entanglement theory
+  - Open quantum systems
+education:
+  - degree: Master’s Degree in Physics
+    institution: University of Palermo
+    year: 2025
+  - degree: Bachelor’s Degree in Physics
+    institution: University of Palermo
+    year: 2023
+bio: |-
+  I obtained my Master’s degree in Physics from the University of Palermo in 2025, where I completed my thesis entitled “Revealing Non-Classicality in Molecular Nanomagnets”, supervised by Prof. Mauro Paternostro. During my Master’s research, I also had the opportunity to develop part of my work at the University College of Dublin with Dr. Steve Campbell.
+
+  I am currently a PhD student under the supervision of Prof. Mauro Paternostro. My main research interests include quantum thermodynamics, open quantum systems, entanglement theory, quantum computing and the application of machine learning techniques. My PhD project focuses on the detection of quantum correlations and non-classical features in complex systems by leveraging quantum neural networks and quantum reservoir computing.
+legacy_urls:
+  - /author/alessandra-cammarata/

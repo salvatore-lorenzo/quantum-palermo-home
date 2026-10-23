@@ -1,0 +1,37 @@
+name: Luca Innocenti
+sort: Innocenti
+role: Assistant Professor
+group: faculty
+status: current
+email: luca.innocenti@unipa.it
+links:
+  orcid: https://orcid.org/0000-0002-7678-1128
+  scholar: https://scholar.google.it/citations?user=bQb0LFoAAAAJ&hl=en
+  arxiv: https://arxiv.org/search/quant-ph?searchtype=author&query=Innocenti,+L
+  wos: https://www.webofscience.com/wos/author/record/2064820
+organizations:
+  - name: University of Palermo
+    url: https://www.unipa.it/persone/docenti/i/luca.innocenti
+interests:
+  - Quantum machine learning
+  - Quantum information theory
+  - Quantum optics
+education:
+  - degree: PhD in Physics
+    institution: Queen’s University Belfast
+    year: 2021
+  - degree: M.S. in Physics
+    institution: Università di Roma Tor Vergata
+    year: 2016
+bio: >-
+  Luca is a researcher at the Department of Physics and Chemistry of the University of
+  Palermo. He completed his PhD in quantum machine learning and quantum information theory
+  at Queen’s University Belfast in 2021 under the supervision of Mauro Paternostro and
+  Alessandro Ferraro. He did a postdoc period in Olomouc working on methods to detect
+  nonclassicality in quantum optical experiments with Radim Filip, and then moved to the
+  University of Palermo. His research interests include quantum machine learning, with a
+  focus on quantum reservoir computing and quantum extreme learning machines, quantum
+  metrology, and foundational topics such as quantum Darwinism and quantum information
+  scrambling.
+legacy_urls:
+  - /author/luca-innocenti/

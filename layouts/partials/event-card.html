@@ -1,0 +1,18 @@
+{{- /* Context: an event page */ -}}
+{{- $start := time.AsTime .Params.start -}}
+<article class="card event-card">
+  <div class="event-banner">
+    {{- with resources.GetMatch (printf "images/events/%s/banner.*" .Params.id) }}
+    {{ partial "img.html" (dict "src" . "w" 560 "h" 220 "fit" true "alt" "") }}
+    {{- else }}
+    <span class="event-banner-mark" aria-hidden="true">{{ with resources.Get "images/logo-mark.svg" }}{{ .Content | safeHTML }}{{ end }}</span>
+    {{- end }}
+    <span class="card-badge">{{ partial "event-kind.html" .Params.kind }}</span>
+  </div>
+  <div class="card-body">
+    <p class="card-date">{{ partial "icon.html" "calendar" }} <time datetime="{{ $start.Format "2006-01-02" }}">{{ partial "date-range.html" (dict "start" .Params.start "end" .Params.end) }}</time></p>
+    <h3 class="card-title"><a class="stretched" href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+    {{- with .Params.city | default .Params.venue }}<p class="card-meta">{{ partial "icon.html" "pin" }} {{ . }}</p>{{ end }}
+    <p class="card-foot"><span>{{ .Params.short }}</span><span class="read-more">Details {{ partial "icon.html" "arrow-right" }}</span></p>
+  </div>
+</article>

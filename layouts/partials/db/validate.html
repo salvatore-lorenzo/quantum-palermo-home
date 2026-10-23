@@ -1,0 +1,30 @@
+{{- /* Checks the links between the records of the site database at every build.
+       A broken link stops the build with a message that names the file to fix. */ -}}
+{{- $research := site.Data.research -}}
+{{- $people := site.Data.people -}}
+{{- $groups := slice "faculty" "postdoc" "phd" "student" -}}
+{{- $types := slice "article" "preprint" "proceedings" "chapter" "book" "thesis" "other" -}}
+{{- $kinds := slice "conference" "workshop" "school" "course" "seminar" "other" -}}
+{{- range $id, $p := site.Data.publications -}}
+  {{- if not $p.title }}{{ errorf "data/publications/%s.yaml: missing title" $id }}{{ end -}}
+  {{- if not $p.authors }}{{ errorf "data/publications/%s.yaml: missing authors" $id }}{{ end -}}
+  {{- if not $p.date }}{{ errorf "data/publications/%s.yaml: missing date (YYYY-MM-DD)" $id }}{{ end -}}
+  {{- if not (in $types $p.type) }}{{ errorf "data/publications/%s.yaml: type %q is not one of %v" $id $p.type $types }}{{ end -}}
+  {{- range $p.research }}{{ if not (index $research .) }}{{ errorf "data/publications/%s.yaml: unknown research line %q (see data/research/)" $id . }}{{ end }}{{ end -}}
+{{- end -}}
+{{- range $id, $p := $people -}}
+  {{- if not $p.name }}{{ errorf "data/people/%s.yaml: missing name" $id }}{{ end -}}
+  {{- if not $p.sort }}{{ errorf "data/people/%s.yaml: missing sort (the last name, used to sort people)" $id }}{{ end -}}
+  {{- if not (in $groups $p.group) }}{{ errorf "data/people/%s.yaml: group %q is not one of %v" $id $p.group $groups }}{{ end -}}
+  {{- if not (in (slice "current" "alumni") $p.status) }}{{ errorf "data/people/%s.yaml: status must be current or alumni" $id }}{{ end -}}
+{{- end -}}
+{{- range $id, $p := site.Data.projects -}}
+  {{- range $p.team }}{{ if not (index $people .) }}{{ errorf "data/projects/%s.yaml: team member %q has no file in data/people/" $id . }}{{ end }}{{ end -}}
+  {{- range $p.research }}{{ if not (index $research .) }}{{ errorf "data/projects/%s.yaml: unknown research line %q" $id . }}{{ end }}{{ end -}}
+{{- end -}}
+{{- range $id, $e := site.Data.events -}}
+  {{- if not (in $kinds $e.kind) }}{{ errorf "data/events/%s.yaml: kind %q is not one of %v" $id $e.kind $kinds }}{{ end -}}
+  {{- if not $e.title }}{{ errorf "data/events/%s.yaml: missing title" $id }}{{ end -}}
+  {{- if not $e.start }}{{ errorf "data/events/%s.yaml: missing start date" $id }}{{ end -}}
+{{- end -}}
+{{- return true -}}

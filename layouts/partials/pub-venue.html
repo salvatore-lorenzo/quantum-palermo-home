@@ -1,0 +1,7 @@
+{{- /* "Phys. Rev. A 113, 052203 (2026)" or "Preprint, arXiv:2601.01234 (2026)" */ -}}
+{{- with .Params.journal -}}
+<em>{{ . }}</em>{{ with $.Params.volume }} <b>{{ . }}</b>{{ end }}{{ with $.Params.pages }}, {{ . }}{{ end }}
+{{- else -}}
+{{- if eq .Params.type "preprint" }}Preprint{{ with .Params.arxiv }}, arXiv:{{ . }}{{ end }}{{ end -}}
+{{- end }} ({{ .Date.Year }})
+{{- /**/ -}}

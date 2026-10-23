@@ -1,0 +1,38 @@
+name: Patrizio Spada
+sort: Spada
+role: PhD Student
+group: phd
+status: current
+email: patrizio.spada7@gmail.com
+links:
+  orcid: https://orcid.org/0009-0005-2750-5265
+  linkedin: https://www.linkedin.com/in/patrizio-spada-937278225/
+organizations:
+  - name: University of Palermo
+    url: https://www.unipa.it/dipartimenti/difc/dottorati/scienzefisicheechimiche/en/phd-students/
+interests:
+  - Quantum science and technologies
+  - Artificial intelligence
+  - Combinatorial optimization
+education:
+  - degree: Bachelor’s Degree in Physics
+    institution: University of Bari Aldo Moro
+    year: 2018
+  - degree: Master’s Degree in Physics
+    institution: University of Bari Aldo Moro
+    year: 2023
+bio: >-
+  Patrizio Spada is a PhD student in Quantum Artificial Intelligence at the Department of
+  Physics and Chemistry of the University of Palermo. He earned his bachelor's degree in
+  2018 in Fisica, in Italian language, and his master's degree in 2023 in Physics, in
+  English language, both at the University of Bari. His master's thesis "Entanglement
+  complexity and frustration" was completed under the guidance of the Professors Saverio
+  Pascazio and Angelo Mariano. By means of numerical simulations run on ENEA's HPC
+  systems, the thesis explores the entanglement and the quantum frustration within the
+  qubits ensembles. This work was conducted in parallel with an internship at the Bari
+  division of the INFN covering the XY model on the circle. After an extracurricular
+  internship at Lutech Advanced Solutions in Bari, Spada moved to Ferrara in 2024 to work
+  at INFN as a research fellow on the project named "Quantum algorithms to evaluate
+  creditworthiness" under the supervision of Professor Concezio Bozzi.
+legacy_urls:
+  - /author/patrizio-spada/

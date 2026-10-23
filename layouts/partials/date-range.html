@@ -1,0 +1,10 @@
+{{- /* "15–18 October 2024", "27 April – 1 May 2025", "22 March 2024". Context: dict "start" "end" */ -}}
+{{- $s := time.AsTime .start -}}
+{{- with .end -}}
+  {{- $e := time.AsTime . -}}
+  {{- if eq ($s.Format "2006-01") ($e.Format "2006-01") }}{{ $s.Day }}–{{ $e.Format "2 January 2006" -}}
+  {{- else if eq $s.Year $e.Year }}{{ $s.Format "2 January" }} – {{ $e.Format "2 January 2006" -}}
+  {{- else }}{{ $s.Format "2 January 2006" }} – {{ $e.Format "2 January 2006" }}{{ end -}}
+{{- else -}}
+  {{- $s.Format "2 January 2006" -}}
+{{- end -}}

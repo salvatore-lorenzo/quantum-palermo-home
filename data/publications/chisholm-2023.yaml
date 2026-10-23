@@ -1,0 +1,30 @@
+title: The meaning of redundancy and consensus in quantum objectivity
+authors:
+  - Diana Chisholm
+  - Luca Innocenti
+  - G. Massimo Palma
+date: 2023-08-01
+type: article
+journal: Quantum
+volume: "7"
+pages: "1074"
+doi: 10.22331/q-2023-08-03-1074
+url: https://doi.org/10.22331/q-2023-08-03-1074
+research:
+  - found
+bibtex: |-
+  @article{Chisholm2023,
+   author = {Chisholm, Diana and Innocenti, Luca and Palma, G. Massimo},
+   doi = {10.22331/q-2023-08-03-1074},
+   issn = {2521-327X},
+   journal = {Quantum},
+   month = {August},
+   pages = {1074},
+   publisher = {Verein zur Förderung des Open Access Publizierens in den Quantenwissenschaften},
+   title = {The meaning of redundancy and consensus in quantum objectivity},
+   url = {https://doi.org/10.22331/q-2023-08-03-1074},
+   volume = {7},
+   year = {2023}
+  }
+legacy_urls:
+  - /publication/chisholm-2023/

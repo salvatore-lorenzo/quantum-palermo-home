@@ -1,0 +1,19 @@
+{{- /* Context: a project page */ -}}
+<article class="card project-card">
+  <div class="project-logo">
+    {{- with resources.GetMatch (printf "images/projects/%s/logo.*" .Params.id) }}
+    {{ partial "img.html" (dict "src" . "w" 360 "h" 150 "fit" true "alt" (printf "%s logo" $.Title)) }}
+    {{- end }}
+  </div>
+  <div class="card-body">
+    <h3 class="card-title"><a class="stretched" href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+    {{- with .Params.programme }}<p class="card-text small">{{ . }}</p>{{ end }}
+    {{- with .Params.team }}
+    <div class="avatars" aria-label="Team">
+      {{- range first 6 . }}{{ with partial "db/person-page.html" . }}
+      <span class="avatar" title="{{ .Title }}">{{ with partial "db/photo.html" .Params.id }}{{ partial "img.html" (dict "src" . "w" 40 "h" 40 "alt" "") }}{{ end }}</span>
+      {{- end }}{{ end }}
+    </div>
+    {{- end }}
+  </div>
+</article>

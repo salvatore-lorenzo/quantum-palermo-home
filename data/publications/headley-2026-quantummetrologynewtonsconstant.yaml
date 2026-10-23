@@ -1,0 +1,35 @@
+title: Quantum Metrology of Newton's Constant with Levitated Mechanical Systems
+authors:
+  - Francis J. Headley
+  - Alessio Belenchia
+  - Mauro Paternostro
+  - Daniel Braun
+date: 2026-03-01
+type: preprint
+arxiv: "2503.16215"
+url: https://arxiv.org/abs/2503.16215
+research:
+  - found
+  - metro
+abstract: >-
+  Newton's constant is the least well-measured among the fundamental constants of Nature,
+  and, indeed, its accurate measurement has long served an experimental challenge.
+  Levitated mechanical systems are attracting growing attention for their promising
+  applications in sensing and as an experimental platform for exploring the intersection
+  between quantum physics and gravitation. Here we propose a mechanical interferometric
+  scheme of interacting levitated oscillators for the accurate estimation of Newton's
+  constant. Our scheme promises to beat the current standard by several orders of
+  magnitude.
+bibtex: |-
+  @misc{headley2026quantummetrologynewtonsconstant,
+   archiveprefix = {arXiv},
+   author = {Francis J. Headley and Alessio Belenchia and Mauro Paternostro and Daniel Braun},
+   eprint = {2503.16215},
+   month = {march},
+   primaryclass = {quant-ph},
+   title = {Quantum Metrology of Newton's Constant with Levitated Mechanical Systems},
+   url = {https://arxiv.org/abs/2503.16215},
+   year = {2026}
+  }
+legacy_urls:
+  - /publication/headley-2026-quantummetrologynewtonsconstant/

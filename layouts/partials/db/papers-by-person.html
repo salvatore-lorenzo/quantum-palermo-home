@@ -1,0 +1,8 @@
+{{- /* person id -> ids of their publications. Use with partialCached; see db/papers-of.html */ -}}
+{{- $map := dict -}}
+{{- range $id, $p := site.Data.publications -}}
+  {{- range partial "db/members-of.html" $p.authors -}}
+    {{- $map = merge $map (dict . ((index $map . | default slice) | append $id)) -}}
+  {{- end -}}
+{{- end -}}
+{{- return $map -}}

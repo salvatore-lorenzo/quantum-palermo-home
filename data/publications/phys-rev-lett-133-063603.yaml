@@ -1,0 +1,31 @@
+title: Controlling Markovianity with Chiral Giant Atoms
+authors:
+  - Federico Roccati
+  - Dario Cilluffo
+date: 2024-08-01
+type: article
+journal: Phys. Rev. Lett.
+volume: "133"
+issue: "6"
+pages: "063603"
+doi: 10.1103/PhysRevLett.133.063603
+url: https://link.aps.org/doi/10.1103/PhysRevLett.133.063603
+research:
+  - wqed
+bibtex: |-
+  @article{PhysRevLett.133.063603,
+   author = {Roccati, Federico and Cilluffo, Dario},
+   doi = {10.1103/PhysRevLett.133.063603},
+   issue = {6},
+   journal = {Phys. Rev. Lett.},
+   month = {Aug},
+   numpages = {6},
+   pages = {063603},
+   publisher = {American Physical Society},
+   title = {Controlling Markovianity with Chiral Giant Atoms},
+   url = {https://link.aps.org/doi/10.1103/PhysRevLett.133.063603},
+   volume = {133},
+   year = {2024}
+  }
+legacy_urls:
+  - /publication/phys-rev-lett-133-063603/

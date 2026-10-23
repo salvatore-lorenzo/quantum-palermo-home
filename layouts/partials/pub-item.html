@@ -1,0 +1,17 @@
+{{- /* One entry of a publication list. Context: a publication page */ -}}
+{{- $members := partial "db/members-of.html" .Params.authors -}}
+{{- $text := printf "%s %s %s %s %s" .Title (delimit .Params.authors " ") (.Params.journal | default "") (.Params.arxiv | default "") (.Params.doi | default "") -}}
+<li class="pub" data-year="{{ .Date.Year }}" data-type="{{ .Params.type }}" data-research="{{ delimit (.Params.research | default slice) " " }}" data-members="{{ delimit $members " " }}" data-text="{{ $text | plainify | lower }}">
+  <a class="pub-title" href="{{ .RelPermalink }}">{{ .Title }}</a>
+  <div class="pub-authors">{{ partial "authors.html" (dict "names" .Params.authors "max" 12) }}</div>
+  <div class="pub-venue">
+    {{- if eq .Params.type "preprint" }}<span class="badge badge-preprint">Preprint</span> {{ end -}}
+    {{ partial "pub-venue.html" . }}
+  </div>
+  <div class="pub-links">
+    {{- with .Params.doi }}<a class="chip" href="https://doi.org/{{ . }}">DOI</a>{{ end }}
+    {{- with .Params.arxiv }}<a class="chip" href="https://arxiv.org/abs/{{ . }}">arXiv</a>{{ end }}
+    {{- if and (not .Params.doi) .Params.url (not (strings.Contains .Params.url "arxiv.org")) }}<a class="chip" href="{{ .Params.url }}">Publisher</a>{{ end }}
+    {{- range .Params.research }}{{ with site.GetPage (printf "/research/%s" .) }}<a class="chip chip-research" href="{{ .RelPermalink }}">{{ .Params.short }}</a>{{ end }}{{ end }}
+  </div>
+</li>

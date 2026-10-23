@@ -1,0 +1,23 @@
+{{- /* Responsive image from assets/.
+       Context: dict "src" (path in assets/ or a resource) "w" "h" ["fit" true: keep the whole image]
+                ["alt" "class" "eager" true] */ -}}
+{{- $res := .src -}}
+{{- if eq (printf "%T" .src) "string" }}{{ $res = resources.Get .src }}{{ end -}}
+{{- with $res -}}
+  {{- if eq .MediaType.SubType "svg" -}}
+<img src="{{ .RelPermalink }}" alt="{{ $.alt }}"{{ with $.class }} class="{{ . }}"{{ end }} loading="lazy">
+  {{- else -}}
+    {{- $w := $.w | int }}{{ $h := $.h | int -}}
+    {{- $small := "" }}{{ $large := "" -}}
+    {{- if $.fit -}}
+      {{- $small = .Fit (printf "%dx%d webp" $w $h) -}}
+      {{- $large = .Fit (printf "%dx%d webp" (mul $w 2) (mul $h 2)) -}}
+    {{- else -}}
+      {{- $small = .Fill (printf "%dx%d webp Smart" $w $h) -}}
+      {{- if and (ge .Width (mul $w 2)) (ge .Height (mul $h 2)) -}}
+        {{- $large = .Fill (printf "%dx%d webp Smart" (mul $w 2) (mul $h 2)) -}}
+      {{- else -}}{{- $large = $small -}}{{- end -}}
+    {{- end -}}
+<img src="{{ $small.RelPermalink }}"{{ if ne $large $small }} srcset="{{ $small.RelPermalink }} 1x, {{ $large.RelPermalink }} 2x"{{ end }} width="{{ $small.Width }}" height="{{ $small.Height }}" alt="{{ $.alt }}"{{ with $.class }} class="{{ . }}"{{ end }}{{ if $.eager }} fetchpriority="high"{{ else }} loading="lazy"{{ end }} decoding="async">
+  {{- end -}}
+{{- end -}}

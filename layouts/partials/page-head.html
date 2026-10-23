@@ -1,0 +1,25 @@
+{{- /* Title block of every inner page: breadcrumbs, a way back, eyebrow, title, lead.
+       Context: dict "page" . ["title" "eyebrow" "lead" "meta"] */ -}}
+{{- $p := .page -}}
+{{- $title := .title | default $p.Title -}}
+<div class="page-head">
+  <div class="wrap">
+    <div class="page-nav">
+      <nav class="crumbs" aria-label="Breadcrumb">
+        <ol>
+          {{- range $p.Ancestors.Reverse }}
+          <li><a href="{{ .RelPermalink }}">{{ if .IsHome }}Home{{ else }}{{ .Title }}{{ end }}</a></li>
+          {{- end }}
+          <li><span aria-current="page">{{ $title | plainify | replaceRE `\$` "" | truncate 60 }}</span></li>
+        </ol>
+      </nav>
+      {{- with $p.Parent }}
+      <a class="back" href="{{ .RelPermalink }}" data-back>{{ partial "icon.html" "arrow-left" }}<span>{{ if .IsHome }}Home{{ else }}All {{ lower .Title }}{{ end }}</span></a>
+      {{- end }}
+    </div>
+    {{- with .eyebrow }}<p class="eyebrow">{{ . }}</p>{{ end }}
+    <h1>{{ $title }}</h1>
+    {{- with .lead }}<p class="lead">{{ . | markdownify }}</p>{{ end }}
+    {{- with .meta }}<div class="page-meta">{{ . }}</div>{{ end }}
+  </div>
+</div>

@@ -1,0 +1,12 @@
+{{- /* One row of the research list on the home page: thumbnail, title, summary, papers, arrow.
+       Context: a research line page */ -}}
+{{- $papers := where (site.GetPage "/publications").Pages "Params.research" "intersect" (slice .Params.id) -}}
+<li class="row-link topic">
+  <span class="topic-thumb">{{ with resources.GetMatch (printf "images/research/%s.*" .Params.id) }}{{ partial "img.html" (dict "src" . "w" 88 "h" 88 "alt" "") }}{{ end }}</span>
+  <span class="topic-body">
+    <a class="row-title stretched" href="{{ .RelPermalink }}">{{ .Title }}</a>
+    <span class="topic-text">{{ .Params.summary | markdownify | plainify }}</span>
+    <span class="topic-meta">{{ len $papers }} papers</span>
+  </span>
+  <span class="row-arrow">{{ partial "icon.html" "arrow-right" }}</span>
+</li>

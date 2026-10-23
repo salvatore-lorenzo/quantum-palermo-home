@@ -1,0 +1,12 @@
+{{- /* A paper as a card (home page). Context: a publication page */ -}}
+<article class="card pub-card">
+  <div class="card-body">
+    <p class="card-kicker">
+      {{- with .Params.journal }}<em>{{ . }}</em>{{ else }}<span class="badge badge-preprint">Preprint</span>{{ end }}
+      <span aria-hidden="true">·</span> <time datetime="{{ .Date.Format "2006-01" }}">{{ .Date.Format "January 2006" }}</time>
+    </p>
+    <h3 class="card-title"><a class="stretched" href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+    <p class="card-authors">{{ partial "authors.html" (dict "names" .Params.authors "max" 6) }}</p>
+    <p class="card-foot"><span class="read-more">Read more {{ partial "icon.html" "arrow-right" }}</span></p>
+  </div>
+</article>

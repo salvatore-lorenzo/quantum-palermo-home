@@ -1,0 +1,34 @@
+name: Marco Vetrano
+sort: Vetrano
+role: PhD Student
+group: phd
+status: alumni
+email: marco.vetrano02@unipa.it
+links:
+  orcid: https://orcid.org/0009-0004-9775-354X
+  scholar: https://scholar.google.com/citations?user=2bd9lfIAAAAJ&hl=it
+  linkedin: https://www.linkedin.com/in/marco-vetrano-1171a02ba/
+organizations:
+  - name: University of Palermo
+    url: https://www.unipa.it/dipartimenti/difc/dottorati/scienzefisicheechimiche/en/phd-students/
+interests:
+  - Quantum computing and machine learning
+  - Quantum information
+  - Quantum Thermodynamics
+  - Complex Networks
+education:
+  - degree: Bachelor Degree in Physical Science
+    institution: Università degli Studi di Palermo
+    year: 2019
+  - degree: Master Degree in Physics
+    institution: Università degli Studi di Palermo
+    year: 2023
+bio: >-
+  Marco Vetrano was born in Palermo, Italy, in 1998. Marco was always interested in
+  sciences in general and decided to study Physics at the University of Palermo. At first
+  he was very interested in astrophysics but decided to move to the field of quantum
+  computing and machine learning because he love programming. Now Marco is a PhD student
+  at the University of Palermo, supervised by Prof. Palma and Prof. Lorenzo and
+  cooperating also with others.
+legacy_urls:
+  - /author/marco-vetrano/

@@ -1,0 +1,17 @@
+{{- /* One page per file in data/people/ (sorted: faculty, postdocs, PhD students, students, former members) */ -}}
+{{- $rank := dict "faculty" 1 "postdoc" 2 "phd" 3 "student" 4 -}}
+{{- $list := slice -}}
+{{- range $id, $p := site.Data.people }}{{ $list = $list | append (merge $p (dict "id" $id)) }}{{ end -}}
+{{- range $i, $p := sort $list "sort" -}}
+  {{- $r := index $rank $p.group | default 5 -}}
+  {{- if eq $p.status "alumni" }}{{ $r = 9 }}{{ end -}}
+  {{- $.AddPage (dict
+    "path" $p.id
+    "kind" "page"
+    "title" $p.name
+    "weight" (add (mul $r 1000) $i)
+    "params" $p
+    "aliases" ($p.legacy_urls | default slice)
+    "content" (dict "mediaType" "text/markdown" "value" ($p.bio | default ""))
+  ) -}}
+{{- end -}}

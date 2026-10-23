@@ -1,0 +1,21 @@
+# Logos shown at the bottom of the home page (images in assets/images/funders/)
+- name: University of Palermo
+  url: https://www.unipa.it
+  logo: unipa.jpeg
+- name: MUR — PRIN
+  url: https://prin.mur.gov.it/
+  logo: prin.jpeg
+- name: Marie Skłodowska-Curie Actions
+  url: https://marie-sklodowska-curie-actions.ec.europa.eu/
+  logo: marie-curie.jpg
+- name: Horizon Europe
+  url: https://qucom.eu/
+  logo: corsimo.jpg
+- name: EPSRC
+  url: https://gow.epsrc.ukri.org/NGBOViewGrant.aspx?GrantRef=EP/T028106/1
+  logo: epsrc.jpg
+- name: The Royal Society
+  url: https://royalsociety.org/
+  logo: royal.png
+- name: IBM
+  logo: ibm.png

@@ -1,0 +1,2 @@
+{{- /* Pages that may show LaTeX (paper titles and abstracts): KaTeX is loaded there */ -}}
+{{- return (or .IsHome (in (slice "publications" "people" "research" "projects") .Section)) -}}

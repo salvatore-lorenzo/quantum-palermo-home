@@ -1,0 +1,33 @@
+name: Francisco Salvado Dias
+sort: Dias
+role: Scholarship Holder
+group: phd
+status: current
+email: francisco.salvadodias@unipa.it
+links:
+  orcid: https://orcid.org/0009-0006-0609-1849
+  scholar: https://scholar.google.com/citations?user=u3b-vYQAAAAJ&hl=pt-PT
+  linkedin: https://www.linkedin.com/in/francisco-salvado-dias/
+  github: https://github.com/FDias2002
+organizations:
+  - name: University of Palermo
+    url: "‘https://www.unipa.it/persone/docenti/s/francisco.salvadodias’"
+interests:
+  - Quantum Many-Body Physics
+  - Open Quantum Systems
+  - Measurement-Induced Phenomena
+education:
+  - degree: MSc in Engineering Physics
+    institution: Instituto Superior Técnico
+    year: 2025
+  - degree: BSc in Engineering Physics
+    institution: Instituto Superior Técnico
+    year: 2023
+bio: |-
+  # Short bio
+
+  I obtained my Bachelor’s degree in Engineering Physics from Instituto Superior Técnico, Lisbon, in 2023, where for my thesis I worked on Equations of State of Axionic Dark Matter supervised by Prof. Hugo Terças. I then completed my Master’s degree at the same institution, developing my thesis within the q.m@t group under the supervision of Prof. Pedro Ribeiro and Dr. Giuseppe De Tomasi. My work focused on exploring measurement statistics as possible post-selection free probes of measurement-induced phase transitions in monitored free-fermion systems.
+
+  I am currently a pre-doctoral researcher at the University of Palermo, where I work with Prof. Federico Roccati on deep thermalization in open quantum systems. My research interests include non-equilibrium quantum physics, quantum information, and thermalization in quantum many-body systems.
+legacy_urls:
+  - /author/francisco-salvado-dias/

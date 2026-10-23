@@ -1,0 +1,41 @@
+name: Angelo Carollo
+sort: Carollo
+role: Associate Professor
+group: faculty
+status: current
+email: angelo.carollo@unipa.it
+links:
+  orcid: https://orcid.org/0000-0002-4402-2207
+  wos: https://www.webofscience.com/wos/author/record/B-1118-2012
+  linkedin: https://www.linkedin.com/in/angelo-carollo-2457b72
+organizations:
+  - name: University of Palermo
+    url: https://www.unipa.it/persone/docenti/c/angelo.carollo
+interests:
+  - Quantum topology
+  - Quantum optics
+  - Quantum metrology
+  - Quantum statistical physics
+education:
+  - degree: PhD in Physics
+    institution: Imperial College of London
+    url: https://www.unical.it/
+    year: 2004
+  - degree: M.S. in Physics
+    institution: University of Palermo
+    url: https://www.unical.it/
+    year: 2000
+bio: >-
+  Angelo Carollo is Associate Professor of Theoretical Physics at the Department of
+  Physics and Chemistry of the University of Palermo. He completed his PhD in quantum
+  optics and quantum information in 2004 at Imperial College London. He has been a
+  postdoctoral fellow in at the University of Cambridge and a Marie Curie fellow at the
+  University of Innsbruck. After an experience in the financial industry in London, he
+  joined the University of Palermo in 2010. His current research interests range from
+  Hermitian and non-Hermitian topological properties in condensed matter and quantum
+  optics, quantum metrology, and equilibrium and non-equilibrium quantum statistical
+  physics. He has given seminal contributions to the development of geometric information
+  approaches in open quantum systems and quantum critical phenomena. He authored over 60
+  articles, attracting more than 2500 citations.
+legacy_urls:
+  - /author/angelo-carollo/

@@ -1,0 +1,48 @@
+{{ define "main" }}
+{{- $id := .Params.id -}}
+{{- partial "page-head.html" (dict "page" . "eyebrow" (.Params.programme | default "Research project")) }}
+<div class="wrap article">
+  <div class="article-main">
+    {{- with resources.GetMatch (printf "images/projects/%s/logo.*" $id) }}
+    <div class="project-hero-logo">{{ partial "img.html" (dict "src" . "w" 420 "h" 170 "fit" true "alt" (printf "%s logo" $.Title) "eager" true) }}</div>
+    {{- end }}
+    <div class="prose">{{ .Content }}</div>
+    {{- range .Params.figures }}
+    <figure class="figure">
+      {{ partial "img.html" (dict "src" (printf "images/projects/%s/%s" $id .file) "w" 760 "h" 420 "fit" true "alt" (.caption | default "")) }}
+      {{- with .caption }}<figcaption>{{ . }}</figcaption>{{ end }}
+    </figure>
+    {{- end }}
+    {{- with .Params.website }}
+    <p><a class="btn btn-primary" href="{{ . }}">Project website {{ partial "icon.html" "external" }}</a></p>
+    {{- end }}
+    {{- with .Params.funding_logos }}
+    <div class="funding-logos">
+      {{- range . }}{{ partial "img.html" (dict "src" (printf "images/projects/%s/%s" $id .) "w" 260 "h" 80 "fit" true "alt" "Funding logo") }}{{ end }}
+    </div>
+    {{- end }}
+    {{- partial "pager.html" (dict "page" . "pages" .CurrentSection.Pages.ByDate.Reverse "label" "projects") }}
+  </div>
+  <aside class="article-aside">
+    {{- with .Params.team }}
+    <section>
+      <h2 class="aside-title">Team in Palermo</h2>
+      <ul class="mini-people">
+        {{- range . }}{{ with partial "db/person-page.html" . }}
+        <li><a href="{{ .RelPermalink }}">
+          <span class="avatar">{{ with partial "db/photo.html" .Params.id }}{{ partial "img.html" (dict "src" . "w" 44 "h" 44 "alt" "") }}{{ end }}</span>
+          <span><b>{{ .Title }}</b><small>{{ .Params.role }}</small></span>
+        </a></li>
+        {{- end }}{{ end }}
+      </ul>
+    </section>
+    {{- end }}
+    {{- with .Params.research }}
+    <section>
+      <h2 class="aside-title">Research lines</h2>
+      <ul class="chips">{{ range . }}{{ with site.GetPage (printf "/research/%s" .) }}<li><a class="chip chip-research" href="{{ .RelPermalink }}">{{ .Title }}</a></li>{{ end }}{{ end }}</ul>
+    </section>
+    {{- end }}
+  </aside>
+</div>
+{{ end }}

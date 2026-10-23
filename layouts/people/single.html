@@ -1,0 +1,91 @@
+{{ define "main" }}
+{{- $id := .Params.id -}}
+{{- $papers := partial "db/papers-of.html" $id -}}
+{{- $lines := partial "db/research-of-person.html" $id -}}
+{{- $projects := where (site.GetPage "/projects").Pages "Params.team" "intersect" (slice $id) -}}
+{{- $eyebrow := cond (eq .Params.status "alumni") "Former member" .Params.role -}}
+{{- partial "page-head.html" (dict "page" . "eyebrow" $eyebrow) }}
+<div class="wrap profile">
+  <aside class="profile-aside">
+    <div class="profile-photo">
+      {{- with partial "db/photo.html" $id }}
+      {{ partial "img.html" (dict "src" . "w" 360 "h" 450 "alt" (printf "Portrait of %s" $.Title) "eager" true) }}
+      {{- else }}
+      <span class="initials" aria-hidden="true">{{ range first 2 (split .Title " ") }}{{ substr . 0 1 }}{{ end }}</span>
+      {{- end }}
+    </div>
+    <dl class="facts">
+      {{- with .Params.role }}<div><dt>Position</dt><dd>{{ . }}{{ if eq $.Params.status "alumni" }} (former){{ end }}</dd></div>{{ end }}
+      {{- with .Params.organizations }}<div><dt>Affiliation</dt><dd>{{ range $i, $o := . }}{{ if $i }}<br>{{ end }}{{ with $o.url }}<a href="{{ . }}">{{ $o.name }}</a>{{ else }}{{ $o.name }}{{ end }}{{ end }}</dd></div>{{ end }}
+      {{- with .Params.email }}<div><dt>Email</dt><dd><a href="mailto:{{ . }}">{{ . }}</a></dd></div>{{ end }}
+    </dl>
+    {{- with .Params.links }}
+    {{- $labels := dict "website" "Website" "orcid" "ORCID" "scholar" "Google Scholar" "arxiv" "arXiv" "wos" "Web of Science" "linkedin" "LinkedIn" "github" "GitHub" "twitter" "X / Twitter" }}
+    <ul class="link-list" aria-label="Profiles">
+      {{- range $key := slice "website" "orcid" "scholar" "arxiv" "wos" "github" "linkedin" "twitter" }}{{ with index $.Params.links $key }}
+      <li><a class="chip chip-link" href="{{ . }}">{{ index $labels $key }} {{ partial "icon.html" "external" }}</a></li>
+      {{- end }}{{ end }}
+    </ul>
+    {{- end }}
+  </aside>
+
+  <div class="profile-main">
+    {{- with .Content }}
+    <section class="prose">{{ . }}</section>
+    {{- end }}
+
+    {{- if or .Params.interests $lines }}
+    <section class="profile-section">
+      <h2>Research</h2>
+      {{- with $lines }}
+      <p class="small muted">Research lines of {{ $.Title }}'s papers on this site</p>
+      <ul class="chips">
+        {{- range . }}{{ with site.GetPage (printf "/research/%s" .id) }}
+        <li><a class="chip chip-research" href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+        {{- end }}{{ end }}
+      </ul>
+      {{- end }}
+      {{- with .Params.interests }}
+      <h3>Interests</h3>
+      <ul class="chips">{{ range . }}<li><span class="chip chip-static">{{ . }}</span></li>{{ end }}</ul>
+      {{- end }}
+    </section>
+    {{- end }}
+
+    {{- with sort (.Params.education | default slice) "year" "desc" }}
+    <section class="profile-section">
+      <h2>Education</h2>
+      <ol class="timeline">
+        {{- range . }}
+        <li><span class="year">{{ .year }}</span><div><b>{{ .degree }}</b><br>{{ if .url }}<a href="{{ .url }}">{{ .institution }}</a>{{ else }}{{ .institution }}{{ end }}</div></li>
+        {{- end }}
+      </ol>
+    </section>
+    {{- end }}
+
+    {{- with $projects }}
+    <section class="profile-section">
+      <h2>Projects</h2>
+      <ul class="link-rows">
+        {{- range . }}<li><a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ with .Params.programme }} <span class="muted small">· {{ . }}</span>{{ end }}</li>{{ end }}
+      </ul>
+    </section>
+    {{- end }}
+
+    {{- with $papers }}
+    <section class="profile-section" id="publications">
+      <div class="section-head">
+        <h2>Publications <span class="count">{{ len . }}</span></h2>
+        <a class="more" href="{{ "publications/" | relURL }}?member={{ $id }}">Search and filter {{ partial "icon.html" "arrow-right" }}</a>
+      </div>
+      {{- range .GroupByDate "2006" }}
+      <h3 class="year-small">{{ .Key }}</h3>
+      <ol class="pubs pubs-compact">{{ range .Pages }}{{ partial "pub-item.html" . }}{{ end }}</ol>
+      {{- end }}
+    </section>
+    {{- end }}
+
+    {{- partial "pager.html" (dict "page" . "pages" (.CurrentSection.Pages.ByWeight) "label" "people") }}
+  </div>
+</div>
+{{ end }}

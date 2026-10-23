@@ -1,0 +1,38 @@
+{{- $title := cond .IsHome site.Title (printf "%s · %s" (.Title | plainify | replaceRE `\$` "") site.Params.shortName) -}}
+{{- $description := .Params.lead | default .Params.summary | default (.Summary | plainify) | default site.Params.description | plainify | truncate 200 -}}
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ $title }}</title>
+<meta name="description" content="{{ $description }}">
+<link rel="canonical" href="{{ .Permalink }}">
+<meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
+<meta property="og:title" content="{{ .Title | plainify }}">
+<meta property="og:description" content="{{ $description }}">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:site_name" content="{{ site.Title }}">
+{{- with resources.Get "images/group.jpeg" }}{{ with .Resize "1200x webp q75" }}
+<meta property="og:image" content="{{ .Permalink }}">{{ end }}{{ end }}
+<meta name="theme-color" content="#1d3a8c">
+<link rel="icon" href="{{ "favicon.svg" | relURL }}" type="image/svg+xml">
+<link rel="preload" href="{{ "fonts/jura-latin-wght-normal.woff2" | relURL }}" as="font" type="font/woff2" crossorigin>
+<script>
+  // Colour theme chosen with the toggle (else the system one), set before the page paints
+  document.documentElement.classList.add("js");
+  try { var t = localStorage.getItem("theme"); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
+</script>
+{{- $css := resources.Get "css/main.css" | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
+{{- if partial "uses-math.html" . }}
+<link rel="stylesheet" href="{{ "vendor/katex/katex.min.css" | relURL }}">
+{{- end }}
+{{- with .OutputFormats.Get "BibTeX" }}
+<link rel="alternate" type="text/x-bibtex" href="{{ .RelPermalink }}" title="All publications (BibTeX)">
+{{- end }}
+{{- if and .IsPage (eq .Section "publications") }}
+{{- partial "citation-meta.html" . }}
+{{- end }}
+{{- if .IsHome }}
+<script type="application/ld+json">
+{{ dict "@context" "https://schema.org" "@type" "ResearchOrganization" "name" site.Title "url" site.BaseURL "email" site.Params.email "parentOrganization" (dict "@type" "CollegeOrUniversity" "name" site.Params.university "url" site.Params.universityURL) "address" (dict "@type" "PostalAddress" "streetAddress" site.Params.street "addressLocality" "Palermo" "postalCode" "90123" "addressCountry" "IT") | jsonify | safeJS }}
+</script>
+{{- end }}

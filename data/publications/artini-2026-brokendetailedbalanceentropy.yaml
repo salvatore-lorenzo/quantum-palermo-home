@@ -1,0 +1,48 @@
+title: Broken Detailed Balance and Entropy Production in CPTP Quantum Brownian Motion
+authors:
+  - Simone Artini
+  - Gabriele Lo Monaco
+  - Alberto Imparato
+  - Mauro Paternostro
+  - Sandro Donadi
+date: 2026-08-01
+type: article
+journal: Phys. Rev. Research
+volume: "8"
+issue: "3"
+pages: "033216"
+doi: 10.1103/qqxn-qc4g
+arxiv: "2507.23322"
+url: https://doi.org/10.1103/qqxn-qc4g
+research:
+  - thermo
+abstract: >-
+  We rigorously analyze the non-equilibrium thermodynamic behavior of various formulations
+  of quantum Brownian motion (QBM) using the framework of stochastic thermodynamics. While
+  the widely used Caldeira-Leggett master equation exhibits desirable thermodynamic
+  features, such as the fulfilment of a detailed balance, it fails to ensure complete
+  positivity. In contrast, several completely positive and trace-preserving (CPTP)
+  extensions turn out to be thermodynamically controversial. We show that such extensions
+  introduce anomalous phase-space structures that violate detailed balance at the steady
+  state, leading to non-vanishing entropy production and effective non-equilibrium current
+  of unclear physical origins. Our results highlight a fundamental tension between quantum
+  consistency and thermodynamic equilibration in open quantum systems.
+bibtex: |-
+  @article{artini2026brokendetailedbalanceentropy,
+   archiveprefix = {arXiv},
+   author = {Artini, Simone and Lo Monaco, Gabriele and Imparato, Alberto and Paternostro, Mauro and Donadi, Sandro},
+   doi = {10.1103/qqxn-qc4g},
+   eprint = {2507.23322},
+   journal = {Phys. Rev. Research},
+   month = {Aug},
+   number = {3},
+   pages = {033216},
+   publisher = {American Physical Society (APS)},
+   title = {Broken Detailed Balance and Entropy Production in CPTP Quantum Brownian Motion},
+   url = {https://doi.org/10.1103/qqxn-qc4g},
+   volume = {8},
+   year = {2026}
+  }
+legacy_urls:
+  - /publication/artini-2026-brokendetailedbalanceentropy/
+  - /publication/artini-2025-nonequilibriumthermodynamicsquantumbrownian/

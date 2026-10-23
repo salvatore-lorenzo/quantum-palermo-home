@@ -1,0 +1,34 @@
+name: Alessandro Romancino
+sort: Romancino
+role: PhD Student
+group: phd
+status: current
+email: alessandro.romancino@unipa.it
+links:
+  github: https://github.com/alex180500
+  orcid: https://orcid.org/0009-0004-2812-6251
+  scholar: https://scholar.google.com/citations?user=TAE7QH0AAAAJ
+  arxiv: https://arxiv.org/a/romancino_a_1.html
+  linkedin: https://www.linkedin.com/in/alessandro-romancino
+organizations:
+  - name: University of Palermo
+    url: https://www.unipa.it/dipartimenti/difc/dottorati/scienzefisicheechimiche/en/phd-students/
+interests:
+  - quantum networks
+  - quantum information
+  - complex networks
+  - entanglement
+  - statistical physics
+education:
+  - degree: M.Sc. Physics
+    institution: University of Palermo
+    year: 2023
+  - degree: B.Sc. Physical Sciences
+    institution: University of Palermo
+    year: 2021
+bio: |-
+  I obtained my Bachelor's degree in Physical Sciences from the University of Palermo in 2021 with the thesis "Ultracold Atoms in Optical Lattices" under the supervision of prof. G. Massimo Palma. Subsequently, I pursued my Master's degree in Physics, also at the University of Palermo, culminating in 2023 with my thesis titled "Entanglement Percolation in Quantum Networks," conducted at the Autonomous University of Barcelona (UAB) within the Quantum Information Group (GIQ) under the joint supervision of prof. Anna Sanpera in Spain and prof. G. Massimo Palma in Palermo.
+
+  Currently, I am a PhD student at the University of Palermo, working under the guidance of prof. G. Massimo Palma. My research interests lie in the application of computational techniques from complex systems, particularly complex networks and agent-based models, to diverse areas of theoretical physics, including quantum information, open quantum systems, quantum optics, and condensed matter physics.
+legacy_urls:
+  - /author/alessandro-romancino/

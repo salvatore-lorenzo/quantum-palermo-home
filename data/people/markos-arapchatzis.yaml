@@ -1,0 +1,32 @@
+name: Markos Arapchatzis
+sort: Arapchatzis
+role: PhD Student
+group: phd
+status: current
+email: arapchama@gmail.com
+links:
+  scholar: https://scholar.google.com/citations?view_op=list_works&hl=en&user=594jXUwAAAAJ
+  linkedin: https://www.linkedin.com/in/markos-arapchatzis-434b74335
+organizations:
+  - name: University of Palermo
+    url: https://www.unipa.it/persone/docenti/l/Markos.Arapchatzis
+interests:
+  - Light-matter interactions
+  - ARPES
+  - TD-DFT
+  - Attosecond physics
+education:
+  - degree: BCs in Physics
+    institution: Aristotle University of Thessalonkiki, Greece
+    year: 2022
+  - degree: MSc in Solid State Physics & Technology of Materials
+    institution: Aristotle University of Thessalonkiki, Greece
+    year: 2024
+bio: >-
+  PhD student at the University of Palermo (UNIPA) as part of the Marie Skłodowska-Curie
+  Actions (MSCA) SPARKLE doctoral network, under the supervision of Prof. Umberto De
+  Giovannini (UNIPA). I received my BCs and MSc degree in Physics from the Aristotle
+  University of Thessaloniki(AuTH). My work is focused on developing methods to simulate
+  Time-Resolved Photoelectron Spectroscopy within the TD-DFT framework.
+legacy_urls:
+  - /author/markos-arapchatzis/

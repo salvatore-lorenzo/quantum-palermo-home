@@ -1,0 +1,158 @@
+{{ define "main" }}
+{{- $ok := partial "db/validate.html" . -}}
+{{- $people := (site.GetPage "/people").Pages -}}
+{{- $current := where $people "Params.status" "current" -}}
+{{- $pubs := (site.GetPage "/publications").Pages.ByDate.Reverse -}}
+{{- $research := (site.GetPage "/research").Pages.ByWeight -}}
+{{- $projects := (site.GetPage "/projects").Pages.ByDate.Reverse -}}
+{{- $events := (site.GetPage "/events").Pages.ByDate.Reverse -}}
+{{- $upcoming := slice -}}
+{{- range $events.Reverse }}{{ if ge (add (time.AsTime (.Params.end | default .Params.start)).Unix 86400) now.Unix }}{{ $upcoming = $upcoming | append . }}{{ end }}{{ end -}}
+{{- $since := (index $pubs.Reverse 0).Date.Year -}}
+
+<section class="hero">
+  <div class="wrap hero-inner">
+    <h1>{{ .Title }}</h1>
+    {{- /* A qubit measured while you watch, drawn by js/hero-measure.js (not shown without JavaScript) */}}
+    <figure class="measure" aria-labelledby="measure-caption">
+      <div class="measure-plot">
+        <canvas aria-hidden="true"></canvas>
+        <span class="measure-ket ket-0" aria-hidden="true">|0⟩</span>
+        <span class="measure-ket ket-psi" aria-hidden="true">|ψ⟩</span>
+        <span class="measure-ket ket-1" aria-hidden="true">|1⟩</span>
+        <span class="measure-tally tally-0" aria-hidden="true"><b data-n0>0</b><span>in <span class="ket">|0⟩</span></span></span>
+        <span class="measure-tally tally-1" aria-hidden="true"><span>in <span class="ket">|1⟩</span></span><b data-n1>0</b></span>
+      </div>
+      <figcaption id="measure-caption">
+        <!-- 512 records of ⟨σ<sub>z</sub>⟩ for a qubit under continuous measurement, 
+        each prepared in <span class="nowrap">|ψ⟩ = √0.7 |0⟩ + √0.3 |1⟩</span> 
+        and simulated in your browser. Time runs left to right on a log scale, Γt = 0.001 to 40.-->
+        512 quantum trajectories. One qubit. Continuous measurement.
+        <span class="measure-result"><span data-live></span><button class="btn btn-sm btn-outline-light" type="button" data-again>Measure again</button></span>
+      </figcaption>
+      <p class="sr-only" aria-live="polite" data-announce></p>
+    </figure>
+    <p class="lead">{{ .Params.lead }}</p>
+    <div class="hero-actions">
+      <a class="btn btn-light" href="{{ "research/" | relURL }}">Explore our research {{ partial "icon.html" "arrow-right" }}</a>
+      <a class="btn btn-outline-light" href="{{ "people/" | relURL }}">Meet the team</a>
+    </div>
+    <ul class="hero-facts">
+      <li><a href="{{ "people/" | relURL }}"><b>{{ len $current }}</b> members</a></li>
+      <li><a href="{{ "publications/" | relURL }}"><b>{{ len $pubs }}</b> publications since {{ $since }}</a></li>
+      <li><a href="{{ "research/" | relURL }}"><b>{{ len $research }}</b> research lines</a></li>
+      <li><a href="{{ "projects/" | relURL }}"><b>{{ len $projects }}</b> funded projects</a></li>
+    </ul>
+  </div>
+</section>
+
+<section class="section" aria-labelledby="about-title">
+  <div class="wrap">
+    <header class="section-header about-header">
+      <h2 id="about-title">Theory of quantum systems and processes, with an eye on experiments</h2>
+    </header>
+    <div class="about">
+      <figure class="about-photo">
+        {{- with resources.Get "images/group.jpeg" }}
+        {{- $sm := .Resize "640x webp q72" }}{{ $lg := .Resize "1280x webp q70" }}
+        <img src="{{ $sm.RelPermalink }}" srcset="{{ $sm.RelPermalink }} 640w, {{ $lg.RelPermalink }} 1280w" sizes="(max-width: 900px) 100vw, 560px" width="{{ $sm.Width }}" height="{{ $sm.Height }}" alt="Members of the Quantum Theory Group on the steps of the physics building in Palermo" decoding="async">
+        {{- end }}
+      </figure>
+      <div class="prose">{{ .Content }}</div>
+    </div>
+  </div>
+</section>
+
+<section class="section alt" id="research" aria-labelledby="research-title">
+  <div class="wrap">
+    <header class="section-header">
+      <h2 id="research-title">What we work on</h2>
+      <p>{{ len $research }} research lines, each with its own people, papers and projects.</p>
+    </header>
+    <ul class="row-list topic-list">
+      {{- range $research }}{{ partial "research-row.html" . }}{{ end }}
+    </ul>
+    <p class="section-more"><a class="btn btn-ghost" href="{{ "research/" | relURL }}">All research lines {{ partial "icon.html" "arrow-right" }}</a></p>
+  </div>
+</section>
+
+<section class="section" aria-labelledby="papers-title">
+  <div class="wrap">
+    <header class="section-header">
+      <h2 id="papers-title">Latest papers</h2>
+      <p>{{ len $pubs }} papers and preprints since {{ $since }}. Names of group members are highlighted.</p>
+    </header>
+    <div class="grid grid-news">
+      {{- range first 6 $pubs }}{{ partial "pub-card.html" . }}{{ end }}
+    </div>
+    <p class="section-more"><a class="btn btn-ghost" href="{{ "publications/" | relURL }}">All {{ len $pubs }} publications {{ partial "icon.html" "arrow-right" }}</a></p>
+  </div>
+</section>
+
+<section class="section alt" aria-labelledby="events-title">
+  <div class="wrap">
+    <header class="section-header">
+      <h2 id="events-title">{{ if $upcoming }}Coming up{{ else }}Recent events{{ end }}</h2>
+      <p>Conferences, workshops and schools organised by the group.</p>
+    </header>
+    <div class="grid grid-news">
+      {{- range first 3 (cond (gt (len $upcoming) 0) $upcoming (where $events "Params.kind" "ne" "seminar")) }}{{ partial "event-card.html" . }}{{ end }}
+    </div>
+    <p class="section-more"><a class="btn btn-ghost" href="{{ "events/" | relURL }}">All events and the group calendar {{ partial "icon.html" "arrow-right" }}</a></p>
+  </div>
+</section>
+
+<section class="section" aria-labelledby="projects-title">
+  <div class="wrap">
+    <header class="section-header">
+      <h2 id="projects-title">Funded research projects</h2>
+      <p>National and European projects led by, or involving, members of the group.</p>
+    </header>
+    <div class="grid grid-projects">
+      {{- range $projects }}{{ partial "project-card.html" . }}{{ end }}
+    </div>
+  </div>
+</section>
+
+<section class="section section-flush">
+  <div class="wrap">
+    <div class="join-panel">
+      <div class="join-intro">
+        <h2 class="title-rule">Join the group</h2>
+        <p>We have openings for postdocs, PhD and MSc students. Researchers whose profile ties in with our research agenda are welcome to get in touch at any time.</p>
+      </div>
+      <ul class="row-list join-links">
+        <li class="row-link">
+          <span><a class="row-title stretched" href="{{ "join/" | relURL }}">How to apply</a><span class="row-sub">What to send, and where</span></span>
+          <span class="row-arrow">{{ partial "icon.html" "arrow-right" }}</span>
+        </li>
+        <li class="row-link">
+          <span><a class="row-title stretched" href="{{ site.Params.callsURL }}">Open calls at UniPa</a><span class="row-sub">Official calls for positions and fellowships</span></span>
+          <span class="row-arrow">{{ partial "icon.html" "external" }}</span>
+        </li>
+        <li class="row-link">
+          <span><a class="row-title stretched" href="mailto:{{ site.Params.email }}">Write to us</a><span class="row-sub">{{ site.Params.email }}</span></span>
+          <span class="row-arrow">{{ partial "icon.html" "mail" }}</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="section section-tight funders-section" aria-labelledby="funders-title">
+  <div class="wrap">
+    <h2 class="funders-title" id="funders-title">Our research is supported by</h2>
+    <ul class="funders">
+      {{- range site.Data.funders }}
+      {{- $name := .name }}
+      <li>
+        {{- $img := partial "img.html" (dict "src" (printf "images/funders/%s" .logo) "w" 160 "h" 80 "fit" true "alt" $name) }}
+        {{- with .url }}<a href="{{ . }}" title="{{ $name }}">{{ $img }}</a>{{ else }}{{ $img }}{{ end }}
+      </li>
+      {{- end }}
+    </ul>
+  </div>
+</section>
+{{- $measure := resources.Get "js/hero-measure.js" | js.Build (dict "minify" true) | fingerprint }}
+<script src="{{ $measure.RelPermalink }}" integrity="{{ $measure.Data.Integrity }}" defer></script>
+{{ end }}

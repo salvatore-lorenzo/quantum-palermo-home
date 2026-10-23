@@ -1,0 +1,33 @@
+title: Non-Markovian dynamics of a qubit on the zigzag edge of photonic graphene
+authors:
+  - Enrico Di Benedetto
+date: 2026-01-01
+type: article
+journal: Il Nuovo Cimento C, Year 2026 - Issue 5-6 - September-December
+doi: 10.1393/ncc/i2026-26171-7
+arxiv: "2609.08382"
+url: https://doi.org/10.1393/ncc/i2026-26171-7
+research:
+  - mater
+  - qinfo
+abstract: >-
+  We present an analytical study of the dynamics of a qubit coupled to the zigzag edge of
+  a photonic honeycomb lattice. Leveraging a resolvent operator approach and exact lattice
+  Green's functions, we map the spectrum of qubit-photon bound states and complex poles to
+  uncover the long-time scaling laws of the qubit population. Unlike a qubit coupled to
+  the bulk of graphene, the presence of a zero-energy flat band connecting the Dirac
+  points suppresses long-time branch-cut-induced tails, instead driving damped Rabi
+  oscillations. Potential experimental platforms are briefly discussed.
+bibtex: |-
+  @article{dibenedetto2026nonmarkoviandynamicsqubitzigzag,
+   archiveprefix = {arXiv},
+   author = {Enrico Di Benedetto},
+   doi = {10.1393/ncc/i2026-26171-7},
+   eprint = {2609.08382},
+   journal = {Il Nuovo Cimento C, Year 2026 - Issue 5-6 - September-December},
+   title = {Non-Markovian dynamics of a qubit on the zigzag edge of photonic graphene},
+   url = {https://doi.org/10.1393/ncc/i2026-26171-7},
+   year = {2026}
+  }
+legacy_urls:
+  - /publication/dibenedetto-2026-nonmarkoviandynamicsqubitzigzag/

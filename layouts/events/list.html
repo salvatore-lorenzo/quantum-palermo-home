@@ -1,0 +1,42 @@
+{{ define "main" }}
+{{- $events := .Pages.ByDate.Reverse -}}
+{{- $upcoming := slice }}{{ $past := slice -}}
+{{- range $events -}}
+  {{- if ge (add (time.AsTime (.Params.end | default .Params.start)).Unix 86400) now.Unix }}{{ $upcoming = $upcoming | append . }}{{ else }}{{ $past = $past | append . }}{{ end -}}
+{{- end -}}
+{{- partial "page-head.html" (dict "page" . "lead" .Params.lead) }}
+<div class="subnav">
+  <nav class="wrap jump" aria-label="Sections">
+    <a href="#upcoming">Upcoming</a><a href="#past">Past events</a><a href="#seminars">Seminars</a><a href="#calendar">Group calendar</a>
+  </nav>
+</div>
+<div class="wrap section-body">
+  <section id="upcoming" class="events-block">
+    <h2>Upcoming</h2>
+    {{- with $upcoming }}
+    <div class="grid grid-events">{{ range .Reverse }}{{ partial "event-card.html" . }}{{ end }}</div>
+    {{- else }}
+    <p class="muted">No upcoming events are announced at the moment. Seminars and meetings are on the <a href="#calendar">group calendar</a>.</p>
+    {{- end }}
+  </section>
+  <section id="past" class="events-block">
+    <h2>Past events</h2>
+    <div class="grid grid-events">{{ range where $past "Params.kind" "ne" "seminar" }}{{ partial "event-card.html" . }}{{ end }}</div>
+  </section>
+  <section id="seminars" class="events-block">
+    <h2>Seminars</h2>
+    <ul class="link-rows">
+      {{- range where $events "Params.kind" "seminar" }}
+      <li><a href="{{ .RelPermalink }}">{{ .Title }}</a> <span class="muted small">· {{ partial "date-range.html" (dict "start" .Params.start) }}</span></li>
+      {{- end }}
+    </ul>
+  </section>
+  <section id="calendar" class="events-block">
+    <h2>Group calendar</h2>
+    <div class="calendar-frame">
+      <iframe title="Group calendar" loading="lazy" src="https://open-web-calendar.hosted.quelltext.eu/calendar.html?url={{ site.Params.calendarICS | urlquery }}" sandbox="allow-scripts allow-same-origin allow-popups allow-top-navigation-by-user-activation"></iframe>
+    </div>
+    <p class="small muted"><a href="{{ site.Params.calendarICS }}">Subscribe to the calendar (iCal)</a></p>
+  </section>
+</div>
+{{ end }}

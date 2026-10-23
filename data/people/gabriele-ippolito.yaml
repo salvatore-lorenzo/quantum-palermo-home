@@ -1,0 +1,30 @@
+name: Gabriele Ippolito
+sort: Ippolito
+role: PhD Student
+group: phd
+status: current
+email: gabriele.ippolito02@unipa.it
+organizations:
+  - name: University of Palermo
+    url: >-
+      ‘https://www.unipa.it/dipartimenti/difc/dottorati/scienzefisicheechimiche/en/phd-students/‘
+interests:
+  - Waveguide QED
+  - Topological photonics/physics
+  - Solid-state physics
+education:
+  - degree: Bachelor’s Degree in Physics
+    institution: University of Palermo
+    year: 2023
+  - degree: Master’s Degree in Physics
+    institution: University of Palermo
+    year: 2025
+bio: >-
+  I graduated in physics from the University of Palermo in 2025, where I subsequently
+  joined the research group of my thesis advisor Prof. F. Ciccarello. My master’s thesis
+  was conducted at the Walther Meissner Institut (WMI) in Garching, Munich, in
+  collaboration with Dr. Peter Rabl, and focused on the study of the “two-photon emission
+  dynamics in photonic lattices with quadratic light-matter interaction”. My research
+  interests lie primarily in the areas of quantum optics and solid-state physics.
+legacy_urls:
+  - /author/gabriele-ippolito/

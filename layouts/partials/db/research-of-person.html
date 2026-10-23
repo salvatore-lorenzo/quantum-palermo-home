@@ -1,0 +1,7 @@
+{{- /* Research lines of a person, from the lines of their papers: slice of dict "id" "count", most papers first */ -}}
+{{- $papers := partial "db/papers-of.html" . -}}
+{{- $counts := dict -}}
+{{- range $papers }}{{ range .Params.research }}{{ $counts = merge $counts (dict . (add 1 (index $counts . | default 0))) }}{{ end }}{{ end -}}
+{{- $lines := slice -}}
+{{- range $id, $n := $counts }}{{ $lines = $lines | append (dict "id" $id "count" $n) }}{{ end -}}
+{{- return sort $lines "count" "desc" -}}

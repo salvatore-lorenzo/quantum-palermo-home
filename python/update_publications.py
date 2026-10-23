@@ -3,7 +3,7 @@
 Runs, in order:
   1. newpapers.py        save the latest arxiv-bot messages
   2. newbibs.py          turn them into .bib files in python/
-  3. newpublications.py  create the pages in content/publication/ and move the .bib files to bibtexs/
+  3. newpublications.py  add the records to data/publications/ and move the .bib files to bibtexs/
 Stops at the first script that fails.
 """
 

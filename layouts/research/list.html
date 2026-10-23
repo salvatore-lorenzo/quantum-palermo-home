@@ -1,0 +1,8 @@
+{{ define "main" }}
+{{- partial "page-head.html" (dict "page" . "lead" .Params.lead) }}
+<div class="wrap section-body">
+  <div class="grid grid-cards">
+    {{- range .Pages.ByWeight }}{{ partial "research-card.html" . }}{{ end }}
+  </div>
+</div>
+{{ end }}

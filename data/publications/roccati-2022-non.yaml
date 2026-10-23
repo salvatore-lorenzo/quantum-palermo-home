@@ -1,0 +1,27 @@
+title: Non-hermitian physics and master equations
+authors:
+  - Federico Roccati
+  - G Massimo Palma
+  - Francesco Ciccarello
+  - Fabio Bagarello
+date: 2022-01-01
+type: article
+journal: Open Systems & Information Dynamics
+volume: "29"
+issue: "01"
+pages: "2250004"
+research:
+  - wqed
+bibtex: |-
+  @article{roccati2022non,
+   author = {Roccati, Federico and Palma, G Massimo and Ciccarello, Francesco and Bagarello, Fabio},
+   journal = {Open Systems & Information Dynamics},
+   number = {01},
+   pages = {2250004},
+   publisher = {World Scientific},
+   title = {Non-hermitian physics and master equations},
+   volume = {29},
+   year = {2022}
+  }
+legacy_urls:
+  - /publication/roccati-2022-non/

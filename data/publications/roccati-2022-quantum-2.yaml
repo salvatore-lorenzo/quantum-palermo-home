@@ -1,0 +1,31 @@
+title: Quantum correlations beyond entanglement in a classical-channel model of gravity
+authors:
+  - Federico Roccati
+  - Benedetto Militello
+  - Emilio Fiordilino
+  - Rosario Iaria
+  - Luciano Burderi
+  - Tiziana Di Salvo
+  - Francesco Ciccarello
+date: 2022-01-01
+type: article
+journal: Scientific Reports
+volume: "12"
+issue: "1"
+pages: "17641"
+research:
+  - qinfo
+  - found
+bibtex: |-
+  @article{roccati2022quantum2,
+   author = {Roccati, Federico and Militello, Benedetto and Fiordilino, Emilio and Iaria, Rosario and Burderi, Luciano and Di Salvo, Tiziana and Ciccarello, Francesco},
+   journal = {Scientific Reports},
+   number = {1},
+   pages = {17641},
+   publisher = {Nature Publishing Group UK London},
+   title = {Quantum correlations beyond entanglement in a classical-channel model of gravity},
+   volume = {12},
+   year = {2022}
+  }
+legacy_urls:
+  - /publication/roccati-2022-quantum-2/

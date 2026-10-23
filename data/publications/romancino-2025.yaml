@@ -1,0 +1,44 @@
+title: Multipartite entanglement in the diagonal symmetric subspace
+authors:
+  - Jordi Romero-Pallejà
+  - Jennifer Ahiable
+  - Alessandro Romancino
+  - Carlo Marconi
+  - Anna Sanpera
+date: 2025-02-01
+type: article
+journal: Journal of Mathematical Physics
+volume: "66"
+issue: "2"
+pages: "022203"
+doi: 10.1063/5.0240964
+arxiv: "2403.05244"
+url: https://doi.org/10.1063/5.0240964
+research:
+  - qinfo
+abstract: >-
+  We investigate the entanglement properties in the symmetric subspace of N-partite
+  d-dimensional systems (qudits). As it happens already for bipartite diagonal symmetric
+  states, also in the multipartite case the local dimension d plays a crucial role. Here,
+  we demonstrate that there is no bound entanglement for d = 3, 4 and N = 3. Using
+  different techniques, we present strong analytical evidence that no bound entanglement
+  exist for any N if d ≤ 4. Interestingly, bound entanglement of diagonal symmetric states
+  exist for any number of parties, N ≥ 2, and local dimensions d ≥ 5.
+bibtex: |-
+  @article{romancino2025,
+   archiveprefix = {arxiv},
+   author = {Romero-Pallejà, Jordi and Ahiable, Jennifer and Romancino, Alessandro and Marconi, Carlo and Sanpera, Anna},
+   doi = {10.1063/5.0240964},
+   eprint = {2403.05244},
+   issn = {0022-2488},
+   journal = {Journal of Mathematical Physics},
+   month = {02},
+   number = {2},
+   pages = {022203},
+   title = {Multipartite entanglement in the diagonal symmetric subspace},
+   url = {https://doi.org/10.1063/5.0240964},
+   volume = {66},
+   year = {2025}
+  }
+legacy_urls:
+  - /publication/romancino-2025/

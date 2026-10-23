@@ -1,0 +1,62 @@
+{{ define "main" }}
+{{- $members := partial "db/members-of.html" .Params.authors -}}
+{{- $eyebrow := printf "%s · %s" (partial "pub-type.html" .Params.type) (.Date.Format "January 2006") -}}
+{{- partial "page-head.html" (dict "page" . "eyebrow" $eyebrow) }}
+<div class="wrap article">
+  <div class="article-main">
+    <p class="pub-authors pub-authors-lg">{{ partial "authors.html" (dict "names" .Params.authors) }}</p>
+    <p class="pub-venue">{{ partial "pub-venue.html" . }}{{ with .Params.doi }} · <a href="https://doi.org/{{ . }}">doi:{{ . }}</a>{{ end }}</p>
+
+    <div class="actions">
+      {{- with .Params.doi }}<a class="btn btn-primary" href="https://doi.org/{{ . }}">Read the paper {{ partial "icon.html" "external" }}</a>
+      {{- else }}{{ with .Params.url }}<a class="btn btn-primary" href="{{ . }}">Read the paper {{ partial "icon.html" "external" }}</a>{{ end }}{{ end }}
+      {{- with .Params.arxiv }}<a class="btn btn-ghost" href="https://arxiv.org/abs/{{ . }}">arXiv:{{ . }} {{ partial "icon.html" "external" }}</a>{{ end }}
+      {{- if .Params.bibtex }}<button class="btn btn-ghost" type="button" data-copy="#bibtex-code">{{ partial "icon.html" "copy" }} <span>Copy BibTeX</span></button>{{ end }}
+    </div>
+
+    {{- with .Content }}
+    <section class="abstract">
+      <h2>Abstract</h2>
+      <div class="prose">{{ . }}</div>
+    </section>
+    {{- end }}
+
+    {{- with .Params.bibtex }}
+    <section id="bibtex">
+      <h2>Cite</h2>
+      <pre class="code"><code id="bibtex-code">{{ . }}</code></pre>
+    </section>
+    {{- end }}
+
+    {{- partial "pager.html" (dict "page" . "pages" .CurrentSection.Pages.ByDate.Reverse "prev" "Newer" "next" "Older" "label" "publications") }}
+  </div>
+
+  <aside class="article-aside">
+    {{- with $members }}
+    <section>
+      <h2 class="aside-title">Group members</h2>
+      <ul class="mini-people">
+        {{- range . }}{{ with partial "db/person-page.html" . }}
+        <li><a href="{{ .RelPermalink }}">
+          <span class="avatar">{{ with partial "db/photo.html" .Params.id }}{{ partial "img.html" (dict "src" . "w" 44 "h" 44 "alt" "") }}{{ end }}</span>
+          <span><b>{{ .Title }}</b><small>{{ .Params.role }}</small></span>
+        </a></li>
+        {{- end }}{{ end }}
+      </ul>
+    </section>
+    {{- end }}
+    {{- with .Params.research }}
+    <section>
+      <h2 class="aside-title">Research lines</h2>
+      <ul class="chips">{{ range . }}{{ with site.GetPage (printf "/research/%s" .) }}<li><a class="chip chip-research" href="{{ .RelPermalink }}">{{ .Title }}</a></li>{{ end }}{{ end }}</ul>
+    </section>
+    {{- end }}
+    {{- with .Params.keywords }}
+    <section>
+      <h2 class="aside-title">Keywords</h2>
+      <ul class="chips">{{ range . }}<li><span class="chip chip-static">{{ . }}</span></li>{{ end }}</ul>
+    </section>
+    {{- end }}
+  </aside>
+</div>
+{{ end }}

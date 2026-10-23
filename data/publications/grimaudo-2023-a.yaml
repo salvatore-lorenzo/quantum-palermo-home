@@ -1,0 +1,45 @@
+title: Axion Field Influence on Josephson Junction Quasipotential
+authors:
+  - Roberto Grimaudo
+  - Davide Valenti
+  - Bernardo Spagnolo
+  - Antonio Troisi
+  - Giovanni Filatrella
+  - Claudio Guarcello
+date: 2023-01-01
+type: article
+journal: Materials
+volume: "16"
+issue: "17"
+doi: 10.3390/ma16175972
+arxiv: "2307.15219"
+keywords:
+  - Josephson junction devices
+  - Quantum optics
+  - Stochastic models
+abstract: >-
+  The direct effect of an axion field on Josephson junctions is analyzed through the
+  consequences on the effective potential barrier that prevents the junction from
+  switching from the superconducting to the finite-voltage state. We describe a method to
+  reliably compute the quasipotential with stochastic simulations, which allows for the
+  spanning of the coupling parameter from weakly interacting axion to tight interactions.
+  As a result, we obtain an axion field that induces a change in the potential barrier,
+  therefore determining a significant detectable effect for such a kind of elusive
+  particle. o̧pyright 2023 by the authors.
+bibtex: |-
+  @article{grimaudo2023a,
+   archiveprefix = {arxiv},
+   author = {Grimaudo, Roberto and Valenti, Davide and Spagnolo, Bernardo and Troisi, Antonio and Filatrella, Giovanni and Guarcello, Claudio},
+   author_keywords = {axion; detection; Josephson junction; noise; quasipotential; switching dynamics},
+   doi = {10.3390/ma16175972},
+   eprint = {2307.15219},
+   issn = {19961944},
+   journal = {Materials},
+   keywords = {Josephson junction devices,Quantum optics,Stochastic models},
+   number = {17},
+   title = {Axion Field Influence on Josephson Junction Quasipotential},
+   volume = {16},
+   year = {2023}
+  }
+legacy_urls:
+  - /publication/grimaudo-2023-a/

@@ -1,0 +1,30 @@
+name: Kam Chon Fai
+sort: Chon Fai
+role: Postdoctoral Researcher
+group: postdoc
+status: current
+links:
+  scholar: https://scholar.google.com/citations?hl=zh-TW&user=38TPAxMAAAAJ
+organizations:
+  - name: University of Palermo
+    url: https://www.unipa.it/persone/docenti/l/name.surname
+interests:
+  - Quantum Computation
+  - Quantum Information
+education:
+  - degree: PhD in Physics
+    institution: The Chinese University of Hong Kong
+    year: 2018
+  - degree: M.Phil. in Physics
+    institution: The Chinese University of Hong Kong
+    year: 2014
+aliases:
+  - Chon-Fai Kam
+bio: |-
+  Chon Fai Kam is a physicist whose research spans quantum information, quantum computation, mathematical physics, and applied quantum technologies. Born in Macau, Kam completed undergraduate studies at National Cheng Kung University in Taiwan, followed by a Master’s and Doctorate in Physics at The Chinese University of Hong Kong.
+
+  Kam conducted postdoctoral research at the University at Buffalo, focusing on spin qubits and decoherence in solid-state quantum systems. Research collaborations have included visiting positions at Ludwig Maximilian University of Munich, University College London, and the University of Western Australia, contributing to international efforts in quantum foundations and computational theory.
+
+  Kam’s work engages both theoretical and applied domains, including non-Hermitian quantum mechanics, the quantum Rabi model, and quantum metrology based on squeezed coherent states. Kam is the author of a monograph on coherent states and is currently preparing a second book on the applications of category theory in quantum information science. Current interests include quantum machine learning, graphical languages such as the ZX calculus, and their use in modeling and mitigating quantum noise.
+legacy_urls:
+  - /author/kam-chon-fai/

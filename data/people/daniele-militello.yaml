@@ -1,0 +1,31 @@
+name: Daniele Militello
+sort: Militello
+role: Associate Professor
+group: faculty
+status: current
+email: daniele.militello@unipa.it
+links:
+  orcid: https://orcid.org/
+  scholar: https://scholar.google.com/
+  arxiv: http://arxiv.org/
+interests:
+  - Interest 1
+  - Interest 2
+education:
+  - degree: Title course 1
+    institution: Name of Institution
+    year: 2012
+  - degree: Title course 1
+    institution: Name of Institution
+    year: 2012
+bio: >-
+  Benedetto D Militello (familiarly known as Daniele) received his PhD in Physics in 2006
+  from University of Palermo, where is now Associate Professor. He has been a visiting
+  fellow at Waseda University (Japan) supported by a JSPS grant, working on the effect of
+  repeated measurements on quantum systems. His research activity focuses on the fields of
+  quantum optics, open quantum systems, and quantum thermodynamics. He has contributed to
+  the scientific goals of the FEEL and QUANTUM initiatives of the Italian INFN. He is
+  author of about 70 papers on the topics of quantum Zeno effect, time-dependent
+  Hamiltonians, and open quantum systems.
+legacy_urls:
+  - /author/daniele-militello/

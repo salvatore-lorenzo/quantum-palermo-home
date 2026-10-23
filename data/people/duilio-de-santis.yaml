@@ -1,0 +1,36 @@
+name: Duilio De Santis
+sort: De Santis
+role: PhD Student
+group: phd
+status: alumni
+email: duilio.desantis@unipa.it
+links:
+  twitter: https://twitter.com/duilio_desantis
+  orcid: https://orcid.org/0000-0001-6501-9763
+  scholar: https://scholar.google.it/citations?user=TEFc0EAAAAAJ&hl=it
+  arxiv: https://arxiv.org/a/0000-0001-6501-9763.html
+organizations:
+  - name: University of Palermo
+    url: https://www.unipa.it/dipartimenti/difc/dottorati/scienzefisicheechimiche/en/phd-students/
+interests:
+  - Soliton dynamics
+  - Sine-Gordon model
+  - Josephson junctions
+  - Ultracold atoms
+education:
+  - degree: Bachelor’s Degree in Physics
+    institution: University of Palermo
+    year: 2018
+  - degree: Master’s Degree in Physics
+    institution: University of Palermo
+    year: 2021
+aliases:
+  - D. De Santis
+bio: >-
+  My current research activity focuses on nonlinear and collective phenomena in various
+  physical systems. Within the framework of the classical and quantum sine-Gordon model, I
+  study the properties of soliton excitations in, e.g., Josephson junctions and ultracold
+  atoms. My research typically involves both computational and analytical approaches. I
+  especially enjoy working on theories that are in close contact with experiments.
+legacy_urls:
+  - /author/duillio-de-santis/

@@ -1,0 +1,41 @@
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div class="footer-about">
+      <a class="footer-logo" href="{{ "/" | relURL }}" aria-label="Home">{{ partial "logo.html" . }}</a>
+      <p>Quantum Theory Group<br>{{ site.Params.department }}<br><a href="{{ site.Params.universityURL }}">{{ site.Params.university }}</a></p>
+    </div>
+    <nav aria-label="Research lines">
+      <h2>Research</h2>
+      <ul>
+        {{- range (site.GetPage "/research").Pages.ByWeight }}
+        <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+        {{- end }}
+      </ul>
+    </nav>
+    <nav aria-label="Explore">
+      <h2>Explore</h2>
+      <ul>
+        {{- range site.Menus.main }}{{ if ne .Name "Research" }}
+        <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+        {{- end }}{{ end }}
+      </ul>
+    </nav>
+    <div>
+      <h2>Contact</h2>
+      <address>
+        <a href="mailto:{{ site.Params.email }}">{{ site.Params.email }}</a><br>
+        {{ site.Params.street }}<br>{{ site.Params.city }}<br>
+        <a href="{{ "contact/" | relURL }}">How to reach us</a>
+      </address>
+      <ul class="footer-extra">
+        <li><a href="{{ "events/#calendar" | relURL }}">Group calendar</a></li>
+        <li><a href="{{ "people/#alumni" | relURL }}">Former members</a></li>
+        <li><a href="{{ "publications/publications.bib" | relURL }}">All publications (BibTeX)</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="wrap footer-bottom">
+    <p>© {{ now.Year }} Quantum Theory Group, {{ site.Params.university }} · Updated {{ now.Format "2 January 2006" }}</p>
+    <a href="#main" class="to-top">{{ partial "icon.html" "arrow-up" }} Back to top</a>
+  </div>
+</footer>

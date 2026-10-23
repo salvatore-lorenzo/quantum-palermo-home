@@ -1,0 +1,12 @@
+{{- /* One page per file in data/research/ */ -}}
+{{- range $id, $r := site.Data.research -}}
+  {{- $.AddPage (dict
+    "path" $id
+    "kind" "page"
+    "title" $r.title
+    "weight" ($r.order | default 99)
+    "params" (merge $r (dict "id" $id))
+    "aliases" (slice (printf "/research_lines/%s/" $id))
+    "content" (dict "mediaType" "text/markdown" "value" ($r.body | default ""))
+  ) -}}
+{{- end -}}

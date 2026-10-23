@@ -1,0 +1,15 @@
+{{ define "main" }}
+<div class="page-head">
+  <div class="wrap">
+    <p class="eyebrow">Error 404</p>
+    <h1>This page doesn't exist</h1>
+    <p class="lead">The page may have moved when the website was redesigned. Try one of these:</p>
+  </div>
+</div>
+<div class="wrap section-body">
+  <ul class="link-rows link-rows-lg">
+    <li><a href="{{ "/" | relURL }}">Home</a></li>
+    {{- range site.Menus.main }}<li><a href="{{ .URL }}">{{ .Name }}</a></li>{{ end }}
+  </ul>
+</div>
+{{ end }}

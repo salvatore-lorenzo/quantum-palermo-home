@@ -1,0 +1,12 @@
+{{- /* One page per file in data/events/ */ -}}
+{{- range $id, $e := site.Data.events -}}
+  {{- $.AddPage (dict
+    "path" $id
+    "kind" "page"
+    "title" $e.title
+    "dates" (dict "date" (time.AsTime $e.start))
+    "params" (merge $e (dict "id" $id))
+    "aliases" ($e.legacy_urls | default slice)
+    "content" (dict "mediaType" "text/markdown" "value" ($e.description | default ""))
+  ) -}}
+{{- end -}}

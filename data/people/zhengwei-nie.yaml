@@ -1,0 +1,30 @@
+name: Zhengwei Nie
+sort: Nie
+role: Postdoctoral Researcher
+group: postdoc
+status: alumni
+email: zwnie1008@gmail.com
+organizations:
+  - name: University of Palermo
+    url: https://www.unipa.it/persone/docenti/n/zhengwei.nie
+interests:
+  - Light-matter interactions
+  - Charge density waves
+education:
+  - degree: PhD degree
+    institution: Institute of Physics, Chinese Academy of Sciences
+    year: 2024
+  - degree: BS degree
+    institution: Beijing Normal University
+    year: 2018
+bio: >-
+  I received my Bachelor’s degree in 2018 from Beijing Normal University. In 2024, I
+  completed my PhD under the supervision of Prof. Sheng Meng at the Institute of Physics,
+  Chinese Academy of Sciences. My doctoral research focused on utilizing state-of-the-art
+  time-dependent density functional theory (TDDFT) to manipulate phase transitions in
+  condensed matter systems, particularly in charge density wave systems. Currently, under
+  the supervision of Prof. De Giovannini, I am working on combining TDDFT with open
+  quantum systems to address a significant gap in understanding solid-state dynamics from
+  first principles.
+legacy_urls:
+  - /author/zhengwei-nie/

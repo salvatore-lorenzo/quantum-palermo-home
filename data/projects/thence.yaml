@@ -1,0 +1,16 @@
+acronym: Thence
+title: Thence
+date: 2024-10-28
+status: active
+team:
+  - angelo-carollo
+  - francesco-ciccarello
+  - umberto-de-giovannini
+research:
+  - mater
+  - wqed
+body: >-
+  A main challenge in quantum technology development is mitigating or, conversely,
+  exploting the interaction with the environment. THENCE tackles this by devising
+  effective TDDFT methods, exploring measurement-induced phase transitions and designing
+  spin Hamiltonians in engineered photonic lattices.

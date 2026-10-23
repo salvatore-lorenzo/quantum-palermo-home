@@ -1,0 +1,62 @@
+{{ define "main" }}
+{{- $id := .Params.id -}}
+{{- $papers := where (site.GetPage "/publications").Pages.ByDate.Reverse "Params.research" "intersect" (slice $id) -}}
+{{- $projects := where (site.GetPage "/projects").Pages "Params.research" "intersect" (slice $id) -}}
+{{- /* Current members with at least two papers in this line, most papers first */ -}}
+{{- $counts := slice -}}
+{{- range $pid, $ids := partialCached "db/papers-by-person.html" "map" -}}
+  {{- $n := len (where $papers "Params.id" "in" $ids) -}}
+  {{- $person := partial "db/person-page.html" $pid -}}
+  {{- if and (ge $n 2) (eq $person.Params.status "current") }}{{ $counts = $counts | append (dict "page" $person "n" $n) }}{{ end -}}
+{{- end -}}
+{{- partial "page-head.html" (dict "page" . "eyebrow" "Research line") }}
+<div class="wrap research-intro">
+  <div class="prose">{{ .Content }}</div>
+  <figure class="research-figure">
+    {{- with resources.GetMatch (printf "images/research/%s.*" $id) }}
+    {{ partial "img.html" (dict "src" . "w" 520 "h" 460 "fit" true "alt" ($.Params.image_caption | default $.Title) "eager" true) }}
+    {{- end }}
+    {{- with .Params.image_caption }}<figcaption>{{ . }}</figcaption>{{ end }}
+  </figure>
+</div>
+
+{{- with $counts }}
+<section class="section section-tight">
+  <div class="wrap">
+    <h2>People</h2>
+    <p class="muted small">Group members with at least two papers in this research line</p>
+    <ul class="mini-people mini-people-grid">
+      {{- range sort . "n" "desc" }}{{ with .page }}
+      <li><a href="{{ .RelPermalink }}">
+        <span class="avatar">{{ with partial "db/photo.html" .Params.id }}{{ partial "img.html" (dict "src" . "w" 44 "h" 44 "alt" "") }}{{ end }}</span>
+        <span><b>{{ .Title }}</b><small>{{ .Params.role }}</small></span>
+      </a></li>
+      {{- end }}{{ end }}
+    </ul>
+  </div>
+</section>
+{{- end }}
+
+{{- with $projects }}
+<section class="section section-tight">
+  <div class="wrap">
+    <h2>Projects</h2>
+    <div class="grid grid-projects">{{ range . }}{{ partial "project-card.html" . }}{{ end }}</div>
+  </div>
+</section>
+{{- end }}
+
+{{- with $papers }}
+<section class="section section-tight">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Recent publications <span class="count">{{ len . }}</span></h2>
+      <a class="more" href="{{ "publications/" | relURL }}?research={{ $id }}">All {{ len . }} papers in {{ $.Params.short | lower }} {{ partial "icon.html" "arrow-right" }}</a>
+    </div>
+    <ol class="pubs">{{ range first 8 . }}{{ partial "pub-item.html" . }}{{ end }}</ol>
+  </div>
+</section>
+{{- end }}
+
+<div class="wrap">{{ partial "pager.html" (dict "page" . "pages" .CurrentSection.Pages.ByWeight "label" "research lines") }}</div>
+{{ end }}

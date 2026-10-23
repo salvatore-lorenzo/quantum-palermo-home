@@ -1,0 +1,24 @@
+title: Stochastic versus periodic quantum collision models
+authors:
+  - Francesco Ciccarello
+date: 2022-01-01
+type: article
+journal: Open Systems & Information Dynamics
+volume: "29"
+issue: "02"
+pages: "2250006"
+research:
+  - qinfo
+bibtex: |-
+  @article{ciccarello2022stochastic,
+   author = {Ciccarello, Francesco},
+   journal = {Open Systems & Information Dynamics},
+   number = {02},
+   pages = {2250006},
+   publisher = {World Scientific},
+   title = {Stochastic versus periodic quantum collision models},
+   volume = {29},
+   year = {2022}
+  }
+legacy_urls:
+  - /publication/ciccarello-2022-stochastic/

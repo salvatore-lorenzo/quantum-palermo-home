@@ -1,0 +1,40 @@
+{{ define "main" }}
+{{- partial "page-head.html" (dict "page" . "lead" .Params.lead) -}}
+{{- $groups := slice
+  (dict "id" "faculty" "title" "Faculty")
+  (dict "id" "postdoc" "title" "Postdoctoral researchers")
+  (dict "id" "phd" "title" "PhD students")
+  (dict "id" "student" "title" "Students") -}}
+{{- $current := where .Pages.ByWeight "Params.status" "current" -}}
+{{- $alumni := where .Pages.ByWeight "Params.status" "alumni" }}
+<div class="subnav">
+  <nav class="wrap jump" aria-label="Groups">
+    {{- range $groups }}{{ $members := where $current "Params.group" .id }}{{ if $members }}
+    <a href="#{{ .id }}">{{ .title }} <span class="count">{{ len $members }}</span></a>
+    {{- end }}{{ end }}
+    {{- with $alumni }}
+    <a href="#alumni">Former members <span class="count">{{ len . }}</span></a>
+    {{- end }}
+  </nav>
+</div>
+<div class="wrap">
+  {{- range $groups }}{{ $members := where $current "Params.group" .id }}{{ if $members }}
+  <section class="people-group" id="{{ .id }}" aria-labelledby="{{ .id }}-title">
+    <h2 id="{{ .id }}-title">{{ .title }}</h2>
+    <div class="grid grid-people">
+      {{- range $members }}{{ partial "person-card.html" . }}{{ end }}
+    </div>
+  </section>
+  {{- end }}{{ end }}
+  {{- with $alumni }}
+  <section class="people-group" id="alumni" aria-labelledby="alumni-title">
+    <h2 id="alumni-title">Former members</h2>
+    <ul class="alumni">
+      {{- range . }}
+      <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+      {{- end }}
+    </ul>
+  </section>
+  {{- end }}
+</div>
+{{ end }}

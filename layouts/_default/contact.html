@@ -1,0 +1,24 @@
+{{ define "main" }}
+{{- partial "page-head.html" (dict "page" . "lead" .Params.lead) -}}
+{{- $lat := site.Params.latitude }}{{ $lon := site.Params.longitude -}}
+{{- $bbox := printf "%.4f,%.4f,%.4f,%.4f" (sub $lon 0.006) (sub $lat 0.003) (add $lon 0.006) (add $lat 0.003) }}
+<div class="wrap contact">
+  <div class="contact-card">
+    <h2>Quantum Theory Group</h2>
+    <p>{{ site.Params.department }}<br>{{ site.Params.university }}</p>
+    <dl class="facts">
+      <div><dt>Email</dt><dd><a href="mailto:{{ site.Params.email }}">{{ site.Params.email }}</a></dd></div>
+      <div><dt>Address</dt><dd>{{ site.Params.street }}<br>{{ site.Params.city }}</dd></div>
+      <div><dt>Finding us</dt><dd>{{ site.Params.directions }}</dd></div>
+    </dl>
+    <p class="actions">
+      <a class="btn btn-primary" href="mailto:{{ site.Params.email }}">{{ partial "icon.html" "mail" }} Write to us</a>
+      <a class="btn btn-ghost" href="https://www.openstreetmap.org/?mlat={{ $lat }}&amp;mlon={{ $lon }}#map=18/{{ $lat }}/{{ $lon }}">{{ partial "icon.html" "pin" }} Open map</a>
+    </p>
+    <p class="small muted">Looking for a specific person? Every member's email is on their page in <a href="{{ "people/" | relURL }}">People</a>.</p>
+  </div>
+  <div class="map-frame">
+    <iframe title="Map: {{ site.Params.street }}, Palermo" loading="lazy" src="https://www.openstreetmap.org/export/embed.html?bbox={{ $bbox }}&amp;layer=mapnik&amp;marker={{ $lat }},{{ $lon }}"></iframe>
+  </div>
+</div>
+{{ end }}

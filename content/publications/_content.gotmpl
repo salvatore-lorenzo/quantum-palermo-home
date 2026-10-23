@@ -1,0 +1,12 @@
+{{- /* One page per file in data/publications/ */ -}}
+{{- range $id, $p := site.Data.publications -}}
+  {{- $.AddPage (dict
+    "path" $id
+    "kind" "page"
+    "title" $p.title
+    "dates" (dict "date" (time.AsTime $p.date))
+    "params" (merge $p (dict "id" $id))
+    "aliases" ($p.legacy_urls | default slice)
+    "content" (dict "mediaType" "text/markdown" "value" ($p.abstract | default ""))
+  ) -}}
+{{- end -}}

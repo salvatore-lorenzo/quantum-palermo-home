@@ -1,0 +1,33 @@
+title: Controlling atom-photon bound states in an array of Josephson-junction resonators
+authors:
+  - Marco Scigliuzzo
+  - Giuseppe Calajò
+  - Francesco Ciccarello
+  - Daniel Perez Lozano
+  - Andreas Bengtsson
+  - Pasquale Scarlino
+  - Andreas Wallraff
+  - Darrick Chang
+  - Per Delsing
+  - Simone Gasparinetti
+date: 2022-01-01
+type: article
+journal: Physical Review X
+volume: "12"
+issue: "3"
+pages: "031036"
+research:
+  - wqed
+bibtex: |-
+  @article{scigliuzzo2022controlling,
+   author = {Scigliuzzo, Marco and Calajò, Giuseppe and Ciccarello, Francesco and Perez Lozano, Daniel and Bengtsson, Andreas and Scarlino, Pasquale and Wallraff, Andreas and Chang, Darrick and Delsing, Per and Gasparinetti, Simone},
+   journal = {Physical Review X},
+   number = {3},
+   pages = {031036},
+   publisher = {APS},
+   title = {Controlling atom-photon bound states in an array of Josephson-junction resonators},
+   volume = {12},
+   year = {2022}
+  }
+legacy_urls:
+  - /publication/scigliuzzo-2022-controlling/

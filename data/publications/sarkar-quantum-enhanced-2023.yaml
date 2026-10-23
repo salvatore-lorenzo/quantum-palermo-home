@@ -1,0 +1,50 @@
+title: Quantum-enhanced sensing from non-Hermitian topology
+authors:
+  - Saubhik Sarkar
+  - Francesco Ciccarello
+  - Angelo Carollo
+  - Abolfazl Bayat
+date: 2024-07-01
+type: article
+journal: New Journal of Physics
+issue: "7"
+pages: "073010"
+doi: 10.1088/1367-2630/ad5c95
+arxiv: "2311.12756"
+research:
+  - wqed
+  - metro
+keywords:
+  - Non-Hermitian Quantum mechanics
+  - Quantum metrology
+  - Phase transition
+  - Non Hermitian Topology
+abstract: >-
+  Non-Hermitian physics predicts open quantum system dynamics with unique topological
+  features such as exceptional points and the non-Hermitian skin effect. We show that this
+  new paradigm of topological systems can serve as probes for bulk Hamiltonian parameters
+  with quantum-enhanced sensitivity reaching Heisenberg scaling. Such enhancement occurs
+  close to a spectral topological phase transition, where the entire spectrum undergoes a
+  delocalization transition. We provide an explanation for this enhanced sensitivity based
+  on the closing of point gap, which is a genuinely non-Hermitian energy gap with no
+  Hermitian counterpart. This establishes a direct connection between energy-gap closing
+  and quantum enhancement in the non-Hermitian realm. Our findings are demonstrated
+  through several paradigmatic non-Hermitian topological models in various dimensions and
+  potential experimental implementations.
+bibtex: |-
+  @article{sarkar_quantum-enhanced_2023,
+   archiveprefix = {arxiv},
+   author = {Sarkar, Saubhik and Ciccarello, Francesco and Carollo, Angelo and Bayat, Abolfazl},
+   doi = {10.1088/1367-2630/ad5c95},
+   eprint = {2311.12756},
+   journal = {New Journal of Physics},
+   keywords = {Non-Hermitian Quantum mechanics, Quantum metrology, Phase transition, Non Hermitian Topology},
+   month = {July},
+   number = {7},
+   pages = {073010},
+   publisher = {arXiv},
+   title = {Quantum-enhanced sensing from non-Hermitian topology},
+   year = {2024}
+  }
+legacy_urls:
+  - /publication/sarkar-quantum-enhanced-2023/

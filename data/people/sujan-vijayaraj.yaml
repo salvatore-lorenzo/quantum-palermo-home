@@ -1,0 +1,35 @@
+name: Sujan Vijayaraj
+sort: Vijayaraj
+role: PhD Student
+group: phd
+status: current
+email: sujan.vijayaraj@unipa.it
+links:
+  scholar: https://scholar.google.com/citations?hl=en&user=epeltecAAAAJ&view_op=list_works&sortby=pubdate/
+  orcid: https://orcid.org/0000-0002-0658-6335
+  arxiv: https://arxiv.org/a/vijayaraj_s_1.html
+  linkedin: https://www.linkedin.com/in/sujan-vijayaraj/
+organizations:
+  - name: University of Palermo
+    url: https://www.unipa.it/dipartimenti/difc/dottorati/scienzefisicheechimiche/en/phd-students/
+interests:
+  - Quantum cryptography and communication
+  - Quantum information
+  - Nonclassicality, Bell tests and device independence
+education:
+  - degree: Master's Degree in Quantum Information Technology
+    institution: University of Gdańsk
+    year: 2023
+  - degree: Bachelor's Degree in Electronics and Communication Engineering
+    institution: Vellore Institute of Technology
+    year: 2017
+bio: >-
+  I am a PhD student at the University of Palermo, jointly with nodeQ (York), and advised
+  by Prof. Mauro Paternostro. During my master’s degree, I was part of the International
+  Centre for Theory of Quantum Technologies, where I worked on quantum key distribution
+  (QKD) protocols and Bell tests. In my master’s thesis, we introduced high dimensional
+  SARG04 QKD protocols for high loss channels. Currently, I’m interested in more general
+  quantum communication tasks and device independent security. Apart from research, I like
+  music, playing basketball and travelling.
+legacy_urls:
+  - /author/sujan-vijayaraj/

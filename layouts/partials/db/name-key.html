@@ -1,0 +1,3 @@
+{{- /* Key used to recognise a person in an author list: lowercase letters only, so that
+       "G. Massimo Palma" and "G Massimo Palma" match. Same rule as match_key() in python/sitedb.py */ -}}
+{{- return (replaceRE `[^\p{L}]` "" (lower .)) -}}

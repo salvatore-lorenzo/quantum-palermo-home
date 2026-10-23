@@ -1,0 +1,11 @@
+{{- /* One page per file in data/projects/ (the URLs are the same as on the old site) */ -}}
+{{- range $id, $p := site.Data.projects -}}
+  {{- $.AddPage (dict
+    "path" $id
+    "kind" "page"
+    "title" $p.title
+    "dates" (dict "date" (time.AsTime $p.date))
+    "params" (merge $p (dict "id" $id))
+    "content" (dict "mediaType" "text/markdown" "value" ($p.body | default ""))
+  ) -}}
+{{- end -}}

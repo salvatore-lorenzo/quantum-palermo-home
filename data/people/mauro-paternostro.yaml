@@ -1,0 +1,50 @@
+name: Mauro Paternostro
+sort: Paternostro
+role: Full Professor
+group: faculty
+status: current
+email: mauro.paternostro@unipa.it
+links:
+  orcid: https://orcid.org/0000-0001-8870-9134
+  scholar: https://scholar.google.it/citations?user=_CnosV0AAAAJ&hl=en
+  arxiv: https://arxiv.org/search/?searchtype=author&query=Paternostro%2C+M
+organizations:
+  - name: University of Palermo
+    url: https://www.unipa.it/persone/docenti/p/mauro.paternostro
+  - name: Queen's University Belfast
+    url: https://pure.qub.ac.uk/en/persons/mauro-paternostro
+interests:
+  - Quantum Information Processing
+  - Quantum Optics & Optomechanics
+  - Thermodynamics of quantum systems
+  - Open quantum systems
+  - Machine learning for quantum processes
+  - Foundations of quantum theory
+education:
+  - degree: PhD in Physics
+    institution: Queen’s University Belfast
+    url: https://pure.qub.ac.uk/en
+    year: 2005
+  - degree: M.S. in Physics
+    institution: University of Palermo
+    url: https://www.unipa.it/
+    year: 2002
+aliases:
+  - M. Paternostro
+bio: >-
+  Mauro is Full Professor of Quantum Information Science at the Department of Physics and
+  Chemistry and Professor of Quantum Optics at Queen’s University Belfast (QUB). He was
+  awarded his PhD in 2005 (QUB) and was a Leverhulme Trust Early Career Fellow (2005-2008)
+  at QUB and Universität Wien (Austria), a visiting Research Fellow at University of
+  Queensland (Australia, 2008), and an EPSRC Career Acceleration Fellow at QUB
+  (2008-2014). He became Lecturer at QUB in 2008, has been awarded an Alexander von
+  Humboldt Fellowship for Senior Scientists in 2011. He has authored 250+ research papers
+  published in top-tier journals, attracting 16000+ citations and € 20M+ of research
+  funding. He is Editor in Chief of Quantum Science and Technology and a member of the
+  Editorial Board of Optics Communications, EPJ Quantum Technology, Entropy, and Physical
+  Review Research. Mauro has contributed extensively – through both theory and
+  experimental endeavours -- to the development of quantum frameworks for cavity
+  optomechanics, the understanding of the thermodynamics of quantum systems and processes,
+  and the assessment of the quantum to classical transition.
+legacy_urls:
+  - /author/mauro-paternostro/

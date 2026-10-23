@@ -1,0 +1,298 @@
+title: "Cold Atoms in Space: Community Workshop Summary and Proposed Road-Map"
+authors:
+  - Iván Alonso
+  - Cristiano Alpigiani
+  - Brett Altschul
+  - Henrique Araújo
+  - Gianluigi Arduini
+  - Jan Arlt
+  - Leonardo Badurina
+  - Antun Balaž
+  - Satvika Bandarupally
+  - Barry C. Barish
+  - Michele Barone
+  - Michele Barsanti
+  - Steven Bass
+  - Angelo Bassi
+  - Baptiste Battelier
+  - Charles F. A. Baynham
+  - Quentin Beaufils
+  - Aleksandar Belić
+  - Joel Bergé
+  - Jose Bernabeu
+  - Andrea Bertoldi
+  - Robert Bingham
+  - Sébastien Bize
+  - Diego Blas
+  - Kai Bongs
+  - Philippe Bouyer
+  - Carla Braitenberg
+  - Christian Brand
+  - Claus Braxmaier
+  - Alexandre Bresson
+  - Oliver Buchmueller
+  - Dmitry Budker
+  - Lu\ś Bugalho
+  - Sergey Burdin
+  - Luigi Cacciapuoti
+  - Simone Callegari
+  - Xavier Calmet
+  - Davide Calonico
+  - Benjamin Canuel
+  - Laurentiu-Ioan Caramete
+  - Olivier Carraz
+  - Donatella Cassettari
+  - Pratik Chakraborty
+  - Swapan Chattopadhyay
+  - Upasna Chauhan
+  - Xuzong Chen
+  - Yu-Ao Chen
+  - Maria Luisa Chiofalo
+  - Jonathon Coleman
+  - Robin Corgier
+  - J. P. Cotter
+  - A. Michael Cruise
+  - Yanou Cui
+  - Gavin Davies
+  - Albert De Roeck
+  - Marcel Demarteau
+  - Andrei Derevianko
+  - Marco Di Clemente
+  - Goran S. Djordjevic
+  - Sandro Donadi
+  - Olivier Doré
+  - Peter Dornan
+  - Michael Doser
+  - Giannis Drougakis
+  - Jacob Dunningham
+  - Sajan Easo
+  - Joshua Eby
+  - Gedminas Elertas
+  - John Ellis
+  - David Evans
+  - Pandora Examilioti
+  - Pavel Fadeev
+  - Mattia Fanì
+  - Farida Fassi
+  - Marco Fattori
+  - Michael A. Fedderke
+  - Daniel Felea
+  - Chen-Hao Feng
+  - Jorge Ferreras
+  - Robert Flack
+  - Victor V. Flambaum
+  - René Forsberg
+  - Mark Fromhold
+  - Naceur Gaaloul
+  - Barry M. Garraway
+  - Maria Georgousi
+  - Andrew Geraci
+  - Kurt Gibble
+  - Valerie Gibson
+  - Patrick Gill
+  - Gian F. Giudice
+  - Jon Goldwin
+  - Oliver Gould
+  - Oleg Grachov
+  - Peter W. Graham
+  - Dario Grasso
+  - Paul F. Griffin
+  - Christine Guerlin
+  - Mustafa Gündoğan
+  - Ratnesh K. Gupta
+  - Martin Haehnelt
+  - Ekim T. Hanımeli
+  - Leonie Hawkins
+  - Aurélien Hees
+  - Victoria A. Henderson
+  - Waldemar Herr
+  - Sven Herrmann
+  - Thomas Hird
+  - Richard Hobson
+  - Vincent Hock
+  - Jason M. Hogan
+  - Bodil Holst
+  - Michael Holynski
+  - Ulf Israelsson
+  - Peter Jeglič
+  - Philippe Jetzer
+  - Gediminas Juzeliūnas
+  - Rainer Kaltenbaek
+  - Jernej F. Kamenik
+  - Alex Kehagias
+  - Teodora Kirova
+  - Marton Kiss-Toth
+  - Sebastian Koke
+  - Shimon Kolkowitz
+  - Georgy Kornakov
+  - Tim Kovachy
+  - Markus Krutzik
+  - Mukesh Kumar
+  - Pradeep Kumar
+  - Claus Lämmerzahl
+  - Greg Landsberg
+  - Christophe Le Poncin-Lafitte
+  - David R. Leibrandt
+  - Thomas Lévèque
+  - Marek Lewicki
+  - Rui Li
+  - Anna Lipniacka
+  - Christian Lisdat
+  - Mia Liu
+  - J. L. Lopez-Gonzalez
+  - Sina Loriani
+  - Jorma Louko
+  - Giuseppe Gaetano Luciano
+  - Nathan Lundblad
+  - Steve Maddox
+  - M. A. Mahmoud
+  - Azadeh Maleknejad
+  - John March-Russell
+  - Didier Massonnet
+  - Christopher McCabe
+  - Matthias Meister
+  - Tadej Mežnaršič
+  - Salvatore Micalizio
+  - Federica Migliaccio
+  - Peter Millington
+  - Milan Milosevic
+  - Jeremiah Mitchell
+  - Gavin W. Morley
+  - Jürgen Müller
+  - Eamonn Murphy
+  - Özgür E. Müstecaplıoğlu
+  - Val O'Shea
+  - Daniel K. L. Oi
+  - Judith Olson
+  - Debapriya Pal
+  - Dimitris G. Papazoglou
+  - Elizabeth Pasatembou
+  - Mauro Paternostro
+  - Krzysztof Pawlowski
+  - Emanuele Pelucchi
+  - Franck Pereira dos Santos
+  - Achim Peters
+  - Igor Pikovski
+  - Apostolos Pilaftsis
+  - Alexandra Pinto
+  - Marco Prevedelli
+  - Vishnupriya Puthiya-Veettil
+  - John Quenby
+  - Johann Rafelski
+  - Ernst M. Rasel
+  - Cornelis Ravensbergen
+  - Mirko Reguzzoni
+  - Andrea Richaud
+  - Isabelle Riou
+  - Markus Rothacher
+  - Albert Roura
+  - Andreas Ruschhaupt
+  - Dylan O. Sabulsky
+  - Marianna Safronova
+  - Ippocratis D. Saltas
+  - Leonardo Salvi
+  - Muhammed Sameed
+  - Pandey Saurabh
+  - Stefan Schäffer
+  - Stephan Schiller
+  - Manuel Schilling
+  - Vladimir Schkolnik
+  - Dennis Schlippert
+  - Piet O. Schmidt
+  - Harald Schnatz
+  - Jean Schneider
+  - Ulrich Schneider
+  - Florian Schreck
+  - Christian Schubert
+  - Armin Shayeghi
+  - Nathaniel Sherrill
+  - Ian Shipsey
+  - Carla Signorini
+  - Rajeev Singh
+  - Yeshpal Singh
+  - Constantinos Skordis
+  - Augusto Smerzi
+  - Carlos F. Sopuerta
+  - Fiodor Sorrentino
+  - Paraskevas Sphicas
+  - Yevgeny V. Stadnik
+  - Petruta Stefanescu
+  - Marco G. Tarallo
+  - Silvia Tentindo
+  - Guglielmo M. Tino
+  - Jonathan N. Tinsley
+  - Vincenza Tornatore
+  - Philipp Treutlein
+  - Andrea Trombettoni
+  - Yu-Dai Tsai
+  - Philip Tuckey
+  - Melissa A. Uchida
+  - Tristan Valenzuela
+  - Mathias Van Den Bossche
+  - Ville Vaskonen
+  - Gunjan Verma
+  - Flavio Vetrano
+  - Christian Vogt
+  - Wolf von Klitzing
+  - Pierre Waller
+  - Reinhold Walser
+  - Eric Wille
+  - Jason Williams
+  - Patrick Windpassinger
+  - Ulrich Wittrock
+  - Peter Wolf
+  - Marian Woltmann
+  - Lisa Wörner
+  - André Xuereb
+  - Mohamed Yahia
+  - Efe Yazgan
+  - Nan Yu
+  - Nassim Zahzam
+  - Emmanuel Zambrini Cruzeiro
+  - Mingsheng Zhan
+  - Xinhao Zou
+  - Jure Zupan
+  - Erik Zupanič
+date: 2022-12-01
+type: article
+journal: EPJ Quantum Technology
+volume: "9"
+issue: "1"
+pages: "30"
+doi: 10.1140/epjqt/s40507-022-00147-w
+abstract: >-
+  We summarise the discussions at a virtual Community Workshop on Cold Atoms in Space
+  concerning the status of cold atom technologies, the prospective scientific and societal
+  opportunities offered by their deployment in space, and the developments needed before
+  cold atoms could be operated in space. The cold atom technologies discussed include
+  atomic clocks, quantum gravimeters and accelerometers, and atom interferometers.
+  Prospective applications include metrology, geodesy and measurement of terrestrial mass
+  change due to, e.g., climate change, and fundamental science experiments such as tests
+  of the equivalence principle, searches for dark matter, measurements of gravitational
+  waves and tests of quantum mechanics. We review the current status of cold atom
+  technologies and outline the requirements for their space qualification, including the
+  development paths and the corresponding technical milestones, and identifying possible
+  pathfinder missions to pave the way for missions to exploit the full potential of cold
+  atoms in space. Finally, we present a first draft of a possible road-map for achieving
+  these goals, that we propose for discussion by the interested cold atom, Earth
+  Observation, fundamental physics and other prospective scientific user communities,
+  together with the European Space Agency (ESA) and national space and research funding
+  agencies.
+bibtex: |-
+  @article{alonso2022,
+   author = {Alonso, Iván and Alpigiani, Cristiano and Altschul, Brett and Araújo, Henrique and Arduini, Gianluigi and Arlt, Jan and Badurina, Leonardo and Balaž, Antun and Bandarupally, Satvika and Barish, Barry C. and Barone, Michele and Barsanti, Michele and Bass, Steven and Bassi, Angelo and Battelier, Baptiste and Baynham, Charles F. A. and Beaufils, Quentin and Belić, Aleksandar and Bergé, Joel and Bernabeu, Jose and Bertoldi, Andrea and Bingham, Robert and Bize, Sébastien and Blas, Diego and Bongs, Kai and Bouyer, Philippe and Braitenberg, Carla and Brand, Christian and Braxmaier, Claus and Bresson, Alexandre and Buchmueller, Oliver and Budker, Dmitry and Bugalho, Lu\ś and Burdin, Sergey and Cacciapuoti, Luigi and Callegari, Simone and Calmet, Xavier and Calonico, Davide and Canuel, Benjamin and Caramete, Laurentiu-Ioan and Carraz, Olivier and Cassettari, Donatella and Chakraborty, Pratik and Chattopadhyay, Swapan and Chauhan, Upasna and Chen, Xuzong and Chen, Yu-Ao and Chiofalo, Maria Luisa and Coleman, Jonathon and Corgier, Robin and Cotter, J. P. and Michael Cruise, A. and Cui, Yanou and Davies, Gavin and De Roeck, Albert and Demarteau, Marcel and Derevianko, Andrei and Di Clemente, Marco and Djordjevic, Goran S. and Donadi, Sandro and Doré, Olivier and Dornan, Peter and Doser, Michael and Drougakis, Giannis and Dunningham, Jacob and Easo, Sajan and Eby, Joshua and Elertas, Gedminas and Ellis, John and Evans, David and Examilioti, Pandora and Fadeev, Pavel and Fanì, Mattia and Fassi, Farida and Fattori, Marco and Fedderke, Michael A. and Felea, Daniel and Feng, Chen-Hao and Ferreras, Jorge and Flack, Robert and Flambaum, Victor V. and Forsberg, René and Fromhold, Mark and Gaaloul, Naceur and Garraway, Barry M. and Georgousi, Maria and Geraci, Andrew and Gibble, Kurt and Gibson, Valerie and Gill, Patrick and Giudice, Gian F. and Goldwin, Jon and Gould, Oliver and Grachov, Oleg and Graham, Peter W. and Grasso, Dario and Griffin, Paul F. and Guerlin, Christine and Gündoğan, Mustafa and Gupta, Ratnesh K. and Haehnelt, Martin and Hanımeli, Ekim T. and Hawkins, Leonie and Hees, Aurélien and Henderson, Victoria A. and Herr, Waldemar and Herrmann, Sven and Hird, Thomas and Hobson, Richard and Hock, Vincent and Hogan, Jason M. and Holst, Bodil and Holynski, Michael and Israelsson, Ulf and Jeglič, Peter and Jetzer, Philippe and Juzeliūnas, Gediminas and Kaltenbaek, Rainer and Kamenik, Jernej F. and Kehagias, Alex and Kirova, Teodora and Kiss-Toth, Marton and Koke, Sebastian and Kolkowitz, Shimon and Kornakov, Georgy and Kovachy, Tim and Krutzik, Markus and Kumar, Mukesh and Kumar, Pradeep and Lämmerzahl, Claus and Landsberg, Greg and Le Poncin-Lafitte, Christophe and Leibrandt, David R. and Lévèque, Thomas and Lewicki, Marek and Li, Rui and Lipniacka, Anna and Lisdat, Christian and Liu, Mia and Lopez-Gonzalez, J. L. and Loriani, Sina and Louko, Jorma and Luciano, Giuseppe Gaetano and Lundblad, Nathan and Maddox, Steve and Mahmoud, M. A. and Maleknejad, Azadeh and March-Russell, John and Massonnet, Didier and McCabe, Christopher and Meister, Matthias and Mežnaršič, Tadej and Micalizio, Salvatore and Migliaccio, Federica and Millington, Peter and Milosevic, Milan and Mitchell, Jeremiah and Morley, Gavin W. and Müller, Jürgen and Murphy, Eamonn and Müstecaplıoğlu, Özgür E. and O'Shea, Val and Oi, Daniel K. L. and Olson, Judith and Pal, Debapriya and Papazoglou, Dimitris G. and Pasatembou, Elizabeth and Paternostro, Mauro and Pawlowski, Krzysztof and Pelucchi, Emanuele and Pereira dos Santos, Franck and Peters, Achim and Pikovski, Igor and Pilaftsis, Apostolos and Pinto, Alexandra and Prevedelli, Marco and Puthiya-Veettil, Vishnupriya and Quenby, John and Rafelski, Johann and Rasel, Ernst M. and Ravensbergen, Cornelis and Reguzzoni, Mirko and Richaud, Andrea and Riou, Isabelle and Rothacher, Markus and Roura, Albert and Ruschhaupt, Andreas and Sabulsky, Dylan O. and Safronova, Marianna and Saltas, Ippocratis D. and Salvi, Leonardo and Sameed, Muhammed and Saurabh, Pandey and Schäffer, Stefan and Schiller, Stephan and Schilling, Manuel and Schkolnik, Vladimir and Schlippert, Dennis and Schmidt, Piet O. and Schnatz, Harald and Schneider, Jean and Schneider, Ulrich and Schreck, Florian and Schubert, Christian and Shayeghi, Armin and Sherrill, Nathaniel and Shipsey, Ian and Signorini, Carla and Singh, Rajeev and Singh, Yeshpal and Skordis, Constantinos and Smerzi, Augusto and Sopuerta, Carlos F. and Sorrentino, Fiodor and Sphicas, Paraskevas and Stadnik, Yevgeny V. and Stefanescu, Petruta and Tarallo, Marco G. and Tentindo, Silvia and Tino, Guglielmo M. and Tinsley, Jonathan N. and Tornatore, Vincenza and Treutlein, Philipp and Trombettoni, Andrea and Tsai, Yu-Dai and Tuckey, Philip and Uchida, Melissa A. and Valenzuela, Tristan and Van Den Bossche, Mathias and Vaskonen, Ville and Verma, Gunjan and Vetrano, Flavio and Vogt, Christian and von Klitzing, Wolf and Waller, Pierre and Walser, Reinhold and Wille, Eric and Williams, Jason and Windpassinger, Patrick and Wittrock, Ulrich and Wolf, Peter and Woltmann, Marian and Wörner, Lisa and Xuereb, André and Yahia, Mohamed and Yazgan, Efe and Yu, Nan and Zahzam, Nassim and Zambrini Cruzeiro, Emmanuel and Zhan, Mingsheng and Zou, Xinhao and Zupan, Jure and Zupanič, Erik},
+   doi = {10.1140/epjqt/s40507-022-00147-w},
+   issn = {2662-4400, 2196-0763},
+   journal = {EPJ Quantum Technology},
+   langid = {english},
+   month = {December},
+   number = {1},
+   pages = {30},
+   shorttitle = {Cold Atoms in Space},
+   title = {Cold Atoms in Space: Community Workshop Summary and Proposed Road-Map},
+   urldate = {2024-03-22},
+   volume = {9},
+   year = {2022}
+  }
+legacy_urls:
+  - /publication/alonso-2022/

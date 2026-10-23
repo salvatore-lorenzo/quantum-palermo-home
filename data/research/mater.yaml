@@ -1,0 +1,30 @@
+title: Quantum Materials
+short: Materials
+order: 5
+summary: >-
+  This research line in quantum materials focuses on the interaction between these
+  materials and light, whether in the form of quantized photons in cavity quantum
+  electrodynamics (QED) setups or classical laser fields.
+keywords:
+  - material
+  - tddft
+  - density functional
+  - floquet
+  - high-harmonic
+  - harmonic generation
+  - attosecond
+  - ultrafast
+  - laser pulse
+  - laser-driven
+  - electron dynamics
+  - graphene
+  - magnon
+  - phonon
+  - solid
+  - spectroscopy
+body: |-
+  This research line in quantum materials focuses on the interaction between these materials and light, whether in the form of quantized photons in cavity quantum electrodynamics (QED) setups or classical laser fields. We explore how light can be used to manipulate and control the electronic, magnetic, and optical properties of quantum materials, leading to fascinating phenomena and potential technological applications.
+
+  By leveraging the unique properties of quantum materials and the tunability of light, we aim to develop novel functionalities such as ultrafast control of quantum states, generation of exotic phases of matter, and realization of novel quantum devices for information processing and sensing.
+
+  This interdisciplinary field combines concepts from condensed matter physics, quantum optics, and materials science, offering exciting opportunities for fundamental discoveries and technological innovation.

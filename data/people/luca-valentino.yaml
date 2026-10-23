@@ -1,0 +1,24 @@
+name: Luca Valentino
+sort: Valentino
+role: PhD Student
+group: phd
+status: current
+email: luca.valentino2001@gmail.com
+organizations:
+  - name: University of Palermo
+interests:
+  - Ab-initio electronic structure
+  - Ultrafast dynamics
+education:
+  - degree: Master Degree in Physics
+    institution: UNIPA
+    year: 2025
+  - degree: Banchelor Degree in Physics
+    institution: UNIPA
+    year: 2022
+bio: |-
+  Luca Valentino is a PhD Student in Physics at the University of Palermo (UNIPA), where he is conducting his research under the supervision of Prof. Umberto De Giovannini. Having completed his entire academic path at UNIPA, he secured both his Bachelor's (2022) and Master's (2025) degrees in Physics from the same institution.
+
+  His research is primarily dedicated to advancing the methodology for TDDFT simulations within the Octopus code. The objective is to accurately model the ultrafast dynamics of excitons in various materials. This work spans his core scientific interests, which include ab-initio electronic structure and the broader field of ultrafast physics.
+legacy_urls:
+  - /author/luca-valentino/

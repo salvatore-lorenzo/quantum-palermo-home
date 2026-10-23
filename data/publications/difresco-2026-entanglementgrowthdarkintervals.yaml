@@ -1,0 +1,48 @@
+title: Entanglement growth in the dark intervals of a locally monitored free-fermion chain
+authors:
+  - Giovanni Di Fresco
+  - Youenn Le Gal
+  - Davide Valenti
+  - Marco Schiró
+  - Angelo Carollo
+date: 2026-08-01
+type: article
+journal: Quantum
+volume: "10"
+pages: "2183"
+doi: 10.22331/q-2026-08-03-2183
+arxiv: "2411.13667"
+url: https://doi.org/10.22331/q-2026-08-03-2183
+research:
+  - qinfo
+abstract: >-
+  We consider a free fermionic chain with monitoring of the particle density on a single
+  site of the chain and study the entanglement dynamics of quantum jump trajectories. We
+  show that the entanglement entropy grows in time towards a stationary state which
+  display volume law scaling of the entropy, in stark contrast with both the unitary
+  dynamics after a local quench and the no-click limit corresponding to full
+  post-selection. We explain the extensive entanglement growth as a consequence of the
+  peculiar distribution of quantum jumps in time, which display superpoissonian waiting
+  time distribution characterised by a bunching of quantum jumps followed by long dark
+  intervals where no-clicks are detected, akin to the distribution of fluorescence light
+  in a driven atom. We show that the presence of dark intervals is the key feature to
+  explain the effect and that by increasing the number of sites which are monitored the
+  volume law scaling gives away to the Zeno effect and its associated area law.
+bibtex: |-
+  @article{difresco2026entanglementgrowthdarkintervals,
+   archiveprefix = {arXiv},
+   author = {Di Fresco, Giovanni and Le Gal, Youenn and Valenti, Davide and Schiró, Marco and Carollo, Angelo},
+   doi = {10.22331/q-2026-08-03-2183},
+   eprint = {2411.13667},
+   journal = {Quantum},
+   month = {Aug},
+   pages = {2183},
+   publisher = {Verein zur Forderung des Open Access Publizierens in den Quantenwissenschaften},
+   title = {Entanglement growth in the dark intervals of a locally monitored free-fermion chain},
+   url = {https://doi.org/10.22331/q-2026-08-03-2183},
+   volume = {10},
+   year = {2026}
+  }
+legacy_urls:
+  - /publication/difresco-2026-entanglementgrowthdarkintervals/
+  - /publication/difresco-2025/

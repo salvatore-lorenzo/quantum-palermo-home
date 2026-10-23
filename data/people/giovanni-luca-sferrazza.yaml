@@ -1,0 +1,29 @@
+name: Giovanni Luca Sferrazza
+sort: Sferrazza
+role: PhD Student
+group: phd
+status: current
+email: giovanniluca.sferrazza@unipa.it
+organizations:
+  - name: University of Palermo
+    url: https://www.unipa.it/dipartimenti/difc/dottorati/scienzefisicheechimiche/en/phd-students/
+interests:
+  - Condensed Matter Physics
+  - Waveguide QED
+  - Topological Quantum Optics
+education:
+  - degree: Bachelor’s Degree in Physics
+    institution: University of Palermo
+    year: 2021
+  - degree: Master’s Degree in Physics
+    institution: University of Palermo
+    year: 2024
+bio: >-
+  I am a PhD student at the University of Palermo, working under the guidance of Prof. F.
+  Ciccarello. My fascination with theoretical physics spans a wide range of topics,
+  including topological phases of matter, topological quantum optics, and the theory of
+  open quantum systems. I focus on exploring their interplay to uncover potential
+  applications in quantum technologies, aiming to bridge fundamental physics with
+  innovative technological advancements.
+legacy_urls:
+  - /author/giovanni-luca-sferrazza/

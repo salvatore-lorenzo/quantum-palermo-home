@@ -1,0 +1,35 @@
+name: Paolo Erdman
+sort: Erdman
+role: Postdoctoral Researcher
+group: postdoc
+status: alumni
+email: paoloerdmn@gmail.com
+links:
+  scholar: https://scholar.google.com/citations?user=PlHrQ7cAAAAJ
+  github: https://github.com/paoloAE/
+  orcid: https://orcid.org/0000-0003-4626-2869
+  linkedin: https://www.linkedin.com/in/paolo-erdman/
+organizations:
+  - name: University of Palermo
+    url: https://www.unipa.it/persone/docenti/e/paoloandrea.erdman
+interests:
+  - Quantum Thermodynamics
+  - Quantum Transport
+  - Quantum Metrology
+  - Machine Learning
+  - Reinforcement Learning
+education:
+  - degree: PhD in Nanoscience
+    institution: Scuola Normale Superiore
+    year: 2020
+  - degree: MSc in Theoretical Physics
+    institution: Università di Pisa
+    year: 2016
+aliases:
+  - Paolo A. Erdman
+bio: |-
+  In 2020 I got my PhD at the Scuola Normale Superiore di Pisa in quantum transport and quantum thermodynamics, studying the dynamics of charge and heat in nanostructures, and driven quantum thermal machines. In 2021 I joined the AI4Science group at the Freie Universität Berlin as a postdoc, and in 2023 as an independent researcher winning a Math+ project.
+
+  I am currently interested in the optimal control and optimal design of (open) quantum systems using machine learning tools. I applied reinforcement learning for the optimal control of quantum thermal machines and quantum batteries, and used ML tools to optimally design quantum probes for quantum metrology. I’m also interested in Monte Carlo quantum chemistry calculations using neural networks ansatzes for molecular electronic states, and in the variational quantum eigensolver for molecular systems using machine learning tools.
+legacy_urls:
+  - /author/paolo-erdman/

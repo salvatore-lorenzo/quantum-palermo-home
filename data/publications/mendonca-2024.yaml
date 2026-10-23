@@ -1,0 +1,33 @@
+title: Information flow-enhanced precision in collisional quantum thermometry
+authors:
+  - Taysa M. Mendonça
+  - Diogo O. Soares-Pinto
+  - Mauro Paternostro
+date: 2025-11-21
+type: article
+journal: Physical Review Research
+doi: https://doi.org/10.1103/ymjl-hpm4
+arxiv: "2407.21618"
+research:
+  - metro
+abstract: >-
+  We describe and analyze a quantum thermometer based on a multi-layered collisional
+  model. The proposed architecture provides significant sensitivity even for short
+  interaction times between the ancillae comprised in the thermometer and the system to be
+  probed, and a small number of information-acquiring collisions. The assessment of the
+  flow of information taking place within the layered thermometer and between system and
+  thermometer reveals that the tuning of the mutual backflow of information has a positive
+  influence on the precision of thermometry, and helps unveiling the information-theoretic
+  mechanisms behind the working principles of the proposed architecture.
+bibtex: |-
+  @article{mendonca2024,
+   archiveprefix = {arxiv},
+   author = {Mendonça, Taysa M. and Soares-Pinto, Diogo O. and Paternostro, Mauro},
+   eprint = {2407.21618},
+   keyywords = {collisional model, thermometry, open-system dynamics},
+   month = {August},
+   title = {Information flow-enhanced precision in collisional quantum thermometry},
+   year = {2024}
+  }
+legacy_urls:
+  - /publication/mendonca-2024/

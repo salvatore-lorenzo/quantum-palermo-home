@@ -1,0 +1,10 @@
+{{- /* Context: a research line page. Counts come from the publications that list this line. */ -}}
+{{- $papers := where (site.GetPage "/publications").Pages "Params.research" "intersect" (slice .Params.id) -}}
+<article class="card research-card">
+  <div class="card-media">{{ with resources.GetMatch (printf "images/research/%s.*" .Params.id) }}{{ partial "img.html" (dict "src" . "w" 480 "h" 360 "fit" true "alt" "") }}{{ end }}</div>
+  <div class="card-body">
+    <h3 class="card-title"><a class="stretched" href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+    <p class="card-text">{{ .Params.summary | markdownify }}</p>
+    <p class="card-meta">{{ partial "icon.html" "file" }} {{ len $papers }} papers</p>
+  </div>
+</article>

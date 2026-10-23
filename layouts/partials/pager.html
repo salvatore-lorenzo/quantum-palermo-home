@@ -1,0 +1,14 @@
+{{- /* Previous / next page of a list. Context: dict "page" "pages" ["prev" "next": labels] */ -}}
+{{- $pages := .pages -}}
+{{- $i := -1 -}}
+{{- range $n, $p := $pages }}{{ if eq $p $.page }}{{ $i = $n }}{{ end }}{{ end -}}
+{{- if ge $i 0 -}}
+<nav class="pager" aria-label="More {{ .label }}">
+  {{- if gt $i 0 }}{{ with index $pages (sub $i 1) }}
+  <a class="prev" href="{{ .RelPermalink }}" rel="prev"><small>{{ partial "icon.html" "arrow-left" }} {{ $.prev | default "Previous" }}</small><span>{{ .Title }}</span></a>
+  {{- end }}{{ else }}<span></span>{{ end }}
+  {{- if lt $i (sub (len $pages) 1) }}{{ with index $pages (add $i 1) }}
+  <a class="next" href="{{ .RelPermalink }}" rel="next"><small>{{ $.next | default "Next" }} {{ partial "icon.html" "arrow-right" }}</small><span>{{ .Title }}</span></a>
+  {{- end }}{{ end }}
+</nav>
+{{- end -}}

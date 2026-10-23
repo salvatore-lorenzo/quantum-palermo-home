@@ -1,0 +1,14 @@
+{{- /* Context: a person page */ -}}
+<article class="card person">
+  <div class="person-photo">
+    {{- with partial "db/photo.html" .Params.id }}
+    {{ partial "img.html" (dict "src" . "w" 320 "h" 400 "alt" "") }}
+    {{- else }}
+    <span class="initials" aria-hidden="true">{{ range first 2 (split .Title " ") }}{{ substr . 0 1 }}{{ end }}</span>
+    {{- end }}
+  </div>
+  <div class="card-body">
+    <h3 class="card-title"><a class="stretched" href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+    <p class="person-role">{{ .Params.role }}</p>
+  </div>
+</article>

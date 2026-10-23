@@ -1,0 +1,3 @@
+{{- /* Publication pages of a person (newest first). Context: person id */ -}}
+{{- $ids := index (partialCached "db/papers-by-person.html" "map") . | default slice -}}
+{{- return where (site.GetPage "/publications").Pages.ByDate.Reverse "Params.id" "in" $ids -}}

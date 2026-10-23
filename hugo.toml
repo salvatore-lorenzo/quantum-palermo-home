@@ -1,0 +1,84 @@
+baseURL = "https://quantum.unipa.it/"
+title = "Quantum Theory Group · University of Palermo"
+languageCode = "en"
+enableRobotsTXT = true
+disableKinds = ["taxonomy", "term"]
+timeout = "120s"
+# Upcoming events (and papers dated next month) are dated in the future: build them too
+buildFuture = true
+
+[params]
+  shortName = "qunipa"
+  description = "We are a large team, based in the Department of Physics and Chemistry at the University of Palermo, exploring the theory of quantum systems and processes."
+  email = "quantum@unipa.it"
+  department = "Department of Physics and Chemistry – Emilio Segrè"
+  university = "University of Palermo"
+  universityURL = "https://www.unipa.it"
+  street = "Via Archirafi 36"
+  city = "90123 Palermo, Italy"
+  latitude = 38.1101345
+  longitude = 13.3732206
+  directions = "To meet us, enter the physics building and take the stairs to the first floor. Our offices are in the corridor to the left."
+  # Group calendar (Outlook), shown on the Events page
+  calendarICS = "https://outlook.office365.com/owa/calendar/6e7129fbb9d84cef85adbc5afa79637e@unipa.it/a7e1ae6bdd9444efb29ff20838071e1411365429934934175301/calendar.ics"
+  # Public calls for positions at the University of Palermo, linked from Join us
+  callsURL = "https://www.unipa.it/albo.html"
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[markup.goldmark.extensions.passthrough]
+  enable = true
+  [markup.goldmark.extensions.passthrough.delimiters]
+    inline = [["$", "$"]]
+    block = [["$$", "$$"]]
+
+[imaging]
+  quality = 78
+  resampleFilter = "Lanczos"
+  anchor = "Smart"
+
+[outputs]
+  home = ["HTML"]
+  section = ["HTML"]
+
+[mediaTypes."text/x-bibtex"]
+  suffixes = ["bib"]
+
+[outputFormats.BibTeX]
+  mediaType = "text/x-bibtex"
+  baseName = "publications"
+  isPlainText = true
+  notAlternative = true
+
+[sitemap]
+  changeFreq = "monthly"
+
+[[menus.main]]
+  name = "Research"
+  pageRef = "/research"
+  weight = 10
+[[menus.main]]
+  name = "People"
+  pageRef = "/people"
+  weight = 20
+[[menus.main]]
+  name = "Publications"
+  pageRef = "/publications"
+  weight = 30
+[[menus.main]]
+  name = "Projects"
+  pageRef = "/projects"
+  weight = 40
+[[menus.main]]
+  name = "Events"
+  pageRef = "/events"
+  weight = 50
+[[menus.main]]
+  name = "Join us"
+  pageRef = "/join"
+  weight = 60
+[[menus.main]]
+  name = "Contact"
+  pageRef = "/contact"
+  weight = 70

@@ -1,0 +1,34 @@
+title: Magnetically Excited Breather Modes in an Overlap-Geometry Josephson Tunnel Junction
+authors:
+  - Duilio De Santis
+  - Claudio Guarcello
+  - Bernardo Spagnolo
+  - Angelo Carollo
+  - Davide Valenti
+date: 2022-01-01
+type: article
+journal: Nuovo Cimento della Societa Italiana di Fisica C
+volume: "45"
+issue: "6"
+doi: 10.1393/ncc/i2022-22166-8
+arxiv: "2301.05164"
+abstract: >-
+  A scheme for the controlled generation of single traveling sine-Gordon breathers in a
+  long Josephson junction is described. In the presence of dissipation, a direct current
+  source, and thermal fluctuations, the theoretical analysis shows that, through the
+  nonlinear supratransmission effect, tailored magnetic pulses at the junction's edge can
+  effectively yield breather modes only.
+bibtex: |-
+  @article{de_santis_magnetically_2022,
+   archiveprefix = {arxiv},
+   author = {De Santis, Duilio and Guarcello, Claudio and Spagnolo, Bernardo and Carollo, Angelo and Valenti, Davide},
+   doi = {10.1393/ncc/i2022-22166-8},
+   eprint = {2301.05164},
+   journal = {Nuovo Cimento della Societa Italiana di Fisica C},
+   number = {6},
+   title = {Magnetically Excited Breather Modes in an Overlap-Geometry Josephson Tunnel Junction},
+   volume = {45},
+   year = {2022}
+  }
+legacy_urls:
+  - /publication/de-santis-magnetically-2022/

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-289 -289 578 578" aria-hidden="true" focusable="false">
+<g fill="none" stroke-width="2.5" stroke-linecap="round" vector-effect="non-scaling-stroke">
+<g stroke="currentColor" class="orbit-a"><path d="M-27.7 -64.3A70 70 0 1 1 -64.3 -27.6"/><path d="M-70.8 -115.0A135 135 0 0 1 75.5 111.9"/><path d="M-80.4 -183.1A200 200 0 0 1 179.4 -88.3"/><path d="M180.6 86.0A200 200 0 1 1 -145.0 -137.7"/><path d="M-38.6 262.2A265 265 0 1 1 124.3 -234.0"/><path d="M209.3 -162.5A265 265 0 0 1 163.8 208.4"/><path d="M-27.7 -64.3L-53.4 -124.0"/><path d="M-145.0 -137.7L-192.2 -182.5"/><path d="M209.3 -162.5L158.0 -122.6"/><circle cx="-55.2" cy="-43.1" r="18.0"/><circle cx="-85.4" cy="-104.5" r="18.0"/><circle cx="60.0" cy="120.9" r="18.0"/><circle cx="186.6" cy="-71.9" r="18.0"/><circle cx="187.6" cy="69.4" r="18.0"/><circle cx="-20.7" cy="264.2" r="18.0"/></g>
+<g stroke="var(--orbit-accent, #ff8a3d)" class="orbit-b"><path d="M-46.6 126.7A135 135 0 0 1 -134.7 -8.9"/><circle cx="-29.4" cy="131.8" r="18.0"/><circle cx="-132.3" cy="-26.7" r="18.0"/></g>
+</g></svg>

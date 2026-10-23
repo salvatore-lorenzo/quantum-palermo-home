@@ -8,3 +8,6 @@ assets/jsconfig.json
 
 # Secrets
 python/discord_token.txt
+.hugo_build.lock
+.DS_Store
+__pycache__/

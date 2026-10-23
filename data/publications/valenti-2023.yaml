@@ -1,0 +1,37 @@
+title: >-
+  Can a Mathematical Model of Mass Extinctions Do without Environmental Noise?: Comment on
+  ``Knowledge Gaps and Missing Links in Understanding Mass Extinctions: Can Mathematical
+  Modeling Help?'' By Ivan Sudakow et Al.
+authors:
+  - Davide Valenti
+  - Bernardo Spagnolo
+date: 2023-01-01
+type: article
+journal: Physics of Life Reviews
+volume: "44"
+pages: 150--152
+doi: 10.1016/j.plrev.2023.01.002
+keywords:
+  - Biological
+  - ecosystem
+  - Ecosystem
+  - Extinction
+  - Models
+  - species extinction
+  - Theoretical
+  - theoretical model
+bibtex: |-
+  @article{valenti2023,
+   arxiv = {not in arxiv},
+   author = {Valenti, Davide and Spagnolo, Bernardo},
+   doi = {10.1016/j.plrev.2023.01.002},
+   issn = {15710645},
+   journal = {Physics of Life Reviews},
+   keywords = {Biological,ecosystem,Ecosystem,Extinction,Models,species extinction,Theoretical,theoretical model},
+   pages = {150--152},
+   title = {Can a Mathematical Model of Mass Extinctions Do without Environmental Noise?: Comment on ``Knowledge Gaps and Missing Links in Understanding Mass Extinctions: Can Mathematical Modeling Help?'' By Ivan Sudakow et Al.},
+   volume = {44},
+   year = {2023}
+  }
+legacy_urls:
+  - /publication/valenti-2023/

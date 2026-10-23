@@ -1,0 +1,34 @@
+title: Generation of Travelling Sine-Gordon Breathers in Noisy Long Josephson Junctions
+authors:
+  - Duilio De Santis
+  - Claudio Guarcello
+  - Bernardo Spagnolo
+  - Angelo Carollo
+  - Davide Valenti
+date: 2022-01-01
+type: article
+journal: Chaos, Solitons and Fractals
+volume: "158"
+doi: 10.1016/j.chaos.2022.112039
+arxiv: "2201.10277"
+abstract: >-
+  The generation of travelling sine-Gordon breathers is achieved through the nonlinear
+  supratransmission effect in a magnetically driven long Josephson junction, in the
+  presence of losses, a current bias, and a thermal noise source. We demonstrate how to
+  exclusively induce breather modes by means of controlled magnetic pulses. A nonmonotonic
+  behavior of the breather-only generation probability is observed as a function of the
+  noise intensity. An experimental protocol providing evidence of the Josephson breather's
+  existence is proposed.
+bibtex: |-
+  @article{de_santis_generation_2022,
+   archiveprefix = {arxiv},
+   author = {De Santis, Duilio and Guarcello, Claudio and Spagnolo, Bernardo and Carollo, Angelo and Valenti, Davide},
+   doi = {10.1016/j.chaos.2022.112039},
+   eprint = {2201.10277},
+   journal = {Chaos, Solitons and Fractals},
+   title = {Generation of Travelling Sine-Gordon Breathers in Noisy Long Josephson Junctions},
+   volume = {158},
+   year = {2022}
+  }
+legacy_urls:
+  - /publication/de-santis-generation-2022/

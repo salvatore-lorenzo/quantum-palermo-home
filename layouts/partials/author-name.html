@@ -1,0 +1,5 @@
+{{- with index .index (partial "db/name-key.html" .name) -}}
+<a class="member" href="{{ printf "people/%s/" . | relURL }}">{{ $.name }}</a>
+{{- else -}}
+<span>{{ .name }}</span>
+{{- end -}}

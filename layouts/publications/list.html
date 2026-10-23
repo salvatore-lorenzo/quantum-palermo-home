@@ -1,0 +1,59 @@
+{{ define "main" }}
+{{- $pubs := .Pages.ByDate.Reverse -}}
+{{- $bib := .OutputFormats.Get "BibTeX" -}}
+{{- partial "page-head.html" (dict "page" . "lead" .Params.lead) -}}
+{{- $authorIds := slice }}{{ range $id, $_ := partialCached "db/papers-by-person.html" "map" }}{{ $authorIds = $authorIds | append $id }}{{ end -}}
+{{- $people := where (site.GetPage "/people").Pages "Params.id" "in" $authorIds }}
+<form class="toolbar" id="pub-filters" role="search" aria-label="Filter publications" action="" method="get">
+  <div class="wrap toolbar-inner">
+    <label class="field field-search">
+      <span class="sr-only">Search</span>
+      {{ partial "icon.html" "search" }}
+      <input type="search" name="q" placeholder="Search title, author, journal, arXiv id…" autocomplete="off">
+    </label>
+    <label class="field">
+      <span class="sr-only">Year</span>
+      <select name="year">
+        <option value="">All years</option>
+        {{- range $pubs.GroupByDate "2006" }}<option value="{{ .Key }}">{{ .Key }}</option>{{ end }}
+      </select>
+    </label>
+    <label class="field">
+      <span class="sr-only">Research line</span>
+      <select name="research">
+        <option value="">All research lines</option>
+        {{- range (site.GetPage "/research").Pages.ByWeight }}<option value="{{ .Params.id }}">{{ .Title }}</option>{{ end }}
+      </select>
+    </label>
+    <label class="field">
+      <span class="sr-only">Group member</span>
+      <select name="member">
+        <option value="">All group members</option>
+        {{- range sort $people "Params.sort" }}<option value="{{ .Params.id }}">{{ .Title }}</option>{{ end }}
+      </select>
+    </label>
+    <label class="field">
+      <span class="sr-only">Type</span>
+      <select name="type">
+        <option value="">All types</option>
+        {{- range slice "article" "preprint" "proceedings" "chapter" }}{{ if where $pubs "Params.type" . }}<option value="{{ . }}">{{ partial "pub-type.html" . }}</option>{{ end }}{{ end }}
+      </select>
+    </label>
+    <button class="btn btn-ghost btn-sm" type="reset">Reset</button>
+    <p class="result-count" aria-live="polite"><span data-count>{{ len $pubs }}</span> of {{ len $pubs }}</p>
+  </div>
+</form>
+
+<div class="wrap pub-list">
+  {{- range $pubs.GroupByDate "2006" }}
+  <section class="year-group" data-group>
+    <h2 class="year-label">{{ .Key }} <small>{{ len .Pages }} papers</small></h2>
+    <ol class="pubs">{{ range .Pages }}{{ partial "pub-item.html" . }}{{ end }}</ol>
+  </section>
+  {{- end }}
+  <p class="empty" hidden>No publications match these filters. <button class="link-btn" type="reset" form="pub-filters">Clear the filters</button></p>
+  {{- with $bib }}
+  <p class="export">{{ partial "icon.html" "download" }} <a href="{{ .RelPermalink }}" download>Download all {{ len $pubs }} publications as BibTeX</a></p>
+  {{- end }}
+</div>
+{{ end }}

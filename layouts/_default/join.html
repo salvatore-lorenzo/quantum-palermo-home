@@ -1,0 +1,26 @@
+{{ define "main" }}
+{{- partial "page-head.html" (dict "page" . "lead" .Params.lead) }}
+<div class="wrap article">
+  <div class="article-main prose">{{ .Content }}</div>
+  <aside class="article-aside">
+    <section class="panel">
+      <h2 class="aside-title">Apply</h2>
+      <p>Send your application to</p>
+      <p><a class="btn btn-primary btn-block" href="mailto:{{ site.Params.email }}?subject=Application">{{ partial "icon.html" "mail" }} {{ site.Params.email }}</a></p>
+    </section>
+    <section class="panel">
+      <h2 class="aside-title">Open positions</h2>
+      <p>Official calls for positions and fellowships at the University of Palermo are published on the university's <em>Albo ufficiale</em>.</p>
+      <p><a class="btn btn-ghost btn-block" href="{{ site.Params.callsURL }}">Open calls at UniPa {{ partial "icon.html" "external" }}</a></p>
+    </section>
+    <section class="panel">
+      <h2 class="aside-title">Get to know us</h2>
+      <ul class="link-rows">
+        <li><a href="{{ "research/" | relURL }}">Our research lines</a></li>
+        <li><a href="{{ "people/" | relURL }}">The people in the group</a></li>
+        <li><a href="{{ "publications/" | relURL }}">Recent publications</a></li>
+      </ul>
+    </section>
+  </aside>
+</div>
+{{ end }}

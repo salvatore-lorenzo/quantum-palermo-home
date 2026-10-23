@@ -1,0 +1,39 @@
+name: Davide Valenti
+sort: Valenti
+role: Full Professor
+group: faculty
+status: current
+email: " davide.valenti@unipa.it"
+links:
+  website: https://davidevalentiphysics.altervista.org/
+  orcid: https://orcid.org/0000-0001-5496-1518
+  scholar: https://scholar.google.it/citations?user=m8B2OlQAAAAJ&hl=it
+  wos: https://www.webofscience.com/wos/author/record/K-9228-2015
+organizations:
+  - name: University of Palermo
+    url: https://www.unipa.it/persone/docenti/v/davide.valenti/en/index.html
+interests:
+  - Statistical properties of matter in quantum physics
+  - Open & metastable quantum systems
+  - Quantum phase transitions
+  - Noise-induced effects in nonlinear and superconducting systems
+  - Josephson junctions for axion detection
+education:
+  - degree: Master degree in Physics
+    institution: University of Palermo
+    year: 1996
+  - degree: Ph.D. in Physics
+    institution: University of Palermo
+    year: 2000
+aliases:
+  - D. Valenti
+bio: >-
+  Davide Valenti is professor of Theoretical Physics at University of Palermo, Italy. His
+  research fields range from nonequilibrium statistical mechanics in quantum physics,
+  stochastic processes in nonlinear systems, to effects of noise in population dynamics
+  and financial markets. He is currently editor of two scientific journals in the field of
+  physics and mathematics. He’s co-author of more than 130 articles indexed in Web of
+  Science and teaches the course of Physics of Complex Systems in the Master Degree in
+  Physics.
+legacy_urls:
+  - /author/davide-valenti/

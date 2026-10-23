@@ -1,0 +1,35 @@
+title: >-
+  Diagnosing non-Hermitian many-body localization and quantum chaos via singular value
+  decomposition
+authors:
+  - Federico Roccati
+  - Federico Balducci
+  - Ruth Shir
+  - Aurélia Chenu
+date: 2024-04-01
+type: article
+journal: Phys. Rev. B
+volume: "109"
+issue: "14"
+pages: L140201
+doi: 10.1103/PhysRevB.109.L140201
+url: https://link.aps.org/doi/10.1103/PhysRevB.109.L140201
+research:
+  - wqed
+bibtex: |-
+  @article{PhysRevB.109.L140201,
+   author = {Roccati, Federico and Balducci, Federico and Shir, Ruth and Chenu, Aurélia},
+   doi = {10.1103/PhysRevB.109.L140201},
+   issue = {14},
+   journal = {Phys. Rev. B},
+   month = {Apr},
+   numpages = {6},
+   pages = {L140201},
+   publisher = {American Physical Society},
+   title = {Diagnosing non-Hermitian many-body localization and quantum chaos via singular value decomposition},
+   url = {https://link.aps.org/doi/10.1103/PhysRevB.109.L140201},
+   volume = {109},
+   year = {2024}
+  }
+legacy_urls:
+  - /publication/phys-rev-b-109-l-140201/

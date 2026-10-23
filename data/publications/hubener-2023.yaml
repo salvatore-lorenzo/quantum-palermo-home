@@ -1,0 +1,25 @@
+title: Floquet band engineering in action
+authors:
+  - Hannes Hübener
+  - Umberto De Giovannini
+  - Shunsuke A. Sato
+  - Angel Rubio
+date: 2023-01-01
+type: article
+journal: Science Bulletin
+doi: 10.1016/j.scib.2023.03.046
+research:
+  - mater
+bibtex: |-
+  @article{Hübener.2023,
+   author = {Hübener, Hannes and De Giovannini, Umberto and Sato, Shunsuke A. and Rubio, Angel},
+   doi = {10.1016/j.scib.2023.03.046},
+   issn = {2095-9273},
+   journal = {Science Bulletin},
+   keywords = {},
+   pmid = {37024328},
+   title = {Floquet band engineering in action},
+   year = {2023}
+  }
+legacy_urls:
+  - /publication/hubener-2023/

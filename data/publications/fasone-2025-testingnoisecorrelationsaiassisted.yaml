@@ -1,0 +1,39 @@
+title: Testing Noise Correlations by an AI-Assisted Two-Qubit Quantum Sensor
+authors:
+  - Dario Fasone
+  - Shreyasi Mukherjee
+  - Mauro Paternostro
+  - Elisabetta Paladino
+  - Luigi Giannelli
+  - Giuseppe A. Falci
+date: 2025-01-01
+type: proceedings
+journal: >-
+  Proceedings of the 3rd International Workshop on AI for Quantum and Quantum for AI
+  (AIQxQIA 2025) co-located with the 28th European Conference on Artificial Intelligence
+  (ECAI 2025)
+arxiv: "2512.24135"
+url: https://arxiv.org/abs/2512.24135
+research:
+  - metro
+  - qml
+abstract: >-
+  We introduce and validate a machine learning-assisted protocol to classify time and
+  space correlations of classical noise acting on a quantum system, using two interacting
+  qubits as probe. We consider different classes of noise, according to their Markovianity
+  and spatial correlations. Leveraging the sensitivity of a coherent population transfer
+  protocol under three distinct driving conditions, the various noises are discriminated
+  by only measuring the final transfer efficiencies. This approach reaches around 90%
+  accuracy with a minimal experimental overhead.
+bibtex: |-
+  @inproceedings{fasone2025testingnoisecorrelationsaiassisted,
+   archiveprefix = {arXiv},
+   author = {Dario Fasone and Shreyasi Mukherjee and Mauro Paternostro and Elisabetta Paladino and Luigi Giannelli and Giuseppe A. Falci},
+   booktitle = {Proceedings of the 3rd International Workshop on AI for Quantum and Quantum for AI (AIQxQIA 2025) co-located with the 28th European Conference on Artificial Intelligence (ECAI 2025)},
+   eprint = {2512.24135},
+   title = {Testing Noise Correlations by an AI-Assisted Two-Qubit Quantum Sensor},
+   url = {https://arxiv.org/abs/2512.24135},
+   year = {2025}
+  }
+legacy_urls:
+  - /publication/fasone-2025-testingnoisecorrelationsaiassisted/

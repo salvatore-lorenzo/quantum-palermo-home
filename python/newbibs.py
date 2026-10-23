@@ -9,7 +9,7 @@ from Crossref (falling back to the journal reference written in the message).
 Papers already present in bibtexs/ or python/ are skipped, existing files are
 never overwritten, and file names are chosen so that the new files can be moved
 into bibtexs/ without clashing. Papers with no author in the group (anyone with
-a page in content/authors/) are skipped too.
+a file in data/people/, under their name or one of their aliases) are skipped too.
 """
 
 import calendar
@@ -22,14 +22,14 @@ import urllib.request
 import xml.etree.ElementTree as ET
 from pathlib import Path
 
+import sitedb
+
 MESSAGES_FILE = Path(__file__).with_name("newpapers_messages.jsonl")
 BIB_DIR = Path(__file__).resolve().parent.parent / "bibtexs"
 # New .bib files are written here, next to this script
 OUT_DIR = Path(__file__).resolve().parent
-# One page per group member
-AUTHORS_DIR = Path(__file__).resolve().parent.parent / "content" / "authors"
-# Group members who sign papers with a name that can't be matched to their page in content/authors/
-EXTRA_MEMBERS = ["Chon-Fai Kam"]
+# One file per group member; names they sign papers with are listed as `aliases` there
+PEOPLE_DIR = sitedb.table_dir("people")
 
 # Title words left out of citation keys, as arXiv does
 STOPWORDS = {"a", "an", "the", "of", "for", "in", "on", "at", "to", "by", "with", "and", "or",
@@ -146,21 +146,17 @@ def name_key(author):
 
 
 def group_members():
-  # Name keys of everyone with a page in content/authors/
-  members = {name_key(name) for name in EXTRA_MEMBERS}
-  for page in AUTHORS_DIR.glob("*/_index.md"):
-    text = page.read_text(encoding="utf-8")
-    title = re.search(r"^title:\s*(.+)$", text, re.MULTILINE)
-    if not title:
+  # Name keys of everyone in data/people/, from their name and their aliases
+  members = set()
+  for person in sitedb.records("people").values():
+    if not person.get("name"):
       continue
-    given, family = split_name(title.group(1).strip().strip("'\"").strip())
-    initial = ascii_lower(given)[:1]
-    members.add((ascii_lower(family), initial))
-    # Each word of last_name too, for papers signed with one of two surnames ("Silvia Casulleras")
-    last_name = re.search(r"^last_name:\s*(.+)$", text, re.MULTILINE)
-    if last_name:
-      words = [w for w in last_name.group(1).strip("'\" ").split() if w.lower() not in PARTICLES]
-      members.update((ascii_lower(w), initial) for w in words)
+    for name in [person["name"]] + list(person.get("aliases") or []):
+      members.add(name_key(name))
+    # Each word of the surname too, for papers signed with one of two surnames ("Silvia Casulleras")
+    initial = ascii_lower(split_name(person["name"])[0])[:1]
+    words = [w for w in (person.get("sort") or "").split() if w.lower() not in PARTICLES]
+    members.update((ascii_lower(w), initial) for w in words)
   return members
 
 
@@ -243,7 +239,7 @@ def main():
 
   members = group_members()
   if not members:
-    sys.exit(f"no group members found in {AUTHORS_DIR}")
+    sys.exit(f"no group members found in {PEOPLE_DIR}")
   arxiv = fetch_arxiv(sorted({m["arxiv"] for m in messages}))
   for msg in messages:
     # A published paper is recognised by its DOI (or journal reference), a preprint by its arXiv id

@@ -1,0 +1,28 @@
+name: Chiara Tocchini
+sort: Tocchini
+role: PhD Student
+group: phd
+status: current
+email: " chiara.tocchini@unipa.it"
+organizations:
+  - name: University of Palermo
+    url: https://www.unipa.it/dipartimenti/difc/dottorati/scienzefisicheechimiche/en/phd-students/
+interests:
+  - Quantum Artificial Intelligence
+  - Quantum Machine Learning
+education:
+  - degree: Bachelor’s degree in Physics
+    institution: University of Pisa
+    year: 2022
+  - degree: Master’s Degree in Physics
+    institution: University of Pisa
+    year: 2025
+bio: >-
+  I obtained my Bachelor’s and Master’s degrees in Physics from the University of Pisa,
+  where I worked on quantum thermal machines in multi-qubit systems and their
+  implementation on quantum computers. I am currently pursuing a PhD in Quantum Artificial
+  Intelligence at the University of Palermo, in collaboration with Fondazione Ri.MED. My
+  research focuses on the application of quantum AI to biology and computational
+  chemistry.
+legacy_urls:
+  - /author/chiara-tocchini/

@@ -1,0 +1,17 @@
+{{- /* Author list; group members link to their page.
+       Context: dict "names" (slice) ["max": longer lists are shortened, keeping the group members] */ -}}
+{{- $index := partialCached "db/author-index.html" "index" -}}
+{{- $names := .names -}}
+{{- $shown := $names }}{{ $hidden := slice -}}
+{{- if and .max (gt (len $names) .max) -}}
+  {{- $shown = first (sub .max 2) $names -}}
+  {{- $hidden = after (sub .max 2) $names -}}
+{{- end -}}
+{{- range $i, $name := $shown -}}
+  {{- if $i }}{{ if and (not $hidden) (eq (add $i 1) (len $shown)) }} and {{ else }}, {{ end }}{{ end -}}
+  {{- partial "author-name.html" (dict "name" $name "index" $index) -}}
+{{- end -}}
+{{- with $hidden -}}
+  {{- $members := slice }}{{ range . }}{{ if index $index (partial "db/name-key.html" .) }}{{ $members = $members | append . }}{{ end }}{{ end -}}
+  <span class="more-authors"> and {{ len . }} more{{ with $members }}, including {{ range $j, $m := . }}{{ if $j }}, {{ end }}{{ partial "author-name.html" (dict "name" $m "index" $index) }}{{ end }}{{ end }}</span>
+{{- end -}}

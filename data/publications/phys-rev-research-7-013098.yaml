@@ -1,0 +1,33 @@
+title: "Two transitions in complex eigenvalue statistics: Hermiticity and integrability breaking"
+authors:
+  - Gernot Akemann
+  - Federico Balducci
+  - Aurélia Chenu
+  - Patricia Päßler
+  - Federico Roccati
+  - Ruth Shir
+date: 2025-01-01
+type: article
+journal: Phys. Rev. Res.
+volume: "7"
+issue: "1"
+pages: "013098"
+doi: 10.1103/PhysRevResearch.7.013098
+url: https://link.aps.org/doi/10.1103/PhysRevResearch.7.013098
+bibtex: |-
+  @article{PhysRevResearch.7.013098,
+   author = {Akemann, Gernot and Balducci, Federico and Chenu, Aurélia and Päßler, Patricia and Roccati, Federico and Shir, Ruth},
+   doi = {10.1103/PhysRevResearch.7.013098},
+   issue = {1},
+   journal = {Phys. Rev. Res.},
+   month = {Jan},
+   numpages = {14},
+   pages = {013098},
+   publisher = {American Physical Society},
+   title = {Two transitions in complex eigenvalue statistics: Hermiticity and integrability breaking},
+   url = {https://link.aps.org/doi/10.1103/PhysRevResearch.7.013098},
+   volume = {7},
+   year = {2025}
+  }
+legacy_urls:
+  - /publication/phys-rev-research-7-013098/

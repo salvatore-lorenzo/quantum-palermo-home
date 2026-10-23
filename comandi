@@ -1,7 +1,11 @@
-academic import lorenzo.bib content/publication/ --compact --overwrite
+# new publications from the arxiv-bot posts on Discord
+python3 python/update_publications.py
 
-hugo server -D
-hugo --gc --minify
+# local preview, http://localhost:1313
+hugo server
+
+# build and deploy
+hugo --gc --minify --cleanDestinationDir
 rsync -avuzh ./public/ salvatore.lorenzo@sftp.unipa.it:/mnt/home/salvatore.lorenzo/www-quantum
 
 rsync -avuzh ./materiale_sito/ salvatore.lorenzo@sftp.unipa.it:/mnt/home/salvatore.lorenzo/mate

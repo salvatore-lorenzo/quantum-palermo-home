@@ -1,0 +1,31 @@
+name: Claudio Pellitteri
+sort: Pellitteri
+role: PhD Student
+group: phd
+status: alumni
+email: claudio.pellitteri01@unipa.it
+links:
+  orcid: https://orcid.org/0000-0003-4764-2118
+  scholar: https://scholar.google.com/citations?user=pGtkmLsAAAAJ&hl=it&oi=ao
+organizations:
+  - name: University of Palermo
+    url: https://www.unipa.it/dipartimenti/difc/dottorati/scienzefisicheechimiche/en/phd-students/
+interests:
+  - Quantum Optics
+  - Quantum Optomechanics
+  - Open Quantum Systems
+education:
+  - degree: Master's Degree in Physics
+    institution: University of Palermo
+    year: 2020
+  - degree: Bachelor's Degree in Physical Science
+    institution: University of Palermo
+    year: 2017
+bio: >-
+  I was born in Palermo in 1993. Driven by a fascination for nature and its laws, I
+  decided to pursue a degree in Physics at the University of Palermo. It is here that I
+  became passionate about quantum mechanics. Currently, I am nearing the completion of my
+  doctoral research, supervised by professors G. Massimo Palma and Salvatore Lorenzo,
+  while also collaborating with others.
+legacy_urls:
+  - /author/claudio-pellitteri/
